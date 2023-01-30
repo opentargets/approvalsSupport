@@ -49,43 +49,43 @@ Efgartigimod alfa (Vyvgart),Argenx,FcRn-binding Fc fragment,Myasthenia gravis,CH
 Tezepelumab (Tezspire),Astrazeneca/Amgen,TSLP-targeted mAb,Severe asthma,CHEMBL3707229,EFO_0000270,Respiratory,2021
 Inclisiran (Leqvio),Novartis/Alnylam,PCSK9-targeted siRNA,HeFH or ASCVD,CHEMBL3990033,MONDO_0021661,Cardiovascular,2021
 Tralokinumab (Adbry),LEO Pharma,IL-13-targeted mAb,Atopic dermatitis,CHEMBL1743081,EFO_0000274,Dermatology,2021
-Ganaxolone ,Marinus,GABAA�receptor positive allosteric modulator,Seizures associated with CDD,CHEMBL1568698,HP_0200134,,2022
-Olipudase alfa ,Sanofi/Genzyme,Acid sphingomyelinase ERT,Acid sphingomyelinase deficiency,CHEMBL3707358,MONDO_0100464,,2022
-Xenon Xe 129 hyperpolarized ,Polarean,Hyperpolarized contrast agent,MRI-evaluation of lung ventilation,CHEMBL4594411,,,2022
-Tapinarof ,Dermavant,Aryl hydrocarbon receptor agonist,Plaque psoriasis,CHEMBL259571,EFO_1001494,,2022
-Vonoprazan; amoxicillin; clarithromycin ,Phathom,Potassium-competitive acid blocker plus a penicillin class antibacterial plus a macrolide antimicrobial,Helicobacter pylori�infection,CHEMBL2079130; CHEMBL1082; CHEMBL1741,EFO_1000961,,2022
-Pacritinib ,CTI Biopharma,JAK2 inhibitor,Myelofibrosis,CHEMBL2035187,MONDO_0044903,,2022
+Ganaxolone,Marinus,GABAA�receptor positive allosteric modulator,Seizures associated with CDD,CHEMBL1568698,HP_0200134,,2022
+Olipudase alfa,Sanofi/Genzyme,Acid sphingomyelinase ERT,Acid sphingomyelinase deficiency,CHEMBL3707358,MONDO_0100464,,2022
+Xenon Xe 129 hyperpolarized,Polarean,Hyperpolarized contrast agent,MRI-evaluation of lung ventilation,CHEMBL4594411,,,2022
+Tapinarof,Dermavant,Aryl hydrocarbon receptor agonist,Plaque psoriasis,CHEMBL259571,EFO_1001494,,2022
+Vonoprazan; amoxicillin; clarithromycin,Phathom,Potassium-competitive acid blocker plus a penicillin class antibacterial plus a macrolide antimicrobial,Helicobacter pylori�infection,CHEMBL2079130; CHEMBL1082; CHEMBL1741,EFO_1000961,,2022
+Pacritinib,CTI Biopharma,JAK2 inhibitor,Myelofibrosis,CHEMBL2035187,MONDO_0044903,,2022
 Oteseconazole,Mycovia,Azole antifungal,Vulvovaginal candidiasis,CHEMBL3311228,EFO_0007543,,2022
-Faricimab ,Roche/Genentech,VEGF _ ANG2 bispecific antibody,nAMD and DME,CHEMBL4297750,EFO_0001365,,2022
-Teplizumab ,Provention Bio,CD3-targeted antibody,Delay onset of type 1 diabetes,CHEMBL1743078,MONDO_0005147,,2022
-Terlipressin ,Mallinckrodt,Vasopressin receptor agonist,Kidney function in hepatorenal syndrome,CHEMBL2135460,EFO_1002048; EFO_0001421; MONDO_0001382,,2022
-Teclistamab ,J&J,BCMA _ CD3 bispecific antibody,Multiple myeloma,CHEMBL4594505,EFO_0001378,,2022
-Lenacapavir ,Gilead,HIV-1 capsid inhibitor,HIV-1 infection,CHEMBL4594438,EFO_0000180,,2022
-Spesolimab ,Boehringer Ingelheim,IL-36R-targeted mAb,Generalized pustular psoriasis flares,CHEMBL4297911,MONDO_0013626; MONDO_0015597,,2022
-Deucravacitinib ,Bristol Myers Squibb,TYK2 inhibitor,Plaque psoriasis,CHEMBL4435170,EFO_1001494,,2022
-Anacaulase ,Mediwound,Proteolytic enzymes from pineapple plants,Eschar removal after thermal burns,,,,2022
-Eflapegrastim ,Spectrum,Leukocyte growth factor,"Incidence of infection in non-myeloid malignancies, with myelosuppressive drugs",CHEMBL3833384,EFO_0000544,,2022
-Olutasidenib ,Rigel/Forma,IDH1 inhibitor,IDH1-mutated AML,CHEMBL4297610,EFO_0000222,,2022
-Sodium phenylbutyrate; taurursodiol ,Amylyx,Mechanism unknown,Amyotrophic lateral sclerosis,CHEMBL1746; CHEMBL272427,MONDO_0004976,,2022
-Daridorexant ,Idorsia,Orexin receptor antagonist,Insomnia,CHEMBL4297590,EFO_0004698,,2022
-Mitapivat ,Agios,Pyruvate kinase activator,Haemolytic anaemia due to PK deficiency,CHEMBL4299940,EFO_0005558,,2022
-Lutetium Lu-177 vipivotide tetraxetan ,Novartis,PSMA-binding radioligand therapeutic agent,PSMA-positive prostate cancer,CHEMBL4594406,MONDO_0008315,,2022
-Relatlimab; nivolumab ,Bristol Myers Squibb,LAG3-targeted mAb plus PD1-targeted mAb,Melanoma,CHEMBL3990044; CHEMBL2108738,EFO_0000756; EFO_0002617; EFO_0002617,,2022
-Omidenepag isopropyl ,Santen,Prostaglandin E2 receptor agonist,Intraocular pressure in open-angle glaucoma or ocular hypertension,CHEMBL4297666,EFO_1001069; EFO_0004190,,2022
-Tirzepatide ,Eli Lilly,GIP receptor and GLP1 receptor agonist,Type 2 diabetes,CHEMBL4297839,MONDO_0005148,,2022
-Futibatinib ,Taiho Oncology,FGFR kinase inhibitor,FGFR2-aberrant intrahepatic cholangiocarcinoma,CHEMBL3701238,EFO_1001961,,2022
-Mosunetuzumab ,Roche/Genentech,CD20 _ CD3 bispecific antibody,Follicular lymphoma,CHEMBL4297788,MONDO_0018906,,2022
-Adagrasib ,Mirati,KRAS-G12C inhibitor,KRASG12C-mutated NSCLC,CHEMBL4594350,EFO_0003060,,2022
-Tebentafusp ,Immunocore,gp100 peptide�HLA _ CD3 bispecific T-cell engager,Uveal melanoma,CHEMBL4297990,EFO_1000616,,2022
-Tremelimumab ,AstraZeneca,CTLA4-targeted mAb,Hepatocellular carcinoma,CHEMBL2108658,EFO_0000182,,2022
-Sutimlimab ,Bioverativ,C1s-targeted mAb,RBC transfusion due to haemolysis in CAD (cold agglutinin disease),CHEMBL4297832,EFO_1001264,,2022
-Gadopiclenol ,Guerbet,Gadolinium-based contrast agent,Lesions with abnormal vascularity,CHEMBL4297634,,,2022
-Mirvetuximab soravtansine ,ImmunoGen,FR_-targeted antibody�drug conjugate,Ovarian cancer,CHEMBL3545132,MONDO_0008170; MONDO_0002229; MONDO_0002158; MONDO_0015686,,2022
-DaxibotulinumtoxinA ,Revance,Botulinum toxin,Glabellar lines,CHEMBL3707359,,,2022
-Abrocitinib ,Pfizer,JAK inhibitor,Atopic dermatitis,CHEMBL3655081,EFO_0000274,,2022
-Mavacamten ,Bristol Myers Squibb,Cardiac myosin inhibitor,Classes of obstructive HCM (Hypertrophic Obstructive Cardiomyopathy),CHEMBL4297517,EFO_0000538,,2022
-Ublituximab ,TG Therapeutics,CD20-targeted mAb,Relapsing forms of multiple sclerosis,CHEMBL2108354,EFO_0003929,,2022
-Vutrisiran ,Alnylam,TTR-targeted siRNA,Polyneuropathy of hereditary TTR-mediated amyloidosis,CHEMBL4594511,EFO_0004129,,2022
+Faricimab,Roche/Genentech,VEGF _ ANG2 bispecific antibody,nAMD and DME,CHEMBL4297750,EFO_0001365,,2022
+Teplizumab,Provention Bio,CD3-targeted antibody,Delay onset of type 1 diabetes,CHEMBL1743078,MONDO_0005147,,2022
+Terlipressin,Mallinckrodt,Vasopressin receptor agonist,Kidney function in hepatorenal syndrome,CHEMBL2135460,EFO_1002048; EFO_0001421; MONDO_0001382,,2022
+Teclistamab,J&J,BCMA _ CD3 bispecific antibody,Multiple myeloma,CHEMBL4594505,EFO_0001378,,2022
+Lenacapavir,Gilead,HIV-1 capsid inhibitor,HIV-1 infection,CHEMBL4594438,EFO_0000180,,2022
+Spesolimab,Boehringer Ingelheim,IL-36R-targeted mAb,Generalized pustular psoriasis flares,CHEMBL4297911,MONDO_0013626; MONDO_0015597,,2022
+Deucravacitinib,Bristol Myers Squibb,TYK2 inhibitor,Plaque psoriasis,CHEMBL4435170,EFO_1001494,,2022
+Anacaulase,Mediwound,Proteolytic enzymes from pineapple plants,Eschar removal after thermal burns,,,,2022
+Eflapegrastim,Spectrum,Leukocyte growth factor,"Incidence of infection in non-myeloid malignancies, with myelosuppressive drugs",CHEMBL3833384,EFO_0000544,,2022
+Olutasidenib,Rigel/Forma,IDH1 inhibitor,IDH1-mutated AML,CHEMBL4297610,EFO_0000222,,2022
+Sodium phenylbutyrate; taurursodiol,Amylyx,Mechanism unknown,Amyotrophic lateral sclerosis,CHEMBL1746; CHEMBL272427,MONDO_0004976,,2022
+Daridorexant,Idorsia,Orexin receptor antagonist,Insomnia,CHEMBL4297590,EFO_0004698,,2022
+Mitapivat,Agios,Pyruvate kinase activator,Haemolytic anaemia due to PK deficiency,CHEMBL4299940,EFO_0005558,,2022
+Lutetium Lu-177 vipivotide tetraxetan,Novartis,PSMA-binding radioligand therapeutic agent,PSMA-positive prostate cancer,CHEMBL4594406,MONDO_0008315,,2022
+Relatlimab; nivolumab,Bristol Myers Squibb,LAG3-targeted mAb plus PD1-targeted mAb,Melanoma,CHEMBL3990044; CHEMBL2108738,EFO_0000756; EFO_0002617; EFO_0002617,,2022
+Omidenepag isopropyl,Santen,Prostaglandin E2 receptor agonist,Intraocular pressure in open-angle glaucoma or ocular hypertension,CHEMBL4297666,EFO_1001069; EFO_0004190,,2022
+Tirzepatide,Eli Lilly,GIP receptor and GLP1 receptor agonist,Type 2 diabetes,CHEMBL4297839,MONDO_0005148,,2022
+Futibatinib,Taiho Oncology,FGFR kinase inhibitor,FGFR2-aberrant intrahepatic cholangiocarcinoma,CHEMBL3701238,EFO_1001961,,2022
+Mosunetuzumab,Roche/Genentech,CD20 _ CD3 bispecific antibody,Follicular lymphoma,CHEMBL4297788,MONDO_0018906,,2022
+Adagrasib,Mirati,KRAS-G12C inhibitor,KRASG12C-mutated NSCLC,CHEMBL4594350,EFO_0003060,,2022
+Tebentafusp,Immunocore,gp100 peptide�HLA _ CD3 bispecific T-cell engager,Uveal melanoma,CHEMBL4297990,EFO_1000616,,2022
+Tremelimumab,AstraZeneca,CTLA4-targeted mAb,Hepatocellular carcinoma,CHEMBL2108658,EFO_0000182,,2022
+Sutimlimab,Bioverativ,C1s-targeted mAb,RBC transfusion due to haemolysis in CAD (cold agglutinin disease),CHEMBL4297832,EFO_1001264,,2022
+Gadopiclenol,Guerbet,Gadolinium-based contrast agent,Lesions with abnormal vascularity,CHEMBL4297634,,,2022
+Mirvetuximab soravtansine,ImmunoGen,FR_-targeted antibody�drug conjugate,Ovarian cancer,CHEMBL3545132,MONDO_0008170; MONDO_0002229; MONDO_0002158; MONDO_0015686,,2022
+DaxibotulinumtoxinA,Revance,Botulinum toxin,Glabellar lines,CHEMBL3707359,,,2022
+Abrocitinib,Pfizer,JAK inhibitor,Atopic dermatitis,CHEMBL3655081,EFO_0000274,,2022
+Mavacamten,Bristol Myers Squibb,Cardiac myosin inhibitor,Classes of obstructive HCM (Hypertrophic Obstructive Cardiomyopathy),CHEMBL4297517,EFO_0000538,,2022
+Ublituximab,TG Therapeutics,CD20-targeted mAb,Relapsing forms of multiple sclerosis,CHEMBL2108354,EFO_0003929,,2022
+Vutrisiran,Alnylam,TTR-targeted siRNA,Polyneuropathy of hereditary TTR-mediated amyloidosis,CHEMBL4594511,EFO_0004129,,2022
 Concizumab,Novo Nordisk,TFPI-targeted mAb,Haemophilia A and B,CHEMBL4297730,MONDO_0010602; MONDO_0010604,,2023
 Bercolagene telserpavec,Krystal Biotech,"Topical, redosable gene therapy",Dystrophic epidermolysis bullosa,,,,2023
 Donanemab,Eli Lilly,Amyloid-_-targeted mAb,Alzheimer disease,CHEMBL4297245,MONDO_0004975,,2023
