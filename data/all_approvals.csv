@@ -9,9 +9,9 @@ Lecanemab,Eisai/Biogen,Amyloid-beta-targeted mAb,Alzheimer disease,CHEMBL3833321
 Momelotinib,GSK/Sierra Oncology,"ALK2, JAK1 and JAK2 inhibitor",Myelofibrosis,CHEMBL1078178,MONDO_0044903,Oncology,2023
 Nedosiran,Novo Nordisk,LDH-targeted siRNA,Hyperoxaluria,CHEMBL4594338,MONDO_0002474,Other,2023
 Olorofim,F2G,Dihydroorotate dehydrogenase inhibitor,Fungal infections,CHEMBL4297609,MONDO_0002041,Infectious,2023
-Repotrectinib,Bristol Myers Squibb/Turning Point,ROS1 inhibitor,ROS1+�NSCLC,CHEMBL4298138,EFO_0003060,Oncology,2023
+Repotrectinib,Bristol Myers Squibb/Turning Point,ROS1 inhibitor,ROS1+ NSCLC,CHEMBL4298138,EFO_0003060,Oncology,2023
 RSVpreF,Pfizer,RSV vaccine,RSV in older adults,NA,0,Other,2023
-SER-109,Seres,Purified Firmicutes spores,Clostridium difficile�infection,NA,EFO_0009130,Infectious,2023
+SER-109,Seres,Purified Firmicutes spores,Clostridium difficile infection,NA,EFO_0009130,Infectious,2023
 SRP-9001,Sarepta,Micro-dystrophin gene therapy,Duchenne muscular dystrophy,NA,0,Other,2023
 Talquetamab,J&J,GPRC5D _ CD3 bispecific antibody,Multiple myeloma,CHEMBL4594503,EFO_0001378,Oncology,2023
 Tofersen,Biogen/Ionis,SOD1 antisense agent,SOD1-mutated ALS,CHEMBL3833346,MONDO_0004976,Other,2023
@@ -20,11 +20,11 @@ Zuranolone,Sage/Biogen,GABAA�receptor positive allosteric modulator,MDD and po
 Abrocitinib,Pfizer,JAK inhibitor,Atopic dermatitis,CHEMBL3655081,EFO_0000274,Dermatology,2022
 Adagrasib,Mirati,KRAS-G12C inhibitor,KRASG12C-mutated NSCLC,CHEMBL4594350,EFO_0003060,Oncology,2022
 Anacaulase,Mediwound,Proteolytic enzymes from pineapple plants,Eschar removal after thermal burns,NA,-,Other,2022
-Daridorexant,Idorsia,Orexin receptor antagonist,Insomnia,CHEMBL4297590,EFO_0004698, EFO_0005271,Other,2022
+Daridorexant,Idorsia,Orexin receptor antagonist,Insomnia,CHEMBL4297590,EFO_0004698; EFO_0005271,Other,2022
 DaxibotulinumtoxinA,Revance,Botulinum toxin,Glabellar lines,CHEMBL3707359,HP_0009762,Other,2022
 Deucravacitinib,Bristol Myers Squibb,TYK2 inhibitor,Plaque psoriasis,CHEMBL4435170,EFO_1001494,Dermatology,2022
 Eflapegrastim,Spectrum,Leukocyte growth factor,"Incidence of infection in non-myeloid malignancies, with myelosuppressive drugs",CHEMBL3833384,EFO_0000544,Infectious,2022
-Faricimab,Roche/Genentech,VEGF _ ANG2 bispecific antibody,nAMD and DME,CHEMBL4297750,EFO_0001365; diabetic macular edema,Ophthalmology,2022
+Faricimab,Roche/Genentech,VEGF _ ANG2 bispecific antibody,nAMD and DME,CHEMBL4297750,EFO_0001365,Ophthalmology,2022
 Futibatinib,Taiho Oncology,FGFR kinase inhibitor,FGFR2-aberrant intrahepatic cholangiocarcinoma,CHEMBL3701238,EFO_0005221,Oncology,2022
 Gadopiclenol,Guerbet,Gadolinium-based contrast agent,Lesions with abnormal vascularity,CHEMBL4297634,-,Imaging,2022
 Ganaxolone,Marinus,GABAA�receptor positive allosteric modulator,Seizures associated with CDD,CHEMBL1568698,HP_0200134,Other,2022

@@ -2,6 +2,7 @@ library("tidyverse")
 library("sparklyr")
 library("sparklyr.nested")
 
+
 data_release <- "22.11"
 
 # Spark config
@@ -16,7 +17,21 @@ sc <- spark_connect(master = "yarn", config = config)
 
 # Approvals as reported in NRDD article
 local_approvals <- read_csv("./data/all_approvals.csv")
-approvals <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
+approvals_init <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
+
+# Split and explode multiple DrugId
+approvals <- approvals_init %>%
+    mutate( OriginalDrugId = DrugId,
+            DrugId = split(as.character(DrugId), "; ")) %>%
+    sdf_explode(DrugId) 
+
+# Split and explode multiple DiseaseId
+approvals <- approvals %>%
+    mutate(DiseaseId = split(as.character(DiseaseId), "; ")) %>%
+    sdf_explode(DiseaseId) 
+
+# approvals %>% 
+#     write.csv("Exploded.csv")
 
 # Datasource metadata
 local_ds_metadata <- read_csv("./data/datasourceMetadata.csv")
