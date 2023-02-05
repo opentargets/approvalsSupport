@@ -23,12 +23,12 @@ approvals_init <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
 approvals <- approvals_init %>%
     mutate( OriginalDrugId = DrugId,
             DrugId = split(as.character(DrugId), "; ")) %>%
-    sdf_explode(DrugId) 
+    sdf_explode(DrugId, keep_all = TRUE) 
 
 # Split and explode multiple DiseaseId
 approvals <- approvals %>%
     mutate(DiseaseId = split(as.character(DiseaseId), "; ")) %>%
-    sdf_explode(DiseaseId) 
+    sdf_explode(DiseaseId, keep_all = TRUE) 
 
 # approvals %>% 
 #     write.csv("Exploded.csv")

@@ -1,9 +1,5 @@
 "datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
 "cancer_biomarkers","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
-"cancer_biomarkers","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
-"cancer_biomarkers","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
-"cancer_biomarkers","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
-"cancer_biomarkers","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Voclosporin","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
@@ -12,11 +8,15 @@
 "cancer_biomarkers","Tezepelumab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Tebentafusp","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Sutimlimab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
+"cancer_biomarkers","SRP-9001","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","Spesolimab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Spesolimab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
+"cancer_biomarkers","SER-109","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","RSVpreF","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","Ponesimod","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
+"cancer_biomarkers","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Pafolacianine","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Oteseconazole","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
@@ -32,23 +32,30 @@
 "cancer_biomarkers","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Lenacapavir","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2021
+"cancer_biomarkers","GSK3844766A","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","Gadopiclenol","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Fosdenopterin","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Fexinidazole","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2021
+"cancer_biomarkers","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","Evinacumab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Eflapegrastim","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
+"cancer_biomarkers","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
+"cancer_biomarkers","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Difelikefalin","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Concizumab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","Concizumab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","Casimersen","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2021
+"cancer_biomarkers","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","Belumosudil","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Avacopan","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Atogepant","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Anifrolumab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
+"cancer_biomarkers","Anacaulase","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Aducanumab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Zuranolone","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","Zuranolone","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
@@ -115,10 +122,6 @@
 "cancer_biomarkers","Mobocertinib","Oncology",FALSE,TRUE,TRUE,0.968836966996368,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.968836966996368,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_gene_census","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2022
-"cancer_gene_census","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
-"cancer_gene_census","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
-"cancer_gene_census","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
-"cancer_gene_census","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Voclosporin","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
@@ -127,11 +130,15 @@
 "cancer_gene_census","Tezepelumab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Tebentafusp","Oncology",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Sutimlimab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
+"cancer_gene_census","SRP-9001","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
 "cancer_gene_census","Spesolimab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Spesolimab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2022
+"cancer_gene_census","SER-109","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","RSVpreF","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
 "cancer_gene_census","Ponesimod","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
+"cancer_gene_census","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Pafolacianine","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Oteseconazole","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2022
@@ -147,23 +154,30 @@
 "cancer_gene_census","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Lenacapavir","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2021
+"cancer_gene_census","GSK3844766A","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
 "cancer_gene_census","Gadopiclenol","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Fosdenopterin","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Fexinidazole","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2021
+"cancer_gene_census","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
 "cancer_gene_census","Evinacumab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Eflapegrastim","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
+"cancer_gene_census","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
+"cancer_gene_census","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Difelikefalin","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Concizumab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
 "cancer_gene_census","Concizumab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
 "cancer_gene_census","Casimersen","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2021
+"cancer_gene_census","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
 "cancer_gene_census","Belumosudil","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Avacopan","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Atogepant","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Anifrolumab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
+"cancer_gene_census","Anacaulase","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Aducanumab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Zuranolone","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
 "cancer_gene_census","Zuranolone","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
@@ -230,10 +244,6 @@
 "cancer_gene_census","Mobocertinib","Oncology",FALSE,TRUE,TRUE,0.926746075358155,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.926746075358155,"CGC (COSMIC)","Somatic",2021
 "clingen","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2022
-"clingen","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
-"clingen","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
-"clingen","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
-"clingen","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2022
 "clingen","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2022
 "clingen","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2022
 "clingen","Voclosporin","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
@@ -242,11 +252,15 @@
 "clingen","Tezepelumab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Tebentafusp","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
 "clingen","Sutimlimab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
+"clingen","SRP-9001","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
 "clingen","Spesolimab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
 "clingen","Spesolimab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
 "clingen","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2022
 "clingen","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2022
+"clingen","SER-109","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
+"clingen","RSVpreF","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
 "clingen","Ponesimod","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
+"clingen","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2021
 "clingen","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Pafolacianine","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2021
 "clingen","Oteseconazole","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2022
@@ -262,23 +276,30 @@
 "clingen","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Lenacapavir","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2022
 "clingen","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2021
+"clingen","GSK3844766A","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
 "clingen","Gadopiclenol","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2022
 "clingen","Fosdenopterin","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2021
 "clingen","Fexinidazole","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2021
+"clingen","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
 "clingen","Evinacumab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Eflapegrastim","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
 "clingen","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
+"clingen","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
+"clingen","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
+"clingen","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Difelikefalin","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
 "clingen","Concizumab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
 "clingen","Concizumab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
 "clingen","Casimersen","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2021
+"clingen","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
 "clingen","Belumosudil","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Avacopan","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Atogepant","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Anifrolumab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
+"clingen","Anacaulase","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2022
 "clingen","Aducanumab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Zuranolone","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
 "clingen","Zuranolone","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
@@ -345,10 +366,6 @@
 "clingen","Mobocertinib","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"Clingen","Rare mendelian",2021
 "clingen","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"Clingen","Rare mendelian",2021
 "crispr","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2022
-"crispr","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
-"crispr","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
-"crispr","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
-"crispr","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2022
 "crispr","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2022
 "crispr","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2022
 "crispr","Voclosporin","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
@@ -357,11 +374,15 @@
 "crispr","Tezepelumab","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Tebentafusp","Oncology",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
 "crispr","Sutimlimab","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
+"crispr","SRP-9001","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2023
 "crispr","Spesolimab","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
 "crispr","Spesolimab","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
 "crispr","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2022
 "crispr","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2022
+"crispr","SER-109","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2023
+"crispr","RSVpreF","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2023
 "crispr","Ponesimod","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
+"crispr","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2021
 "crispr","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Pafolacianine","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2021
 "crispr","Oteseconazole","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2022
@@ -377,23 +398,30 @@
 "crispr","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Lenacapavir","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2022
 "crispr","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2021
+"crispr","GSK3844766A","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2023
 "crispr","Gadopiclenol","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2022
 "crispr","Fosdenopterin","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2021
 "crispr","Fexinidazole","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2021
+"crispr","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2023
 "crispr","Evinacumab","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Eflapegrastim","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
 "crispr","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
+"crispr","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2023
+"crispr","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
+"crispr","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Difelikefalin","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
 "crispr","Concizumab","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2023
 "crispr","Concizumab","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2023
 "crispr","Casimersen","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2021
+"crispr","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2023
 "crispr","Belumosudil","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Avacopan","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Atogepant","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Anifrolumab","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
+"crispr","Anacaulase","No human target",TRUE,NA,NA,NA,"Project Score","Functional genomics (cancer)",2022
 "crispr","Aducanumab","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Zuranolone","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2023
 "crispr","Zuranolone","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2023
@@ -460,10 +488,6 @@
 "crispr","Mobocertinib","Oncology",FALSE,TRUE,TRUE,0.378816878261741,"Project Score","Functional genomics (cancer)",2021
 "crispr","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.378816878261741,"Project Score","Functional genomics (cancer)",2021
 "eva","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2022
-"eva","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
-"eva","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
-"eva","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
-"eva","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2022
 "eva","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2022
 "eva","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2022
 "eva","Voclosporin","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
@@ -472,11 +496,15 @@
 "eva","Tezepelumab","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Tebentafusp","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
 "eva","Sutimlimab","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
+"eva","SRP-9001","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
 "eva","Spesolimab","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
 "eva","Spesolimab","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
 "eva","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2022
 "eva","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2022
+"eva","SER-109","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
+"eva","RSVpreF","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
 "eva","Ponesimod","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
+"eva","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2021
 "eva","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Pafolacianine","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2021
 "eva","Oteseconazole","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2022
@@ -492,23 +520,30 @@
 "eva","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Lenacapavir","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2022
 "eva","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2021
+"eva","GSK3844766A","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
 "eva","Gadopiclenol","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2022
 "eva","Fosdenopterin","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2021
 "eva","Fexinidazole","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2021
+"eva","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
 "eva","Evinacumab","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Eflapegrastim","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
 "eva","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
+"eva","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
+"eva","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
+"eva","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Difelikefalin","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
 "eva","Concizumab","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2023
 "eva","Concizumab","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2023
 "eva","Casimersen","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2021
+"eva","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
 "eva","Belumosudil","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Avacopan","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Atogepant","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Anifrolumab","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
+"eva","Anacaulase","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2022
 "eva","Aducanumab","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Zuranolone","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2023
 "eva","Zuranolone","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2023
@@ -575,10 +610,6 @@
 "eva","Mobocertinib","Oncology",FALSE,TRUE,TRUE,0.823172073899336,"ClinVar","Rare mendelian",2021
 "eva","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.823172073899336,"ClinVar","Rare mendelian",2021
 "eva_somatic","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2022
-"eva_somatic","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
-"eva_somatic","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
-"eva_somatic","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
-"eva_somatic","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Voclosporin","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
@@ -587,11 +618,15 @@
 "eva_somatic","Tezepelumab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Tebentafusp","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Sutimlimab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
+"eva_somatic","SRP-9001","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
 "eva_somatic","Spesolimab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Spesolimab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2022
+"eva_somatic","SER-109","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","RSVpreF","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
 "eva_somatic","Ponesimod","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
+"eva_somatic","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Pafolacianine","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Oteseconazole","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2022
@@ -607,23 +642,30 @@
 "eva_somatic","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Lenacapavir","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2021
+"eva_somatic","GSK3844766A","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
 "eva_somatic","Gadopiclenol","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Fosdenopterin","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Fexinidazole","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2021
+"eva_somatic","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
 "eva_somatic","Evinacumab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Eflapegrastim","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
+"eva_somatic","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
+"eva_somatic","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Difelikefalin","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Concizumab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
 "eva_somatic","Concizumab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
 "eva_somatic","Casimersen","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2021
+"eva_somatic","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
 "eva_somatic","Belumosudil","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Avacopan","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Atogepant","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Anifrolumab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
+"eva_somatic","Anacaulase","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Aducanumab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Zuranolone","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
 "eva_somatic","Zuranolone","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
@@ -690,10 +732,6 @@
 "eva_somatic","Mobocertinib","Oncology",FALSE,TRUE,TRUE,0.900195720739544,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.900195720739544,"ClinVar (Somatic)","Somatic",2021
 "gene2phenotype","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2022
-"gene2phenotype","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
-"gene2phenotype","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
-"gene2phenotype","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
-"gene2phenotype","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Voclosporin","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
@@ -702,11 +740,15 @@
 "gene2phenotype","Tezepelumab","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Tebentafusp","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Sutimlimab","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
+"gene2phenotype","SRP-9001","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2023
 "gene2phenotype","Spesolimab","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Spesolimab","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2022
+"gene2phenotype","SER-109","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2023
+"gene2phenotype","RSVpreF","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2023
 "gene2phenotype","Ponesimod","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
+"gene2phenotype","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Pafolacianine","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Oteseconazole","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2022
@@ -722,23 +764,30 @@
 "gene2phenotype","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Lenacapavir","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2021
+"gene2phenotype","GSK3844766A","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2023
 "gene2phenotype","Gadopiclenol","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Fosdenopterin","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Fexinidazole","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2021
+"gene2phenotype","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2023
 "gene2phenotype","Evinacumab","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Eflapegrastim","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
+"gene2phenotype","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2023
+"gene2phenotype","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
+"gene2phenotype","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Difelikefalin","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Concizumab","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2023
 "gene2phenotype","Concizumab","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2023
 "gene2phenotype","Casimersen","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2021
+"gene2phenotype","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2023
 "gene2phenotype","Belumosudil","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Avacopan","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Atogepant","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Anifrolumab","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
+"gene2phenotype","Anacaulase","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Aducanumab","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Zuranolone","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2023
 "gene2phenotype","Zuranolone","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2023
@@ -805,10 +854,6 @@
 "gene2phenotype","Mobocertinib","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Amivantamab","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene_burden","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2022
-"gene_burden","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
-"gene_burden","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
-"gene_burden","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
-"gene_burden","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2022
 "gene_burden","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2022
 "gene_burden","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2022
 "gene_burden","Voclosporin","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
@@ -817,11 +862,15 @@
 "gene_burden","Tezepelumab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Tebentafusp","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2022
 "gene_burden","Sutimlimab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
+"gene_burden","SRP-9001","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
 "gene_burden","Spesolimab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
 "gene_burden","Spesolimab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
 "gene_burden","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2022
 "gene_burden","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2022
+"gene_burden","SER-109","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
+"gene_burden","RSVpreF","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
 "gene_burden","Ponesimod","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
+"gene_burden","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2021
 "gene_burden","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Pafolacianine","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2021
 "gene_burden","Oteseconazole","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2022
@@ -837,23 +886,30 @@
 "gene_burden","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Lenacapavir","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2022
 "gene_burden","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2021
+"gene_burden","GSK3844766A","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
 "gene_burden","Gadopiclenol","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2022
 "gene_burden","Fosdenopterin","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2021
 "gene_burden","Fexinidazole","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2021
+"gene_burden","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
 "gene_burden","Evinacumab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Eflapegrastim","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
 "gene_burden","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
+"gene_burden","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
+"gene_burden","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
+"gene_burden","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Difelikefalin","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
 "gene_burden","Concizumab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
 "gene_burden","Concizumab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
 "gene_burden","Casimersen","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2021
+"gene_burden","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
 "gene_burden","Belumosudil","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Avacopan","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Atogepant","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Anifrolumab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
+"gene_burden","Anacaulase","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2022
 "gene_burden","Aducanumab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Zuranolone","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
 "gene_burden","Zuranolone","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
@@ -920,10 +976,6 @@
 "gene_burden","Mobocertinib","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Amivantamab","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "genomics_england","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2022
-"genomics_england","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
-"genomics_england","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
-"genomics_england","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
-"genomics_england","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Voclosporin","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
@@ -932,11 +984,15 @@
 "genomics_england","Tezepelumab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Tebentafusp","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Sutimlimab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
+"genomics_england","SRP-9001","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
 "genomics_england","Spesolimab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Spesolimab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2022
+"genomics_england","SER-109","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","RSVpreF","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
 "genomics_england","Ponesimod","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
+"genomics_england","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Pafolacianine","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Oteseconazole","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2022
@@ -952,23 +1008,30 @@
 "genomics_england","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Lenacapavir","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2021
+"genomics_england","GSK3844766A","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
 "genomics_england","Gadopiclenol","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Fosdenopterin","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Fexinidazole","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2021
+"genomics_england","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
 "genomics_england","Evinacumab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Eflapegrastim","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
+"genomics_england","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
+"genomics_england","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Difelikefalin","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Concizumab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
 "genomics_england","Concizumab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
 "genomics_england","Casimersen","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2021
+"genomics_england","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
 "genomics_england","Belumosudil","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Avacopan","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Atogepant","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Anifrolumab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
+"genomics_england","Anacaulase","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Aducanumab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Zuranolone","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
 "genomics_england","Zuranolone","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
@@ -1035,10 +1098,6 @@
 "genomics_england","Mobocertinib","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Amivantamab","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "impc","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2022
-"impc","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
-"impc","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
-"impc","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
-"impc","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2022
 "impc","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2022
 "impc","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2022
 "impc","Voclosporin","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
@@ -1047,11 +1106,15 @@
 "impc","Tezepelumab","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Tebentafusp","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
 "impc","Sutimlimab","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
+"impc","SRP-9001","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2023
 "impc","Spesolimab","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
 "impc","Spesolimab","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
 "impc","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2022
 "impc","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2022
+"impc","SER-109","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2023
+"impc","RSVpreF","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2023
 "impc","Ponesimod","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
+"impc","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2021
 "impc","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Pafolacianine","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2021
 "impc","Oteseconazole","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2022
@@ -1067,23 +1130,30 @@
 "impc","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Lenacapavir","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2022
 "impc","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2021
+"impc","GSK3844766A","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2023
 "impc","Gadopiclenol","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2022
 "impc","Fosdenopterin","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2021
 "impc","Fexinidazole","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2021
+"impc","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2023
 "impc","Evinacumab","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Eflapegrastim","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
 "impc","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
+"impc","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2023
+"impc","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
+"impc","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Difelikefalin","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
 "impc","Concizumab","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2023
 "impc","Concizumab","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2023
 "impc","Casimersen","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2021
+"impc","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2023
 "impc","Belumosudil","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Avacopan","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Atogepant","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Anifrolumab","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
+"impc","Anacaulase","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)",NA,2022
 "impc","Aducanumab","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Zuranolone","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2023
 "impc","Zuranolone","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2023
@@ -1150,10 +1220,6 @@
 "impc","Mobocertinib","Oncology",FALSE,TRUE,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.346642140798146,"Mouse model (IMPC)",NA,2021
 "intogen","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2022
-"intogen","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
-"intogen","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
-"intogen","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
-"intogen","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2022
 "intogen","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2022
 "intogen","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2022
 "intogen","Voclosporin","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
@@ -1162,11 +1228,15 @@
 "intogen","Tezepelumab","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Tebentafusp","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2022
 "intogen","Sutimlimab","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
+"intogen","SRP-9001","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2023
 "intogen","Spesolimab","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
 "intogen","Spesolimab","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
 "intogen","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2022
 "intogen","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2022
+"intogen","SER-109","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2023
+"intogen","RSVpreF","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2023
 "intogen","Ponesimod","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
+"intogen","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2021
 "intogen","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Pafolacianine","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2021
 "intogen","Oteseconazole","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2022
@@ -1182,23 +1252,30 @@
 "intogen","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Lenacapavir","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2022
 "intogen","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2021
+"intogen","GSK3844766A","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2023
 "intogen","Gadopiclenol","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2022
 "intogen","Fosdenopterin","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2021
 "intogen","Fexinidazole","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2021
+"intogen","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2023
 "intogen","Evinacumab","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Eflapegrastim","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
 "intogen","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
+"intogen","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2023
+"intogen","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
+"intogen","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Difelikefalin","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
 "intogen","Concizumab","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2023
 "intogen","Concizumab","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2023
 "intogen","Casimersen","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2021
+"intogen","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2023
 "intogen","Belumosudil","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Avacopan","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Atogepant","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Anifrolumab","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
+"intogen","Anacaulase","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2022
 "intogen","Aducanumab","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Zuranolone","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2023
 "intogen","Zuranolone","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2023
@@ -1265,10 +1342,6 @@
 "intogen","Mobocertinib","Oncology",FALSE,TRUE,TRUE,0.850675779255117,"IntOgen","Somatic",2021
 "intogen","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.850675779255117,"IntOgen","Somatic",2021
 "orphanet","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2022
-"orphanet","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
-"orphanet","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
-"orphanet","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
-"orphanet","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2022
 "orphanet","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2022
 "orphanet","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2022
 "orphanet","Voclosporin","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
@@ -1277,11 +1350,15 @@
 "orphanet","Tezepelumab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Tebentafusp","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
 "orphanet","Sutimlimab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
+"orphanet","SRP-9001","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
 "orphanet","Spesolimab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
 "orphanet","Spesolimab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
 "orphanet","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2022
 "orphanet","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2022
+"orphanet","SER-109","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
+"orphanet","RSVpreF","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
 "orphanet","Ponesimod","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
+"orphanet","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2021
 "orphanet","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Pafolacianine","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2021
 "orphanet","Oteseconazole","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2022
@@ -1297,23 +1374,30 @@
 "orphanet","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Lenacapavir","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2022
 "orphanet","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2021
+"orphanet","GSK3844766A","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
 "orphanet","Gadopiclenol","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2022
 "orphanet","Fosdenopterin","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2021
 "orphanet","Fexinidazole","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2021
+"orphanet","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
 "orphanet","Evinacumab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Eflapegrastim","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
 "orphanet","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
+"orphanet","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
+"orphanet","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
+"orphanet","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Difelikefalin","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
 "orphanet","Concizumab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
 "orphanet","Concizumab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
 "orphanet","Casimersen","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2021
+"orphanet","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
 "orphanet","Belumosudil","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Avacopan","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Atogepant","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Anifrolumab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
+"orphanet","Anacaulase","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2022
 "orphanet","Aducanumab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Zuranolone","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
 "orphanet","Zuranolone","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
@@ -1380,10 +1464,6 @@
 "orphanet","Mobocertinib","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Amivantamab","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "ot_genetics_portal","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2022
-"ot_genetics_portal","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
-"ot_genetics_portal","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
-"ot_genetics_portal","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
-"ot_genetics_portal","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Voclosporin","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
@@ -1392,11 +1472,15 @@
 "ot_genetics_portal","Tezepelumab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Tebentafusp","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Sutimlimab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
+"ot_genetics_portal","SRP-9001","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
 "ot_genetics_portal","Spesolimab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Spesolimab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2022
+"ot_genetics_portal","SER-109","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","RSVpreF","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
 "ot_genetics_portal","Ponesimod","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
+"ot_genetics_portal","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Pafolacianine","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Oteseconazole","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2022
@@ -1412,23 +1496,30 @@
 "ot_genetics_portal","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Lenacapavir","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2021
+"ot_genetics_portal","GSK3844766A","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
 "ot_genetics_portal","Gadopiclenol","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Fosdenopterin","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Fexinidazole","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2021
+"ot_genetics_portal","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
 "ot_genetics_portal","Evinacumab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Eflapegrastim","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
+"ot_genetics_portal","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
+"ot_genetics_portal","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Difelikefalin","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Concizumab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2023
 "ot_genetics_portal","Concizumab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2023
 "ot_genetics_portal","Casimersen","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2021
+"ot_genetics_portal","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
 "ot_genetics_portal","Belumosudil","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Avacopan","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Atogepant","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Anifrolumab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
+"ot_genetics_portal","Anacaulase","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Aducanumab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Zuranolone","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2023
 "ot_genetics_portal","Zuranolone","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2023
@@ -1495,10 +1586,6 @@
 "ot_genetics_portal","Mobocertinib","Oncology",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Amivantamab","Oncology",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2021
 "progeny","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2022
-"progeny","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
-"progeny","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
-"progeny","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
-"progeny","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2022
 "progeny","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2022
 "progeny","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2022
 "progeny","Voclosporin","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
@@ -1507,11 +1594,15 @@
 "progeny","Tezepelumab","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Tebentafusp","Oncology",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
 "progeny","Sutimlimab","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
+"progeny","SRP-9001","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2023
 "progeny","Spesolimab","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
 "progeny","Spesolimab","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
 "progeny","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2022
 "progeny","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2022
+"progeny","SER-109","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2023
+"progeny","RSVpreF","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2023
 "progeny","Ponesimod","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
+"progeny","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2021
 "progeny","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Pafolacianine","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2021
 "progeny","Oteseconazole","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2022
@@ -1527,23 +1618,30 @@
 "progeny","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Lenacapavir","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2022
 "progeny","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2021
+"progeny","GSK3844766A","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2023
 "progeny","Gadopiclenol","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2022
 "progeny","Fosdenopterin","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2021
 "progeny","Fexinidazole","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2021
+"progeny","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2023
 "progeny","Evinacumab","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Eflapegrastim","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
 "progeny","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
+"progeny","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2023
+"progeny","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
+"progeny","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Difelikefalin","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
 "progeny","Concizumab","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2023
 "progeny","Concizumab","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2023
 "progeny","Casimersen","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2021
+"progeny","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2023
 "progeny","Belumosudil","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Avacopan","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Atogepant","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Anifrolumab","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
+"progeny","Anacaulase","No human target",TRUE,NA,NA,NA,"Progeny","Functional genomics (cancer)",2022
 "progeny","Aducanumab","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Zuranolone","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2023
 "progeny","Zuranolone","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2023
@@ -1610,10 +1708,6 @@
 "progeny","Mobocertinib","Oncology",FALSE,TRUE,TRUE,0.593265567332442,"Progeny","Functional genomics (cancer)",2021
 "progeny","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.593265567332442,"Progeny","Functional genomics (cancer)",2021
 "slapenrich","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2022
-"slapenrich","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
-"slapenrich","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
-"slapenrich","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
-"slapenrich","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Voclosporin","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
@@ -1622,11 +1716,15 @@
 "slapenrich","Tezepelumab","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Tebentafusp","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Sutimlimab","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
+"slapenrich","SRP-9001","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2023
 "slapenrich","Spesolimab","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Spesolimab","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2022
+"slapenrich","SER-109","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2023
+"slapenrich","RSVpreF","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2023
 "slapenrich","Ponesimod","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
+"slapenrich","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Pafolacianine","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Oteseconazole","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2022
@@ -1642,23 +1740,30 @@
 "slapenrich","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Lenacapavir","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2021
+"slapenrich","GSK3844766A","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2023
 "slapenrich","Gadopiclenol","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Fosdenopterin","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Fexinidazole","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2021
+"slapenrich","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2023
 "slapenrich","Evinacumab","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Eflapegrastim","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
+"slapenrich","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2023
+"slapenrich","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
+"slapenrich","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Difelikefalin","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Concizumab","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2023
 "slapenrich","Concizumab","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2023
 "slapenrich","Casimersen","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2021
+"slapenrich","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2023
 "slapenrich","Belumosudil","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Avacopan","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Atogepant","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Anifrolumab","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
+"slapenrich","Anacaulase","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Aducanumab","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Zuranolone","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2023
 "slapenrich","Zuranolone","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2023
@@ -1725,10 +1830,6 @@
 "slapenrich","Mobocertinib","Oncology",FALSE,TRUE,TRUE,0.977654451498777,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.977654451498777,"SlapEnrich","Functional genomics (cancer)",2021
 "uniprot_literature","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2022
-"uniprot_literature","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
-"uniprot_literature","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
-"uniprot_literature","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
-"uniprot_literature","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Voclosporin","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
@@ -1737,11 +1838,15 @@
 "uniprot_literature","Tezepelumab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Tebentafusp","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Sutimlimab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
+"uniprot_literature","SRP-9001","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
 "uniprot_literature","Spesolimab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Spesolimab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2022
+"uniprot_literature","SER-109","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","RSVpreF","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
 "uniprot_literature","Ponesimod","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
+"uniprot_literature","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Pafolacianine","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Oteseconazole","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2022
@@ -1757,23 +1862,30 @@
 "uniprot_literature","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Lenacapavir","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2021
+"uniprot_literature","GSK3844766A","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
 "uniprot_literature","Gadopiclenol","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Fosdenopterin","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Fexinidazole","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2021
+"uniprot_literature","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
 "uniprot_literature","Evinacumab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Eflapegrastim","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
+"uniprot_literature","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
+"uniprot_literature","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Difelikefalin","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Concizumab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
 "uniprot_literature","Concizumab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
 "uniprot_literature","Casimersen","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2021
+"uniprot_literature","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
 "uniprot_literature","Belumosudil","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Avacopan","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Atogepant","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Anifrolumab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
+"uniprot_literature","Anacaulase","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Aducanumab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Zuranolone","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
 "uniprot_literature","Zuranolone","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
@@ -1840,10 +1952,6 @@
 "uniprot_literature","Mobocertinib","Oncology",FALSE,TRUE,TRUE,0.759913497014526,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Amivantamab","Oncology",FALSE,TRUE,TRUE,0.759913497014526,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_variants","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2022
-"uniprot_variants","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
-"uniprot_variants","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
-"uniprot_variants","Vonoprazan; amoxicillin; clarithromycin","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
-"uniprot_variants","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Voclosporin","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
@@ -1852,11 +1960,15 @@
 "uniprot_variants","Tezepelumab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Tebentafusp","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Sutimlimab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
+"uniprot_variants","SRP-9001","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
 "uniprot_variants","Spesolimab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Spesolimab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Sodium phenylbutyrate; taurursodiol","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2022
+"uniprot_variants","SER-109","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","RSVpreF","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
 "uniprot_variants","Ponesimod","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
+"uniprot_variants","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Pegcetacoplan","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Pafolacianine","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Oteseconazole","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2022
@@ -1872,23 +1984,30 @@
 "uniprot_variants","Loncastuximab tesirine","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Lenacapavir","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Ibrexafungerp","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2021
+"uniprot_variants","GSK3844766A","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
 "uniprot_variants","Gadopiclenol","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Fosdenopterin","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Fexinidazole","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2021
+"uniprot_variants","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
 "uniprot_variants","Evinacumab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Eflapegrastim","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Efgartigimod alfa","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
+"uniprot_variants","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
+"uniprot_variants","Drospirenone; estetrol","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Difelikefalin","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","DaxibotulinumtoxinA","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Concizumab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
 "uniprot_variants","Concizumab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
 "uniprot_variants","Casimersen","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Cabotegravir; rilpivirine","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2021
+"uniprot_variants","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
 "uniprot_variants","Belumosudil","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Avacopan","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Atogepant","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Asparaginase erwinia chrysanthemi","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Anifrolumab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
+"uniprot_variants","Anacaulase","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Aducanumab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Zuranolone","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
 "uniprot_variants","Zuranolone","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
