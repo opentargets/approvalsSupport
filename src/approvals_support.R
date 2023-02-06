@@ -229,7 +229,7 @@ data2plot <- ass %>%
         left_join(ds_names, by = "datasourceId") %>%
         mutate(
             datasourceName = factor(datasourceName, levels = ds_names$datasourceName),
-            datasourceType = factor(datasourceType, levels = c("Somatic", "Functional genomics (cancer)", "Rare mendelian", "Common disease"))
+            datasourceType = factor(datasourceType, levels = c("Somatic", "Functional genomics (cancer)", "Rare mendelian", "Common disease", "Mouse model"))
         ) %>%
         left_join(approvals %>% select(Drug_brand_name, Year) %>% collect(), by = "Drug_brand_name")
 

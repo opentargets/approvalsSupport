@@ -1,10 +1,11 @@
 library("cowplot")
 library("ggsci")
+library(forcats)
 
 
 data2plot <- read_csv("./output/approvals_support.csv")
 
-data2plot <- data2plot %>% filter(Year == 2022)
+data2plot <- data2plot %>% filter(Year == 2023)
 
 # symbols to overlay in the plot
 overlay_data <- data2plot %>%
@@ -23,8 +24,18 @@ overlay_data <- data2plot %>%
     mutate(overlaySize = ifelse(overlay == "phenotype", 3, 1)) %>%
     mutate(overlaySymbol = as.character(ifelse(overlay == "phenotype", 1, 16)))
 
+
+sort_order <- data2plot %>%
+ left_join(overlay_data) %>% 
+ mutate(overlay_score = ifelse(value, 0.01, 0)) %>%
+ group_by(Drug_brand_name) %>%
+ summarise(order = sum(score, na.rm=TRUE) + sum(overlay_score, na.rm=TRUE)) %>% arrange(-order) %>% ungroup()
+
+
 # plotting
 output <- data2plot %>%
+    left_join(sort_order) %>%
+    mutate(Drug_brand_name = fct_reorder(Drug_brand_name, order)) %>%
     ggplot(aes(
         x = datasourceName,
         y = Drug_brand_name
@@ -45,7 +56,9 @@ output <- data2plot %>%
         name = "Supported by:"
     ) +
     scale_size_identity() +
-    facet_grid(TA ~ datasourceType, scales = "free", space = "free") +
+    facet_grid(fct_relevel(TA, "Oncology", "Other indication", "No human target") ~
+               fct_relevel(datasourceType, "Somatic", "Common disease", "Rare mendelian", "Functional genomics (cancer)", "Mouse model"), 
+               scales = "free", space = "free") +
     theme_cowplot(font_size = 12) +
     # labs(
     #     title = "Supporting evidence on 2021 FDA drug approvals",
@@ -58,7 +71,7 @@ output <- data2plot %>%
         strip.background = element_blank(),
         legend.direction = "horizontal",
         legend.box = "vertical",
-        legend.position = c(-0.7, -0.16),
+        legend.position = "bottom", #c(0.1, -0.4),
         legend.justification = c(0, 0),
         axis.ticks = element_blank(),
         axis.text.x = element_text(angle = 45, hjust = 1),
@@ -83,8 +96,8 @@ output <- data2plot %>%
     )
 
 ggsave(
-    "./output/2022_approvals_new.pdf",
+    "./output/2023_approvals_new.pdf",
     plot = output,
     width = 9,
-    height = 15
+    height = 7
 )
