@@ -25,3 +25,4 @@ CHEMBL3655081,ENSG00000166888   # JAK1(Abrocitinib) - STAT6 (interactor)
 CHEMBL4297730,ENSG00000057593   # TFPI(Concizumab) - F7 coagulation factor VII (interactor)
 CHEMBL1743078,ENSG00000081237   # CD3E(Teplizumab) - PTPRC (interactor)
 CHEMBL1743078,ENSG00000198821   # CD3E(Teplizumab) - CD247 (interactor)
+CHEMBL3833384,ENSG00000119535   # CSF3R(Eflapegrastim) - was absent in OT

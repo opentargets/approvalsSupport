@@ -17,7 +17,7 @@ Talquetamab,J&J,GPRC5D _ CD3 bispecific antibody,Multiple myeloma,CHEMBL4594503,
 Tofersen,Biogen/Ionis,SOD1 antisense agent,SOD1-mutated ALS,CHEMBL3833346,MONDO_0004976,Other,2023
 Valoctocogene roxaparvovec,BioMarin,Factor VIII gene therapy,Haemophilia A,CHEMBL4297579,MONDO_0010602,Other,2023
 Zuranolone,Sage/Biogen,GABAA�receptor positive allosteric modulator,MDD and postpartum depression,CHEMBL4105630,MONDO_0002009; EFO_0007453,Psychiatric,2023
-Abrocitinib,Pfizer,JAK inhibitor,Atopic dermatitis,CHEMBL3655081,EFO_0000274,Dermatology,2022
+Abrocitinib,Pfizer,JAK inhibitor,Atopic dermatitis,CHEMBL3655081,EFO_0000274; HP_0000964,Dermatology,2022
 Adagrasib,Mirati,KRAS-G12C inhibitor,KRASG12C-mutated NSCLC,CHEMBL4594350,EFO_0003060,Oncology,2022
 Anacaulase,Mediwound,Proteolytic enzymes from pineapple plants,Eschar removal after thermal burns,NA,-,Other,2022
 Daridorexant,Idorsia,Orexin receptor antagonist,Insomnia,CHEMBL4297590,EFO_0004698; EFO_0005271,Other,2022
@@ -47,7 +47,7 @@ Tapinarof,Dermavant,Aryl hydrocarbon receptor agonist,Plaque psoriasis,CHEMBL259
 Tebentafusp,Immunocore,gp100 peptide�HLA _ CD3 bispecific T-cell engager,Uveal melanoma,CHEMBL4297990,EFO_1000616,Oncology,2022
 Teclistamab,J&J,BCMA _ CD3 bispecific antibody,Multiple myeloma,CHEMBL4594505,EFO_0001378,Oncology,2022
 Teplizumab,Provention Bio,CD3-targeted antibody,Delay onset of type 1 diabetes,CHEMBL1743078,MONDO_0005147,Autoimmune,2022
-Terlipressin,Mallinckrodt,Vasopressin receptor agonist,Kidney function in hepatorenal syndrome,CHEMBL2135460,MONDO_0001382,Other,2022
+Terlipressin,Mallinckrodt,Vasopressin receptor agonist,Kidney function in hepatorenal syndrome,CHEMBL2135460,HP_0006554,Other,2022
 Tirzepatide,Eli Lilly,GIP receptor and GLP1 receptor agonist,Type 2 diabetes,CHEMBL4297839,MONDO_0005148,Autoimmune,2022
 Tremelimumab,AstraZeneca,CTLA4-targeted mAb,Hepatocellular carcinoma,CHEMBL2108658,EFO_0000182,Oncology,2022
 Ublituximab,TG Therapeutics,CD20-targeted mAb,Relapsing forms of multiple sclerosis,CHEMBL2108354,EFO_0003929,Other,2022

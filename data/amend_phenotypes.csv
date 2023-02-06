@@ -10,4 +10,6 @@ HP_0001510,EFO_0004339
 EFO_0001645,EFO_0000612
 EFO_0000182,MONDO_0018531   # hepatocellular carcinoma - carcinoma of liver and intrahepatic biliary tract
 MONDO_0001382,HP_0006554    # Hepatorenal syndrome  - Acute hepatic failure
-MONDO_0018906,EFO_0000183   # follicular lymphoma - non-Hodgkins lymphoma (MS4A1 involved in both)
+MONDO_0018906,EFO_0000183   # follicular lymphoma - Hodgkins lymphoma (MS4A1 involved in both)
+EFO_0000544,Orphanet_169142 # infection - Recurrent infection due to specific granule deficiency
+EFO_0000274,HP_0000964  # atopic eczema - eczema

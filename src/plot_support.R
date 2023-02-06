@@ -4,7 +4,7 @@ library("ggsci")
 
 data2plot <- read_csv("./output/approvals_support.csv")
 
-data2plot <- data2plot %>% filter(Year == 2021)
+data2plot <- data2plot %>% filter(Year == 2022)
 
 # symbols to overlay in the plot
 overlay_data <- data2plot %>%
@@ -83,7 +83,7 @@ output <- data2plot %>%
     )
 
 ggsave(
-    "./output/2021_approvals_new.pdf",
+    "./output/2022_approvals_new.pdf",
     plot = output,
     width = 9,
     height = 15

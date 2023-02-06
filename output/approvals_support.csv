@@ -61,9 +61,10 @@
 "cancer_biomarkers","Zuranolone","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","Tremelimumab","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Teplizumab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
-"cancer_biomarkers","Abrocitinib","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Umbralisib","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
+"cancer_biomarkers","Abrocitinib","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
+"cancer_biomarkers","Abrocitinib","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Odevixibat","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Maralixibat","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Finerenone","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
@@ -180,9 +181,10 @@
 "cancer_gene_census","Zuranolone","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
 "cancer_gene_census","Tremelimumab","Oncology",FALSE,TRUE,NA,0,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Teplizumab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
-"cancer_gene_census","Abrocitinib","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Umbralisib","Oncology",FALSE,TRUE,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
+"cancer_gene_census","Abrocitinib","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
+"cancer_gene_census","Abrocitinib","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2022
 "cancer_gene_census","Odevixibat","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Maralixibat","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
 "cancer_gene_census","Finerenone","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2021
@@ -299,9 +301,10 @@
 "clingen","Zuranolone","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
 "clingen","Tremelimumab","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
 "clingen","Teplizumab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
-"clingen","Abrocitinib","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
 "clingen","Umbralisib","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
+"clingen","Abrocitinib","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
+"clingen","Abrocitinib","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2022
 "clingen","Odevixibat","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Maralixibat","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
 "clingen","Finerenone","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021
@@ -418,9 +421,10 @@
 "crispr","Zuranolone","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2023
 "crispr","Tremelimumab","Oncology",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
 "crispr","Teplizumab","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
-"crispr","Abrocitinib","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
 "crispr","Umbralisib","Oncology",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
+"crispr","Abrocitinib","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
+"crispr","Abrocitinib","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2022
 "crispr","Odevixibat","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Maralixibat","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
 "crispr","Finerenone","Other indication",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021
@@ -537,9 +541,10 @@
 "eva","Zuranolone","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2023
 "eva","Tremelimumab","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
 "eva","Teplizumab","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
-"eva","Abrocitinib","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
 "eva","Umbralisib","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
+"eva","Abrocitinib","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
+"eva","Abrocitinib","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2022
 "eva","Odevixibat","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Maralixibat","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
 "eva","Finerenone","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2021
@@ -656,9 +661,10 @@
 "eva_somatic","Zuranolone","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
 "eva_somatic","Tremelimumab","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Teplizumab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
-"eva_somatic","Abrocitinib","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Umbralisib","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Ropeginterferon alfa-2b","Oncology",FALSE,TRUE,NA,0,"ClinVar (Somatic)","Somatic",2021
+"eva_somatic","Abrocitinib","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
+"eva_somatic","Abrocitinib","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2022
 "eva_somatic","Odevixibat","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Maralixibat","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
 "eva_somatic","Finerenone","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2021
@@ -775,9 +781,10 @@
 "gene2phenotype","Zuranolone","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2023
 "gene2phenotype","Tremelimumab","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Teplizumab","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
-"gene2phenotype","Abrocitinib","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Umbralisib","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
+"gene2phenotype","Abrocitinib","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
+"gene2phenotype","Abrocitinib","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2022
 "gene2phenotype","Odevixibat","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Maralixibat","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
 "gene2phenotype","Finerenone","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021
@@ -894,9 +901,10 @@
 "gene_burden","Zuranolone","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
 "gene_burden","Tremelimumab","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2022
 "gene_burden","Teplizumab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
-"gene_burden","Abrocitinib","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
 "gene_burden","Umbralisib","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2021
+"gene_burden","Abrocitinib","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
+"gene_burden","Abrocitinib","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2022
 "gene_burden","Odevixibat","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Maralixibat","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
 "gene_burden","Finerenone","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2021
@@ -1013,9 +1021,10 @@
 "genomics_england","Zuranolone","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
 "genomics_england","Tremelimumab","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Teplizumab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
-"genomics_england","Abrocitinib","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Umbralisib","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
+"genomics_england","Abrocitinib","Other indication",FALSE,TRUE,NA,0,"GEL PanelApp","Rare mendelian",2022
+"genomics_england","Abrocitinib","Other indication",FALSE,TRUE,NA,0,"GEL PanelApp","Rare mendelian",2022
 "genomics_england","Odevixibat","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Maralixibat","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
 "genomics_england","Finerenone","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021
@@ -1132,9 +1141,10 @@
 "impc","Zuranolone","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2023
 "impc","Tremelimumab","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
 "impc","Teplizumab","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2022
-"impc","Abrocitinib","Other indication",FALSE,TRUE,NA,0,"Mouse model (IMPC)",NA,2022
 "impc","Umbralisib","Oncology",FALSE,TRUE,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Ropeginterferon alfa-2b","Oncology",FALSE,TRUE,NA,0,"Mouse model (IMPC)",NA,2021
+"impc","Abrocitinib","Other indication",FALSE,TRUE,NA,0,"Mouse model (IMPC)",NA,2022
+"impc","Abrocitinib","Other indication",FALSE,TRUE,NA,0,"Mouse model (IMPC)",NA,2022
 "impc","Odevixibat","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Maralixibat","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
 "impc","Finerenone","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)",NA,2021
@@ -1251,9 +1261,10 @@
 "intogen","Zuranolone","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2023
 "intogen","Tremelimumab","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2022
 "intogen","Teplizumab","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
-"intogen","Abrocitinib","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
 "intogen","Umbralisib","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2021
+"intogen","Abrocitinib","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
+"intogen","Abrocitinib","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2022
 "intogen","Odevixibat","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Maralixibat","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
 "intogen","Finerenone","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2021
@@ -1370,9 +1381,10 @@
 "orphanet","Zuranolone","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
 "orphanet","Tremelimumab","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
 "orphanet","Teplizumab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
-"orphanet","Abrocitinib","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
 "orphanet","Umbralisib","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
+"orphanet","Abrocitinib","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
+"orphanet","Abrocitinib","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2022
 "orphanet","Odevixibat","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Maralixibat","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
 "orphanet","Finerenone","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021
@@ -1489,9 +1501,10 @@
 "ot_genetics_portal","Zuranolone","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2023
 "ot_genetics_portal","Tremelimumab","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Teplizumab","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2022
-"ot_genetics_portal","Abrocitinib","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Umbralisib","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021
+"ot_genetics_portal","Abrocitinib","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
+"ot_genetics_portal","Abrocitinib","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2022
 "ot_genetics_portal","Odevixibat","Other indication",FALSE,NA,TRUE,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Maralixibat","Other indication",FALSE,NA,TRUE,0,"OT Genetics Portal","Common disease",2021
 "ot_genetics_portal","Finerenone","Other indication",FALSE,NA,TRUE,0,"OT Genetics Portal","Common disease",2021
@@ -1608,9 +1621,10 @@
 "progeny","Zuranolone","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2023
 "progeny","Tremelimumab","Oncology",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
 "progeny","Teplizumab","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
-"progeny","Abrocitinib","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
 "progeny","Umbralisib","Oncology",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
+"progeny","Abrocitinib","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
+"progeny","Abrocitinib","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2022
 "progeny","Odevixibat","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Maralixibat","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
 "progeny","Finerenone","Other indication",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021
@@ -1727,9 +1741,10 @@
 "slapenrich","Zuranolone","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2023
 "slapenrich","Tremelimumab","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Teplizumab","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
-"slapenrich","Abrocitinib","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Umbralisib","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
+"slapenrich","Abrocitinib","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
+"slapenrich","Abrocitinib","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2022
 "slapenrich","Odevixibat","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Maralixibat","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
 "slapenrich","Finerenone","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2021
@@ -1846,9 +1861,10 @@
 "uniprot_literature","Zuranolone","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
 "uniprot_literature","Tremelimumab","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Teplizumab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
-"uniprot_literature","Abrocitinib","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Umbralisib","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
+"uniprot_literature","Abrocitinib","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
+"uniprot_literature","Abrocitinib","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2022
 "uniprot_literature","Odevixibat","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Maralixibat","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
 "uniprot_literature","Finerenone","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021
@@ -1965,9 +1981,10 @@
 "uniprot_variants","Zuranolone","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
 "uniprot_variants","Tremelimumab","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Teplizumab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
-"uniprot_variants","Abrocitinib","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Umbralisib","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Ropeginterferon alfa-2b","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
+"uniprot_variants","Abrocitinib","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
+"uniprot_variants","Abrocitinib","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2022
 "uniprot_variants","Odevixibat","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Maralixibat","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
 "uniprot_variants","Finerenone","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021
