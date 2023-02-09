@@ -1,0 +1,51 @@
+Drug (brand name),DrugId,Sponsor,Properties,Target,TA,DiseaseId_old,Indication,Indication_EFO,DiseaseId,Year
+Vericiguat,CHEMBL4066936,Merck & Co./Bayer,sGC stimulator,,Cardiovascular,EFO_0001645,Chronic heart failure,coronary artery disease,EFO_0001645,2021
+Cabotegravir; rilpivirine,CHEMBL2403238,ViiV,INSTI and an NNRTI,,Infectious,EFO_0000180,HIV-1 infection,NA,NA,2021
+Voclosporin ,CHEMBL2218919,Aurinia,Calcineurin inhibitor,ABCB1,Nephrology,EFO_0002690,Lupus nephritis,lupus nephritis,EFO_0005761,2021
+Tepotinib ,CHEMBL3402762,EMD Serono,MET kinase inhibitor,,Oncology,EFO_0003060,NSCLC,non-small cell lung carcinoma,EFO_0003060,2021
+Umbralisib ,CHEMBL3948730,TG Therapeutics,PI3Kdelta and CK1epsilon inhibitor,,Oncology,EFO_1000630,"MZL, follicular lymphoma",MZL; follicular lymphoma,EFO_1000630; MONDO_0018906,2021
+Evinacumab ,CHEMBL3545191,Regeneron,ANGPTL3-targeted mAb,ANGPTL3,Metabolic,Orphanet_391665,HoFH,homozygous familial hypercholesterolemia,MONDO_0018328,2021
+Trilaciclib ,CHEMBL3894860,G1 Therapeutics,CDK4 and CDK6 kinase inhibitor,,Oncology,EFO_0000702,Chemotherapy-induced myelosuppression,myelosuppression; small cell lung carcinoma,EFO_0007053; EFO_0000702,2021
+Casimersen,CHEMBL4297566,Sarepta,Exon 45-skipping ASO,CYP3A4,Other,Orphanet_98896,DMD,Duchenne muscular dystrophy,MONDO_0010679,2021
+Fosdenopterin,CHEMBL2338675,BridgeBio,cPMP,MOCS2,Other,Orphanet_308386,MoCD type A,sulfite oxidase deficiency due to molybdenum cofactor deficiency,MONDO_0020480,2021
+Melphalan flufenamide,CHEMBL4303060,Oncopeptides,Peptide-conjugated alkylating drug,,Oncology,EFO_0001378,Multiple myeloma,multiple myeloma,EFO_0001378,2021
+Dexmethylphenidate; serdexmethylphenidate,CHEMBL827; CHEMBL4301162,Commave Therapeutics,CNS stimulant,,Psychiatric,EFO_0003888,ADHD,attention deficit hyperactivity disorder,EFO_0003888,2021
+Tivozanib,CHEMBL1289494,Aveo,VEGFR kinase inhibitor,,Oncology,EFO_0000681,Renal cell carcinoma,renal cell carcinoma,EFO_0000681,2021
+Ponesimod,CHEMBL1096146,J&J,S1P receptor modulator,,Other,EFO_0003885,Relapsing multiple sclerosis,multiple sclerosis,MONDO_0005301,2021
+Dasiglucagon,CHEMBL4297741,Zealand Pharma,Glucagon receptor agonist,GCGR,Metabolic,EFO_0001360,Severe hypoglycaemia,Hypoglycemia,HP_0001943,2021
+Viloxazine,CHEMBL306700,Supernus,SNRI,,Psychiatric,EFO_0003888,ADHD,attention deficit hyperactivity disorder,EFO_0003888,2021
+Drospirenone; estetrol,CHEMBL1509; CHEMBL1230314,Mayne Pharma,Spironolactone and oestrogen analogues,,Reproductive,NA,To prevent pregnancy,NA,NA,2021
+Dostarlimab,CHEMBL4298124,GlaxoSmithKline,PD1-targeted mAb,,Oncology,MONDO_0011962,Endometrial cancer,endometrial cancer,MONDO_0011962,2021
+Loncastuximab tesirine ,CHEMBL4297778,ADC Therapeutics,CD19-targeted ADC,,Oncology,EFO_0000403,B-cell lymphoma,B-cell non-Hodgkins lymphoma,EFO_1001938,2021
+Pegcetacoplan,CHEMBL4298211,Apellis,Complement protein C3 inhibitor,C3,Other,Orphanet_447,PNH,paroxysmal nocturnal hemoglobinuria,MONDO_0100244,2021
+Amivantamab,CHEMBL4297774,J&J,EGFRxMETR bispecific antibody,,Oncology,EFO_0003060,EGFR exon 20-mutated NSCLC,non-small cell lung carcinoma,EFO_0003060,2021
+Piflufolastat F-18,NA,Progenics,Radiolabelled PSMA imaging agent,,Imaging,NA,Prostate cancer imaging,NA,NA,2021
+Infigratinib,CHEMBL1852688,BridgeBio,FGFR2 kinase inhibitor,FGFR,Oncology,EFO_0005540,FGFR2-mutated bile duct cancer,bile duct cancer,MONDO_0003059,2021
+Sotorasib,CHEMBL4535757,Amgen,KRAS-G12C inhibitor,,Oncology,EFO_0003060,KRASG12C-mutated NSCLC,non-small cell lung carcinoma,EFO_0003060,2021
+Olanzapine; samidorphan,CHEMBL715; CHEMBL426084,Alkermes,Atypical antipsychotic and opioid antagonist,,Psychiatric,EFO_0000692,Schizophrenia and bipolar I disorder,Schizophrenia; bipolar I disorder,MONDO_0005090; EFO_0009963,2021
+Ibrexafungerp,CHEMBL4297513,Scynexis,Triterpenoid antifungal,,Infectious,EFO_0007543,Vulvovaginal candidiasis,NA,NA,2021
+Aducanumab,CHEMBL3039540,Biogen/Eisai,Amyloid-beta-targeted mAb,,Other,EFO_0000249,Alzheimers disease,Alzheimers disease,MONDO_0004975,2021
+Asparaginase erwinia chrysanthemi,CHEMBL1863514,Jazz,Recombinant asparagine-specific enzyme,,Oncology,EFO_0000220,"ALL and LBL, in patients allergic to E. coli-derived products",acute lymphoblastic leukemia; lymphoblastic lymphoma,EFO_0000220; MONDO_0000873,2021
+Finerenone,CHEMBL2181927,Bayer,Non-steroidal MR antagonist,NR3C2,Other,EFO_0000401,CKD with type 2 diabetes,chronic kidney disease; type 2 diabetes mellitus,EFO_0003884; MONDO_0005148,2021
+Fexinidazole,CHEMBL1631694,Sanofi/DNDi,Nitroimidazole antimicrobial,,Infectious,DOID_10113,Sleeping sickness,NA,NA,2021
+Belumosudil,CHEMBL4594302,Kadmon,ROCK2 kinase inhibitor,ROCK2,Other,MONDO_0013730,Chronic GVHD,graft versus host disease,MONDO_0013730,2021
+Odevixibat,CHEMBL4297588,Albireo,IBAT inhibitor,SLC10A2,Other,Orphanet_172,Pruritus in PFIC,familial intrahepatic cholestasis,MONDO_0017290,2021
+Anifrolumab,CHEMBL2364653,AstraZeneca,IFNAR-targeted mAb,IFNAR1,Other,EFO_0002690,SLE,systemic lupus erythematosus,MONDO_0007915,2021
+Avalglucosidase alfa,CHEMBL4594320,Sanofi,Recombinant alpha-glucosidase,,Other,Orphanet_365,Pompe disease,glycogen storage disease II,MONDO_0009290,2021
+Belzutifan,CHEMBL4585668,Merck & Co.,HIF-2alpha inhibitor,,Oncology,Orphanet_892,von Hippel-Lindau disease,von Hippel-Lindau disease,MONDO_0008667,2021
+Difelikefalin,CHEMBL3989915,Cara Therapeutics,kappa-Opioid receptor agonist,,Other,EFO_0003884,Pruritus associated with CKD,chronic kidney disease,EFO_0003884,2021
+Lonapegsomatropin,CHEMBL4298185,Ascendis Pharma,PEGylated human growth hormone,,Other,HP_0001510,Growth failure due to GHD,Growth delay,HP_0001510,2021
+Mobocertinib,CHEMBL4650319,Takeda,EGFR kinase inhibitor,,Oncology,EFO_0003060,EGFR exon 20-mutated NSCLC,non-small cell lung carcinoma,EFO_0003060,2021
+Tisotumab vedotin,CHEMBL4297841,Seagen/Genmab,Tissue-factor-directed ADC,,Oncology,MONDO_0002974,Cervical cancer,cervical cancer,MONDO_0002974,2021
+Atogepant,CHEMBL3991065,AbbVie,CGRP receptor antagonist,,Other,EFO_0003821,Episodic migraine,migraine disorder,MONDO_0005277,2021
+Maralixibat,CHEMBL363392,Mirum,IBAT inhibitor,,Other,Orphanet_52,Pruritus in Alagille syndrome,Alagille syndrome,MONDO_0007318,2021
+Avacopan,CHEMBL3989871,ChemoCentryx,Complement 5a receptor antagonist,C5AR1,Cardiovascular,EFO_0004826,ANCA-associated vasculitis,Anti-neutrophil cytoplasmic antibody-associated vasculitis,MONDO_0015492,2021
+Asciminib,CHEMBL4208229,Novartis,ABL/BCR-ABL1  kinase inhibitor,,Oncology,EFO_0000339,Ph+ CML,Blast Phase Chronic Myelogenous Leukemia; BCR-ABL1 Positive,EFO_1000131,2021
+Ropeginterferon alfa-2b,CHEMBL4297819,Pharmaessentia,PEGylated interferon alpha-2b,,Oncology,EFO_0002429,Polycythaemia vera,polycythemia vera,EFO_0002429,2021
+Vosoritide,CHEMBL3707276,Biomarin,CNP analogue,,Other,Orphanet_15,Achondroplasia,achondroplasia,MONDO_0007037,2021
+Maribavir,CHEMBL515408,Takeda,CMV pUL97 kinase inhibitor,,Infectious,EFO_0001062,Post-transplant CMV infection,NA,NA,2021
+Pafolacianine,CHEMBL4297412,On Target Labs,Fluorescent FR imaging agent,,Imaging,MONDO_0008170,Ovarian cancer imaging,NA,NA,2021
+Efgartigimod alfa,CHEMBL4297551,Argenx,FcRn-binding Fc fragment,,Other,EFO_0004991,Myasthenia gravis,Myasthenia gravis,EFO_0004991,2021
+Tezepelumab,CHEMBL3707229,Astrazeneca/Amgen,TSLP-targeted mAb,,Respiratory,EFO_0000270,Severe asthma,asthma,MONDO_0004979,2021
+Inclisiran,CHEMBL3990033,Novartis/Alnylam,PCSK9-targeted siRNA,,Cardiovascular,MONDO_0021661,HeFH or ASCVD,coronary atherosclerosis,MONDO_0021661,2021
+Tralokinumab,CHEMBL1743081,LEO Pharma,IL-13-targeted mAb,,Dermatology,EFO_0000274,Atopic dermatitis,atopic eczema,Atopic dermatitis,2021
