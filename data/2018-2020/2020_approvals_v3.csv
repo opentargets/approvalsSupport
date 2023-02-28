@@ -1,0 +1,57 @@
+﻿,Drug_brand_name,DrugId,Brand_name,Sponsor,Properties,Indication,Indication_EFO,DiseaseId,TA,Year
+1,AVAPRITINIB,CHEMBL4204794,Ayvakit,Blueprint Medicines,"PDGFRA, PDGFRA mutants and KIT kinase inhibitor",GIST with PDGFRA exon 18 mutations,gastrointestinal stromal tumor,MONDO_0011719,Oncology,2020
+2,TEPROTUMUMAB,CHEMBL1743079,Tepezza,Horizon Therapeutics,IGF1R-directed mAb,Thyroid eye disease,Graves disease,EFO_0004237,Ophthalmology,2020
+3,TAZEMETOSTAT,CHEMBL3414621,Tazverik,Epizyme,EZH2 inhibitor,Epithelioid sarcoma,epithelioid sarcoma,MONDO_0017387,Oncology,2020
+4,LACTITOL,CHEMBL1661,Pizensy,Braintree Labs,Osmotic laxative,Chronic idiopathic constipation,Chronic constipation,HP_0012450,Other,2020
+5,EPTINEZUMAB,CHEMBL3833320,Vyepti,Lundbeck,CGRP-directed mAb,Migraine,migraine disorder,MONDO_0005277,Other,2020
+6,BEMPEDOIC ACID,CHEMBL3545313,Nexletol,Esperion Therapeutics,ACL inhibitor,HeFH or atherosclerotic cardiovascular disease,atherosclerosis; familial hypercholesterolemia,EFO_0003914; EFO_0004911,Cardiovascular,2020
+7,AMISULPRIDE,CHEMBL243712,Barhemsys,Acacia,Dopamine receptors D2 & D3 antagonist,Nausea and vomiting after surgery,Nausea and vomiting,HP_0002017,Other,2020
+8,RIMEGEPANT,CHEMBL2178422,Nurtec ODT,Biohaven,CGRP receptor antagonist,Migraine,migraine disorder,MONDO_0005277,Other,2020
+9,ISATUXIMAB,CHEMBL3545131,Sarclisa,Sanofi,CD38-directed mAb,Multiple myeloma,multiple myeloma,EFO_0001378,Oncology,2020
+10,OSILODROSTAT,CHEMBL3099695,Isturisa,Recordati Rare Diseases,Cortisol synthesis inhibitor,Cushing disease,Cushing syndrome,EFO_0003099,Endocrine,2020
+11,OZANIMOD,CHEMBL3707247,Zeposia,Celgene/Bristol Myers Squibb,S1P receptor modulator,Multiple sclerosis,multiple sclerosis,MONDO_0005301,Other,2020
+12,SELUMETINIB,CHEMBL1614701,Koselugo,AstraZeneca,MEK1/2 kinase inhibitor,Neurofibromatosis type 1,neurofibromatosis type 1,MONDO_0018975,Other,2020
+13,TUCATINIB,CHEMBL3989868,Tukysa,Seagen,HER2 kinase inhibitor,HER2-positive breast cancer,HER2 Positive Breast Carcinoma,EFO_1000294,Oncology,2020
+14,PEMIGATINIB,CHEMBL4297522,Pemazyre,Incyte,FGFR1-3 kinase inhibitor,Cholangiocarcinoma,cholangiocarcinoma,EFO_0005221,Oncology,2020
+15,SACITUZUMAB GOVITECAN,CHEMBL3545262,Trodelvy,Immunomedics/Gilead,"TROP2-directed ADC, with topoisomerase inhibitor",Triple-negative breast cancer (and advanced or metastatic urothelial cancer (mUC)*),triple-negative breast cancer; urothelial carcinoma,EFO_0005537; EFO_0008528,Oncology,2020
+16,OPICAPONE,CHEMBL1089318,Ongentys,Neurocrine,COMT inhibitor,Parkinson disease,parkinson disease,MONDO_0005180,Neurological,2020
+17,CAPMATINIB,CHEMBL3188267,Tabrecta,Novartis,MET kinase inhibitor,NSCLC,non-small cell lung carcinoma,EFO_0003060,Oncology,2020
+18,SELPERCATINIB,CHEMBL4559134,Retevmo,Eli Lilly/Loxo Oncology,RET kinase inhibitor,RET fusion-positive NSCLC and thyroid cancer,diffuse large b-cell lymphoma,EFO_0000403,Oncology,2020
+19,RIPRETINIB,CHEMBL4216467,Qinlock,Deciphera,KIT and PDGFRA kinase inhibitor,GIST,gastrointestinal stromal tumor,MONDO_0011719,Oncology,2020
+20,FLUOROESTRADIOL F-18,CHEMBL4594261,NA,Zionexa,Radioactive diagnostic,"Imaging, breast cancer",NA,NA,Imaging,2020
+21,ARTESUNATE,CHEMBL361497,Artesunate,Amivas,Artemisinin antimalarial,Severe malaria,malaria,EFO_0001068,Infectious,2020
+22,FLORTAUCIPIR F-18,CHEMBL3545253,NA,Eli Lilly,Radioactive diagnostic,"Imaging, tau in Alzheimer disease",NA,NA,Imaging,2020
+23,INEBILIZUMAB,CHEMBL2109334,Uplizna,Viela Bio,CD19-directed mAb,NMOSD,neuromyelitis optica,EFO_0004256,Neurological,2020
+24,LURBINECTEDIN,CHEMBL4297516,Zepzelca,Jazz,Alkylating drug,Small-cell lung cancer,small cell lung carcinoma,EFO_0000702,Oncology,2020
+25,TRIHEPTANOIN,CHEMBL4297585,Dojolvi,Ultragenyx,Medium-chain triglyceride,LC-FAODs,inherited fatty acid metabolism disorder,MONDO_0037858,Metabolic,2020
+26,FOSTEMSAVIR,CHEMBL3301594,Rukobia,ViiV Healthcare,Attachment inhibitor,HIV,hiv infection,EFO_0000764,Infectious,2020
+27,REMIMAZOLAM,CHEMBL4297526,Byfavo,Acacia,Benzodiazepine,Procedural sedation,sedation,EFO_0009868,Other,2020
+28,CEDAZURIDINE,CHEMBL3237547,Inqovi,Otsuka,Cytidine deaminase inhibitor; nucleoside metabolic inhibitor,Myelodysplastic syndromes,myelodysplastic syndrome,EFO_0000198,Hematology,2020
+29,DECITABINE,CHEMBL1201129,Inqovi,Otsuka,Cytidine deaminase inhibitor; nucleoside metabolic inhibitor,Myelodysplastic syndromes,myelodysplastic syndrome,EFO_0000198,Hematology,2020
+30,ABAMETAPIR,CHEMBL2205807,Xeglyze,Dr Reddy‚Äö√Ñ√¥s,Metalloproteinase inhibitor,Head lice,lice infestation,MONDO_0003472,Dermatology,2020
+31,TAFASITAMAB,CHEMBL4298047,Monjuvi,MorphoSys,CD19-directed mAb,DLBCL,diffuse large b-cell lymphoma,EFO_0000403,Oncology,2020
+32,BELANTAMAB MAFODOTIN,CHEMBL4298209,Blenrep,GlaxoSmithKline,"BCMA-directed ADC, with microtubule inhibitor",Multiple myeloma,multiple myeloma,EFO_0001378,Oncology,2020
+33,NIFURTIMOX,CHEMBL290960,Lampit,Bayer,Nitrofuran antiprotozoal,Chagas disease,chagas disease,MONDO_0001444,Infectious,2020
+34,OLICERIDINE,CHEMBL2443262,Olinvyk,Trevena,Opioid receptor agonist,Acute pain,pain,EFO_0003843,Other,2020
+35,RISDIPLAM,CHEMBL4297528,Evrysdi,Roche/Genentech,SMN2 splicing modifier,Spinal muscular atrophy,spinal muscular atrophy,EFO_0008525,Neurological,2020
+36,VILTOLARSEN,CHEMBL4298062,Viltepso,Nippon Shinyaku,Dystrophin splicing modifier,Duchenne muscular dystrophy,duchenne muscular dystrophy,MONDO_0010679,Neurological,2020
+37,SATRALIZUMAB,CHEMBL3833307,Enspryng,Roche/Genentech,IL-6R-directed mAb,NMOSD,neuromyelitis optica,EFO_0004256,Neurology,2020
+38,CLASCOTERONE,CHEMBL3590187,Winlevi,Cassiopea SpA,Androgen receptor inhibitor,Acne vulgaris,acne,EFO_0003894,Dermatology,2020
+39,SOMAPACITAN,CHEMBL3707290,Sogroya,Novo Nordisk,Growth hormone analogue,Growth hormone deficiency,short stature due to partial GHR deficiency,MONDO_0011420,Endocrine,2020
+40,COPPER DOTATATE CU-64,CHEMBL4297339,NA,Radiomedix,Radioactive diagnostic,"Imaging, cancer",NA,NA,Imaging,2020
+41,PRALSETINIB,CHEMBL4582651,Gavreto,Blueprint Medicines/Roche,RET kinase inhibitor,RET fusion-positive NSCLC,non-small cell lung carcinoma,EFO_0003060,Oncology,2020
+42,ATOLTIVIMAB,CHEMBL4298183,Inmazeb,Regeneron,Cocktail of Ebola glycoprotein-directed mAbs,Ebola virus,Ebola hemorrhagic fever,EFO_0007243,Infectious,2020
+43,ODESIVIMAB,CHEMBL4298188,Inmazeb,Regeneron,Cocktail of Ebola glycoprotein-directed mAbs,Ebola virus,Ebola hemorrhagic fever,EFO_0007243,Infectious,2020
+44,MAFTIVIMAB,CHEMBL4298184,Inmazeb,Regeneron,Cocktail of Ebola glycoprotein-directed mAbs,Ebola virus,Ebola hemorrhagic fever,EFO_0007243,Infectious,2020
+45,REMDESIVIR,CHEMBL4065616,Veklury,Gilead,Nucleotide analogue RNA polymerase inhibitor,COVID-19,covid-19,MONDO_0100096,Infectious,2020
+46,LONAFARNIB,CHEMBL298734,Zokinvy,Eiger,Farnesyltransferase inhibitor,HGPS,hutchinson-gilford progeria syndrome,MONDO_0008310,Other,2020
+47,LUMASIRAN,CHEMBL4297779,Oxlumo,Alnylam,HAO1-directed siRNA,Hyperoxaluria type 1,primary hyperoxaluria type 1,MONDO_0009823,Nephrology,2020
+48,NAXITAMAB,CHEMBL4297984,Danyelza,Y-mAbs Therapeutics,GD2-directed mAb,High-risk neuroblastoma,neuroblastoma,EFO_0000621,Oncology,2020
+49,SETMELANOTIDE,CHEMBL3301624,Imcivree,Rhythm,MC4¬¨‚Ä†receptor agonist,Rare genetic diseases of obesity,Bardet-Biedl syndrome,MONDO_0015229,Other,2020
+50,PSMA-11 GA-68,CHEMBL4297335,NA,UCLA,Radioactive diagnostic,"Imaging, prostate cancer",NA,NA,Imaging,2020
+51,BEROTRALSTAT,CHEMBL4594271,Orladeyo,BioCryst,Plasma kallikrein inhibitor,Hereditary angioedema,hereditary angioedema,MONDO_0019623,Immunology,2020
+52,TIRBANIBULIN,CHEMBL571546,Klisyri,Athenex,Microtubule inhibitor,Actinic keratosis,actinic keratosis,EFO_0002496,Dermatology,2020
+53,MARGETUXIMAB,CHEMBL2364649,Margenza,MacroGenics,HER2-directed mAb,HER2-positive breast cancer,HER2 Positive Breast Carcinoma,EFO_1000294,Oncology,2020
+54,RELUGOLIX,CHEMBL1800159,Orgovyx,Myovant Sciences,GnRH receptor antagonist,Prostate cancer,prostate cancer,MONDO_0008315,Oncology,2020
+55,ANSUVIMAB,CHEMBL4594388,Ebanga,Ridgeback,Ebola glycoprotein-directed mAb,Ebola virus,Ebola hemorrhagic fever,EFO_0007243,Infectious,2020
+56,VIBEGRON,CHEMBL2107826,Gemtesa,Urovant Sciences,Beta-3 adrenergic receptor agonist,Overactive bladder,overactive bladder,EFO_1000781,Other,2020

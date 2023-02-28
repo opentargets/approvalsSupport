@@ -3,7 +3,7 @@ library("ggsci")
 library(forcats)
 
 
-data2plot <- read_csv("./output/approvals_support.csv")
+data2plot <- read_csv("./output/2023_approvals_v2.csv")
 
 data2plot <- data2plot %>% filter(Year == 2023)
 
@@ -96,8 +96,8 @@ output <- data2plot %>%
     )
 
 ggsave(
-    "./output/2023_approvals_new.pdf",
+    "./output/2023_approvals_v2.pdf",
     plot = output,
-    width = 9,
-    height = 7
+    width = 7,
+    height = 6
 )

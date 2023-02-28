@@ -12,7 +12,7 @@ Melphalan flufenamide,CHEMBL4303060,Oncopeptides,Peptide-conjugated alkylating d
 Dexmethylphenidate; serdexmethylphenidate,CHEMBL827; CHEMBL4301162,Commave Therapeutics,CNS stimulant,,Psychiatric,EFO_0003888,ADHD,attention deficit hyperactivity disorder,EFO_0003888,2021
 Tivozanib,CHEMBL1289494,Aveo,VEGFR kinase inhibitor,,Oncology,EFO_0000681,Renal cell carcinoma,renal cell carcinoma,EFO_0000681,2021
 Ponesimod,CHEMBL1096146,J&J,S1P receptor modulator,,Other,EFO_0003885,Relapsing multiple sclerosis,multiple sclerosis,MONDO_0005301,2021
-Dasiglucagon,CHEMBL4297741,Zealand Pharma,Glucagon receptor agonist,GCGR,Metabolic,EFO_0001360,Severe hypoglycaemia,Hypoglycemia,HP_0001943,2021
+Dasiglucagon,CHEMBL4297741,Zealand Pharma,Glucagon receptor agonist,GCGR,Metabolic,EFO_0001360,Severe hypoglycaemia,GCGR-related hyperglucagonemia,EFO_0001360,2021
 Viloxazine,CHEMBL306700,Supernus,SNRI,,Psychiatric,EFO_0003888,ADHD,attention deficit hyperactivity disorder,EFO_0003888,2021
 Drospirenone; estetrol,CHEMBL1509; CHEMBL1230314,Mayne Pharma,Spironolactone and oestrogen analogues,,Reproductive,NA,To prevent pregnancy,NA,NA,2021
 Dostarlimab,CHEMBL4298124,GlaxoSmithKline,PD1-targeted mAb,,Oncology,MONDO_0011962,Endometrial cancer,endometrial cancer,MONDO_0011962,2021
@@ -26,7 +26,7 @@ Olanzapine; samidorphan,CHEMBL715; CHEMBL426084,Alkermes,Atypical antipsychotic 
 Ibrexafungerp,CHEMBL4297513,Scynexis,Triterpenoid antifungal,,Infectious,EFO_0007543,Vulvovaginal candidiasis,NA,NA,2021
 Aducanumab,CHEMBL3039540,Biogen/Eisai,Amyloid-beta-targeted mAb,,Other,EFO_0000249,Alzheimers disease,Alzheimers disease,MONDO_0004975,2021
 Asparaginase erwinia chrysanthemi,CHEMBL1863514,Jazz,Recombinant asparagine-specific enzyme,,Oncology,EFO_0000220,"ALL and LBL, in patients allergic to E. coli-derived products",acute lymphoblastic leukemia; lymphoblastic lymphoma,EFO_0000220; MONDO_0000873,2021
-Finerenone,CHEMBL2181927,Bayer,Non-steroidal MR antagonist,NR3C2,Other,EFO_0000401,CKD with type 2 diabetes,chronic kidney disease; type 2 diabetes mellitus,EFO_0003884; MONDO_0005148,2021
+Finerenone,CHEMBL2181927,Bayer,Non-steroidal MR antagonist,NR3C2,Other,EFO_0000401,CKD with type 2 diabetes,chronic kidney disease,EFO_0003884,2021
 Fexinidazole,CHEMBL1631694,Sanofi/DNDi,Nitroimidazole antimicrobial,,Infectious,DOID_10113,Sleeping sickness,NA,NA,2021
 Belumosudil,CHEMBL4594302,Kadmon,ROCK2 kinase inhibitor,ROCK2,Other,MONDO_0013730,Chronic GVHD,graft versus host disease,MONDO_0013730,2021
 Odevixibat,CHEMBL4297588,Albireo,IBAT inhibitor,SLC10A2,Other,Orphanet_172,Pruritus in PFIC,familial intrahepatic cholestasis,MONDO_0017290,2021
@@ -48,4 +48,4 @@ Pafolacianine,CHEMBL4297412,On Target Labs,Fluorescent FR imaging agent,,Imaging
 Efgartigimod alfa,CHEMBL4297551,Argenx,FcRn-binding Fc fragment,,Other,EFO_0004991,Myasthenia gravis,Myasthenia gravis,EFO_0004991,2021
 Tezepelumab,CHEMBL3707229,Astrazeneca/Amgen,TSLP-targeted mAb,,Respiratory,EFO_0000270,Severe asthma,asthma,MONDO_0004979,2021
 Inclisiran,CHEMBL3990033,Novartis/Alnylam,PCSK9-targeted siRNA,,Cardiovascular,MONDO_0021661,HeFH or ASCVD,coronary atherosclerosis,MONDO_0021661,2021
-Tralokinumab,CHEMBL1743081,LEO Pharma,IL-13-targeted mAb,,Dermatology,EFO_0000274,Atopic dermatitis,atopic eczema,Atopic dermatitis,2021
+Tralokinumab,CHEMBL1743081,LEO Pharma,IL-13-targeted mAb,,Dermatology,EFO_0000274,Atopic dermatitis,atopic eczema,EFO_0000274,2021

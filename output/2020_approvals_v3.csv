@@ -1,0 +1,813 @@
+"datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
+"cancer_biomarkers","VIBEGRON","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","REMDESIVIR","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","OLICERIDINE","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","NAXITAMAB","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","LUMASIRAN","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","LONAFARNIB","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","LACTITOL","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","ARTESUNATE","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","OZANIMOD","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","SELUMETINIB","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","OPICAPONE","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","RELUGOLIX","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","TUCATINIB","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","BELANTAMAB MAFODOTIN","Oncology",FALSE,TRUE,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","PEMIGATINIB","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","DECITABINE","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","CAPMATINIB","Oncology",FALSE,TRUE,TRUE,0.919067987742997,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","PRALSETINIB","Oncology",FALSE,TRUE,TRUE,0.906661236771331,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","SOMAPACITAN","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","RISDIPLAM","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","VILTOLARSEN","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","RIPRETINIB","Oncology",FALSE,TRUE,TRUE,0.971735321876137,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_biomarkers","AVAPRITINIB","Oncology",FALSE,TRUE,TRUE,0.971735321876137,"Cancer Biomarkers (CGI)","Somatic",2020
+"cancer_gene_census","VIBEGRON","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","REMDESIVIR","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","OLICERIDINE","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","NAXITAMAB","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","LUMASIRAN","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","LONAFARNIB","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","LACTITOL","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","ARTESUNATE","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","TIRBANIBULIN","Other indication",FALSE,TRUE,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","OZANIMOD","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","TAZEMETOSTAT","Oncology",FALSE,NA,TRUE,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","SELUMETINIB","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","OPICAPONE","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","RELUGOLIX","Oncology",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","SACITUZUMAB GOVITECAN","Oncology",FALSE,TRUE,TRUE,0.379956748507263,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","SACITUZUMAB GOVITECAN","Oncology",FALSE,TRUE,TRUE,0.379956748507263,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","TUCATINIB","Oncology",FALSE,TRUE,TRUE,0.455948098208716,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","MARGETUXIMAB","Oncology",FALSE,TRUE,TRUE,0.455948098208716,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","BELANTAMAB MAFODOTIN","Oncology",FALSE,TRUE,TRUE,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","SELPERCATINIB","Oncology",FALSE,TRUE,TRUE,0.455948098208716,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","DECITABINE","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","CAPMATINIB","Oncology",FALSE,TRUE,TRUE,0.88402882441722,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","PRALSETINIB","Oncology",FALSE,TRUE,TRUE,0.912789439408395,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","SOMAPACITAN","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","RISDIPLAM","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","VILTOLARSEN","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","RIPRETINIB","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"CGC (COSMIC)","Somatic",2020
+"cancer_gene_census","AVAPRITINIB","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"CGC (COSMIC)","Somatic",2020
+"clingen","VIBEGRON","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","REMDESIVIR","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","OLICERIDINE","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","NAXITAMAB","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","LUMASIRAN","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","LONAFARNIB","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","LACTITOL","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","ARTESUNATE","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2020
+"clingen","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","OZANIMOD","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","SELUMETINIB","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","OPICAPONE","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","RELUGOLIX","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","TUCATINIB","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","BELANTAMAB MAFODOTIN","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","DECITABINE","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","CAPMATINIB","Oncology",FALSE,TRUE,NA,0,"Clingen","Rare mendelian",2020
+"clingen","PRALSETINIB","Oncology",FALSE,TRUE,NA,0,"Clingen","Rare mendelian",2020
+"clingen","SOMAPACITAN","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","RISDIPLAM","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","VILTOLARSEN","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2020
+"clingen","RIPRETINIB","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"Clingen","Rare mendelian",2020
+"clingen","AVAPRITINIB","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"Clingen","Rare mendelian",2020
+"eva","VIBEGRON","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","REMDESIVIR","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","OLICERIDINE","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","NAXITAMAB","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","LUMASIRAN","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","LONAFARNIB","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","LACTITOL","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","ARTESUNATE","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2020
+"eva","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","OZANIMOD","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","SELUMETINIB","Other indication",FALSE,NA,TRUE,0,"ClinVar","Rare mendelian",2020
+"eva","OPICAPONE","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","RELUGOLIX","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","TUCATINIB","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","BELANTAMAB MAFODOTIN","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","DECITABINE","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2020
+"eva","CAPMATINIB","Oncology",FALSE,TRUE,NA,0,"ClinVar","Rare mendelian",2020
+"eva","PRALSETINIB","Oncology",FALSE,TRUE,NA,0,"ClinVar","Rare mendelian",2020
+"eva","SOMAPACITAN","Other indication",FALSE,TRUE,TRUE,0.821783459049014,"ClinVar","Rare mendelian",2020
+"eva","RISDIPLAM","Other indication",FALSE,TRUE,TRUE,0.503569344021626,"ClinVar","Rare mendelian",2020
+"eva","VILTOLARSEN","Other indication",FALSE,TRUE,TRUE,0.949334027862068,"ClinVar","Rare mendelian",2020
+"eva","RIPRETINIB","Oncology",FALSE,TRUE,TRUE,0.908678851471089,"ClinVar","Rare mendelian",2020
+"eva","AVAPRITINIB","Oncology",FALSE,TRUE,TRUE,0.908678851471089,"ClinVar","Rare mendelian",2020
+"eva_somatic","VIBEGRON","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","REMDESIVIR","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","OLICERIDINE","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","NAXITAMAB","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","LUMASIRAN","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","LONAFARNIB","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","LACTITOL","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","ARTESUNATE","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","OZANIMOD","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","SELUMETINIB","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","OPICAPONE","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","RELUGOLIX","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","TUCATINIB","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","BELANTAMAB MAFODOTIN","Oncology",FALSE,TRUE,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","DECITABINE","Other indication",FALSE,TRUE,TRUE,0.579222954391072,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","CAPMATINIB","Oncology",FALSE,TRUE,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","PRALSETINIB","Oncology",FALSE,TRUE,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","SOMAPACITAN","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","RISDIPLAM","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","VILTOLARSEN","Other indication",FALSE,TRUE,TRUE,0.622841989119706,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","RIPRETINIB","Oncology",FALSE,TRUE,TRUE,0.880343776053873,"ClinVar (Somatic)","Somatic",2020
+"eva_somatic","AVAPRITINIB","Oncology",FALSE,TRUE,TRUE,0.880343776053873,"ClinVar (Somatic)","Somatic",2020
+"gene2phenotype","VIBEGRON","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","REMDESIVIR","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","OLICERIDINE","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","NAXITAMAB","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","LUMASIRAN","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","LONAFARNIB","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","LACTITOL","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","ARTESUNATE","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","OZANIMOD","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","SELUMETINIB","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","OPICAPONE","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","RELUGOLIX","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","TUCATINIB","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","BELANTAMAB MAFODOTIN","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","DECITABINE","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","CAPMATINIB","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","PRALSETINIB","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","SOMAPACITAN","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","RISDIPLAM","Other indication",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","VILTOLARSEN","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","RIPRETINIB","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"gene2phenotype","AVAPRITINIB","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2020
+"genomics_england","VIBEGRON","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","REMDESIVIR","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","OLICERIDINE","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","NAXITAMAB","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","LUMASIRAN","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","LONAFARNIB","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","LACTITOL","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","ARTESUNATE","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","OZANIMOD","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","SELUMETINIB","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","OPICAPONE","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","RELUGOLIX","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","TUCATINIB","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","BELANTAMAB MAFODOTIN","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","DECITABINE","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","CAPMATINIB","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","PRALSETINIB","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","SOMAPACITAN","Other indication",FALSE,TRUE,TRUE,0.889774270171009,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","RISDIPLAM","Other indication",FALSE,TRUE,NA,0,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","VILTOLARSEN","Other indication",FALSE,TRUE,TRUE,0.928566906455679,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","RIPRETINIB","Oncology",FALSE,TRUE,TRUE,0.892262513004771,"GEL PanelApp","Rare mendelian",2020
+"genomics_england","AVAPRITINIB","Oncology",FALSE,TRUE,TRUE,0.892262513004771,"GEL PanelApp","Rare mendelian",2020
+"impc","VIBEGRON","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","REMDESIVIR","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","OLICERIDINE","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","NAXITAMAB","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","LUMASIRAN","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","LONAFARNIB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","LACTITOL","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","ARTESUNATE","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","OZANIMOD","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","CEDAZURIDINE","Other indication",FALSE,TRUE,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","TAFASITAMAB","Oncology",FALSE,NA,TRUE,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","ISATUXIMAB","Oncology",FALSE,NA,TRUE,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SELUMETINIB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","OPICAPONE","Other indication",FALSE,TRUE,TRUE,0.278918649944212,"Mouse model (IMPC)","Mouse model",2020
+"impc","RELUGOLIX","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","OSILODROSTAT","Other indication",FALSE,TRUE,TRUE,0.401952022504184,"Mouse model (IMPC)","Mouse model",2020
+"impc","TUCATINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","BELANTAMAB MAFODOTIN","Oncology",FALSE,TRUE,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","EPTINEZUMAB","Other indication",FALSE,TRUE,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SETMELANOTIDE","Other indication",FALSE,TRUE,TRUE,0.822078857955147,"Mouse model (IMPC)","Mouse model",2020
+"impc","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","DECITABINE","Other indication",FALSE,TRUE,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","CAPMATINIB","Oncology",FALSE,TRUE,TRUE,0.346642140798146,"Mouse model (IMPC)","Mouse model",2020
+"impc","PRALSETINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SOMAPACITAN","Other indication",FALSE,TRUE,TRUE,0.578297684234055,"Mouse model (IMPC)","Mouse model",2020
+"impc","RISDIPLAM","Other indication",FALSE,TRUE,TRUE,0.417298897750557,"Mouse model (IMPC)","Mouse model",2020
+"impc","VILTOLARSEN","Other indication",FALSE,TRUE,TRUE,0.449598080354351,"Mouse model (IMPC)","Mouse model",2020
+"impc","RIPRETINIB","Oncology",FALSE,TRUE,TRUE,0.467665136871316,"Mouse model (IMPC)","Mouse model",2020
+"impc","AVAPRITINIB","Oncology",FALSE,TRUE,TRUE,0.467665136871316,"Mouse model (IMPC)","Mouse model",2020
+"intogen","VIBEGRON","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","REMDESIVIR","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","OLICERIDINE","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","NAXITAMAB","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","LUMASIRAN","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","LONAFARNIB","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","LACTITOL","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","ARTESUNATE","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"IntOgen","Somatic",2020
+"intogen","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","OZANIMOD","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","SELUMETINIB","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","OPICAPONE","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","RELUGOLIX","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","TUCATINIB","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","BELANTAMAB MAFODOTIN","Oncology",FALSE,TRUE,NA,0,"IntOgen","Somatic",2020
+"intogen","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","SELPERCATINIB","Oncology",FALSE,TRUE,NA,0,"IntOgen","Somatic",2020
+"intogen","PEMIGATINIB","Oncology",FALSE,TRUE,TRUE,0.322779459545566,"IntOgen","Somatic",2020
+"intogen","DECITABINE","Other indication",FALSE,TRUE,TRUE,0.408089654233143,"IntOgen","Somatic",2020
+"intogen","CAPMATINIB","Oncology",FALSE,TRUE,NA,0,"IntOgen","Somatic",2020
+"intogen","PRALSETINIB","Oncology",FALSE,TRUE,TRUE,0.151982699402905,"IntOgen","Somatic",2020
+"intogen","SOMAPACITAN","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","RISDIPLAM","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","VILTOLARSEN","Other indication",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","RIPRETINIB","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"intogen","AVAPRITINIB","Oncology",FALSE,NA,NA,0,"IntOgen","Somatic",2020
+"orphanet","VIBEGRON","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","REMDESIVIR","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","OLICERIDINE","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","NAXITAMAB","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","LUMASIRAN","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","LONAFARNIB","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","LACTITOL","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","ARTESUNATE","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2020
+"orphanet","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","OZANIMOD","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","SELUMETINIB","Other indication",FALSE,NA,TRUE,0,"Orphanet","Rare mendelian",2020
+"orphanet","OPICAPONE","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","RELUGOLIX","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","TUCATINIB","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","BELANTAMAB MAFODOTIN","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","DECITABINE","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","CAPMATINIB","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","PRALSETINIB","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2020
+"orphanet","SOMAPACITAN","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"Orphanet","Rare mendelian",2020
+"orphanet","RISDIPLAM","Other indication",FALSE,TRUE,TRUE,0.865457038266544,"Orphanet","Rare mendelian",2020
+"orphanet","VILTOLARSEN","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"Orphanet","Rare mendelian",2020
+"orphanet","RIPRETINIB","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"Orphanet","Rare mendelian",2020
+"orphanet","AVAPRITINIB","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"Orphanet","Rare mendelian",2020
+"ot_genetics_portal","VIBEGRON","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","REMDESIVIR","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","OLICERIDINE","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","NAXITAMAB","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","LUMASIRAN","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","LONAFARNIB","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","LACTITOL","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","ARTESUNATE","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","RIMEGEPANT","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","OZANIMOD","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","CLASCOTERONE","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","SATRALIZUMAB","Other indication",FALSE,NA,TRUE,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","REMIMAZOLAM","Other indication",FALSE,NA,TRUE,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","SELUMETINIB","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","OPICAPONE","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","RELUGOLIX","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","TUCATINIB","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","BELANTAMAB MAFODOTIN","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","EPTINEZUMAB","Other indication",FALSE,TRUE,TRUE,0.500009659044285,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","DECITABINE","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","CAPMATINIB","Oncology",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","PRALSETINIB","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","SOMAPACITAN","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","RISDIPLAM","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","VILTOLARSEN","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","RIPRETINIB","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"ot_genetics_portal","AVAPRITINIB","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2020
+"slapenrich","VIBEGRON","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","REMDESIVIR","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","OLICERIDINE","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","NAXITAMAB","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","LUMASIRAN","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","LONAFARNIB","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","LACTITOL","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","ARTESUNATE","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","OZANIMOD","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","SELUMETINIB","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","OPICAPONE","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","RELUGOLIX","Oncology",FALSE,TRUE,TRUE,0.324256959781728,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","TUCATINIB","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","BELANTAMAB MAFODOTIN","Oncology",FALSE,TRUE,TRUE,0.415830474319022,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","DECITABINE","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","CAPMATINIB","Oncology",FALSE,TRUE,TRUE,0.957622468381807,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","PRALSETINIB","Oncology",FALSE,TRUE,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","SOMAPACITAN","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","RISDIPLAM","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","VILTOLARSEN","Other indication",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","RIPRETINIB","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"slapenrich","AVAPRITINIB","Oncology",FALSE,NA,NA,0,"SlapEnrich","Functional genomics (cancer)",2020
+"uniprot_literature","VIBEGRON","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","REMDESIVIR","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","OLICERIDINE","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","NAXITAMAB","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","LUMASIRAN","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","LONAFARNIB","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","LACTITOL","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","ARTESUNATE","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","OZANIMOD","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","SELUMETINIB","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","OPICAPONE","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","RELUGOLIX","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","TUCATINIB","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","BELANTAMAB MAFODOTIN","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","DECITABINE","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","CAPMATINIB","Oncology",FALSE,TRUE,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","PRALSETINIB","Oncology",FALSE,TRUE,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","SOMAPACITAN","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","RISDIPLAM","Other indication",FALSE,TRUE,TRUE,0.919067987742997,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","VILTOLARSEN","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","RIPRETINIB","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_literature","AVAPRITINIB","Oncology",FALSE,TRUE,TRUE,0.607930797611621,"Uniprot (gene-disease)","Rare mendelian",2020
+"uniprot_variants","VIBEGRON","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","REMDESIVIR","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","OLICERIDINE","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","NAXITAMAB","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","LUMASIRAN","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","LONAFARNIB","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","LACTITOL","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","ARTESUNATE","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","OZANIMOD","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","SELUMETINIB","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","OPICAPONE","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","RELUGOLIX","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","OSILODROSTAT","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","TUCATINIB","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","BELANTAMAB MAFODOTIN","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","DECITABINE","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","CAPMATINIB","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","PRALSETINIB","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","SOMAPACITAN","Other indication",FALSE,TRUE,TRUE,0.759913497014526,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","RISDIPLAM","Other indication",FALSE,TRUE,TRUE,0.981301991569547,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","VILTOLARSEN","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","RIPRETINIB","Oncology",FALSE,TRUE,TRUE,0.759913497014526,"Uniprot (variants)","Rare mendelian",2020
+"uniprot_variants","AVAPRITINIB","Oncology",FALSE,TRUE,TRUE,0.759913497014526,"Uniprot (variants)","Rare mendelian",2020

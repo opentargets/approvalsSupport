@@ -16,7 +16,7 @@ config$spark.hadoop.fs.gs.requester.pays.project.id <- "open-targets-eu-dev" # n
 sc <- spark_connect(master = "yarn", config = config)
 
 # Approvals as reported in NRDD article
-local_approvals <- read_csv("./data/all_approvals.csv")
+local_approvals <- read_csv("./data/2021-2023/2023_approvals_v2.csv")
 approvals_init <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
 
 # Split and explode multiple DrugId
@@ -34,7 +34,7 @@ approvals <- approvals %>%
 #     write.csv("Exploded.csv")
 
 # Datasource metadata
-local_ds_metadata <- read_csv("./data/datasourceMetadata.csv")
+local_ds_metadata <- read_csv("./data/ammend_data/datasourceMetadata.csv")
 ds_names <- sdf_copy_to(sc, local_ds_metadata, overwrite = TRUE) %>% collect()
 
 # Read Platform data
@@ -72,7 +72,7 @@ disease2phenotype_path <- paste(
 
 # Mechanisms of action
 # Extra MoAs required to fill the gaps
-new_moas <- read_csv("./data/amend_moas.csv")
+new_moas <- read_csv("./data/ammend_data/amend_moas.csv")
 new_moas <- sdf_copy_to(sc, new_moas, overwrite = TRUE)
 
 # available MoAs + ammended
@@ -117,7 +117,7 @@ interactors_ass <- approvals %>%
     mutate(interactionAssociation = TRUE)
 
 # Additional phenotype curation
-ammend_phenotypes <- read_csv("./data/amend_phenotypes.csv")
+ammend_phenotypes <- read_csv("./data/ammend_data/amend_phenotypes.csv")
 new_phenotypes <- sdf_copy_to(sc, ammend_phenotypes, overwrite = TRUE)
 
 # Platform disease to phenotype data
@@ -233,4 +233,4 @@ data2plot <- ass %>%
         ) %>%
         left_join(approvals %>% select(Drug_brand_name, Year) %>% collect(), by = "Drug_brand_name")
 
-write.table(data2plot, sep = ",", file = "./output/approvals_support.csv", row.names = FALSE)
+write.table(data2plot, sep = ",", file = "./output/2023_approvals_v2.csv", row.names = FALSE)

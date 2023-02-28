@@ -1,0 +1,58 @@
+"datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
+"impc","VILTOLARSEN","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","VIBEGRON","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","TUCATINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","TIRBANIBULIN","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","TAZEMETOSTAT","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","TAFASITAMAB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SOMAPACITAN","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SETMELANOTIDE","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SELUMETINIB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SELPERCATINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SATRALIZUMAB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","SACITUZUMAB GOVITECAN","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","RISDIPLAM","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","RIPRETINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","RIMEGEPANT","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","REMIMAZOLAM","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","REMDESIVIR","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","RELUGOLIX","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","PSMA-11 GA-68","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","PRALSETINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","PEMIGATINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","OZANIMOD","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","OPICAPONE","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","OLICERIDINE","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","ODESIVIMAB","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","NIFURTIMOX","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","NAXITAMAB","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","MARGETUXIMAB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","MAFTIVIMAB","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","LURBINECTEDIN","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","LUMASIRAN","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","LONAFARNIB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","LACTITOL","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","ISATUXIMAB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","INEBILIZUMAB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","FOSTEMSAVIR","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","FLUOROESTRADIOL F-18","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","FLORTAUCIPIR F-18","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","EPTINEZUMAB","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","DECITABINE","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","COPPER DOTATATE CU-64","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","CLASCOTERONE","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","CEDAZURIDINE","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","CAPMATINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","BEROTRALSTAT","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","BEMPEDOIC ACID","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","BELANTAMAB MAFODOTIN","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","AVAPRITINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","ATOLTIVIMAB","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","ARTESUNATE","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","ANSUVIMAB","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","AMISULPRIDE","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
+"impc","ABAMETAPIR","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2020
+"impc","OSILODROSTAT","Other indication",FALSE,TRUE,TRUE,0.401952022504184,"Mouse model (IMPC)","Mouse model",2020

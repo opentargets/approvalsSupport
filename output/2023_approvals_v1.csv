@@ -1,0 +1,241 @@
+"datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
+"cancer_biomarkers","SRP-9001","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","SER-109","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","RSVpreF","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Olorofim","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Nedosiran","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","GSK3844766A","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Zuranolone","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Zuranolone","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Talquetamab","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Concizumab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Concizumab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Momelotinib","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Repotrectinib","Oncology",FALSE,TRUE,TRUE,0.936072224944711,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Lecanemab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Donanemab","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Tofersen","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_biomarkers","Valoctocogene roxaparvovec","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2023
+"cancer_gene_census","SRP-9001","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","SER-109","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","RSVpreF","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Olorofim","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Nedosiran","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","GSK3844766A","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Zuranolone","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Zuranolone","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Talquetamab","Oncology",FALSE,TRUE,NA,0,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Concizumab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Concizumab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Momelotinib","Oncology",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Repotrectinib","Oncology",FALSE,TRUE,TRUE,0.851229768905772,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Lecanemab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Donanemab","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Tofersen","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
+"cancer_gene_census","Valoctocogene roxaparvovec","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2023
+"clingen","SRP-9001","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
+"clingen","SER-109","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
+"clingen","RSVpreF","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
+"clingen","Olorofim","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
+"clingen","Nedosiran","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
+"clingen","GSK3844766A","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
+"clingen","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
+"clingen","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
+"clingen","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Clingen","Rare mendelian",2023
+"clingen","Zuranolone","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
+"clingen","Zuranolone","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
+"clingen","Talquetamab","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
+"clingen","Concizumab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
+"clingen","Concizumab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
+"clingen","Momelotinib","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
+"clingen","Repotrectinib","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
+"clingen","Lecanemab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
+"clingen","Donanemab","Other indication",FALSE,NA,NA,0,"Clingen","Rare mendelian",2023
+"clingen","Tofersen","Other indication",FALSE,TRUE,TRUE,0.827461363415818,"Clingen","Rare mendelian",2023
+"clingen","Valoctocogene roxaparvovec","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"Clingen","Rare mendelian",2023
+"eva","SRP-9001","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
+"eva","SER-109","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
+"eva","RSVpreF","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
+"eva","Olorofim","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
+"eva","Nedosiran","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2023
+"eva","GSK3844766A","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
+"eva","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
+"eva","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
+"eva","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"ClinVar","Rare mendelian",2023
+"eva","Zuranolone","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2023
+"eva","Zuranolone","Other indication",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2023
+"eva","Talquetamab","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2023
+"eva","Concizumab","Other indication",FALSE,NA,TRUE,0,"ClinVar","Rare mendelian",2023
+"eva","Concizumab","Other indication",FALSE,NA,TRUE,0,"ClinVar","Rare mendelian",2023
+"eva","Momelotinib","Oncology",FALSE,TRUE,TRUE,0.665684223384725,"ClinVar","Rare mendelian",2023
+"eva","Repotrectinib","Oncology",FALSE,NA,NA,0,"ClinVar","Rare mendelian",2023
+"eva","Lecanemab","Other indication",FALSE,TRUE,TRUE,0.874357153360333,"ClinVar","Rare mendelian",2023
+"eva","Donanemab","Other indication",FALSE,TRUE,TRUE,0.874357153360333,"ClinVar","Rare mendelian",2023
+"eva","Tofersen","Other indication",FALSE,TRUE,TRUE,0.946614845449127,"ClinVar","Rare mendelian",2023
+"eva","Valoctocogene roxaparvovec","Other indication",FALSE,TRUE,TRUE,0.947477974709936,"ClinVar","Rare mendelian",2023
+"eva_somatic","SRP-9001","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","SER-109","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","RSVpreF","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Olorofim","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Nedosiran","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","GSK3844766A","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Zuranolone","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Zuranolone","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Talquetamab","Oncology",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Concizumab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Concizumab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Momelotinib","Oncology",FALSE,TRUE,TRUE,0.547137717850459,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Repotrectinib","Oncology",FALSE,TRUE,TRUE,0.547137717850459,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Lecanemab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Donanemab","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Tofersen","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
+"eva_somatic","Valoctocogene roxaparvovec","Other indication",FALSE,NA,NA,0,"ClinVar (Somatic)","Somatic",2023
+"gene_burden","SRP-9001","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
+"gene_burden","SER-109","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
+"gene_burden","RSVpreF","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
+"gene_burden","Olorofim","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
+"gene_burden","Nedosiran","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","GSK3844766A","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
+"gene_burden","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
+"gene_burden","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
+"gene_burden","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Gene burden","Common disease",2023
+"gene_burden","Zuranolone","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","Zuranolone","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","Talquetamab","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","Concizumab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","Concizumab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","Momelotinib","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","Repotrectinib","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","Lecanemab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","Donanemab","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","Tofersen","Other indication",FALSE,NA,NA,0,"Gene burden","Common disease",2023
+"gene_burden","Valoctocogene roxaparvovec","Other indication",FALSE,TRUE,TRUE,0.933424244697778,"Gene burden","Common disease",2023
+"genomics_england","SRP-9001","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","SER-109","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","RSVpreF","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Olorofim","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Nedosiran","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","GSK3844766A","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Zuranolone","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Zuranolone","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Talquetamab","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Concizumab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Concizumab","Other indication",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Momelotinib","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Repotrectinib","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Lecanemab","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Donanemab","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Tofersen","Other indication",FALSE,TRUE,TRUE,0.759913497014526,"GEL PanelApp","Rare mendelian",2023
+"genomics_england","Valoctocogene roxaparvovec","Other indication",FALSE,TRUE,TRUE,0.759913497014526,"GEL PanelApp","Rare mendelian",2023
+"impc","SRP-9001","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2023
+"impc","SER-109","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2023
+"impc","RSVpreF","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2023
+"impc","Olorofim","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2023
+"impc","Nedosiran","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2023
+"impc","GSK3844766A","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2023
+"impc","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2023
+"impc","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2023
+"impc","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Mouse model (IMPC)","Mouse model",2023
+"impc","Zuranolone","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2023
+"impc","Zuranolone","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2023
+"impc","Talquetamab","Oncology",FALSE,TRUE,TRUE,0,"Mouse model (IMPC)","Mouse model",2023
+"impc","Concizumab","Other indication",FALSE,TRUE,TRUE,0.340927591300597,"Mouse model (IMPC)","Mouse model",2023
+"impc","Concizumab","Other indication",FALSE,TRUE,TRUE,0.340927591300597,"Mouse model (IMPC)","Mouse model",2023
+"impc","Momelotinib","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2023
+"impc","Repotrectinib","Oncology",FALSE,TRUE,NA,0,"Mouse model (IMPC)","Mouse model",2023
+"impc","Lecanemab","Other indication",FALSE,TRUE,TRUE,0.439468951851791,"Mouse model (IMPC)","Mouse model",2023
+"impc","Donanemab","Other indication",FALSE,TRUE,TRUE,0.439468951851791,"Mouse model (IMPC)","Mouse model",2023
+"impc","Tofersen","Other indication",FALSE,TRUE,TRUE,0.438443676561619,"Mouse model (IMPC)","Mouse model",2023
+"impc","Valoctocogene roxaparvovec","Other indication",FALSE,TRUE,NA,0,"Mouse model (IMPC)","Mouse model",2023
+"orphanet","SRP-9001","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
+"orphanet","SER-109","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
+"orphanet","RSVpreF","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
+"orphanet","Olorofim","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
+"orphanet","Nedosiran","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
+"orphanet","GSK3844766A","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
+"orphanet","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
+"orphanet","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
+"orphanet","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Orphanet","Rare mendelian",2023
+"orphanet","Zuranolone","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
+"orphanet","Zuranolone","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
+"orphanet","Talquetamab","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
+"orphanet","Concizumab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
+"orphanet","Concizumab","Other indication",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
+"orphanet","Momelotinib","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
+"orphanet","Repotrectinib","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2023
+"orphanet","Lecanemab","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"Orphanet","Rare mendelian",2023
+"orphanet","Donanemab","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"Orphanet","Rare mendelian",2023
+"orphanet","Tofersen","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"Orphanet","Rare mendelian",2023
+"orphanet","Valoctocogene roxaparvovec","Other indication",FALSE,TRUE,TRUE,0.865457038266544,"Orphanet","Rare mendelian",2023
+"ot_genetics_portal","SRP-9001","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","SER-109","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","RSVpreF","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Olorofim","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Nedosiran","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","GSK3844766A","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Zuranolone","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Zuranolone","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Talquetamab","Oncology",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Concizumab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Concizumab","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Momelotinib","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Repotrectinib","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Lecanemab","Other indication",FALSE,TRUE,TRUE,0.582216982168431,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Donanemab","Other indication",FALSE,TRUE,TRUE,0.582216982168431,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Tofersen","Other indication",FALSE,TRUE,NA,0,"OT Genetics Portal","Common disease",2023
+"ot_genetics_portal","Valoctocogene roxaparvovec","Other indication",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2023
+"uniprot_literature","SRP-9001","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","SER-109","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","RSVpreF","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Olorofim","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Nedosiran","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","GSK3844766A","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Zuranolone","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Zuranolone","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Talquetamab","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Concizumab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Concizumab","Other indication",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Momelotinib","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Repotrectinib","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Lecanemab","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Donanemab","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Tofersen","Other indication",FALSE,TRUE,TRUE,0.759913497014526,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_literature","Valoctocogene roxaparvovec","Other indication",FALSE,TRUE,TRUE,0.607930797611621,"Uniprot (gene-disease)","Rare mendelian",2023
+"uniprot_variants","SRP-9001","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","SER-109","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","RSVpreF","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Olorofim","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Nedosiran","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","GSK3844766A","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Exagamglogene autotemcel","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Efanesoctocog alfa","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Bercolagene telserpavec","No human target",TRUE,NA,NA,NA,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Zuranolone","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Zuranolone","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Talquetamab","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Concizumab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Concizumab","Other indication",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Momelotinib","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Repotrectinib","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Lecanemab","Other indication",FALSE,TRUE,TRUE,0.951397496038773,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Donanemab","Other indication",FALSE,TRUE,TRUE,0.951397496038773,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Tofersen","Other indication",FALSE,TRUE,TRUE,0.993957066521561,"Uniprot (variants)","Rare mendelian",2023
+"uniprot_variants","Valoctocogene roxaparvovec","Other indication",FALSE,TRUE,TRUE,0.996581126096353,"Uniprot (variants)","Rare mendelian",2023
