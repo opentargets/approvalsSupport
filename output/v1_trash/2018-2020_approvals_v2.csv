@@ -1,4 +1,4 @@
-"datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
+"datasourceId","Drug_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
 "cancer_biomarkers","ZANUBRUTINIB",NA,FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2019
 "cancer_biomarkers","VOXELOTOR",NA,FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2019
 "cancer_biomarkers","VILTOLARSEN",NA,FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020

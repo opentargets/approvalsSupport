@@ -1,4 +1,4 @@
-"datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
+"datasourceId","Drug_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
 "cancer_biomarkers","Viloxazine","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Piflufolastat F-18","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2021
 "cancer_biomarkers","Pafolacianine","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2021

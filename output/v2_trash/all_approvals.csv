@@ -1,4 +1,4 @@
-"datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
+"datasourceId","Drug_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
 "cancer_biomarkers","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022
 "cancer_biomarkers","Vonoprazan; amoxicillin; clarithromycin","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022

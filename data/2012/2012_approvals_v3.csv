@@ -1,0 +1,40 @@
+﻿,Drug_name,Brand_name,DrugId,Brand_name,Sponsor,Properties,Indication,Indication_EFO,DiseaseId,TA,Year
+1,Glucarpidase ,Voraxaze,,,,Recombinant bacterial enzyme that hydrolyses methotrexate,Toxic plasma methotrexate concentrations in patients with delayed methotrexate clearance,,,,2012
+2,Ingenol mebutate ,Picato,,,,MOA unknown,Actinic keratosis,EFO_0002496,actinic keratosis,,2012
+3,Axitinib ,Inlyta,,,,"VEGFR1, -2 and -3 inhibitor",Advanced renal cell carcinoma,,,,2012
+4,Vismodegib ,Erivedge,,,,Smoothened (Hedgehog pathway) inhibitor,Metastatic or locally advanced basal cell carcinoma,,,,2012
+5,Ivacaftor ,Kalydeco,,,,CFTR potentiator,Cystic fibrosis in patients with the G551D mutation in the CFTR gene,,,,2012
+6,Tafluprost ,Zioptan,,,,Selective prostaglandin F prostanoid receptor agonist,Elevated intraocular pressure in patients with open-angle glaucoma or ocular hypertension,,,,2012
+7,Lucinactant ,Surfaxin,,,,Pulmonary surfactant,Prevention of respiratory distress syndrome,,,,2012
+8,Peginesatide acetate ,Omontys,,,,"Synthetic, pegylated erythropoiesis-stimulating agent",Anaemia due to chronic kidney disease,,,,2012
+9,Florbetapir F-18 ,Amyvid,,,,Radioactive diagnostic agent,Diagnostic agent to estimate amyloid-β plaques in patients with suspected Alzheimer's disease,,,,2012
+10,Avanafil ,Stendra,,,,PDE5 inhibitor,Erectile dysfunction,EFO_0004234,erectile dysfunction,,2012
+11,Taliglucerase alfa ,Elelyso,,,,Recombinant β-glucocerebrosidase; produced in carrot cells,Gaucher's disease,MONDO_0018150,gaucher disease,,2012
+12,Pertuzumab ,Perjeta,,,,HER2-targeting mAb,HER2-positive metastatic breast cancer,,,,2012
+13,Lorcaserin ,Belviq,,,,5-HT2C receptor agonist,Obesity,EFO_0001073,obesity,,2012
+14,Mirabegron ,Myrbetriq,,,,β3-adrenergic receptor agonist,Overactive bladder,EFO_1000781,overactive bladder,,2012
+15,Citric acid; magnesium oxide; sodium picosulfate ,Prepopik,,,,Osmotic and stimulant laxatives,Cleansing of the colon before colonoscopy,,,,2012
+16,Carfilzomib ,Kyprolis,,,,20S proteasome inhibitor,Multiple myeloma,EFO_0001378,multiple myeloma,,2012
+17,Aclidinium bromide ,Tudorza Pressair,,,,Long-acting antimuscarinic agent,Bronchospasms associated with COPD,,,,2012
+18,Ziv-aflibercept ,Zaltrap,,,,"Recombinant fusion protein that binds VEGFA, VEGFB and PIGF",Metastatic colorectal cancer,EFO_1001480,metastatic colorectal cancer,,2012
+19,Cobicistat; elvitegravir; emtricitabine; tenofovir disoproxil fumarate ,Stribild,,,,Cytochrome P450 inhibitor; HIV-1 integrase inhibitor; NRTI; acyclic nucleoside phosphonate analogue,HIV-1 infection,EFO_0000180,hiv-1 infection,,2012
+20,Tbo-Filgrastim ,Neutroval,,,,Methionyl human G-CSF,Severe neutropaenia in patients with non-myeloid malignancies,,,,2012
+21,Linaclotide ,Linzess,,,,Guanylyl cyclase C agonist,Irritable bowel syndrome with constipation; chronic idiopathic constipation,,,,2012
+22,Enzalutamide ,Xtandi,,,,Androgen receptor inhibitor,Metastatic castration-resistant prostate cancer,,,,2012
+23,Bosutinib monohydrate ,Bosulif,,,,BCR–ABL inhibitor; SRC family kinase inhibitor,"Chronic, accelerated or blast phase Ph+ chronic myelogenous leukaemia",,,,2012
+24,Teriflunomide ,Aubagio,,,,Dihydroorotate dehydrogenase inhibitor,Relapsing forms of multiple sclerosis,,,,2012
+25,Choline C-11,,,,,Radiolabelled choline analogue,Diagnostic agent for imaging of patients with suspected prostate cancer recurrence,,,,2012
+26,Regorafenib ,Stivarga,,,,"Multikinase inhibitor with targets including RET, VEGFR1, -2, -3 and KIT",Metastatic colorectal cancer,EFO_1001480,metastatic colorectal cancer,,2012
+27,Ocriplasmin ,Jetrea,,,,Recombinant truncated form of human plasmin,Symptomatic vitreomacular adhesion,,,,2012
+28,Perampanel ,Fycompa,,,,Non-competitive ionotropic AMPA glutamate receptor antagonist,Partial-onset seizures in patients with epilepsy,,,,2012
+29,Omacetaxine mepesuccinate ,Synribo,,,,MOA unknown,Chronic or accelerated-phase chronic myeloid leukaemia,,,,2012
+30,Tofacitinib ,Xeljanz,,,,JAK inhibitor,Severely active rheumatoid arthritis,,,,2012
+31,Cabozantinib ,Cometriq,,,,"Multikinase inhibitor with targets including RET, MET, VEGFR1, -2, -3, KIT and FLT3","Progressive, metastatic medullary thyroid cancer",,,,2012
+32,Ponatinib ,Iclusig,,,,"Multikinase inhibitor with targets including Bcr–Abl, KIT, RET and FLT3","Chronic, accelerated or blast-phase chronic myeloid leukaemia",,,,2012
+33,Pasireotide diaspartate ,Signifor,,,,Somatostatin analogue,Cushing's disease,,,,2012
+34,Raxibacumab,,,,,Human mAb against Bacillus anthracis toxin,Anthrax,EFO_0000778,anthrax infection,,2012
+35,Teduglutide ,Gattex,,,,GLP2 analogue,Short bowel syndrome,MONDO_0015183,short bowel syndrome,,2012
+36,Lomitapide ,Juxtapid,,,,Microsomal triglyceride transfer protein inhibitor,Homozygous familial hypercholesterolaemia,,,,2012
+37,Apixaban ,Eliquis,,,,Factor Xa inhibitor,Stroke and systemic embolism in patients with non-valvular atrial fibrillation,,,,2012
+38,Bedaquiline ,Sirturo,,,,Diarylquinoline antimycobacterial,Pulmonary multidrug-resistant tuberculosis,,,,2012
+39,Crofelemer ,Fulyzaq,,,,CFTR and CaCC channel inhibitors,HIV-associated diarrhoea,,,,2012

@@ -1,4 +1,4 @@
-,Drug_brand_name,DrugId,Brand_name,Sponsor,Properties,Indication,Indication_curated,Indication_EFO,DiseaseId,TA,Year
+,Drug_name,DrugId,Brand_name,Sponsor,Properties,Indication,Indication_curated,Indication_EFO,DiseaseId,TA,Year
 1,AVAPRITINIB,CHEMBL4204794,Ayvakit,Blueprint Medicines,"PDGFRA, PDGFRA mutants and KIT kinase inhibitor",GIST with PDGFRA exon 18 mutations,GIST,gastrointestinal stromal tumor,MONDO:0011719,,2020
 2,TEPROTUMUMAB,CHEMBL1743079,Tepezza,Horizon Therapeutics,IGF1R-directed mAb,Thyroid eye disease,Thyroid eye disease,Graves disease,EFO_0004237,,2020
 3,TAZEMETOSTAT,CHEMBL3414621,Tazverik,Epizyme,EZH2 inhibitor,Epithelioid sarcoma,Epithelioid sarcoma,epithelioid sarcoma,MONDO:0017387,,2020

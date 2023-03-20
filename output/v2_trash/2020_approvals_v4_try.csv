@@ -1,4 +1,4 @@
-"datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
+"datasourceId","Drug_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
 "cancer_biomarkers","VIBEGRON","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020
 "cancer_biomarkers","TRIHEPTANOIN","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2020
 "cancer_biomarkers","TEPROTUMUMAB","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2020

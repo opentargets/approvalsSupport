@@ -16,7 +16,7 @@ config$spark.hadoop.fs.gs.requester.pays.project.id <- "open-targets-eu-dev" # n
 sc <- spark_connect(master = "yarn", config = config)
 
 # Approvals as reported in NRDD article
-local_approvals <- read_csv("./data/2021-2023/2023_approvals_v2.csv")
+local_approvals <- read_csv("./data/2018-2019/2018-2019_approvals_v5.csv")
 approvals_init <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
 
 # Split and explode multiple DrugId
@@ -111,7 +111,7 @@ interactors_ass <- approvals %>%
         ass_indirectby_ds,
         by = c("diseaseId" = "diseaseId", "targetB" = "targetId")
     ) %>%
-    select(datasourceId, Drug_brand_name) %>%
+    select(datasourceId, Drug_name) %>%
     sdf_distinct() %>%
     collect() %>%
     mutate(interactionAssociation = TRUE)
@@ -142,47 +142,47 @@ phenotype_ass <- approvals %>%
         ass_indirectby_ds,
         by = c("phenotype" = "diseaseId", "targetId")
     ) %>%
-    select(datasourceId, Drug_brand_name) %>%
+    select(datasourceId, Drug_name) %>%
     sdf_distinct() %>%
     collect() %>%
     mutate(phenotypeAssociation = TRUE)
 
 # Data to plot
 data2plot <- ass %>%
-    select(datasourceId, Drug_brand_name, score) %>%
-    complete(datasourceId, Drug_brand_name) %>%
+    select(datasourceId, Drug_name, score) %>%
+    complete(datasourceId, Drug_name) %>%
     mutate(score = replace_na(score, 0)) %>%
     filter(!is.na(datasourceId)) %>%
     # TA
     left_join(
         ass %>%
             select(
-                Drug_brand_name,
+                Drug_name,
                 TA
             ) %>%
             distinct(),
-        by = "Drug_brand_name"
+        by = "Drug_name"
     ) %>%
     # targets
     left_join(
         ass %>%
             mutate(noTarget = is.na(targetId)) %>%
             select(
-                Drug_brand_name,
+                Drug_name,
                 noTarget
             ) %>%
             distinct(),
-        by = "Drug_brand_name"
+        by = "Drug_name"
     ) %>%
     # interactions
     left_join(
         interactors_ass,
-        by = c("datasourceId", "Drug_brand_name")
+        by = c("datasourceId", "Drug_name")
     ) %>%
     # related phenotypes
     left_join(
         phenotype_ass,
-        by = c("datasourceId", "Drug_brand_name")
+        by = c("datasourceId", "Drug_name")
     ) %>%
     mutate(
         interactionAssociation = ifelse(score > 0, TRUE, interactionAssociation)
@@ -212,13 +212,13 @@ data2plot <- ass %>%
     mutate(rankscore = replace_na(score, 0)) %>%
     mutate(rankscore = ifelse(!is.na(interactionAssociation), rankscore + 0.01, rankscore)) %>%
     mutate(rankscore = ifelse(!is.na(phenotypeAssociation), rankscore + 0.03, rankscore)) %>%
-    mutate(Drug_brand_name = fct_rev(fct_reorder(
-        Drug_brand_name, rankscore, mean,
+    mutate(Drug_name = fct_rev(fct_reorder(
+        Drug_name, rankscore, mean,
         na.rm = TRUE, .desc = TRUE
     ))) %>%
     group_by(
         datasourceId,
-        Drug_brand_name,
+        Drug_name,
         TA,
         noTarget,
         interactionAssociation,
@@ -231,6 +231,6 @@ data2plot <- ass %>%
             datasourceName = factor(datasourceName, levels = ds_names$datasourceName),
             datasourceType = factor(datasourceType, levels = c("Somatic", "Functional genomics (cancer)", "Rare mendelian", "Common disease", "Mouse model"))
         ) %>%
-        left_join(approvals %>% select(Drug_brand_name, Year) %>% collect(), by = "Drug_brand_name")
+        left_join(approvals %>% select(Drug_name, Year, Brand_name,	Drug_name_original) %>% collect(), by = "Drug_name")
 
-write.table(data2plot, sep = ",", file = "./output/2023_approvals_v2.csv", row.names = FALSE)
+write.table(data2plot, sep = ",", file = "./output/2018-2019_approvals_v5.csv", row.names = FALSE)

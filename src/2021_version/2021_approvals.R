@@ -117,7 +117,7 @@ interactors_ass <- approvals %>%
         ass_indirectby_ds,
         by = c("diseaseId" = "diseaseId", "targetB" = "targetId")
     ) %>%
-    select(datasourceId, Drug_brand_name) %>%
+    select(datasourceId, Drug_name) %>%
     sdf_distinct() %>%
     collect() %>%
     mutate(interactionAssociation = TRUE)
@@ -166,47 +166,47 @@ phenotype_ass <- approvals %>%
     inner_join(
         ass_indirectby_ds,
         by = c("phenotype" = "diseaseId", "targetId")) %>%
-    select(datasourceId, Drug_brand_name) %>%
+    select(datasourceId, Drug_name) %>%
     sdf_distinct() %>%
     collect() %>%
     mutate(phenotypeAssociation = TRUE)
 
 # Data to plot
 data2plot <- ass %>%
-    select(datasourceId, Drug_brand_name, score) %>%
-    complete(datasourceId, Drug_brand_name) %>%
+    select(datasourceId, Drug_name, score) %>%
+    complete(datasourceId, Drug_name) %>%
     mutate(score = replace_na(score, 0)) %>%
     filter(!is.na(datasourceId)) %>%
     # TA
     left_join(
         ass %>%
             select(
-                Drug_brand_name,
+                Drug_name,
                 TA
             ) %>%
             distinct(),
-        by = "Drug_brand_name"
+        by = "Drug_name"
     ) %>%
     # targets
     left_join(
         ass %>%
             mutate(noTarget = is.na(targetId)) %>%
             select(
-                Drug_brand_name,
+                Drug_name,
                 noTarget
             ) %>%
             distinct(),
-        by = "Drug_brand_name"
+        by = "Drug_name"
     ) %>%
     # interactions
     left_join(
         interactors_ass,
-        by = c("datasourceId", "Drug_brand_name")
+        by = c("datasourceId", "Drug_name")
     ) %>%
     # related phenotypes
     left_join(
         phenotype_ass,
-        by = c("datasourceId", "Drug_brand_name")
+        by = c("datasourceId", "Drug_name")
     ) %>%
     mutate(
         interactionAssociation = ifelse(score > 0, TRUE, interactionAssociation)
@@ -236,13 +236,13 @@ data2plot <- ass %>%
     mutate(rankscore = replace_na(score, 0)) %>%
     mutate(rankscore = ifelse(!is.na(interactionAssociation), rankscore + 0.01, rankscore)) %>%
     mutate(rankscore = ifelse(!is.na(phenotypeAssociation), rankscore + 0.03, rankscore)) %>%
-    mutate(Drug_brand_name = fct_rev(fct_reorder(
-        Drug_brand_name, rankscore, mean,
+    mutate(Drug_name = fct_rev(fct_reorder(
+        Drug_name, rankscore, mean,
         na.rm = TRUE, .desc = TRUE
     ))) %>%
     group_by(
         datasourceId,
-        Drug_brand_name,
+        Drug_name,
         TA,
         noTarget,
         interactionAssociation,
@@ -263,12 +263,12 @@ overlay_data <- data2plot %>%
     select(
         datasourceName,
         datasourceType,
-        Drug_brand_name,
+        Drug_name,
         TA,
         interactionAssociation,
         phenotypeAssociation
     ) %>%
-    gather("overlay", "value", -datasourceName, -datasourceType, -Drug_brand_name, -TA) %>%
+    gather("overlay", "value", -datasourceName, -datasourceType, -Drug_name, -TA) %>%
     filter(!is.na(value)) %>%
     mutate(overlay = str_replace_all(overlay, "Association", "")) %>%
     mutate(overlaySize = ifelse(overlay == "phenotype", 3, 1)) %>%
@@ -278,7 +278,7 @@ overlay_data <- data2plot %>%
 output <- data2plot %>%
     ggplot(aes(
         x = datasourceName,
-        y = Drug_brand_name)) +
+        y = Drug_name)) +
     geom_tile(aes(fill = score), color = "white") +
     geom_point(data = overlay_data,
         aes(shape = overlay, size = overlaySize)) +

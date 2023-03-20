@@ -4,15 +4,15 @@ directSources <- ass %>%
     filter(!(datasourceId %in% c("chembl", "expression_atlas", "sysbio", "europepmc", "phenodigm", "reactome", "phewas_catalog"))) %>%
     mutate(datasourceId = datasourceId %>% str_replace("eva", "clinvar")) %>%
     filter(!is.na(datasourceId)) %>%
-    group_by(Drug_brand_name) %>%
+    group_by(Drug_name) %>%
     summarise(directSources = paste(unique(datasourceId), collapse = ";"))
 
 summaryResults <- output %>% 
     filter(datasourceType == "Any") %>%
-    select(Drug_brand_name, evidence)
+    select(Drug_name, evidence)
 
 closePhenotypes <- phenotype_ass %>% 
-    select(Drug_brand_name, datasourceId, phenotype) %>%
+    select(Drug_name, datasourceId, phenotype) %>%
     left_join(
         spark_read_parquet(sc, disease_path) %>% 
         select(phenotype = id, phenotypeName = name),
@@ -21,7 +21,7 @@ closePhenotypes <- phenotype_ass %>%
     mutate(datasourceId = datasourceId %>% str_replace("eva", "clinvar")) %>%
     filter(!(datasourceId %in% c("chembl", "expression_atlas", "sysbio", "europepmc", "phenodigm", "reactome", "phewas_catalog"))) %>%
     distinct() %>% 
-    group_by(Drug_brand_name) %>%
+    group_by(Drug_name) %>%
     summarise(
         closePhenotypeIds = paste(unique(phenotype), collapse = ";"),
         closePhenotypeNames = paste(unique(phenotypeName), collapse = ";"),
@@ -47,12 +47,12 @@ intDf <- approvals %>%
         select(targetB = id, approvedSymbol),
         by = "targetB"
     ) %>%
-    select(Drug_brand_name, targetB, datasourceId, approvedSymbol) %>%
+    select(Drug_name, targetB, datasourceId, approvedSymbol) %>%
     collect() %>%
     mutate(datasourceId = datasourceId %>% str_replace("eva", "clinvar")) %>%
     filter(!(datasourceId %in% c("chembl", "expression_atlas", "sysbio", "europepmc", "phenodigm", "reactome", "phewas_catalog"))) %>%
     distinct() %>% 
-    group_by(Drug_brand_name) %>%
+    group_by(Drug_name) %>%
     summarise(
         interactingIds = paste(unique(targetB), collapse = ";"),
         interactingSymbols = paste(unique(approvedSymbol), collapse = ";"),
@@ -60,12 +60,12 @@ intDf <- approvals %>%
     )
 
 out <- ass %>% 
-    group_by(Drug_brand_name, Sponsor, DrugId, Indication, diseaseId, Properties) %>% 
+    group_by(Drug_name, Sponsor, DrugId, Indication, diseaseId, Properties) %>% 
     summarise(targetIds = paste(targetId, collapse = ";")) %>%
-    left_join(summaryResults, by = "Drug_brand_name") %>%
-    left_join(directSources, by = "Drug_brand_name") %>%
-    left_join(closePhenotypes, by = "Drug_brand_name") %>%
-    left_join(intDf, by = "Drug_brand_name")
+    left_join(summaryResults, by = "Drug_name") %>%
+    left_join(directSources, by = "Drug_name") %>%
+    left_join(closePhenotypes, by = "Drug_name") %>%
+    left_join(intDf, by = "Drug_name")
 
 out %>% write_csv("/home/ochoa/2021_approvals_output.csv")
 

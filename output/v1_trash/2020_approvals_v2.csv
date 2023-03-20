@@ -1,4 +1,4 @@
-"datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
+"datasourceId","Drug_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
 "impc","VILTOLARSEN","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
 "impc","VIBEGRON","Other indication",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020
 "impc","TUCATINIB","Oncology",FALSE,NA,NA,0,"Mouse model (IMPC)","Mouse model",2020

@@ -1,0 +1,40 @@
+﻿,Drug_name,Brand_name,DrugId,Properties,Indication,Indication_EFO,DiseaseId,TA,Year
+1,GLUCARPIDASE,Voraxaze,CHEMBL1863515,Recombinant bacterial enzyme that hydrolyses methotrexate,Toxic plasma methotrexate concentrations in patients with delayed methotrexate clearance,impaired renal function disease,MONDO_0001343,Other,2012
+2,INGENOL MEBUTATE,Picato,CHEMBL1863513,"MOA unknown (*PRKCA, PRKCD ligand)",Actinic keratosis,actinic keratosis,EFO_0002496,Dermatology,2012
+3,AXITINIB,Inlyta,CHEMBL1289926,"VEGFR1, -2 and -3 inhibitor",Advanced renal cell carcinoma,renal cell carcinoma,EFO_0000681,Oncology,2012
+4,VISMODEGIB,Erivedge,CHEMBL473417,Smoothened (Hedgehog pathway) inhibitor,Metastatic or locally advanced basal cell carcinoma,basal cell carcinoma,EFO_0004193,Oncology,2012
+5,IVACAFTOR,Kalydeco,CHEMBL2010601,CFTR potentiator,Cystic fibrosis in patients with the G551D mutation in the¬†CFTR¬†gene,cystic fibrosis,MONDO_0009061,Other,2012
+6,TAFLUPROST,Zioptan,CHEMBL1963683,Selective prostaglandin F prostanoid receptor agonist,Elevated intraocular pressure in patients with open-angle glaucoma or ocular hypertension,open-angle glaucoma; ocular hypertension,EFO_0004190; EFO_1001069,Ophthalmology,2012
+7,LUCINACTANT,Surfaxin,CHEMBL1963685,Pulmonary surfactant,Prevention of respiratory distress syndrome,acute respiratory distress syndrome,EFO_1000637,Respiratory,2012
+8,PEGINESATIDE ACETATE,Omontys,CHEMBL1963684,"Synthetic, pegylated erythropoiesis-stimulating agent",Anaemia due to chronic kidney disease,chronic kidney disease; anemia,EFO_0003884; MONDO_0002280,Other,2012
+9,FLORBETAPIR F-18,Amyvid,CHEMBL1774461,Radioactive diagnostic agent,Diagnostic agent to estimate amyloid-Œ≤ plaques in patients with suspected Alzheimer's disease,Alzheimer disease,MONDO_0004975,Other,2012
+10,AVANAFIL,Stendra,CHEMBL1963681,PDE5 inhibitor,Erectile dysfunction,erectile dysfunction,EFO_0004234,Reproductive,2012
+11,TALIGLUCERASE ALFA,Elelyso,CHEMBL1964120,Recombinant Œ≤-glucocerebrosidase; produced in carrot cells,Gaucher's disease,gaucher disease,MONDO_0018150,Metabolic,2012
+12,PERTUZUMAB,Perjeta,CHEMBL2007641,HER2-targeting mAb,HER2-positive metastatic breast cancer,HER2 Positive Breast Carcinoma,EFO_1000294,Oncology,2012
+13,LORCASERIN,Belviq,CHEMBL360328,5-HT2C¬†receptor agonist,Obesity,obesity,EFO_0001073,Metabolic,2012
+14,MIRABEGRON,Myrbetriq,CHEMBL2095212,Œ≤3-adrenergic receptor agonist,Overactive bladder,overactive bladder,EFO_1000781,Other,2012
+15,"CITRIC ACID, MAGNESIUM OXIDE, SODIUM PICOSULFATE",Prepopik,CHEMBL1261,Osmotic and stimulant laxatives,Cleansing of the colon before colonoscopy,NA,NA,Other,2012
+16,CARFILZOMIB,Kyprolis,CHEMBL451887,20S proteasome inhibitor,Multiple myeloma,multiple myeloma,EFO_0001378,Oncology,2012
+17,ACLIDINIUM BROMIDE,Tudorza Pressair,CHEMBL551466,Long-acting antimuscarinic agent,Bronchospasms associated with COPD,chronic obstructive pulmonary disease,EFO_0000341,Respiratory,2012
+18,ZIV-AFLIBERCEPT,Zaltrap,CHEMBL1742982,"Recombinant fusion protein that binds VEGFA, VEGFB and PIGF",Metastatic colorectal cancer,metastatic colorectal cancer,EFO_1001480,Oncology,2012
+19,Stribild,Stribild,CHEMBL2095208,Cytochrome P450 inhibitor; HIV-1 integrase inhibitor; NRTI; acyclic nucleoside phosphonate analogue,HIV-1 infection,hiv-1 infection,EFO_0000180,Infectious,2012
+20,TBO-FILGRASTIM,Neutroval,CHEMBL1201567,Methionyl human G-CSF,Severe neutropaenia in patients with non-myeloid malignancies,neutropenia,MONDO_0001475,Oncology,2012
+21,LINACLOTIDE,Linzess,CHEMBL3301675,Guanylyl cyclase C agonist,Irritable bowel syndrome with constipation; chronic idiopathic constipation,Chronic constipation; irritable bowel syndrome,HP_0012450; EFO_0000555,Other,2012
+22,ENZALUTAMIDE,Xtandi,CHEMBL1082407,Androgen receptor inhibitor,Metastatic castration-resistant prostate cancer,prostate carcinoma,EFO_0001663,Oncology,2012
+23,BOSUTINIB MONOHYDRATE,Bosulif,CHEMBL288441,BCR‚ÄìABL inhibitor; SRC family kinase inhibitor,"Chronic, accelerated or blast phase Ph+ chronic myelogenous leukaemia",chronic myelogenous leukemia,EFO_0000339,Oncology,2012
+24,TERIFLUNOMIDE,Aubagio,CHEMBL973,Dihydroorotate dehydrogenase inhibitor,Relapsing forms of multiple sclerosis,relapsing-remitting multiple sclerosis,EFO_0003929,Other,2012
+25,CHOLINE C-11,NA,CHEMBL2095207,Radiolabelled choline analogue,Diagnostic agent for imaging of patients with suspected prostate cancer recurrence,NA,NA,Imaging,2012
+26,REGORAFENIB,Stivarga,CHEMBL1946170,"Multikinase inhibitor with targets including RET, VEGFR1, -2, -3 and KIT",Metastatic colorectal cancer,metastatic colorectal cancer,EFO_1001480,Oncology,2012
+27,OCRIPLASMIN,Jetrea,CHEMBL2095222,Recombinant truncated form of human plasmin,Symptomatic vitreomacular adhesion,vitreous body disease,EFO_0008624,Ophthalmology,2012
+28,PERAMPANEL,Fycompa,CHEMBL1214124,Non-competitive ionotropic AMPA glutamate receptor antagonist,Partial-onset seizures in patients with epilepsy,epilepsy,EFO_0000474,Other,2012
+29,OMACETAXINE MEPESUCCINATE,Synribo,CHEMBL46286,MOA unknown (*60S ribosomal protein L3 antagonist),Chronic or accelerated-phase chronic myeloid leukaemia,chronic myelogenous leukemia,EFO_0000339,Oncology,2012
+30,TOFACITINIB,Xeljanz,CHEMBL221959,JAK inhibitor,Severely active rheumatoid arthritis,rheumatoid arthritis,EFO_0000685,Autoimmune,2012
+31,CABOZANTINIB,Cometriq,CHEMBL2105717,"Multikinase inhibitor with targets including RET, MET, VEGFR1, -2, -3, KIT and FLT3","Progressive, metastatic medullary thyroid cancer",medullary thyroid gland carcinoma,MONDO_0015277,Oncology,2012
+32,PONATINIB,Iclusig,CHEMBL1171837,"Multikinase inhibitor with targets including Bcr‚ÄìAbl, KIT, RET and FLT3","Chronic, accelerated or blast-phase chronic myeloid leukaemia",chronic myelogenous leukemia,EFO_0000339,Oncology,2012
+33,PASIREOTIDE DIASPARTATE,Signifor,CHEMBL3039588,Somatostatin analogue,Cushing's disease,pituitary-dependent Cushing's disease,EFO_1001110,Metabolic,2012
+34,RAXIBACUMAB,NA,CHEMBL2108638,Human mAb against¬†Bacillus anthracis¬†toxin,Anthrax,anthrax infection,EFO_0000778,Infectious,2012
+35,TEDUGLUTIDE,Gattex,CHEMBL2104987,GLP2 analogue,Short bowel syndrome,short bowel syndrome,MONDO_0015183,Metabolic,2012
+36,LOMITAPIDE,Juxtapid,CHEMBL354541,Microsomal triglyceride transfer protein inhibitor,Homozygous familial hypercholesterolaemia,Hypercholesterolemia,HP_0003124,Cardiovascular,2012
+37,APIXABAN,Eliquis,CHEMBL231779,Factor Xa inhibitor,Stroke and systemic embolism in patients with non-valvular atrial fibrillation,atrial fibrillation,EFO_0000275,Cardiovascular,2012
+38,BEDAQUILINE,Sirturo,CHEMBL376488,Diarylquinoline antimycobacterial,Pulmonary multidrug-resistant tuberculosis,tuberculosis,MONDO_0018076,Respiratory/Infectious,2012
+39,CROFELEMER,Fulyzaq,CHEMBL2108184,CFTR and CaCC channel inhibitors,HIV-associated diarrhoea,Diarrhea,HP_0002014,Infectious,2012

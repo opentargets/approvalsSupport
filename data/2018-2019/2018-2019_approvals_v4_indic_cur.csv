@@ -1,0 +1,117 @@
+Drug_name,Brand_name,Sponsor,DrugId,Properties,Indication,TA,Review_type,Year,Drug_name_original,Indication_EFO,DiseaseId
+LUTETIUM LU 177 DOTATATE,Lutathera,Advanced Accelerator Applications/Novartis,CHEMBL3989924,Somatostatin receptor-targeted radiopharmaceutical,GEP-NETs,Imaging,"P, O",2018,Lutetium Lu 177 dotatate,digestive system neuroendocrine neoplasm,MONDO_0024503
+BICTEGRAVIR,Biktarvy,Gilead Sciences,CHEMBL3989866,HIV-1 integrase inhibitor and HIV-1 nucleoside/nucleotide reverse transcriptase inhibitors,HIV,Infectious,P,2018,Bictegravir; emtricitabine; tenofovir alafenamide,hiv infection,EFO_0000764
+EMTRICITABINE,Biktarvy,Gilead Sciences,CHEMBL885,HIV-1 integrase inhibitor and HIV-1 nucleoside/nucleotide reverse transcriptase inhibitors,HIV,Infectious,P,2018,Bictegravir; emtricitabine; tenofovir alafenamide,hiv infection,EFO_0000764
+TENOFOVIR ALAFENAMIDE,Biktarvy,Gilead Sciences,CHEMBL2107825,HIV-1 integrase inhibitor and HIV-1 nucleoside/nucleotide reverse transcriptase inhibitors,HIV,Infectious,P,2018,Bictegravir; emtricitabine; tenofovir alafenamide,hiv infection,EFO_0000764
+TEZACAFTOR,Symdeko,Vertex Pharmaceuticals,CHEMBL3544914,CFTR corrector and CFTR potentiator,Cystic fibrosis,Metabolic,"P, O, B",2018,Tezacaftor; ivacaftor,cystic fibrosis,MONDO_0009061
+IVACAFTOR,Symdeko,Vertex Pharmaceuticals,CHEMBL2010601,CFTR corrector and CFTR potentiator,Cystic fibrosis,Metabolic,"P, O, B",2018,Tezacaftor; ivacaftor,cystic fibrosis,MONDO_0009061
+APALUTAMIDE,Erleada,Johnson & Johnson,CHEMBL3183409,Androgen receptor inhibitor,Prostate cancer,Oncology,P,2018,Apalutamide,prostate cancer,MONDO_0008315
+IBALIZUMAB,Trogarzo,TaiMed Biologics/Theratechnologies,CHEMBL1743029,CD4 antibody,HIV,Infectious,"P, O, B",2018,Ibalizumab,hiv infection,EFO_0000764
+TILDRAKIZUMAB,Ilumya,Sun Pharma,CHEMBL2108681,IL-23 antibody,Plaque psoriasis,Dermatology,S,2018,Tildrakizumab,psoriasis vulgaris,EFO_1001494
+FOSTAMATINIB,Tavalisse,Rigel Pharmaceuticals,CHEMBL2103830,SYK inhibitor,Immune thrombocytopenic purpura,Hematology,"S, O",2018,Fostamatinib,autoimmune thrombocytopenic purpura,EFO_0007160
+BUROSUMAB,Crysvita,Ultragenyx Pharmaceutical/Kyowa Hakko Kirin,CHEMBL3707326,FGF23 antibody,X-linked hypophosphataemia,Endocrine,"P, O, B",2018,Burosumab,Hypophosphatemia,HP_0002148
+PALONOSETRON,Akynzeo IV,Helsinn Group,CHEMBL1189679,5-HT3-receptor antagonist and NK1-receptor antagonist,Chemotherapy-induced emesis,Other,S,2018,Palonosetron; fosnetupitant,Chemotherapy-induced nausea and vomiting,EFO_0006911
+FOSNETUPITANT,Akynzeo IV,Helsinn Group,CHEMBL3989917,5-HT3-receptor antagonist and NK1-receptor antagonist,Chemotherapy-induced emesis,Other,S,2018,Palonosetron; fosnetupitant,Chemotherapy-induced nausea and vomiting,EFO_0006911
+LOFEXIDINE,Lucemyra,US WorldMeds,CHEMBL17860,beta2-adrenoceptor agonist,Opioid withdrawal,Other,P,2018,Lofexidine,opioid dependence,EFO_0005611
+ERENUMAB,Aimovig,Amgen/Novartis,CHEMBL3833329,CGRP receptor antibody,Migraine,Neurological,S,2018,Erenumab,migraine disorder,MONDO_0005277
+SODIUM ZIRCONIUM CYCLOSILICATE,Lokelma,AstraZeneca,CHEMBL3301592,Potassium binder,Hyperkalaemia,Nephrology,S,2018,Sodium zirconium cyclosilicate,hyperkalemia,HP_0002153
+AVATROMBOPAG,Doptelet,Dova Pharmaceuticals,CHEMBL2103883,Thrombopoietin receptor agonist,Thrombocytopenia,Hematology,P,2018,Avatrombopag,thrombocytopenia,HP_0001873
+PEGVALIASE,Palynziq,BioMarin Pharmaceutical,CHEMBL4297802,PAL replacement therapy,Phenylketonuria,Metabolic,"P, O",2018,Pegvaliase,phenylketonuria,MONDO_0009861
+BARICITINIB,Olumiant,Incyte/Eli Lilly,CHEMBL2105759,JAK inhibitor,Rheumatoid arthritis,Immunology,S,2018,Baricitinib,rheumatoid arthritis,EFO_0000685
+MOXIDECTIN,Moxidectin,Medicines Development for Global Health,CHEMBL2104415,Antihelmintic GABA receptor and glutamate channel modulator,River blindness,Other,"P, O",2018,Moxidectin,ocular onchocerciasis,EFO_0007398
+CANNABIDIOL,Epidiolex,GW Pharmaceuticals,CHEMBL190461,Cannabinoid,Dravet syndrome and Lennox-Gastaut syndrome,Neurological,"P, O",2018,Cannabidiol,Dravet syndrome; Lennox-Gastaut syndrome,Orphanet_33069; MONDO_0016532
+PLAZOMICIN,Zemdri,Achaogen,CHEMBL1650559,Aminoglycoside antibacterial,Urinary tract infections,Infectious,P,2018,Plazomicin,urinary tract infection,EFO_0003103
+BINIMETINIB,Mektovi,Array BioPharma,CHEMBL3187723,MEK inhibitor,BRAF-mutated melanoma,Oncology,"S, O",2018,Binimetinib,melanoma,EFO_0000756
+ENCORAFENIB,Braftovi,Array BioPharma,CHEMBL3301612,BRAF inhibitor,BRAF-mutated melanoma,Oncology,"S, O",2018,Encorafenib,melanoma,EFO_0000756
+TECOVIRIMAT,TPOXX,SIGA Technologies,CHEMBL1257073,Viral p37 protein inhibitor,Smallpox,Infectious,"P, O",2018,Tecovirimat,smallpox,MONDO_0004651
+IVOSIDENIB,Tibsovo,Agios Pharmaceuticals,CHEMBL3989958,IDH1 inhibitor,"IDH1-mutated AML, Locally Advanced or Metastatic Cholangiocarcinoma (*)",Oncology,"P, O",2018,Ivosidenib,acute myeloid leukemia; cholangiocarcinoma,EFO_0000222; EFO_0005221
+TAFENOQUINE,Krintafel,Medicines for Malaria Venture/GlaxoSmithKline,CHEMBL298470,8-Aminoquinoline antimalarial,Plasmodium vivax malaria,Infectious,"P, O, B",2018,Tafenoquine,Plasmodium vivax malaria,EFO_0007445
+ELAGOLIX SODIUM,Orilissa,AbbVie,CHEMBL502182,GnRH receptor antagonist,Pain associated with endometriosis,Other,P,2018,Elagolix sodium,adenomyosis; pain,MONDO_0010888; EFO_0003843
+FISH OIL TRIGLYCERIDES,Omegaven,Fresenius,CHEMBL4297535,Mixture of fatty acids,Parenteral nutrition-associated cholestasis,Other,"P, O",2018,Fish oil triglycerides,cholestasis,MONDO_0001751
+LUSUTROMBOPAG,Mulpleta,Shionogi,CHEMBL2107831,Thrombopoietin receptor agonist,Thrombocytopenia,Hematology,P,2018,Lusutrombopag,thrombocytopenia,HP_0001873
+MOGAMULIZUMAB,Poteligeo,Kyowa Hakko Kirin,CHEMBL1743041,CCR4 antibody,mycosis fungoides or Sezary syndrome,Oncology,"P, O, B",2018,Mogamulizumab,mycosis fungoides,EFO_1001051
+PATISIRAN,Onpattro,Alnylam Pharmaceuticals,CHEMBL3989987,TTR-directed small interfering RNA,Hereditary TTR-mediated amyloidosis,Metabolic,"P, O, B",2018,Patisiran,hereditary ATTR amyloidosis,MONDO_0017132
+SEGESTERONE ACETATE,Annovera,TherapeuticsMD,CHEMBL3707377,Progestin and estrogen combined hormonal contraceptive,Female contraception,Other,S,2018,Segesterone acetate; ethinyl estradiol vaginal system,contraception,EFO_0009520
+ETHINYL ESTRADIOL VAGINAL SYSTEM,Annovera,TherapeuticsMD,CHEMBL691,Progestin and estrogen combined hormonal contraceptive,Female contraception,Other,S,2018,Segesterone acetate; ethinyl estradiol vaginal system,contraception,EFO_0009520
+MIGALASTAT,Galafold,Amicus Therapeutics,CHEMBL110458,beta-galactosidase regulator,Fabry disease,Metabolic,"P, O, A",2018,Migalastat,fabry disease,MONDO_0010526
+STIRIPENTOL,Diacomit,Biocodex,CHEMBL1983350,GABA reuptake inhibitor,Dravet syndrome,Neurological,"P, O",2018,Stiripentol,dravet syndrome,ORDO_33069
+CENEGERMIN,Oxervate,Dompé,CHEMBL4297852,Recombinant NGF,Neurotrophic keratitis,Ophthalmology,"P, O, B",2018,Cenegermin,keratitis,EFO_0009449
+LANADELUMAB,Takhzyro,Dyax/Shire,CHEMBL3545189,Kallikrein antibody,Hereditary angioedema,Immunology,"P, O, B",2018,Lanadelumab,hereditary angioedema,MONDO_0019623
+ERAVACYCLINE,Xerava,Tetraphase Pharmaceuticals,CHEMBL1951095,Tetracycline antibiotic,Complicated intra-abdominal infections,Infectious,P,2018,Eravacycline,infectious disease,EFO_0005741
+DORAVIRINE,Pifeltro,Merck & Co.,CHEMBL2364608,NNRTI,HIV,Infectious,S,2018,Doravirine,hiv infection,EFO_0000764
+MOXETUMOMAB PASUDOTOX,Lumoxiti,AstraZeneca,CHEMBL1743043,CD22-directed antibody–drug conjugate,Hairy cell leukaemia,Oncology,"P, O",2018,Moxetumomab pasudotox,hairy cell leukemia,EFO_1000956
+FREMANEZUMAB,Ajovy,Teva,CHEMBL4297756,CGRP antibody,Migraine,Neurological,P,2018,Fremanezumab,migraine disorder,MONDO_0005277
+DUVELISIB,Copiktra,Verastem,CHEMBL3039502,PI3K inhibitor,"CLL, FL and SLL",Oncology,"P, O, A",2018,Duvelisib,chronic lymphocytic leukemia; follicular lymphoma,EFO_0000095; MONDO_0018906
+GALCANEZUMAB,Emgality,Eli Lilly,CHEMBL3707328,CGRP antibody,Migraine,Neurological,S,2018,Galcanezumab,migraine disorder,MONDO_0005277
+DACOMITINIB,Vizimpro,Pfizer,CHEMBL2105719,EGFR inhibitor,EGFR-mutated NSCLC,Oncology,"P, O",2018,Dacomitinib,non-small cell lung carcinoma,EFO_0003060
+CEMIPLIMAB,Libtayo,Regeneron/Sanofi,CHEMBL4297723,PD1 antibody,"CSCC, BCC(*), NSCLC(*)",Oncology,"P, B",2018,Cemiplimab,cutaneous squamous cell carcinoma; basal cell carcinoma; non-small cell lung carcinoma,EFO_1001927; EFO_0004193; EFO_0003060
+SARECYCLINE,Seysara,Allergan,CHEMBL2364632,Tetracycline antibiotic,Severe acne vulgaris,Dermatology,S,2018,Sarecycline,acne,EFO_0003894
+OMADACYCLINE,Nuzyra,Paratek Pharmaceuticals,CHEMBL1689772,Tetracycline antibiotic,CABP and ABSSSI,Other,P,2018,Omadacycline,bacterial pneumonia; skin disease caused by bacterial infection,EFO_1001272; MONDO_0024295
+ELAPEGADEMASE,Revcovi,Leadiant Biosciences,CHEMBL3990026,Recombinant adenosine deaminase,ADA-SCID,Immunology,"P, O",2018,Elapegademase,"severe combined immunodeficiency, autosomal recessive, t cell-negative, b cell-negative, nk cell-negative, due to adenosine deaminase deficiency",MONDO_0007064
+INOTERSEN,Tegsedi,Ionis Pharmaceuticals,CHEMBL4297770,TTR-directed antisense oligonucleotide,Hereditary TTR-mediated amyloidosis,Metabolic,"P, O",2018,Inotersen,hereditary ATTR amyloidosis,MONDO_0017132
+TALAZOPARIB,Talzenna,Pfizer,CHEMBL3137320,PARP inhibitor,BRCA-mutated HER2-negative breast cancer,Oncology,P,2018,Talazoparib,HER2 negative breast carcinoma,EFO_0009780
+BALOXAVIR MARBOXIL,Xofluza,Shionogi/Roche,CHEMBL4297503,Polymerase acidic endonuclease inhibitor,Acute uncomplicated influenza,Infectious,P,2018,Baloxavir marboxil,influenza,EFO_0007328
+LORLATINIB,Lorbrena,Pfizer,CHEMBL3286830,ALK and ROS1 inhibitor,ALK-positive NSCLC,Oncology,"P, O, B, A",2018,Lorlatinib,non-small cell lung carcinoma,EFO_0003060
+REVEFENACIN,Yupelri,Theravance Biopharma/Mylan,CHEMBL3833319,Long-acting muscarinic receptor antagonist,COPD,Respiratory,S,2018,Revefenacin,chronic obstructive pulmonary disease,EFO_0000341
+RIFAMYCIN,Aemcolo,Cosmo Technologies,CHEMBL437765,Ansamycin antibacterial,Travellers diarrhoea,Other,P,2018,Rifamycin,Diarrhea,HP_0002014
+EMAPALUMAB,Gamifant,Novimmune,CHEMBL3989977,Interferon-γ-blocking antibody,Primary haemophagocytic lymphohistiocytosis,Hematology,"P, O, B",2018,Emapalumab,genetic hemophagocytic lymphohistiocytosis,MONDO_0015541
+GLASDEGIB,Daurismo,Pfizer,CHEMBL2043437,Hedgehog pathway inhibitor,AML,Oncology,"P, O",2018,Glasdegib,,EFO_0000222
+LAROTRECTINIB,Vitrakvi,Loxo Oncology/Bayer,CHEMBL3889654,"TRKA, TRKB and TRKC inhibitor",NTRK-positive solid cancers,Oncology,"P, O, B, A",2018,Larotrectinib,salivary gland cancer; soft tissue sarcoma; thyroid cancer,MONDO_0004669; EFO_1001968; MONDO_0002108
+GILTERITINIB,Xospata,Astellas,CHEMBL3301622,FLT3 inhibitor,FLT3-positive AML,Oncology,"P, O, B",2018,Gilteritinib,acute myeloid leukemia,EFO_0000222
+AMIFAMPRIDINE,Firdapse,Catalyst Pharmaceuticals,CHEMBL354077,Potassium channel blocker,Lambert-Eaton myasthenic syndrome,Neurological,"P, O",2018,Amifampridine,Lambert-Eaton myasthenic syndrome ,Orphanet_43393
+PRUCALOPRIDE,Motegrity,Shire/Takeda,CHEMBL117287,5-HT4-receptor agonist,Chronic idiopathic constipation,Gastrointestinal,S,2018,Prucalopride,constipation disorder,MONDO_0002203
+CALASPARGASE PEGOL,Asparlas,Servier,CHEMBL2108728,Asparagine specific enzyme,ALL,Oncology,"S, O",2018,Calaspargase pegol,acute lymphoblastic leukemia,EFO_0000220
+RAVULIZUMAB,Ultomiris,Alexion,CHEMBL3989986,Complement inhibitor,Paroxysmal nocturnal haemoglobinuria,Hematology,"S, O",2018,Ravulizumab,paroxysmal nocturnal hemoglobinuria,MONDO_0100244
+TAGRAXOFUSP,Elzonris,Stemline Therapeutics,CHEMBL4297573,IL-3 and diphtheria toxin fusion protein,Blastic plasmacytoid dendritic cell neoplasm,Oncology,"P, O, B",2018,Tagraxofusp,blastic plasmacytoid dendritic cell neoplasm,EFO_0010580
+PRABOTULINUMTOXIN A,Jeuveau,Evolus,CHEMBL4297229,Acetylcholine release inhibitor and a neuromuscular blocking agent,Glabellar lines associated with corrugator and/or procerus muscle activity,Other,S,2019,Prabotulinumtoxin A,Facial wrinkling,HP_0009762
+CAPLACIZUMAB,Cablivi,Sanofi/Ablynx,CHEMBL2109624,vWF-directed nanobody,ATTP,Hematology,"P, O",2019,Caplacizumab,acquired thrombotic thrombocytopenic purpura,MONDO_0019740
+TRICLABENDAZOLE,Egaten,Novartis,CHEMBL1086440,Anthelmintic,Fascioliasis,Infectious,"P, O",2019,Triclabendazole,fascioliasis,EFO_1001324
+BREXANOLONE,Zulresso,Sage Therapeutics,CHEMBL207538,GABAA-receptor-positive modulator,Postpartum depression,Mental health,"P, B",2019,Brexanolone,postpartum depression,EFO_0007453
+SOLRIAMFETOL,Sunosi,Jazz,CHEMBL4297620,Dopamine and noradrenaline reuptake inhibitor,Excessive sleepiness due to narcolepsy or obstructive sleep apnoea,Other,"S, O",2019,Solriamfetol,narcolepsy; obstructive sleep apnea,MONDO_0021107; EFO_0003918
+SIPONIMOD,Mayzent,Novartis,CHEMBL2336071,S1P receptor modulator,Relapsing forms of multiple sclerosis,Neurological,S,2019,Siponimod,relapsing-remitting multiple sclerosis,EFO_0003929
+ROMOSOZUMAB,Evenity,Amgen,CHEMBL2107874,Sclerostin inhibitor,Osteoporosis,Endocrine,S,2019,Romosozumab,osteoporosis,EFO_0003882
+ERDAFITINIB,Balversa,Janssen /J&J,CHEMBL3545376,FGFR inhibitor,Bladder cancer,Oncology,"P, B, A",2019,Erdafitinib,urinary bladder carcinoma,MONDO_0004986
+RISANKIZUMAB,Skyrizi,AbbVie,CHEMBL3990029,IL-23 antagonist,Plaque psoriasis,Dermatology,S,2019,Risankizumab,psoriasis vulgaris,EFO_1001494
+TAFAMIDIS,Vyndaqel,Pfizer/Foldrx,CHEMBL2103837,Transthyretin stabilizer,Heart disease caused by ATTR-CM,Cardiovascular,"P, O, B",2019,Tafamidis,,
+ALPELISIB,Piqray,Novartis,CHEMBL2396661,PI3K inhibitor,Breast cancer,Oncology,P,2019,Alpelisib,breast cancer,MONDO_0007254
+POLATUZUMAB VEDOTIN,Polivy,Roche,CHEMBL3301582,CD79b-directed ADC,Diffuse large B-cell lymphoma,Oncology,"P, O, B, A",2019,Polatuzumab vedotin,diffuse large b-cell lymphoma,EFO_0000403
+BREMELANOTIDE,Vyleesi,Amag,CHEMBL2070241,Melanocortin receptor agonist,Hypoactive sexual desire disorder,Other,S,2019,Bremelanotide,sexual dysfunction,EFO_0004714
+SELINEXOR,Xpovio,Karyopharm Therapeutics,CHEMBL3545185,XPO1 inhibitor,Multiple myeloma,Oncology,"P, O, A",2019,Selinexor,,EFO_0001378
+CILASTATIN,Recarbrio,Merck & Co.,CHEMBL766,"A renal dehydropeptidase inhibitor, a penem antibacterial and a β-lactamase inhibitor",Complicated urinary tract and complicated intra-abdominal infections,Infectious,P,2019,Cilastatin; imipenem; relebactam,urinary tract infection,EFO_0003103
+IMIPENEM,Recarbrio,Merck & Co.,CHEMBL148,"A renal dehydropeptidase inhibitor, a penem antibacterial and a β-lactamase inhibitor",Complicated urinary tract and complicated intra-abdominal infections,Infectious,P,2019,Cilastatin; imipenem; relebactam,urinary tract infection,EFO_0003103
+RELEBACTAM,Recarbrio,Merck & Co.,CHEMBL3301605,"A renal dehydropeptidase inhibitor, a penem antibacterial and a β-lactamase inhibitor",Complicated urinary tract and complicated intra-abdominal infections,Infectious,P,2019,Cilastatin; imipenem; relebactam,urinary tract infection,EFO_0003103
+FERRIC MALTOL,Accrufer,Shield Therapeutics,CHEMBL4298110,Iron replacement product,Iron deficiency anaemia,Hematology,S,2019,Ferric maltol,iron deficiency anemia,HP_0001891
+DAROLUTAMIDE,Nubeqa,Bayer,CHEMBL4297185,Androgen receptor inhibitor,Prostate cancer,Oncology,P,2019,Darolutamide,prostate cancer,MONDO_0008315
+PEXIDARTINIB,Turalio,Daiichi Sankyo,CHEMBL3813873,"CSF1R, KIT and FLT3 inhibitor",Tenosynovial giant cell tumour,Oncology,"P, O, B",2019,Pexidartinib,Tenosynovial Giant Cell Tumor,EFO_1000562
+PITOLISANT,Wakix,Harmony,CHEMBL462605,H3-receptor antagonist/inverse agonist,Excessive sleepiness due to narcolepsy,Neurological,"P, O",2019,Pitolisant,narcolepsy,MONDO_0021107
+PRETOMANID,Pretomanid,Pfizer/Mylan,CHEMBL227875,Antimycobacterial,Tuberculosis,Infectious,"P, O",2019,Pretomanid,tuberculosis,MONDO_0018076
+ENTRECTINIB,Rozlytrek,Roche,CHEMBL1983268,"TRKA, TRKB, TRKC, ROS1 and ALK inhibitor",NTRK fusion-positive solid tumours and ROS1-positive NSCLC,Oncology,"P, O, B, A",2019,Entrectinib,non-small cell lung carcinoma,EFO_0003060
+UPADACITINIB,Rinvoq,AbbVie,CHEMBL3622821,JAK inhibitor,Rheumatoid arthritis,Immunology,S,2019,Upadacitinib,rheumatoid arthritis,EFO_0000685
+FEDRATINIB,Inrebic,Celgene/BMS,CHEMBL1287853,JAK2 and FLT3 inhibitor,Myelofibrosis,Hematology,"P, O",2019,Fedratinib,myelofibrosis,MONDO_0044903
+LEFAMULIN,Xenleta,Nabriva,CHEMBL3291398,Pleuromutilin antibacterial,CABP,Respiratory,P,2019,Lefamulin,bacterial pneumonia,EFO_1001272
+GALLIUM DOTATOC GA-68,Gallium dotatoc Ga-68,UIHC PET Imaging Center,CHEMBL4297340,Radioactive diagnostic,Localization of somatostatin receptor-positive neuroendocrine tumours,Imaging,"S, O",2019,Gallium dotatoc Ga-68,neuroendocrine neoplasm,EFO_1001901
+ISTRADEFYLLINE,Nourianz,Kyowa Kirin,CHEMBL431770,Adenosine receptor antagonist,Parkinson disease episodes,Neurological,S,2019,Istradefylline,Parkinson disease,MONDO_0005180
+TENAPANOR,Ibsrela,Ardelyx,CHEMBL3304485,NHE3 inhibitor,IBS with constipation,Gastrointestinal,S,2019,Tenapanor,irritable bowel syndrome,EFO_0000555
+TRIFAROTENE,Aklief,Galderma,CHEMBL3707313,Retinoic acid receptor agonist,Acne vulgaris,Dermatology,S,2019,Trifarotene,acne,EFO_0003894
+BROLUCIZUMAB,Beovu,Novartis,CHEMBL3707357,VEGF inhibitor,Wet age-related macular degeneration,Ophthalmology,S,2019,Brolucizumab,macular degeneration,EFO_0009606
+AFAMELANOTIDE,Scenesse,Clinuvel,CHEMBL441738,Melanocortin 1 receptor agonist,Erythropoietic protoporphyria,Dermatology,"P, O",2019,Afamelanotide,erythropoietic protoporphyria,MONDO_0001676
+FLUORODOPA F-18,Fluorodopa F-18,Feinstein Institutes,CHEMBL3400972,Radioactive diagnostic,Diagnosis of parkinsonian syndromes,Imaging,S,2019,Fluorodopa F-18,Parkinson disease,MONDO_0005180
+LASMIDITAN,Reyvow,Eli Lilly,CHEMBL3039520,Serotonin (5-HT) 1F receptor agonist,Migraine with or without aura,Neurological,S,2019,Lasmiditan,migraine disorder,MONDO_0005277
+TEZACAFTOR,Trikafta,Vertex,CHEMBL3544914,Two CFTR correctors and a CFTR potentiator,Most common gene mutation that causes cystic fibrosis,Metabolic,"P, O, B",2019,Tezacaftor; elexacaftor; ivacaftor,cystic fibrosis,MONDO_0009061
+ELEXACAFTOR,Trikafta,Vertex,CHEMBL4298128,Two CFTR correctors and a CFTR potentiator,Most common gene mutation that causes cystic fibrosis,Metabolic,"P, O, B",2019,Tezacaftor; elexacaftor; ivacaftor,cystic fibrosis,MONDO_0009061
+IVACAFTOR,Trikafta,Vertex,CHEMBL2010601,Two CFTR correctors and a CFTR potentiator,Most common gene mutation that causes cystic fibrosis,Metabolic,"P, O, B",2019,Tezacaftor; elexacaftor; ivacaftor,cystic fibrosis,MONDO_0009061
+AIR POLYMER-TYPE A,ExEm Foam,Giskit,CHEMBL4594264,Ultrasound contrast agent,Assess fallopian tube patency in women with known or suspected infertility,Other,S,2019,Air polymer-type A,infertility,EFO_0000545
+LUSPATERCEPT,Reblozyl,Celgene/BMS,CHEMBL3039545,Erythroid maturation agent,Anaemia in beta-thalassaemia,Hematology,"P, O",2019,Luspatercept,beta thalassemia; anemia,MONDO_0019402; MONDO_0002280
+CEFIDEROCOL,Fetroja,Shionogi,CHEMBL3989974,Cephalosporin antibacterial,Complicated urinary tract infections,Infectious,P,2019,Cefiderocol,urinary tract infection,EFO_0003103
+ZANUBRUTINIB,Brukinsa,BeiGene,CHEMBL3936761,BTK inhibitor,Mantle cell lymphoma,Oncology,"P, O, B, A",2019,Zanubrutinib,mantle cell lymphoma,EFO_1001469
+CRIZANLIZUMAB,Adakveo,Novartis,CHEMBL4297734,P-selectin blocker,Painful complications of SCD,Hematology,"P, O, B",2019,Crizanlizumab,sickle cell disease and related diseases,MONDO_0017146
+GIVOSIRAN,Givlaari,Alnylam,CHEMBL4297760,ALAS1-directed siRNA,Acute hepatic porphyria,Metabolic,"P, O, B",2019,Givosiran,acute hepatic porphyria,Orphanet_95157
+CENOBAMATE,Xcopri,SK Life Science,CHEMBL3989949,Unknown,Partial onset seizures,Neurological,S,2019,Cenobamate,seizure,HP_0001250
+VOXELOTOR,Oxbryta,Global Blood Therapeutics,CHEMBL4101807,Haemoglobin S polymerization inhibitor,SCD,Hematology,"P, O, B, A",2019,Voxelotor,schnyder corneal dystrophy,MONDO_0007374
+GOLODIRSEN,Vyondys 53,Sarepta,CHEMBL4297762,Exon 53 skipping antisense,Duchenne muscular dystrophy,Neurological,"P, O, A",2019,Golodirsen,duchenne muscular dystrophy,MONDO_0010679
+ENFORTUMAB VEDOTIN,Padcev,Astellas,CHEMBL3301589,Nectin-4-directed ADC,Urothelial cancers,Oncology,"P, B, A",2019,Enfortumab vedotin,urothelial neoplasm,MONDO_0024337
+BRILLIANT BLUE G,Tissueblue,Dutch Ophthalmic Research,CHEMBL4173394,Brilliant Blue G dye,Staining the internal limiting membrane,Imaging,"P, O",2019,Brilliant Blue G,NA,NA
+LEMBOREXANT,Dayvigo,Eisai,CHEMBL3545367,Orexin receptor antagonist,Insomnia,Neurological,S,2019,Lemborexant,insomnia,EFO_0004698
+TRASTUZUMAB DERUXTECAN,Enhertu,Daiichi Sankyo/AstraZeneca,CHEMBL4297844,HER2-directed ADC,HER2-positive breast cancer,Oncology,"P, B, A",2019,Trastuzumab deruxtecan,HER2 Positive Breast Carcinoma,EFO_1000294
+LUMATEPERONE,Caplyta,Intra-Cellular Therapies,CHEMBL3306803,Atypical antipsychotic,Schizophrenia,Neurological,S,2019,Lumateperone,schizophrenia,MONDO_0005090
+UBROGEPANT,Ubrelvy,Allergan,CHEMBL2364638,CGRP receptor antagonist,Migraine with or without aura,Neurological,S,2019,Ubrogepant,migraine disorder,MONDO_0005277

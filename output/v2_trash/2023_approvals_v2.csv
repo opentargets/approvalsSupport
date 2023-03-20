@@ -1,4 +1,4 @@
-"datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
+"datasourceId","Drug_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
 "cancer_biomarkers","SER-109","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","RSVpreF","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023
 "cancer_biomarkers","Olorofim","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2023

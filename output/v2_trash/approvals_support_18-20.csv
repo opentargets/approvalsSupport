@@ -1,4 +1,4 @@
-"datasourceId","Drug_brand_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
+"datasourceId","Drug_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year"
 "cancer_gene_census","ZANUBRUTINIB",NA,FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2019
 "cancer_gene_census","VOXELOTOR",NA,FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2019
 "cancer_gene_census","VILTOLARSEN",NA,FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2020
