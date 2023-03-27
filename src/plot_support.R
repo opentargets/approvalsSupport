@@ -3,7 +3,7 @@ library("ggsci")
 library(forcats)
 
 
-data2plot <- read_csv("./output/2018-2019_approvals_v7.csv")
+data2plot <- read_csv("./output/2018-2022_approvals_v1.csv")
 
 
 # Defining a function for plotting with parameters and one output by Year
@@ -123,5 +123,5 @@ unique_years <- unique(data2plot$Year)
 
 # Loop through unique years and apply function to relevant subset of data
 for (year in unique_years) {
-  ass_plotting(year, version = "v7") # apply function to subset
+  ass_plotting(year, version = "v1_whole") # apply function to subset
 }

@@ -2,6 +2,7 @@ library("cowplot")
 library("ggsci")
 library(forcats)
 library(ggplot2)
+library("tidyverse")
 
 options(dplyr.width = Inf)
 data <- read_csv("./output/2018-2022_approvals_v1.csv")
@@ -11,7 +12,7 @@ data_all_count <- data %>%
     distinct() %>%
     group_by(Year) %>%
     summarise(n = n()) %>%
-    ungroup()data_humT_metadata
+    ungroup()
 
 data_humT_metadata <- data %>% filter(noTarget == FALSE) %>%
     mutate(score_bool = score > 0, 
@@ -57,7 +58,7 @@ ggplot(data = data_humT_1, aes(x=Year, y=value, fill=fct_reorder(type, value))) 
   ylab("Approvals, %") +
   labs(fill='Evidence presence')
 
-ggsave("./output/direct_evidence_interact_1.pdf", 
+ggsave("./output/direct_evidence_interact_1_1.pdf", 
         width = 5,
         height = 3)
 
@@ -70,7 +71,7 @@ ggplot(data = data_humT_2, aes(x=Year, y=value, fill=fct_reorder(type, value))) 
   labs(fill='Evidence presence')
 
 
-ggsave("./output/direct_evidence_interact_2.pdf", 
+ggsave("./output/direct_evidence_interact_1_2.pdf", 
         width = 5,
         height = 3)
 

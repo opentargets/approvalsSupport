@@ -1,5 +1,4 @@
 ﻿Drug,chemblIds,targetId,comment,Type,Year
-Asparaginase erwinia chrysanthemi,CHEMBL1863514,ENSG00000166183,MoA (ASPG) was absent in OT,Enzyme therapy,2021
 Avalglucosidase alfa,CHEMBL4594320,ENSG00000171298,MoA (GAA) was absent in OT,Enzyme therapy,2021
 Vutrisiran,CHEMBL4594511,ENSG00000118271,MoA (TTR) was absent in OT,Pharmacological,2022
 Mavacamten,CHEMBL4297517,ENSG00000092054,MoA (MYH7) was absent in OT,Pharmacological,2022
@@ -29,3 +28,4 @@ SOLRIAMFETOL,CHEMBL4297620,ENSG00000103546,MoA (SLC6A2) was absent in OT ,NA,201
 FERRIC MALTOL,CHEMBL4298110,ENSG00000259207,MoA (ITGB3) was absent in OT,NA,2019
 FERRIC MALTOL,CHEMBL4298110,ENSG00000110911,MoA (SLC11A2) was absent in OT ,NA,2019
 SIPONIMOD,CHEMBL2336071,ENSG00000168610,"S1PR1 to STAT3 (S1P-STAT3 signaling axis, GE for multiple sclerosis)",NA,2019
+Fosdenopterin,CHEMBL2338675,ENSG00000164172,MoA (MOCS2) was absent in OT,Pharmacological,2021
