@@ -3,7 +3,7 @@ library("sparklyr")
 library("sparklyr.nested")
 
 
-data_release <- "22.11"
+data_release <- "23.02"
 
 # Spark config
 config <- spark_config()
@@ -16,7 +16,7 @@ config$spark.hadoop.fs.gs.requester.pays.project.id <- "open-targets-eu-dev" # n
 sc <- spark_connect(master = "yarn", config = config)
 
 # Approvals as reported in NRDD article
-local_approvals <- read_csv("./data/2018-2019/2018-2019_approvals_v5.csv")
+local_approvals <- read_csv("./data/2018-2019/2018-2019_approvals_v7.csv")
 approvals_init <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
 
 # Split and explode multiple DrugId
@@ -233,4 +233,4 @@ data2plot <- ass %>%
         ) %>%
         left_join(approvals %>% select(Drug_name, Year, Brand_name,	Drug_name_original) %>% collect(), by = "Drug_name")
 
-write.table(data2plot, sep = ",", file = "./output/2018-2019_approvals_v5.csv", row.names = FALSE)
+write.table(data2plot, sep = ",", file = "./output/2018-2019_approvals_v7.csv", row.names = FALSE)

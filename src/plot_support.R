@@ -3,7 +3,7 @@ library("ggsci")
 library(forcats)
 
 
-data2plot <- read_csv("./output/2018-2019_approvals_v5.csv")
+data2plot <- read_csv("./output/2018-2019_approvals_v7.csv")
 
 
 # Defining a function for plotting with parameters and one output by Year
@@ -13,10 +13,10 @@ ass_plotting <- function(year, version, width = 8, height = 11) {
     data2plot_proc <- data2plot %>%
         filter(Year == year) %>%
         mutate(has_no_human_target = TA == "No human target") %>%
-        group_by(Brand_name) %>%
+        group_by(Drug_name_original) %>%
         summarise(guilty = max(has_no_human_target) - min(has_no_human_target)) %>%
         ungroup() %>%
-        left_join(data2plot, by = "Brand_name") %>%
+        left_join(data2plot, by = "Drug_name_original") %>%
         mutate(TA = ifelse(guilty, "No human target", TA))
 
     # symbols to overlay in the plot
@@ -29,9 +29,10 @@ ass_plotting <- function(year, version, width = 8, height = 11) {
             TA,
             interactionAssociation,
             phenotypeAssociation,
-            Brand_name
+            Brand_name,
+            Drug_name_original
         ) %>%
-        gather("overlay", "value", -datasourceName, -datasourceType, -Drug_name, -TA, -Brand_name) %>%
+        gather("overlay", "value", -datasourceName, -datasourceType, -Drug_name, -TA, -Brand_name, -Drug_name_original) %>%
         filter(!is.na(value)) %>%
         mutate(overlay = str_replace_all(overlay, "Association", "")) %>%
         mutate(overlaySize = ifelse(overlay == "phenotype", 3, 1)) %>%
@@ -41,17 +42,17 @@ ass_plotting <- function(year, version, width = 8, height = 11) {
     sort_order <- data2plot_proc %>%
     left_join(overlay_data) %>% 
     mutate(overlay_score = ifelse(value, 0.01, 0)) %>%
-    group_by(Brand_name) %>%
+    group_by(Drug_name_original) %>%
     summarise(order = sum(score, na.rm=TRUE) + sum(overlay_score, na.rm=TRUE)) %>% arrange(-order) %>% ungroup()
 
 
     # plotting
     output <- data2plot_proc %>%
         left_join(sort_order) %>%
-        mutate(Brand_name = fct_reorder(Brand_name, order)) %>%
+        mutate(Drug_name_original = fct_reorder(Drug_name_original, order)) %>%
         ggplot(aes(
             x = datasourceName,
-            y = Brand_name
+            y = Drug_name_original
         )) +
         geom_tile(aes(fill = score), color = "white") +
         geom_point(
@@ -122,5 +123,5 @@ unique_years <- unique(data2plot$Year)
 
 # Loop through unique years and apply function to relevant subset of data
 for (year in unique_years) {
-  ass_plotting(year, version = "v5_cur") # apply function to subset
+  ass_plotting(year, version = "v7") # apply function to subset
 }
