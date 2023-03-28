@@ -1,0 +1,75 @@
+﻿,Drug_name,Brand_name,Sponsor,Properties,Review_type,Year,DiseaseId,Indication_EFO,Indication,Drug_name_original,DrugId,TA
+1,PLECANATIDE,Trulance,Synergy Pharmaceuticals,Guanylate cyclase C agonist,S,2017,HP_0012450,Chronic constipation,Chronic idiopathic constipation,Plecanatide,CHEMBL2103867,Gastrointestinal
+2,VELCALCETIDE,Parsabiv,Amgen/Kai Pharmaceuticals,Calcium-sensing receptor agonist,S,2017,EFO_0008506,hyperparathyroidism,Secondary hyperparathyroidism in patients with chronic kidney disease on haemodialysis,Etelcalcetide,CHEMBL3545184,Nephrology
+3,DEFLAZACORT,Emflaza,PTC Therapeutics,Corticosteroid,"P, O",2017,MONDO_0010679,Duchenne muscular dystrophy,Duchenne muscular dystrophy,Deflazacort,CHEMBL1201891,Neurological
+4,BRODALUMAB,Siliq,Valeant Pharmaceuticals,IL-17RA antagonist,S,2017,EFO_1001494,psoriasis vulgaris,Plaque psoriasis,Brodalumab,CHEMBL1742996,Dermatology
+5,TELOTRISTAT ETIPRATE,Xermelo,Lexicon Pharmaceuticals,Tryptophan hydroxylase inhibitor,"P, O",2017,EFO_1000852; HP_0002014,carcinoid syndrome; Diarrhea,Carcinoid syndrome diarrhoea,Telotristat etiprate,CHEMBL3348963,Gastrointestinal
+6,RIBOCICLIB,Kisqali,Novartis,CDK4/6 inhibitor,"P, B",2017,EFO_0009780,HER2 negative breast carcinoma,"HR-positive, HER2-negative breast cancer",Ribociclib,CHEMBL3545110,Oncology
+7,SAFINAMIDE,Xadago,US WorldMeds,MAO-B inhibitor,S,2017,MONDO_0005180,Parkinson disease,Parkinson disease,Safinamide,CHEMBL396778,Neurological
+8,NALDEMEDINE,Symproic,Shionogi,Opioid antagonist,S,2017,HP_0002019,Constipation,Opioid-induced constipation,Naldemedine,CHEMBL2105755,Gastrointestinal
+9,AVELUMAB,Bavencio,Merck KGaA/Pfizer,PDL1-blocking antibody,"P, O, B, A",2017,EFO_1001471,Merkel cell skin cancer,Merkel cell carcinoma,Avelumab,CHEMBL3833373,Oncology
+10,NIRAPARIB,Zejula,Tesaro,PARP inhibitor,"P, O, B",2017,MONDO_0002158; MONDO_0002229; MONDO_0015686,fallopian tube cancer; ovarian epithelial tumor; primary peritoneal carcinoma,"Epithelial ovarian, fallopian tube or primary peritoneal cancer",Niraparib,CHEMBL1094636,Oncology
+11,OCRELIZUMAB,Ocrevus,Roche/Genentech,CD20-directed cytolytic antibody,"P, B",2017,EFO_0003840,chronic progressive multiple sclerosis,Relapsing or primary progressive forms of multiple sclerosis,Ocrelizumab,CHEMBL2108041,Neurological
+12,DUPILUMAB,Dupixent,Regeneron/Sanofi,IL-4R≈í¬± antagonist,"P, B",2017,EFO_0000274,atopic eczema,Atopic dermatitis,Dupilumab,CHEMBL2108675,Dermatology
+13,DUTETRABENAZINE,Austedo,Teva,VMAT2 inhibitor,"S, O",2017,EFO_0004152; MONDO_0007739,chorea; Huntington disease,Chorea associated with Huntington disease,Deutetrabenazine,CHEMBL3137326,Neurological
+14,VALBENAZINE,Ingrezza,Neurocrine Biosciences,VMAT2 inhibitor,"P, B",2017,EFO_0004280,movement disorder,Tardive dyskinesia,Valbenazine,CHEMBL2364639,Neurological/Psychiatric
+15,CERLIPONASE ALFA,Brineura,BioMarin Pharmaceutical,Tripeptidyl peptidase,"P, O, B",2017,MONDO_0008769,neuronal ceroid lipofuscinosis 2,Tripeptidyl peptidase 1 deficiency (neuronal ceroid lipofuscinosis type 2*),Cerliponase alfa,CHEMBL3544921,Neurological
+16,MIDOSTAURIN,Rydapt,Novartis,FLT3 inhibitor,"P, O, B",2017,MONDO_0100415,"acute myeloid leukemia, FLT3 internal tandem duplication",FLT3-positive AML,Midostaurin,CHEMBL608533,Oncology
+17,ABALOPARATIDE,Tymlos,Radius Health,Parathyroid hormone-related protein,S,2017,EFO_0003882,osteoporosis,Osteoporosis,Abaloparatide,CHEMBL3301581,Endocrine
+18,BRIGATINIB,Alunbrig,Ariad Pharmaceuticals/Takeda,ALK inhibitor,"P, O, B, A",2017,EFO_0003060,non-small cell lung carcinoma,ALK-positive NSCLC,Brigatinib,CHEMBL3545311,Oncology
+19,DURVALUMAB,Imfinzi,AstraZeneca,PDL1-blocking antibody,"P, B, A",2017,EFO_0008528,urothelial carcinoma,Urothelial carcinoma,Durvalumab,CHEMBL3301587,Oncology
+20,EDARAVONE,Radicava,Mitsubishi Tanabe,Unknown (radical scavenger),"S, O",2017,MONDO_0004976,amyotrophic lateral sclerosis,ALS (amyotrophic lateral sclerosis),Edaravone,CHEMBL290916,Neurological
+21,SARILUMAB,Kevzara,Sanofi/Regeneron,IL-6 receptor antagonist,S,2017,EFO_0000685,rheumatoid arthritis,Rheumatoid arthritis,Sarilumab,CHEMBL2108730,Autoimmune
+22,DELAFLOXACIN,Baxdela,Melinta Therapeutics,Fluoroquinolone antibacterial,P,2017,EFO_1001849,staphylococcal skin infections,Acute bacterial skin and skin structure infections,Delafloxacin,CHEMBL2105637,Infectious
+23,BETRIXABAN,Bevyxxa,Portola Pharmaceuticals,FXa inhibitor,P,2017,EFO_0004286,venous thromboembolism,Prophylaxis of venous thromboembolism,Betrixaban,CHEMBL512351,Cardiovascular
+24,GUSELKUMAB,Tremfya,Janssen/Johnson & Johnson,IL-23 blocker,P,2017,EFO_1001494,psoriasis vulgaris,Plaque psoriasis,Guselkumab,CHEMBL2364648,Dermatology
+25,NERATINIB,Nerlynx,Puma Biotechnology,"EGFR, HER2 and HER4 irreversible kinase inhibitor",S,2017,EFO_1000294,HER2 Positive Breast Carcinoma,HER2-overexpressed breast cancer,Neratinib,CHEMBL180022,Oncology
+26,SOFOSBUVIR,Vosevi,Gilead Sciences,Nucleotide analogue NS5B polymerase inhibitor plus an NS5A inhibitor plus an NS3/4A protease inhibitor,"P, B",2017,EFO_0003047,hepatitis C virus infection,HCV,Sofosbuvir; velpatasvir; voxilaprevir,CHEMBL1259059,Infectious
+27,VELPATASVIR,Vosevi,Gilead Sciences,Nucleotide analogue NS5B polymerase inhibitor plus an NS5A inhibitor plus an NS3/4A protease inhibitor,"P, B",2017,EFO_0003047,hepatitis C virus infection,HCV,Sofosbuvir; velpatasvir; voxilaprevir,CHEMBL3545062,Infectious
+28,VOXILAPREVIR,Vosevi,Gilead Sciences,Nucleotide analogue NS5B polymerase inhibitor plus an NS5A inhibitor plus an NS3/4A protease inhibitor,"P, B",2017,EFO_0003047,hepatitis C virus infection,HCV,Sofosbuvir; velpatasvir; voxilaprevir,CHEMBL3707372,Infectious
+29,ENASIDENIB MESYLATE,Idhifa,Celgene/Agios,IDH2 inhibitor,"P, O",2017,EFO_0000222,acute myeloid leukemia,IDH2-mutated AML,Enasidenib mesylate,CHEMBL3989931,Oncology
+30,GLECAPREVIR,Mavyret,AbbVie,NS3/4A protease inhibitor plus a NS5A inhibitor,"P, B",2017,EFO_0003047,hepatitis C virus infection,HCV,Glecaprevir; pibrentasvir,CHEMBL3545363,Infectious
+31,PIBRENTASVIR,Mavyret,AbbVie,NS3/4A protease inhibitor plus a NS5A inhibitor,"P, B",2017,EFO_0003047,hepatitis C virus infection,HCV,Glecaprevir; pibrentasvir,CHEMBL3545123,Infectious
+32,INOTUZUMAB OZOGAMICIN,Besponsa,Pfizer,CD22-directed antibody‚Äö√Ñ√¨drug conjugate,"P, O, B",2017,MONDO_0020511,precursor B-cell acute lymphoblastic leukemia,B cell precursor ALL,Inotuzumab ozogamicin,CHEMBL2108611,Oncology
+33,BENZNIDAZOLE,Benznidazole,Chemo Research,Nitroimidazole antimicrobial,"P, O, A",2017,MONDO_0001444,Chagas disease,Chagas disease,Benznidazole,CHEMBL110,Infectious
+34,MEROPENEM,Vabomere,The Medicines Company/Rempex Pharmaceuticals,Carbapenem antimicrobial plus a ≈í‚â§-lactamase inhibitor,P,2017,EFO_0003103,urinary tract infection,Complicated urinary tract infections,Meropenem; vaborbactam,CHEMBL127,Infectious
+35,VABORBACTAM,Vabomere,The Medicines Company/Rempex Pharmaceuticals,Carbapenem antimicrobial plus a ≈í‚â§-lactamase inhibitor,P,2017,EFO_0003103,urinary tract infection,Complicated urinary tract infections,Meropenem; vaborbactam,CHEMBL3317857,Infectious
+36,COPANLISIB,Aliqopa,Bayer,PI3K≈í¬±/≈í¬• inhibitor,"P, O, A",2017,MONDO_0018906,follicular lymphoma,Follicular lymphoma,Copanlisib dihydrochloride,CHEMBL3218576,Oncology
+37,SECNIDAZOLE,Solosec,Lupin,Nitroimidazole antimicrobial,P,2017,EFO_0003932,bacterial vaginosis,Bacterial vaginosis,Secnidazole,CHEMBL498847,Infectious
+38,ABEMACICLIB,Verzenio,Eli Lilly,CDK4/6 inhibitor,"P, B",2017,EFO_0009780,HER2 negative breast carcinoma,"HR-positive, HER2-negative breast cancer",Abemaciclib,CHEMBL3301610,Oncology
+39,ACALABRUTINIB,Calquence,AstraZeneca/Acerta Pharma,BTK inhibitor,"P, O, B, A",2017,EFO_1001469,Mantle cell lymphoma,Mantle cell lymphoma,Acalabrutinib,CHEMBL3707348,Oncology
+40,LATANOPROSTENE BUNOD,Vyzulta,Bausch and Lomb/Valeant Pharmaceuticals,Prostaglandin analogue,S,2017,EFO_0004695,intraocular pressure measurement,Intraocular pressure,Latanoprostene bunod,CHEMBL2364612,Ophthalmology
+41,LETERMOVIR,Prevymis,Merck & Co.,CMV DNA terminase complex inhibitor,"P, O, B",2017,EFO_0001062,cytomegalovirus infection,Prophylaxis of CMV (cytomegalovirus),Letermovir,CHEMBL1241951,Infectious
+42,BENRALIZUMAB,Fasenra,AstraZeneca,IL-5R≈í¬±-directed monoclonal antibody,S,2017,EFO_0008590,Status Asthmaticus,Severe asthma,Benralizumab,CHEMBL1742991,Respiratory
+43,VESTRONIDASE ALFA,Mepsevii,Ultragenyx,Recombinant human lysosomal ≈í‚â§-glucuronidase,"P, O",2017,MONDO_0009662,mucopolysaccharidosis type 7,Mucopolysaccharidosis VII,Vestronidase alfa,CHEMBL3707382,Metabolic
+44,EMICIZUMAB,Hemlibra,Roche/Genentech,Bispecific FIX and FX-directed antibody,"P, O, B",2017,MONDO_0019139,acquired hemophilia,Haemophilia A,Emicizumab,CHEMBL3833393,Hematology
+45,SEMAGLUTIDE,Ozempic,Novo Nordisk,GLP1 receptor agonist,S,2017,MONDO_0005148,type 2 diabetes mellitus,Type 2 diabetes mellitus,Semaglutide,CHEMBL2108724,Endocrine
+46,OZENOXACIN,Xepi,Ferrer Internacional,Quinolone antimicrobial,S,2017,EFO_1000714,impetigo,Impetigo due to Staphylococcus aureus or Streptococcus pyogenes,Ozenoxacin,CHEMBL3990047,Infectious
+47,NETARSUDIL,Rhopressa,Aerie Pharmaceuticals,RHO kinase inhibitor,P,2017,EFO_0004190,open-angle glaucoma,Open-angle glaucoma or ocular hypertension,Netarsudil,CHEMBL4594250,Ophthalmology
+48,ERTUGLIFLOZIN,Steglatro,Merck & Co./Pfizer,SGLT2 inhibitor,S,2017,MONDO_0005148,type 2 diabetes mellitus,Type 2 diabetes mellitus,Ertugliflozin,CHEMBL1770248,Endocrine
+49,MACIMORELIN,Macrilen,Aeterna Zentaris,Growth hormone secretagogue receptor agonist,"S, O",2017,HP_0000824,Decreased response to growth hormone stimulation test,Diagnosis of adult growth hormone deficiency,Macimorelin,CHEMBL278623,Endocrine
+50,ANGIOTENSIN II,Giapreza,La Jolla Pharmaceutical Company,Synthetic human angiotensin,P,2017,EFO_0006834; EFO_0004325,septic shock; blood pressure,Blood pressure in adults with septic or other distributive shock,Angiotensin II,CHEMBL408403,Cardiovascular
+51,ELBASVIR,Zepatier,Merck & Co.,NS5A inhibitor plus NS3/4A protease inhibitor,"P, B",2016,EFO_0003047,hepatitis C virus infection,HCV genotypes 1 and 4,Elbasvir; grazoprevir,CHEMBL3039514,Infectious
+52,GRAZOPREVIR,Zepatier,Merck & Co.,NS5A inhibitor plus NS3/4A protease inhibitor,"P, B",2016,EFO_0003047,hepatitis C virus infection,HCV genotypes 1 and 4,Elbasvir; grazoprevir,CHEMBL2063090,Infectious
+53,BRIVARACETAM,Briviact,UCB,"Anticonvulsant with unknown MOA, binds to SV2A",S,2016,MONDO_0015642,benign partial infantile seizures,Partial-onset seizures,Brivaracetam,CHEMBL607400,Neurological
+54,OBILTOXAXIMAB,Anthim,Elusys Therapeutics,mAb against anthrax toxin,"S, O",2016,EFO_0000778,anthrax infection,Anthrax,Obiltoxaximab,CHEMBL3544926,Infectious
+55,IXEKIZUMAB,Taltz,Eli Lilly,IL-17A antagonist,S,2016,EFO_1001494,psoriasis vulgaris,Plaque psoriasis,Ixekizumab,CHEMBL1743034,Dermatology
+56,RESLIZUMAB,Cinqair,Teva,IL-5 antagonist,S,2016,EFO_0008590,Status Asthmaticus,Severe asthma,Reslizumab,CHEMBL2107884,Respiratory
+57,DEFIBROTIDE SODIUM,Defitelio,Gentium,Profibrinolytic,"P, O",2016,MONDO_0019514,hepatic veno-occlusive disease,Hepatic veno-occlusive disease,Defibrotide sodium,CHEMBL3707226,Oncology
+58,VENETOCLAX,Venclexta,AbbVie,BCL-2 inhibitor,"P, O, B, A",2016,EFO_0000095,chronic lymphocytic leukemia,Chronic lymphocytic leukaemia,Venetoclax,CHEMBL3137309,Oncology
+59,PIMAVANSERIN,Nuplazid,Acadia Pharmaceuticals,Atypical antipsychotic,"P, B",2016,MONDO_0005180; EFO_0005407,Parkinson disease; psychosis,Hallucinations and delusions associated with Parkinson disease psychosis,Pimavanserin,CHEMBL2111101,Neurological
+60,ATEZOLIZUMAB,Tecentriq,Genentech,PDL1 inhibitor,"P, B, A",2016,EFO_0008528,urothelial carcinoma,Urothelial carcinoma,Atezolizumab,CHEMBL3707227,Oncology
+61,OBETICHOLIC ACID,Ocaliva,Intercept,FXR agonist,"P, O, A",2016,EFO_1001486,primary biliary cirrhosis,Primary biliary cholangitis,Obeticholic acid,CHEMBL566315,Immunology
+62,FLUCICLOVINE F-18,Axumin,Blue Earth,Radioactive diagnostic,P,2016,MONDO_0008315,prostate cancer,Suspected prostate cancer recurrence,Fluciclovine F-18,CHEMBL3707267,Oncology
+63,DACLIZUMAB,Zinbryta,Biogen,IL-2-targeted mAb,S,2016,MONDO_0005301,multiple sclerosis,Multiple sclerosis,Daclizumab,CHEMBL1201605,Neurological
+64,GALLIUM GA-68 DOTATATE,Netspot,Advanced Accelerator Applications,Radioactive diagnostic,"P, O",2016,EFO_1001901,neuroendocrine neoplasm,Neuroendocrine tumours,Gallium Ga-68 dotatate,CHEMBL4297340,Oncology
+65,SOFOSBUVIR,Epclusa,Gilead Sciences,A nucleotide analogue NS5B polymerase inhibitor plus an HCV NS5A inhibitor,"P, B",2016,EFO_0003047,hepatitis C virus infection,"genotype 1, 2, 3 or 4 chronic hepatitis C virus (HCV) ",Sofosbuvir; velpatasvir,CHEMBL1259059,Infectious
+66,VELPATASVIR,Epclusa,Gilead Sciences,A nucleotide analogue NS5B polymerase inhibitor plus an HCV NS5A inhibitor,"P, B",2016,EFO_0003047,hepatitis C virus infection,"genotype 1, 2, 3 or 4 chronic hepatitis C virus (HCV) ",Sofosbuvir; velpatasvir,CHEMBL3545062,Infectious
+67,LIFITEGRAST,Xiidra,Shire Pharmaceuticals,LFA1 antagonist,P,2016,EFO_1000906,dry eye syndrome,Dry eye disease,Lifitegrast,CHEMBL2048028,Ophthalmology
+68,LIXISENATIDE,Adlyxin,Sanofi,GLP1 receptor agonist,S,2016,EFO_0000400,diabetes mellitus,Diabetes,Lixisenatide,CHEMBL2108336,Endocrine
+69,ETEPLIRSEN,Exondys 51,Sarepta Therapeutics,ASO designed to target dystrophin pre-mRNA,"P, O, A",2016,MONDO_0010679,Duchenne muscular dystrophy,Duchenne muscular dystrophy,Eteplirsen,CHEMBL2108278,Neurological
+70,OLARATUMAB,Lartruvo,Eli Lilly,PDGFR≈í¬±-blocking antibody,"P, O, B, A",2016,EFO_1001968,soft tissue sarcoma,Soft tissue sarcoma,Olaratumab,CHEMBL1743049,Oncology
+71,BEZLOTOXUMAB,Zinplava,Merck & Co.,mAb against¬¨‚Ä†Clostridium difficile¬¨‚Ä†toxin,P,2016,EFO_0009130,clostridium difficile infection,C. difficile recurrence,Bezlotoxumab,CHEMBL2108670,Gastrointestinal
+72,CRISABOROLE,Eucrisa,Pfizer/Anacor Pharmaceuticals,PDE4 inhibitor,S,2016,EFO_0000274,atopic eczema,Atopic dermatitis,Crisaborole,CHEMBL484785,Dermatology
+73,RUCAPARIB,Rubraca,Clovis Oncology,PARP inhibitor,"P, O, B, A",2016,MONDO_0008170,ovarian cancer,BRCA-positive ovarian cancer,Rucaparib,CHEMBL1173055,Oncology
+74,NUSINERSEN,Spinraza,Biogen/Ionis Pharmaceuticals,ASO designed to target SMN2 pre-mRNA,"P, O",2016,EFO_0008525,spinal muscular atrophy,Spinal muscular atrophy,Nusinersen,CHEMBL3301572,Neurological

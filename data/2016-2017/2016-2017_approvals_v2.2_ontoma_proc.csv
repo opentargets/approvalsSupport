@@ -1,0 +1,69 @@
+﻿Drug_name,Brand_name,Sponsor,Properties,Review type,Year,DiseaseId,Indication_EFO,Indication
+Plecanatide,Trulance,Synergy Pharmaceuticals,Guanylate cyclase C agonist,S,2017,HP_0012450,Chronic constipation,Chronic idiopathic constipation
+Etelcalcetide,Parsabiv,Amgen/Kai Pharmaceuticals,Calcium-sensing receptor agonist,S,2017,EFO_0008506,hyperparathyroidism,Secondary hyperparathyroidism in patients with chronic kidney disease on haemodialysis
+Deflazacort,Emflaza,PTC Therapeutics,Corticosteroid,"P, O",2017,MONDO_0010679,Duchenne muscular dystrophy,Duchenne muscular dystrophy
+Brodalumab,Siliq,Valeant Pharmaceuticals,IL-17RA antagonist,S,2017,EFO_1001494,psoriasis vulgaris,Plaque psoriasis
+Telotristat etiprate,Xermelo,Lexicon Pharmaceuticals,Tryptophan hydroxylase inhibitor,"P, O",2017,EFO_1000852; HP_0002014,carcinoid syndrome; Diarrhea,Carcinoid syndrome diarrhoea
+Ribociclib,Kisqali,Novartis,CDK4/6 inhibitor,"P, B",2017,EFO_0009780,HER2 negative breast carcinoma,"HR-positive, HER2-negative breast cancer"
+Safinamide,Xadago,US WorldMeds,MAO-B inhibitor,S,2017,MONDO_0005180,Parkinson disease,Parkinson disease
+Naldemedine,Symproic,Shionogi,Opioid antagonist,S,2017,HP_0002019,Constipation,Opioid-induced constipation
+Avelumab,Bavencio,Merck KGaA/Pfizer,PDL1-blocking antibody,"P, O, B, A",2017,EFO_1001471,Merkel cell skin cancer,Merkel cell carcinoma
+Niraparib,Zejula,Tesaro,PARP inhibitor,"P, O, B",2017,MONDO_0002158; MONDO_0002229; MONDO_0015686,fallopian tube cancer; ovarian epithelial tumor; primary peritoneal carcinoma,"Epithelial ovarian, fallopian tube or primary peritoneal cancer"
+Ocrelizumab,Ocrevus,Roche/Genentech,CD20-directed cytolytic antibody,"P, B",2017,EFO_0003840,chronic progressive multiple sclerosis,Relapsing or primary progressive forms of multiple sclerosis
+Dupilumab,Dupixent,Regeneron/Sanofi,IL-4RŒ± antagonist,"P, B",2017,EFO_0000274,atopic eczema,Atopic dermatitis
+Deutetrabenazine,Austedo,Teva,VMAT2 inhibitor,"S, O",2017,EFO_0004152; MONDO_0007739,chorea; Huntington disease,Chorea associated with Huntington disease
+Valbenazine,Ingrezza,Neurocrine Biosciences,VMAT2 inhibitor,"P, B",2017,EFO_0004280,movement disorder,Tardive dyskinesia
+Cerliponase alfa,Brineura,BioMarin Pharmaceutical,Tripeptidyl peptidase,"P, O, B",2017,MONDO_0008769,neuronal ceroid lipofuscinosis 2,Tripeptidyl peptidase 1 deficiency (neuronal ceroid lipofuscinosis type 2*)
+Midostaurin,Rydapt,Novartis,FLT3 inhibitor,"P, O, B",2017,MONDO_0100415,"acute myeloid leukemia, FLT3 internal tandem duplication",FLT3-positive AML
+Abaloparatide,Tymlos,Radius Health,Parathyroid hormone-related protein,S,2017,EFO_0003882,osteoporosis,Osteoporosis
+Brigatinib,Alunbrig,Ariad Pharmaceuticals/Takeda,ALK inhibitor,"P, O, B, A",2017,EFO_0003060,non-small cell lung carcinoma,ALK-positive NSCLC
+Durvalumab,Imfinzi,AstraZeneca,PDL1-blocking antibody,"P, B, A",2017,EFO_0008528,urothelial carcinoma,Urothelial carcinoma
+Edaravone,Radicava,Mitsubishi Tanabe,Unknown (radical scavenger),"S, O",2017,MONDO_0004976,amyotrophic lateral sclerosis,ALS (amyotrophic lateral sclerosis)
+Sarilumab,Kevzara,Sanofi/Regeneron,IL-6 receptor antagonist,S,2017,EFO_0000685,rheumatoid arthritis,Rheumatoid arthritis
+Delafloxacin,Baxdela,Melinta Therapeutics,Fluoroquinolone antibacterial,P,2017,EFO_1001849,staphylococcal skin infections,Acute bacterial skin and skin structure infections
+Betrixaban,Bevyxxa,Portola Pharmaceuticals,FXa inhibitor,P,2017,EFO_0004286,venous thromboembolism,Prophylaxis of venous thromboembolism
+Guselkumab,Tremfya,Janssen/Johnson & Johnson,IL-23 blocker,P,2017,EFO_1001494,psoriasis vulgaris,Plaque psoriasis
+Neratinib,Nerlynx,Puma Biotechnology,"EGFR, HER2 and HER4 irreversible kinase inhibitor",S,2017,EFO_1000294,HER2 Positive Breast Carcinoma,HER2-overexpressed breast cancer
+Sofosbuvir; velpatasvir; voxilaprevir,Vosevi,Gilead Sciences,Nucleotide analogue NS5B polymerase inhibitor plus an NS5A inhibitor plus an NS3/4A protease inhibitor,"P, B",2017,EFO_0003047,hepatitis C virus infection,HCV
+Enasidenib mesylate,Idhifa,Celgene/Agios,IDH2 inhibitor,"P, O",2017,EFO_0000222,acute myeloid leukemia,IDH2-mutated AML
+Glecaprevir; pibrentasvir,Mavyret,AbbVie,NS3/4A protease inhibitor plus a NS5A inhibitor,"P, B",2017,EFO_0003047,hepatitis C virus infection,HCV
+Inotuzumab ozogamicin,Besponsa,Pfizer,CD22-directed antibody‚Äìdrug conjugate,"P, O, B",2017,MONDO_0020511,precursor B-cell acute lymphoblastic leukemia,B cell precursor ALL
+Benznidazole,Benznidazole,Chemo Research,Nitroimidazole antimicrobial,"P, O, A",2017,MONDO_0001444,Chagas disease,Chagas disease
+Meropenem; vaborbactam,Vabomere,The Medicines Company/Rempex Pharmaceuticals,Carbapenem antimicrobial plus a Œ≤-lactamase inhibitor,P,2017,EFO_0003103,urinary tract infection,Complicated urinary tract infections
+Copanlisib dihydrochloride,Aliqopa,Bayer,PI3KŒ±/Œ¥ inhibitor,"P, O, A",2017,MONDO_0018906,follicular lymphoma,Follicular lymphoma
+Secnidazole,Solosec,Lupin,Nitroimidazole antimicrobial,P,2017,EFO_0003932,bacterial vaginosis,Bacterial vaginosis
+Abemaciclib,Verzenio,Eli Lilly,CDK4/6 inhibitor,"P, B",2017,EFO_0009780,HER2 negative breast carcinoma,"HR-positive, HER2-negative breast cancer"
+Acalabrutinib,Calquence,AstraZeneca/Acerta Pharma,BTK inhibitor,"P, O, B, A",2017,EFO_1001469,Mantle cell lymphoma,Mantle cell lymphoma
+Latanoprostene bunod,Vyzulta,Bausch and Lomb/Valeant Pharmaceuticals,Prostaglandin analogue,S,2017,EFO_0004695,intraocular pressure measurement,Intraocular pressure
+Letermovir,Prevymis,Merck & Co.,CMV DNA terminase complex inhibitor,"P, O, B",2017,EFO_0001062,cytomegalovirus infection,Prophylaxis of CMV (cytomegalovirus)
+Benralizumab,Fasenra,AstraZeneca,IL-5RŒ±-directed monoclonal antibody,S,2017,EFO_0008590,Status Asthmaticus,Severe asthma
+Vestronidase alfa,Mepsevii,Ultragenyx,Recombinant human lysosomal Œ≤-glucuronidase,"P, O",2017,MONDO_0009662,mucopolysaccharidosis type 7,Mucopolysaccharidosis VII
+Emicizumab,Hemlibra,Roche/Genentech,Bispecific FIX and FX-directed antibody,"P, O, B",2017,MONDO_0019139,acquired hemophilia,Haemophilia A
+Semaglutide,Ozempic,Novo Nordisk,GLP1 receptor agonist,S,2017,MONDO_0005148,type 2 diabetes mellitus,Type 2 diabetes mellitus
+Ozenoxacin,Xepi,Ferrer Internacional,Quinolone antimicrobial,S,2017,EFO_1000714,impetigo,Impetigo due to¬†Staphylococcus aureus¬†or¬†Streptococcus pyogenes
+Netarsudil,Rhopressa,Aerie Pharmaceuticals,RHO kinase inhibitor,P,2017,EFO_0004190,open-angle glaucoma,Open-angle glaucoma or ocular hypertension
+Ertugliflozin,Steglatro,Merck & Co./Pfizer,SGLT2 inhibitor,S,2017,MONDO_0005148,type 2 diabetes mellitus,Type 2 diabetes mellitus
+Macimorelin,Macrilen,Aeterna Zentaris,Growth hormone secretagogue receptor agonist,"S, O",2017,HP_0000824,Decreased response to growth hormone stimulation test,Diagnosis of adult growth hormone deficiency
+Angiotensin II,Giapreza,La Jolla Pharmaceutical Company,Synthetic human angiotensin,P,2017,EFO_0006834; EFO_0004325,septic shock; blood pressure,Blood pressure in adults with septic or other distributive shock
+Elbasvir; grazoprevir,Zepatier,Merck & Co.,NS5A inhibitor plus NS3/4A protease inhibitor,"P, B",2016,EFO_0003047,hepatitis C virus infection,HCV genotypes 1 and 4
+Brivaracetam,Briviact,UCB,"Anticonvulsant with unknown MOA, binds to SV2A",S,2016,MONDO_0015642,benign partial infantile seizures,Partial-onset seizures
+Obiltoxaximab,Anthim,Elusys Therapeutics,mAb against anthrax toxin,"S, O",2016,EFO_0000778,anthrax infection,Anthrax
+Ixekizumab,Taltz,Eli Lilly,IL-17A antagonist,S,2016,EFO_1001494,psoriasis vulgaris,Plaque psoriasis
+Reslizumab,Cinqair,Teva,IL-5 antagonist,S,2016,EFO_0008590,Status Asthmaticus,Severe asthma
+Defibrotide sodium,Defitelio,Gentium,Profibrinolytic,"P, O",2016,MONDO_0019514,hepatic veno-occlusive disease,Hepatic veno-occlusive disease
+Venetoclax,Venclexta,AbbVie,BCL-2 inhibitor,"P, O, B, A",2016,EFO_0000095,chronic lymphocytic leukemia,Chronic lymphocytic leukaemia
+Pimavanserin,Nuplazid,Acadia Pharmaceuticals,Atypical antipsychotic,"P, B",2016,MONDO_0005180; EFO_0005407,Parkinson disease; psychosis,Hallucinations and delusions associated with Parkinson disease psychosis
+Atezolizumab,Tecentriq,Genentech,PDL1 inhibitor,"P, B, A",2016,EFO_0008528,urothelial carcinoma,Urothelial carcinoma
+Obeticholic acid,Ocaliva,Intercept,FXR agonist,"P, O, A",2016,EFO_1001486,primary biliary cirrhosis,Primary biliary cholangitis
+Fluciclovine F-18,Axumin,Blue Earth,Radioactive diagnostic,P,2016,MONDO_0008315,prostate cancer,Suspected prostate cancer recurrence
+Daclizumab,Zinbryta,Biogen,IL-2-targeted mAb,S,2016,MONDO_0005301,multiple sclerosis,Multiple sclerosis
+Gallium Ga-68 dotatate,Netspot,Advanced Accelerator Applications,Radioactive diagnostic,"P, O",2016,EFO_1001901,neuroendocrine neoplasm,Neuroendocrine tumours
+Sofosbuvir; velpatasvir,Epclusa,Gilead Sciences,A nucleotide analogue NS5B polymerase inhibitor plus an HCV NS5A inhibitor,"P, B",2016,EFO_0003047,hepatitis C virus infection,HCV genotypes 1‚Äì6
+Lifitegrast,Xiidra,Shire Pharmaceuticals,LFA1 antagonist,P,2016,EFO_1000906,dry eye syndrome,Dry eye disease
+Lixisenatide,Adlyxin,Sanofi,GLP1 receptor agonist,S,2016,EFO_0000400,diabetes mellitus,Diabetes
+Eteplirsen,Exondys 51,Sarepta Therapeutics,ASO designed to target dystrophin pre-mRNA,"P, O, A",2016,MONDO_0010679,Duchenne muscular dystrophy,Duchenne muscular dystrophy
+Olaratumab,Lartruvo,Eli Lilly,PDGFRŒ±-blocking antibody,"P, O, B, A",2016,EFO_1001968,soft tissue sarcoma,Soft tissue sarcoma
+Bezlotoxumab,Zinplava,Merck & Co.,mAb against¬†Clostridium difficile¬†toxin,P,2016,EFO_0009130,clostridium difficile infection,C. difficile recurrence
+Crisaborole,Eucrisa,Pfizer/Anacor Pharmaceuticals,PDE4 inhibitor,S,2016,EFO_0000274,atopic eczema,Atopic dermatitis
+Rucaparib,Rubraca,Clovis Oncology,PARP inhibitor,"P, O, B, A",2016,MONDO_0008170,ovarian cancer,BRCA-positive ovarian cancer
+Nusinersen,Spinraza,Biogen/Ionis Pharmaceuticals,ASO designed to target SMN2 pre-mRNA,"P, O",2016,EFO_0008525,spinal muscular atrophy,Spinal muscular atrophy

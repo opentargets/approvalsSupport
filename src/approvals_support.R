@@ -16,7 +16,7 @@ config$spark.hadoop.fs.gs.requester.pays.project.id <- "open-targets-eu-dev" # n
 sc <- spark_connect(master = "yarn", config = config)
 
 # Approvals as reported in NRDD article
-local_approvals <- read_csv("./data/2018-2022/2018-2022_approvals_v2.csv")
+local_approvals <- read_csv("./data/2016-2017/2016-2017_approvals_v4_TA.csv")
 approvals_init <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
 
 # Split and explode multiple DrugId
@@ -233,4 +233,4 @@ data2plot <- ass %>%
         ) %>%
         left_join(approvals %>% select(Drug_name, Year, Brand_name,	Drug_name_original) %>% collect(), by = "Drug_name")
 
-write.table(data2plot, sep = ",", file = "./output/2018-2022_approvals_v2.2.csv", row.names = FALSE)
+write.table(data2plot, sep = ",", file = "./output/2016-2017_approvals_v4.csv", row.names = FALSE)
