@@ -41,3 +41,10 @@ MONDO_0001676,EFO_1000752,erythropoietic protoporphyria -> photosensitivity dise
 HP_0001891,EFO_0004272,Iron deficiency anemia -> anemia (phenotype),2019
 EFO_0004698,EFO_0005271,insomnia -> sleep duration,2022
 EFO_1001961,EFO_0005221,intrahepatic cholangiocarcinoma -> cholangiocarcinoma (parent),2022
+MONDO_0019514,MONDO_0002405,hepatic veno-occlusive disease -> hepatic vascular disorder (parent),2016
+EFO_0008590,MONDO_0004979,Status Asthmaticus -> asthma (parent),2016
+EFO_1001486,EFO_0001422,primary biliary cirrhosis -> cirrhosis of liver (parent),2016
+EFO_1001494,EFO_0000676,psoriasis vulgaris -> psoriasis (parent),2016
+EFO_0000274,MONDO_0002406,atopic eczema -> dermatitis,2016
+
+
