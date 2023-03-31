@@ -46,5 +46,8 @@ EFO_0008590,MONDO_0004979,Status Asthmaticus -> asthma (parent),2016
 EFO_1001486,EFO_0001422,primary biliary cirrhosis -> cirrhosis of liver (parent),2016
 EFO_1001494,EFO_0000676,psoriasis vulgaris -> psoriasis (parent),2016
 EFO_0000274,MONDO_0002406,atopic eczema -> dermatitis,2016
-
+MONDO_0100415,EFO_0000222,FLT3-positive AML -> AML,2017
+EFO_0004714,EFO_0008343,sexual dysfunction -> sex interaction measurement,2019
+Orphanet_33069,MONDO_0020072,Dravet syndrome -> childhood-onset epilepsy syndrome,2018
+MONDO_0016532,MONDO_0020072,Lennox-Gastaut syndrome -> childhood-onset epilepsy syndrome,2018
 
