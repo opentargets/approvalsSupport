@@ -6,12 +6,12 @@ library(forcats)
 library("sparklyr")
 library("sparklyr.nested")
 
-data1 <- read_csv("./data/2016-2022/2018-2022_approvals.csv")
-data2 <- read_csv("./data/2016-2022/2016-2017_approvals_v6.csv")
+data1 <- read_csv("./output/2016-2022_approvals_v1.csv")
+data2 <- read_csv("./output/2014-2015_approvals_v2.2.csv")
 
 local_approvals <- bind_rows(data1, data2)
 
-# write.table(testset, sep = ",", file = "./data/2016-2022/2016-2022_approvals_v0.csv", row.names = FALSE)
+write.table(local_approvals, sep = ",", file = "./output/2014-2022_approvals_v1.csv", row.names = FALSE)
 
 
 data_release <- "23.02"
