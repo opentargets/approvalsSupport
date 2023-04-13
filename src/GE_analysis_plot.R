@@ -5,7 +5,7 @@ library(ggplot2)
 library("tidyverse")
 
 options(dplyr.width = Inf)
-data <- read_csv("./output/2018-2022_approvals_v1.csv")
+data <- read_csv("./output/2014-2022_approvals_v1.csv")
 
 data_all_count <- data %>%
     select(Drug_name_original, Year) %>%
@@ -58,8 +58,8 @@ ggplot(data = data_humT_1, aes(x=Year, y=value, fill=fct_reorder(type, value))) 
   ylab("Approvals, %") +
   labs(fill='Evidence presence')
 
-ggsave("./output/direct_evidence_interact_1_1.pdf", 
-        width = 5,
+ggsave("./output/direct_2014-2022_approvals_v1_1.pdf", 
+        width = 6,
         height = 3)
 
 
@@ -71,8 +71,8 @@ ggplot(data = data_humT_2, aes(x=Year, y=value, fill=fct_reorder(type, value))) 
   labs(fill='Evidence presence')
 
 
-ggsave("./output/direct_evidence_interact_1_2.pdf", 
-        width = 5,
+ggsave("./output/direct_2014-2022_approvals_v1_2.pdf", 
+        width = 6,
         height = 3)
 
 

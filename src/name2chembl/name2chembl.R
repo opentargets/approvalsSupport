@@ -16,7 +16,7 @@ config$spark.hadoop.fs.gs.requester.pays.project.id <- "open-targets-eu-dev" # n
 sc <- spark_connect(master = "yarn", config = config)
 
 # Approvals as reported in NRDD article (complex drugs should be listed using " ;")
-local_next_approvals <- read_csv("./data/2016-2017/2016-2017_approvals_v2.2_ontoma_proc.csv")
+local_next_approvals <- read_csv("./data/2013/2013_approvals_v1.2.csv")
 approvals_next_init <- sdf_copy_to(sc, local_next_approvals, overwrite = TRUE)
 
 # Split and explode multiple Drug
@@ -54,4 +54,4 @@ approvals_chembl <- approvals_next %>%
     rename("DrugId" = "id")
 
 approvals_chembl %>% 
-    write.csv("./data/2016-2017/2016-2017_approvals_v2.3_chembl.csv")
+    write.csv("./data/2013/2013_approvals_v1.3.csv")

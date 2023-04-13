@@ -8,8 +8,8 @@ Olipudase alfa ,CHEMBL3707358,ENSG00000166311,MoA (SMPD1) was absent in OT,Enzym
 Terlipressin,CHEMBL2135460,ENSG00000166148,AVPR1 to AVPR1A (GE for Acute hepatic failure),Receptor subtype,2022
 Spesolimab,CHEMBL4297911,ENSG00000136695,"IL1RL2&IL1RAP to IL36RN (GE for psoriasis 14, pustular)",Receptor subtype,2022
 Abrocitinib,CHEMBL3655081,ENSG00000166888,"JAK1 activates STAT6 (interactor, GE for atopic eczema)",Interactor,2022
-Teplizumab,CHEMBL1743078,ENSG00000081237,CD3E to PTPRC (interactor) ,Interactor,2022
-Teplizumab,CHEMBL1743078,ENSG00000198821,CD3E to CD247 (interactor) ,Interactor,2022
+Teplizumab,CHEMBL1743078,ENSG00000081237,CD3E to PTPRC (interactor),Interactor,2022
+Teplizumab,CHEMBL1743078,ENSG00000198821,CD3E to CD247 (interactor),Interactor,2022
 Eflapegrastim,CHEMBL3833384,ENSG00000119535,MoA (CSF3R) was absent in OT,Pharmacological,2022
 Zuranolone,CHEMBL4105630,ENSG00000170296,MoA (GABARAP) was absent in OT,NA,2023
 Valoctocogene roxaparvovec,CHEMBL4297579,ENSG00000185010,MoA (F8) was absent in OT,NA,2023
@@ -32,3 +32,12 @@ Fosdenopterin,CHEMBL2338675,ENSG00000164172,MoA (MOCS2) was absent in OT,Pharmac
 BRIVARACETAM,CHEMBL607400,ENSG00000144285,MoA (SCN1A*) was absent in OT,Pharmacological,2016
 VESTRONIDASE ALFA,CHEMBL3707382,ENSG00000169919,MoA (GUSB) was absent in OT,Enzyme therapy,2017
 CERLIPONASE ALFA,CHEMBL3544921,ENSG00000166340,MoA (TPP1) was absent in OT,Enzyme therapy,2017
+Elosulfase alfa,CHEMBL2108676,ENSG00000141012,MoA (GALNS) was absent in OT,Enzyme therapy,2014
+Sebelipase alfa,CHEMBL2111107,ENSG00000107798,MoA (LIPA) was absent in OT,Enzyme therapy,2015
+Trifluridine,CHEMBL1129,ENSG00000176890,MoA (TYMS) was absent in OT,Pharmacological,2015
+Flibanserin,CHEMBL231068,ENSG00000178394,MoA (HTRA1) was absent in OT,Pharmacological,2015
+Flibanserin,CHEMBL231068,ENSG00000102468,MoA (HTRA2) was absent in OT,Pharmacological,2015
+Flibanserin,CHEMBL231068,ENSG00000069696,MoA (DRD4) was absent in OT,Pharmacological,2015
+Asfotase alfa,CHEMBL2108311,ENSG00000162551,MoA (ALPL) was absent in OT,Enzyme therapy,2015
+Pembrolizumab,CHEMBL3137343,ENSG00000120217,Programmed cell death protein 1 to ligand 1,Interactor,2014
+Nivolumab,CHEMBL2108738,ENSG00000120217,Programmed cell death protein 1 to ligand 1,Interactor,2014

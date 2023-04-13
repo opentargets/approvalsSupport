@@ -1,0 +1,88 @@
+﻿Drug_name,Brand_name,Sponsor,Properties,Review_type,Year,Indication,Indication_EFO,DiseaseId,TA
+Dapagliflozin,Farxiga,AstraZeneca,SGLT2 inhibitor,S,2014,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Metabolic
+Tasimelteon,Hetlioz,Vanda,Melatonin-receptor agonist,"P, O",2014,Non-24-hour sleep-wake disorder,sleep-wake disorder,MONDO_0003406,Neurological
+Elosulfase alfa,Vimizim,BioMarin,Hydrolytic lysosomal glycosaminoglycan-specific enzyme,"P, O",2014,Mucopolysaccharidosis type IVA,mucopolysaccharidosis type 4A,MONDO_0009659,Metabolic
+Droxidopa,Northera,Lundbeck,Synthetic amino-acid precursor of noradrenaline; MOA unknown,"P, O, A",2014,Light-headedness in patients with neurogenic orthostatic hypotension,primary orthostatic hypotension,MONDO_0015914,Neurological
+Metreleptin,Myalept,Amylin,Leptin analogue,"P, O",2014,Leptin deficiency in patients with congenital or acquired generalized lipodystrophy,congenital generalized lipodystrophy,EFO_1000681,Endocrine
+Florbetaben-F18 ,Neuraceq,Piramal Imaging,Radioactive diagnostic agent,S,2014,Imaging of the brain to estimate density of neuritic amyloid-beta plaques,neuritic plaque measurement,EFO_0006798,Imaging
+Miltefosine,Impavido,Knight,MOA unknown,"P, O",2014,Leishmaniasis,Leishmaniasis,EFO_0005044,Infectious
+Apremilast,Otezla,Celgene,Phosphodiesterase 4 inhibitor,S,2014,Psoriatic arthritis and plaque psoriasis,psoriatic arthritis; psoriasis vulgaris,EFO_0003778; EFO_1001494,Dermatology
+Albiglutide,Tanzeum,GlaxoSmithKline,GLP1-receptor agonist,S,2014,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Metabolic
+Ramucirumab,Cyramza,Eli Lilly,VEGFR2 antagonist,"P, O",2014,Gastric cancer,gastric cancer,MONDO_0001056,Oncology
+Siltuximab,Sylvant,Janssen Biotech,IL-6-specific antibody,"P, O",2014,Multicentric Castleman's disease,Castleman disease,MONDO_0015564,Other
+Ceritinib,Zykadia,Novartis,"Kinase inhibitor against ALK, IGF1R, insulin receptor and ROS1","P, O, B, A",2014,ALK-positive metastatic NSCLC,non-small cell lung carcinoma,EFO_0003060,Oncology
+Vorapaxar,Zontivity,Merck & Co.,Protease-activated receptor 1 antagonist,S,2014,"Thrombotic cardiovascular events (after myocardial infarction or with peripheral
+arterial disease*)",myocardial infarction; peripheral arterial disease,EFO_0000612; EFO_0004265,Cardiovascular
+Vedolizumab,Entyvio,Takeda,Integrin-receptor antagonist,P,2014,Ulcerative colitis and Crohn's disease,ulcerative colitis; Crohn's disease,EFO_0000729; EFO_0000384,Gastrointestinal
+Dalbavancin,Dalvance,Durata,Semisynthetic lipoglycopeptide,P,2014,ABSSSI (Acute Bacterial Skin and Skin Structure Infections),staphylococcal skin infections,EFO_1001849,Infectious
+Efinaconazole,Jublia,Dow,Azole antifungal,S,2014,Onychomycosis of the toenails,paronychia,EFO_0007421,Dermatology
+Tedizolid,Sivextro,Cubist,Oxazolidinone-class antibacterial,P,2014,ABSSSI (Acute Bacterial Skin and Skin Structure Infections),staphylococcal skin infections,EFO_1001849,Infectious
+Belinostat,Beleodaq,Spectrum,Histone-deacetylase inhibitor,"P, O, A",2014,Peripheral T-cell lymphoma,unspecified peripheral T-cell lymphoma,EFO_0000211,Hematology
+Tavaborole,Kerydin,Anacor,Oxaborole antifungal,S,2014,Onychomycosis of the toenails,paronychia,EFO_0007421,Dermatology
+Idelalisib,Zydelig,Gilead Sciences,PI3K–± inhibitor,"P, O, B, A",2014,"CLL, B-cell non-Hodgkin lymphoma and SLL",chronic lymphocytic leukemia; B-cell non-Hodgkins lymphoma,EFO_0000095; EFO_1001938,Hematology
+Olodaterol,Striverdi Respimat,Boehringer Ingelheim,Long-acting beta2-adrenoceptor agonist,S,2014,COPD,chronic obstructive pulmonary disease,EFO_0000341,Respiratory
+Empagliflozin,Jardiance,Boehringer Ingelheim,SGLT2 inhibitor,S,2014,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Metabolic
+Oritavancin,Orbactiv,The Medicines Company,Semi-synthetic lipoglycopeptide,P,2014,ABSSSI (Acute Bacterial Skin and Skin Structure Infections),staphylococcal skin infections,EFO_1001849,Infectious
+Suvorexant,Belsomra,Merck & Co.,Orexin-receptor antagonist,S,2014,Insomnia,insomnia,EFO_0004698,Mental health
+Peginterferon beta-1A,Plegridy,Biogen Idec,Long-acting interferon-beta1A,S,2014,Relapsing multiple sclerosis,relapsing-remitting multiple sclerosis,EFO_0003929,Neurological
+Eliglustat,Cerdelga,Genzyme,Glucosylceramide-synthase inhibitor,"P, O",2014,Gaucher's disease,Gaucher disease,MONDO_0018150,Metabolic
+Pembrolizumab,Keytruda,Merck & Co.,PD1-specific antibody,"P, O, B, A",2014,Metastatic melanoma,metastatic melanoma,EFO_0002617,Oncology
+Naloxegol,Movantik,AstraZeneca,Opioid-receptor antagonist,S,2014,Opioid-induced constipation,Constipation,HP_0002019,Gastrointestinal
+Dulaglutide,Trulicity,Eli Lilly,GLP1-receptor agonist,S,2014,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Metabolic
+Sulfur hexafluoride lipid-type A microspheres,Lumason,Bracco,Ultrasound contrast agent,S,2014,Cardiovascular imaging,NA,NA,Imaging
+Netupitant; palonosetron,Akynzeo,Helsinn,An NK1-receptor antagonist plus a 5-HT3-receptor antagonist,S,2014,Chemotherapy-related nausea,Chemotherapy-induced nausea and vomiting,EFO_0006911,Other
+Ledipasvir; sofosbuvir,Harvoni,Gilead Sciences,An NS5A inhibitor plus an HCV nucleotide-analogue NS5B-polymerase inhibitor,"P, B",2014,Genotype 1 HCV,hepatitis C virus infection,EFO_0003047,Infectious
+Pirfenidone,Esbriet,InterMune,MOA unknown,"P, O, B",2014,IPF (idiopathic pulmonary fibrosis),idiopathic pulmonary fibrosis,EFO_0000768,Respiratory
+Nintedanib,Ofev,Boehringer Ingelheim,"Kinase inhibitor against PDGFRs, FGFRs, VEGFRs and FLT3","P, O, B",2014,IPF (idiopathic pulmonary fibrosis),idiopathic pulmonary fibrosis,EFO_0000768,Respiratory
+Blinatumomab,Blincyto,Amgen,CD19- and CD3-bispecific antibody,"P, O, B, A",2014,B-ALL,precursor B-cell acute lymphoblastic leukemia,MONDO_0020511,Oncology
+Finafloxacin,Xtoro,Alcon,Fluoroquinolone antimicrobial,P,2014,Acute otitis externa (swimmer's ear),otitis externa,EFO_0009560,Otolaryngology
+Olaparib,Lynparza,AstraZeneca,PARP inhibitor,"P, O, A",2014,Advanced BRCA-mutated ovarian cancer,ovarian cancer,MONDO_0008170,Oncology
+Ombitasvir; paritaprevir; dasabuvir; ritonavir,Viekira Pak,AbbVie,An NS5A inhibitor plus an NS3A- and NS4A-protease inhibitor plus a non-nucleoside NS5B-palm-polymerase inhibitor plus a CYP3A inhibitor,"P, B",2014,Chronic HCV genotype 1 infection,hepatitis C virus infection,EFO_0003047,Infectious
+Ceftolozane; tazobactam,Zerbaxa,Cubist,A cephalosporin antibacterial plus a beta-lactamase inhibitor,P,2014,Complicated intra-abdominal infections and complicated urinary tract infections,infection,EFO_0000544,Infectious
+Peramivir,Rapivab,BioCryst,Neuraminidase inhibitor,S,2014,Influenza infection,influenza,EFO_0007328,Infectious
+Nivolumab,Opdivo,Bristol-Myers Squibb,PD1 inhibitor,"P, O, B, A",2014,Unresectable or metastatic melanoma,metastatic melanoma,EFO_0002617,Oncology
+Edoxaban,Savaysa,Daiichi Sankyo,Factor Xa inhibitor,S,2015,"Risk of stroke and systemic embolism in NVAF, and deep vein thrombosis",atrial fibrillation; deep vein thrombosis,EFO_0000275; EFO_0003907,Cardiovascular
+Secukinumab,Cosentyx,Novartis,IL-17A antagonist,S,2015,Plaque psoriasis,psoriasis vulgaris,EFO_1001494,Dermatology
+Parathyroid; hormone,Natpara,NPS Pharma,Hormonal injection,"S, O",2015,Hypocalcaemia in patients with hypoparathyroidism,hypoparathyroidism; Hypocalcemia,EFO_0009451; HP_0002901,Endocrine
+Palbociclib,Ibrance,Pfizer,CDK4 and CDK6 inhibitor,"P, B, A",2015,"ER-positive, HER2-negative advanced breast cancer",HER2 negative breast carcinoma,EFO_0009780,Oncology
+Lenvatinib,Lenvima,Eisai,VEGFR inhibitor,"P, O",2015,Thyroid cancer,thyroid cancer,MONDO_0002108,Oncology
+Panobinostat,Farydak,Novartis,Histone deacetylase inhibitor,"P, O, A",2015,Multiple myeloma,multiple myeloma,EFO_0001378,Oncology
+Avibactam; ceftazidime,Avycaz,Allergan,A beta-lactamase inhibitor and a cephalosporin,P,2015,Complicated intra-abdominal infections and complicated urinary tract infections,infection,EFO_0000544,Infectious
+Isavuconazonium,Cresemba,Astellas,Azole antifungal,"P, O",2015,Antifungal,aspergillosis; mucormycosis,EFO_0007157; EFO_0007380,Infectious
+Dinutuximab,Unituxin,United Therapeutics,GD2-binding mAb,"P, O",2015,Neuroblastoma,neuroblastoma,EFO_0000621,Oncology
+Cholic acid,Cholbam,Retrophin,A primary bile acid,"P, O",2015,Bile acid synthesis disorders and peroxisomal disorders,peroxisomal disease; Disorder of bile acid synthesis,MONDO_0019053; Orphanet_79168,Metabolic
+Ivabradine,Corlanor,Amgen,Hyperpolarization-activated cyclic nucleotide-gated channel blocker,P,2015,Chronic heart failure,congestive heart failure,EFO_0000373,Cardiovascular
+Deoxycholic acid,Kybella,Kythera,Cytolytic drug,S,2015,Fat below the chin,body fat distribution,EFO_0004341,Other
+Eluxadoline,Viberzi,Allergan,Mu-opioid receptor agonist,P,2015,Irritable bowel syndrome,irritable bowel syndrome,EFO_0000555,Gastrointestinal
+Cangrelor,Kengreal,Medicines Company,P2Y12 platelet inhibitor,S,2015,"Myocardial infarction, repeat coronary revascularization, and stent thrombosis",myocardial infarction,EFO_0000612,Cardiovascular
+Ivacaftor; lumacaftor,Orkambi,Vertex,CFTR potentiator plus CFTR corrector,"P, O, B",2015,Cystic fibrosis in patients with homozygous DF508 CFTR mutation,cystic fibrosis,MONDO_0009061,Other
+Sacubitril; valsartan,Entresto,Novartis,A neprilysin inhibitor plus an angiotensin II receptor blocker,P,2015,Chronic heart failure,congestive heart failure,EFO_0000373,Cardiovascular
+Brexpiprazole,Rexulti,Otsuka,Atypical antipsychotic,S,2015,MDD and schizophrenia,major depressive disorder; schizophrenia,MONDO_0002009; MONDO_0005090,Mental health
+Alirocumab,Praluent,Sanofi,PCSK9 inhibitor,P,2015,LDL lowering,LDL cholesterol change measurement,EFO_0007804,Cardiovascular
+Sonidegib,Odomzo,Novartis,Smoothened inhibitor,S,2015,Basal cell carcinoma,basal cell carcinoma,EFO_0004193,Oncology
+Daclatasvir,Daklinza,Bristol-Myers Squibb,NS5A inhibitor,P,2015,HCV,hepatitis C virus infection,EFO_0003047,Infectious
+Flibanserin,Addyi,Sprout,Serotonin receptor modulator,S,2015,Hypoactive sexual desire disorder,sexual dysfunction,EFO_0004714,Other
+Evolocumab,Repatha,Amgen,PCSK9 inhibitor,"S, O",2015,LDL lowering,LDL cholesterol change measurement,EFO_0007804,Cardiovascular
+Rolapitant,Varubi,Tesaro,Neurokinin 1 receptor antagonist,S,2015,Nausea and vomiting associated with chemotherapy,Chemotherapy-induced nausea and vomiting,EFO_0006911,Other
+Uridine,Xuriden,Wellstat,Pyrimidine analogue,"P, O, B",2015,Hereditary orotic aciduria,Hereditary orotic aciduria,Orphanet_30,Metabolic
+Cariprazine,Vraylar,Forest,Atypical antipsychotic,S,2015,Schizophrenia and bipolar 1 disorder,Schizophrenia; bipolar disorder,MONDO_0005090; MONDO_0004985,Mental health
+Tipiracil; trifluridine,Lonsurf,Taiho,Thymidine phosphorylase inhibitor plus a nucleoside metabolic inhibitor,S,2015,Colorectal cancer,colorectal cancer,EFO_0005842,Oncology
+Insulin degludec,Tresiba,Novo Nordisk,Long-acting insulin,S,2015,Diabetes,diabetes mellitus,EFO_0000400,Metabolic
+Aripiprazole lauroxil,Aristada,Alkermes,Extended release atypical antipsychotic,S,2015,Schizophrenia,schizophrenia,MONDO_0005090,Mental health
+Idarucizumab,Praxbind,Boehringer Ingelheim,Dabigatran-binding mAb fragment,"P, O, B, A",2015,Reversal of anticoagulant effects of dabigatran,response to anticoagulant,GO_0061476,Other
+Patiromer sorbitex,Veltassa,Relypsa,Potassium binder,S,2015,Hyperkalaemia,Hyperkalemia,HP_0002153,Other
+Asfotase alfa,Strensiq,Alexion,Alkaline phosphatase,"P, O, B",2015,Hypophosphatasia,hypophosphatasia,MONDO_0018570,Other
+Trabectedin,Yondelis,Johnson & Johnson,Alkylating drug,"P, O",2015,Liposarcoma or leiomyosarcoma,liposarcoma; leiomyosarcoma,EFO_0000569; EFO_0000564,Oncology
+Mepolizumab,Nucala,GlaxoSmithKline,IL-5 antagonist,S,2015,Severe asthma,Status Asthmaticus,EFO_0008590,Respiratory
+Elvitegravir; cobicistat; emtricitabine; tenofovir,Genvoya,Gilead,An INSTI plus a CYP3A inhibitor plus two nucleoside analogue reverse transcriptase inhibitors,S,2015,HIV,HIV infection,EFO_0000764,Infectious
+Cobimetinib,Cotellic,Genentech,MEK inhibitor,"P, O",2015,Melanoma with BRAFV600E/K mutations,melanoma,EFO_0000756,Oncology
+Osimertinib,Tagrisso,AstraZeneca,EGFR inhibitor,"P, O, B, A",2015,NSCLC with EGFRT790M mutations,non-small cell lung carcinoma,EFO_0003060,Oncology
+Daratumumab,Darzalex,Johnson & Johnson,CD38-directed mAb,"P, O, B, A",2015,Multiple myeloma,multiple myeloma,EFO_0001378,Oncology
+Ixazomib,Ninlaro,Takeda,Oral proteasome inhibitor,"P, O",2015,Multiple myeloma,multiple myeloma,EFO_0001378,Oncology
+Necitumumab,Portrazza,Eli Lilly,EGFR antagonist,"S, O",2015,NSCLC,non-small cell lung carcinoma,EFO_0003060,Oncology
+Elotuzumab,Empliciti,Bristol-Myers Squibb,SLAMF7-directed mAb,"P, O, B",2015,Multiple myeloma,multiple myeloma,EFO_0001378,Oncology
+Sebelipase alfa,Kanuma,Alexion,Enzyme replacement therapy,"P, O, B",2015,LAL deficiency,lysosomal acid lipase deficiency,MONDO_0010204,Metabolic
+Alectinib,Alecensa,Roche,ALK inhibitor,"P, O, B, A",2015,NSCLC,non-small cell lung carcinoma,EFO_0003060,Oncology
+Sugammadex,Bridion,Merck & Co.,A modified gamma cyclodextrin,P,2015,Reversal of neuromuscular blockade during surgery,neuromuscular disease,EFO_1001902,Other
+Selexipag,Uptravi,Actelion,Prostacyclin receptor agonist,"S, O",2015,Pulmonary arterial hypertension,pulmonary arterial hypertension,EFO_0001361,Cardiovascular
+Lesinurad,Zurampic,AstraZeneca,URAT1 inhibitor,S,2015,Gout,gout,EFO_0004274,Other

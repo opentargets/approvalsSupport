@@ -1,0 +1,28 @@
+Drug_name,Brand_name,Sponsor,Properties,Review_type,Year,Indication,Indication_EFO,DiseaseId,TA
+Alogliptin,Nesina,Takeda,DPP4 inhibitor,S,2013,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Metabolic
+Mipomersen,Kynamro,Genzyme,Oligonucleotide inhibitor of apolipoprotein B100 synthesis,"S, O",2013,Homozygous familial hypercholesterolaemia,homozygous familial hypercholesterolemia,MONDO_0018328,Cardiovascular
+Pomalidomide,Pomalyst,Celgene,Immunomodulatory antineoplastic agent,"S, O",2013,Multiple myeloma,multiple myeloma,EFO_0001378,Oncology
+Ado-trastuzumab emtansine,Kadcyla,Genentech,HER2-targeted antibody and microtubule inhibitor conjugate,P,2013,HER2-positive metastatic breast cancer,HER2 Positive Breast Carcinoma,EFO_1000294,Oncology
+Ospemifene,Osphena,Shionogi,Oestrogen receptor modulator,S,2013,Moderate to severe dyspareunia due to menopause,Dyspareunia; menopause,HP_0030016; EFO_0003922,Reproductive
+Technetium TC 99m tilmanocept,Lymphoseek kit,Navidea,Radioactive diagnostic agent,S,2013,Lymphatic mapping in patients with breast cancer or melanoma,breast cancer; melanoma,MONDO_0007254; EFO_0000756,Oncology
+Gadoterate meglumine,Dotarem,Guerbet,Gadolinium-based contrast agent,P,2013,Contrast agent to visualize disruption of the blood-brain barrier,NA,NA,Imaging
+Dimethyl fumarate,Tecfidera,Biogen Idec,MOA unknown; activates NRF2 pathway,S,2013,Relapsing forms of multiple sclerosis,relapsing-remitting multiple sclerosis,EFO_0003929,Neurological
+Canagliflozin,Invokana,Janssen,SGLT2 inhibitor,S,2013,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Metabolic
+Fluticasone; vilanterol,Breo Ellipta,GSK,Corticosteroid plus LABA,S,2013,Chronic obstructive pulmonary disease,chronic obstructive pulmonary disease,EFO_0000341,Respiratory
+Radium RA 223 dichloride,Xofigo,Bayer,Alpha particle-emitting radioactive therapeutic,P,2013,Castration-resistant prostate cancer,prostate cancer,MONDO_0008315,Oncology
+Dabrafenib,Tafinlar,GSK,"Kinase inhibitor with activity against BRAFV600E, BRAFV600K, BRAFV600D, wild-type BRAF and other kinases","S, O",2013,Unresectable or metastatic melanoma with BRAF(V600E) mutation as detected by an FDA-approved test,metastatic melanoma,EFO_0002617,Oncology
+Trametinib,Mekinist,GSK,MEK1 and MEK2 kinase inhibitor,"S, O",2013,Unresectable or metastatic melanoma with BRAF(V600E) mutation as detected by an FDA-approved test,metastatic melanoma,EFO_0002617,Oncology
+Afatinib,Gilotrif,Boehringer Ingelheim,"EGFR (ERBB1), HER2 (ERBB2), and HER4 (ERRB4) kinase inhibitor","P, O",2013,First-line treatment of patients with metastatic NSCLC whose tumours have EGFR exon 19 deletions or exon 21 (L858R) substitution mutations as detected by an FDA-approved test,non-small cell lung carcinoma,EFO_0003060,Oncology
+Dolutegravir,Tivicay,ViiV,HIV1 integrase strand transfer inhibitor,P,2013,"HIV1 infection in adults and children, in combination with other antiretroviral agents",HIV infection,EFO_0000764,Infectious
+Vortioxetine,Brintellix,Takeda,Serotonin reuptake inhibitor,S,2013,Major depressive disorder,major depressive disorder,MONDO_0002009,Mental health
+Bazedoxifene acetate; oestrogens,Duavee,Pfizer,Conjugated oestrogens with an oestrogen receptor modulator,S,2013,Moderate to severe vasomotor symptoms associated with menopause and prevention of postmenopausal osteoporosis,menopause; postmenopausal osteoporosis,EFO_0003922; EFO_0003854,Other
+Riociguat,Adempas,Bayer,Soluble guanylyl cyclase stimulator,"P, O",2013,Persistent or recurrent chronic thromboembolic pulmonary hypertension and pulmonary arterial hypertension,pulmonary arterial hypertension,EFO_0001361,Cardiovascular
+Macitentan,Opsumit,Actelion,Endothelin receptor antagonist,"S, O",2013,Pulmonary arterial hypertension,pulmonary arterial hypertension,EFO_0001361,Cardiovascular
+Flutemetamol F-18,Vizamyl,GE Healthcare,Radioactive diagnostic agent,S,2013,PET imaging of the brain to estimate beta-amyloid neuritic plaque density in patients who are being evaluated for Alzheimer's disease,neuritic plaque measurement,EFO_0006798,Imaging
+Obinutuzumab,Gazyva,Genentech,Humanized CD20-specific monoclonal antibody,"P, O, B",2013,Previously untreated chronic lymphocytic leukaemia,chronic lymphocytic leukemia,EFO_0000095,Oncology
+Eslicarbazepine,Aptiom,Sunovion,"MOA unknown, but thought to involve voltage-gated sodium channels",S,2013,Partial-onset seizures,Seizure,HP_0001250,Neurological
+Ibrutinib,Imbruvica,Pharmacyclics,Bruton's tyrosine kinase inhibitor,"P, O, B",2013,Mantle cell lymphoma,Mantle cell lymphoma,EFO_1001469,Oncology
+Luliconazole,Luzu,Medicis,Azole antifungal,S,2013,"Interdigital tinea pedis, tinea cruris and tinea corporis caused by Trichophyton rubrum and Epidermophyton floccosum",tinea,EFO_0007510,Dermatology
+Simeprevir,Olysio,Janssen,HCV NS3/4A protease inhibitor,P,2013,"Chronic HCV infection, as a component of a combination antiviral treatment regimen",hepatitis C virus infection,EFO_0003047,Infectious
+Sofosbuvir,Sovaldi,Gilead,HCV nucleotide analogue NS5B polymerase inhibitor,"P, B",2013,"Chronic HCV infection, as a component of a combination antiviral treatment regimen",hepatitis C virus infection,EFO_0003047,Infectious
+Umeclidinium; vilanterol,Anoro Ellipta,GSK,Anticholinergic and a LABA,S,2013,Chronic obstructive pulmonary disease,chronic obstructive pulmonary disease,EFO_0000341,Respiratory
