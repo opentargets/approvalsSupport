@@ -30,7 +30,7 @@ EFO_0004256,MONDO_0000568,NMOSD -> autoimmune disorder of central nervous system
 MONDO_0018975,EFO_0008514,neurofibromatosis type 1 -> neurofibromatosis,2020
 EFO_0002496,EFO_0003784,actinic keratosis -> skin pigmentation,2020
 EFO_1001480,EFO_0000365,metastatic colorectal cancer -> colorectal adenocarcinoma,2012
-EFO_0009780,EFO_0000305,HER2 negative breast carcinoma -> breast carcinoma,withdrawals
+EFO_0009780,EFO_0000305,HER2 negative breast carcinoma -> breast carcinoma,2015
 EFO_0005246,EFO_0005271,Hypersomnia -> sleep duration,2018
 EFO_1000562,MONDO_0002171,Tenosynovial Giant Cell Tumor -> giant cell tumor (parent),2019
 EFO_0003929,MONDO_0005301,relapsing-remitting multiple sclerosis -> multiple sclerosis (parent),2019
@@ -51,4 +51,20 @@ EFO_0004714,EFO_0008343,sexual dysfunction -> sex interaction measurement,2019
 Orphanet_33069,MONDO_0020072,Dravet syndrome -> childhood-onset epilepsy syndrome,2018
 MONDO_0016532,MONDO_0020072,Lennox-Gastaut syndrome -> childhood-onset epilepsy syndrome,2018
 EFO_0002617,EFO_0000756,metastatic melanoma -> melanoma (parent),2013
+EFO_0001361,EFO_0000537, pulmonary arterial hypertension -> hypertension,2013
+MONDO_0005148,HP_0003076,type 2 diabetes mellitus -> Glycosuria,2014
+MONDO_0003406,EFO_0008328,sleep-wake disorder -> chronotype measurement,2014
+MONDO_0020511,EFO_1001938,precursor B-cell acute lymphoblastic leukemia -> B-cell non-Hodgkins lymphoma,2017
+MONDO_0004979,EFO_0004842,asthma -> eosinophil count (eosinophil asthma),2017
+MONDO_0005148,Orphanet_79161,type 2 diabetes mellitus -> Disorder of carbohydrate metabolism,201
+HP_0007359,HP_0001250,Focal-onset seizure -> Seizure (parent),2016
+Orphanet_33069,MONDO_0020072,Dravet syndrome  -> childhood-onset epilepsy syndrome,2018
+EFO_0004714,EFO_0008343,sexual dysfunction -> sex interaction measurement,2019
+
+
+
+	
+
+
+
 

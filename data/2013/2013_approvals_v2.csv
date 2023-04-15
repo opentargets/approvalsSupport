@@ -9,7 +9,7 @@
 8,DIMETHYL FUMARATE,Tecfidera,Biogen Idec,MOA unknown; activates NRF2 pathway,S,2013,Relapsing forms of multiple sclerosis,relapsing-remitting multiple sclerosis,EFO_0003929,Neurological,Dimethyl fumarate,CHEMBL2107333,
 9,CANAGLIFLOZIN,Invokana,Janssen,SGLT2 inhibitor,S,2013,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Metabolic,Canagliflozin,CHEMBL4594217,Related indication (Renal glucosuria)
 10,CANAGLIFLOZIN,Invokana,Janssen,SGLT2 inhibitor,S,2013,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Metabolic,Canagliflozin,CHEMBL2048484,Related indication (Renal glucosuria)
-11,FLUTICASONE,Breo Ellipta,GSK,Corticosteroid plus LABA,S,2013,Chronic obstructive pulmonary disease,chronic obstructive pulmonary disease,EFO_0000341,Respiratory,Fluticasone; vilanterol,CHEMBL1201396,
+11,FLUTICASONE,Breo Ellipta,GSK,Corticosteroid plus LABA,S,2013,Chronic obstructive pulmonary disease,chronic obstructive pulmonary disease,EFO_0000341,Respiratory,Fluticasone; vilanterol,CHEMBL1473,
 12,VILANTEROL,Breo Ellipta,GSK,Corticosteroid plus LABA,S,2013,Chronic obstructive pulmonary disease,chronic obstructive pulmonary disease,EFO_0000341,Respiratory,Fluticasone; vilanterol,CHEMBL1198857,
 13,RADIUM RA 223 DICHLORIDE,Xofigo,Bayer,Alpha particle-emitting radioactive therapeutic,P,2013,Castration-resistant prostate cancer,prostate cancer,MONDO_0008315,Oncology,Radium RA 223 dichloride,CHEMBL2107816,
 14,DABRAFENIB,Tafinlar,GSK,"Kinase inhibitor with activity against BRAFV600E, BRAFV600K, BRAFV600D, wild-type BRAF and other kinases","S, O",2013,Unresectable or metastatic melanoma with BRAF(V600E) mutation as detected by an FDA-approved test,metastatic melanoma,EFO_0002617,Oncology,Dabrafenib,CHEMBL2028663,
