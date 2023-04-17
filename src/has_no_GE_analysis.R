@@ -3,50 +3,57 @@ library("ggsci")
 library(forcats)
 library(ggplot2)
 library("tidyverse")
+# install.packages("epitools")
+library(epitools)
 
-options(dplyr.width = Inf)
-data <- read_csv("./output/2018-2022_approvals_v2.2.csv")
-local_approvals <- read_csv("./data/2018-2022/2018-2022_approvals_v2.csv")
+data_in <- read_csv("./output/2013-2022_approvals_GE_v1.2.csv")
+data  <- subset(data_in, targetIds != "NA" & has_GE != "NA")
 
-# Add MoAs to final table
-# Extra MoAs required to fill the gaps
-new_moas <- read_csv("./data/ammend_data/amend_moas.csv")
-new_moas <- sdf_copy_to(sc, new_moas, overwrite = TRUE)
+write.table(data, sep = ",", file = "./output/test1.csv", row.names = FALSE)
 
-# available MoAs + ammended
-moa <- spark_read_parquet(sc, moa_path, memory = FALSE) %>%
-    select(chemblIds, targets) %>%
-    sdf_explode(chemblIds) %>%
-    sdf_explode(targets) %>%
-    rename(targetId = targets) %>%
-    sdf_distinct() %>%
-    sdf_bind_rows(new_moas)
+# Standard approvals
 
-MoAs <- local_approvals %>%
-  left_join(moa, by = c("DrugId" = "chemblIds"), copy=TRUE) %>%
-  mutate(targetId = replace_na(targetId, "")) %>%
-  group_by(Drug_name) %>%
-  summarise(targetIds = paste(targetId, collapse = "; "))
+data$has_S <- grepl("S", data$Review_type)
 
-local_approvals_MoAs <- local_approvals %>%
-  left_join(MoAs, by = "Drug_name")
+# create a 2x2 contingency table with "has_GE" values as columns and the "has_S" values as rows.
+table_data <- table(data$has_S, data$has_GE)
 
-data_humT_metadata <- data %>% filter(noTarget == FALSE) %>%
-    mutate(score_bool = score > 0, 
-           interactionAssociation_bool = replace_na(interactionAssociation, FALSE),
-           phenotypeAssociation_bool = replace_na(phenotypeAssociation, FALSE),
-           has_GE = interactionAssociation_bool|phenotypeAssociation_bool|score_bool) %>%
-    group_by(datasourceId, Drug_name_original, Year) %>%
-    summarise(has_GE = any(has_GE)) %>% 
-    ungroup() %>%
-    group_by(Drug_name_original, Year) %>%
-    summarise(has_GE = any(has_GE)) %>% 
-    ungroup() %>%
-    group_by(Year)
+# calculate the odds ratio using the oddsratio function
+odds_ratio <- oddsratio(table_data)
 
-approvals_GE <- local_approvals_MoAs %>%
-  left_join(data_humT_metadata, by = "Drug_name_original", copy = TRUE)
-
-write.table(approvals_GE, sep = ",", file = "./output/2018-2022_approvals_GE_v2.2.csv", row.names = FALSE)
+# print the odds ratio (The output will be the odds ratio along with its confidence interval, 
+# which tells you how much more likely it is for an individual to have the outcome 
+# (has_S = TRUE) if they have the exposure (has_GE = TRUE) compared to if they do not have the exposure.)
+odds_ratio
 
 
+
+# Orphan approvals
+data$has_O <- grepl("O", data$Review_type)
+
+# create a 2x2 contingency table with "has_GE" values as rows and the "has_S" values as columns.
+table_data <- table(data$has_O, data$has_GE)
+
+# calculate the odds ratio using the oddsratio function
+odds_ratio <- oddsratio(table_data)
+
+# print the odds ratio (The output will be the odds ratio along with its confidence interval, 
+# which tells you how much more likely it is for an individual to have the outcome 
+# (has_S = TRUE) if they have the exposure (has_GE = TRUE) compared to if they do not have the exposure.)
+odds_ratio
+
+
+
+# Breakthrough approvals
+data$has_B <- grepl("B", data$Review_type)
+
+# create a 2x2 contingency table with "has_GE" values as rows and the "has_S" values as columns.
+table_data <- table(data$has_B, data$has_GE)
+
+# calculate the odds ratio using the oddsratio function
+odds_ratio <- oddsratio(table_data)
+
+# print the odds ratio (The output will be the odds ratio along with its confidence interval, 
+# which tells you how much more likely it is for an individual to have the outcome 
+# (has_S = TRUE) if they have the exposure (has_GE = TRUE) compared to if they do not have the exposure.)
+odds_ratio
