@@ -3,6 +3,7 @@ library("ggsci")
 library(forcats)
 library(ggplot2)
 library("tidyverse")
+library(ggpubr)
 
 options(dplyr.width = Inf)
 data <- read_csv("./output/2013-2022_approvals_v1.2_out.csv")
@@ -18,8 +19,8 @@ data_humT_metadata <- data %>% filter(noTarget == FALSE) %>%
     mutate(score_bool = score > 0, 
            interactionAssociation_bool = replace_na(interactionAssociation, FALSE),
            phenotypeAssociation_bool = replace_na(phenotypeAssociation, FALSE),
-           has_GE = interactionAssociation_bool|score_bool) %>%
-        #    has_GE = interactionAssociation_bool|phenotypeAssociation_bool|score_bool) %>%
+          #  has_GE = interactionAssociation_bool|score_bool) %>%
+           has_GE = interactionAssociation_bool|phenotypeAssociation_bool|score_bool) %>%
     group_by(datasourceId, Drug_name_original, Year) %>%
     summarise(has_GE = any(has_GE)) %>% 
     ungroup() %>%
@@ -76,3 +77,99 @@ ggsave("./output/GE_2013-2022_approvals_v1.2_2.pdf",
         height = 3)
 
 
+
+# GE linear regression (GE_fraction_noH)
+subset_df <- subset(data_humT_1, type == "GE_fraction_noH")
+# subset_df <- subset(subset_df, Year != 2013)
+
+
+fit = lm(value ~ Year, data = subset_df)
+
+# subset_df$Year <- factor(subset_df$Year, levels = sort(levels(subset_df$Year)))
+# numeric_years <- as.numeric(subset_df$Year)
+
+# numeric_years <- as.numeric(as.character(Year))
+
+ggplot(subset_df ,aes(x = as.integer(Year), y = as.numeric(value))) +
+  xlab("Year") + 
+  ylab("GE, %") +
+  geom_smooth(method='lm', color = "#84b6dd") +
+  theme_minimal(base_size = 14) +
+  geom_point() +
+  geom_text(label = as.integer(subset_df$value), nudge_y = 2.5) +
+  scale_x_continuous(limits = c(1, 10)) +
+  # labs(title = paste("Adj R2 = ",signif(summary(fit)$adj.r.squared, 5),
+  #                    "Intercept =",signif(fit$coef[[1]],5 ),
+  #                    " Slope =",signif(fit$coef[[2]], 5),
+  #                    " P =",signif(summary(fit)$coef[2,4], 5))) 
+  stat_cor(label.x = 2, label.y = 78) +
+  stat_regline_equation(label.x = 2, label.y = 75)
+
+ggsave("./output/GE_2013-2022_regr_v1.pdf", 
+        width = 6,
+        height = 3)
+
+
+
+
+# GE linear regression (without_GE_fraction, noH_fraction, GE_fraction_noH)
+subset_df <- subset(data_humT_1, type == "without_GE_fraction")
+# subset_df <- subset(subset_df, Year != 2013)
+
+fit = lm(value ~ Year, data = subset_df)
+
+# subset_df$Year <- factor(subset_df$Year, levels = sort(levels(subset_df$Year)))
+# numeric_years <- as.numeric(subset_df$Year)
+
+# numeric_years <- as.numeric(as.character(Year))
+
+ggplot(subset_df ,aes(x = as.integer(Year), y = as.numeric(value))) +
+  xlab("Year") + 
+  ylab("GE, %") +
+  geom_smooth(method='lm', color = "#f3aca2") +
+  theme_minimal(base_size = 14) +
+  geom_point() +
+  geom_text(label = as.integer(subset_df$value), nudge_y = 2.5) +
+  scale_x_continuous(limits = c(1, 10)) +
+  # labs(title = paste("Adj R2 = ",signif(summary(fit)$adj.r.squared, 5),
+  #                    "Intercept =",signif(fit$coef[[1]],5 ),
+  #                    " Slope =",signif(fit$coef[[2]], 5),
+  #                    " P =",signif(summary(fit)$coef[2,4], 5))) 
+  stat_cor(label.x = 4, label.y = 39) +
+  stat_regline_equation(label.x = 4, label.y = 42)
+
+ggsave("./output/NoGE_2013-2022_regr_v1.pdf", 
+        width = 6,
+        height = 3)
+
+
+
+# GE linear regression (noH_fraction)
+subset_df <- subset(data_humT_1, type == "noH_fraction")
+# subset_df <- subset(subset_df, Year != 2013)
+
+fit = lm(value ~ Year, data = subset_df)
+
+# subset_df$Year <- factor(subset_df$Year, levels = sort(levels(subset_df$Year)))
+# numeric_years <- as.numeric(subset_df$Year)
+
+# numeric_years <- as.numeric(as.character(Year))
+
+ggplot(subset_df ,aes(x = as.integer(Year), y = as.numeric(value))) +
+  xlab("Year") + 
+  ylab("GE, %") +
+  geom_smooth(method='lm', color = "#4d4d4d") +
+  theme_minimal(base_size = 14) +
+  geom_point() +
+  geom_text(label = as.integer(subset_df$value), nudge_y = 2.5) +
+  scale_x_continuous(limits = c(1, 10)) +
+  # labs(title = paste("Adj R2 = ",signif(summary(fit)$adj.r.squared, 5),
+  #                    "Intercept =",signif(fit$coef[[1]],5 ),
+  #                    " Slope =",signif(fit$coef[[2]], 5),
+  #                    " P =",signif(summary(fit)$coef[2,4], 5))) 
+  stat_cor(label.x = 4, label.y = 39) +
+  stat_regline_equation(label.x = 4, label.y = 42)
+
+ggsave("./output/NoHT_2013-2022_regr_v1.pdf", 
+        width = 6,
+        height = 3)

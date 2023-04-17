@@ -16,7 +16,7 @@ config$spark.hadoop.fs.gs.requester.pays.project.id <- "open-targets-eu-dev" # n
 sc <- spark_connect(master = "yarn", config = config)
 
 
-local_approvals <- read_csv("./data/2013-2022/2013-2022_approvals_v1.csv")
+local_approvals <- read_csv("./output/2013-2022_approvals_v1.2_out.csv")
 
 
 # Add MoAs to final table
