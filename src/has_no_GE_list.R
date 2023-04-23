@@ -5,11 +5,11 @@ library(ggplot2)
 library("tidyverse")
 
 options(dplyr.width = Inf)
-data <- read_csv("./output/2013-2022_approvals_v1.2_out.csv")
-local_approvals <- read_csv("./data/2013-2022/2013-2022_approvals_v1.2_trgts.csv")
+data <- read_csv("./output/2013-2022_approvals_v2.csv")
+local_approvals <- read_csv("./data/2013-2022/2013-2022_approvals_GE_v2_out.csv")
 
 
-data_humT_metadata <- data %>% filter(noTarget == FALSE) %>%
+data_humT_metadata <- data %>% filter(noTarget == FALSE) %>% # remove all non-human targets
     mutate(score_bool = score > 0, 
            interactionAssociation_bool = replace_na(interactionAssociation, FALSE),
            phenotypeAssociation_bool = replace_na(phenotypeAssociation, FALSE),
@@ -23,10 +23,15 @@ data_humT_metadata <- data %>% filter(noTarget == FALSE) %>%
     group_by(Year)
 
 approvals_GE <- local_approvals %>%
-  # group_by(Drug_name_original, Year) %>%
-  left_join(data_humT_metadata, by = "Drug_name_original") 
-  # ungroup()
+  # if complex drug has non-human target and human target, has_GE = NA for all of them
+  left_join(data_humT_metadata, by = "Drug_name_original") %>%
+  mutate(has_GE = ifelse(is.na(targetIds), NA, has_GE)) %>%
+  group_by(Drug_name_original) %>%
+  mutate(has_GE = ifelse(is.na(max(has_GE)), NA, has_GE)) %>%
+  ungroup()
 
-write.table(approvals_GE, sep = ",", file = "./output/2013-2022_approvals_GE_v1.2.csv", row.names = FALSE)
+
+write.table(approvals_GE, sep = ",", file = "./output/2013-2022_approvals_v2_hasGE.csv", row.names = FALSE)
+
 
 
