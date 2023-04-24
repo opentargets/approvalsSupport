@@ -26,7 +26,7 @@ data$Oligonucl <- grepl("Oligonucleotide", data$drugType)
 # create a 2x2 contingency table with "has_GE" values as rows and the review status values as columns.
 table_data_P <- table(data$has_GE, data$Priority)
 table_data_B <- table(data$has_GE, data$Breakthrough)
-# table_data_A <- table(data$has_GE, data$Accelerated) # Odds ration is not applicable
+table_data_A <- table(data$has_GE, data$Accelerated) # Odds ration is not applicable
 table_data_O <- table(data$has_GE, data$Orphan)
 table_data_SmallMol <- table(data$has_GE, data$SmallMol)
 table_data_Ab <- table(data$has_GE, data$Ab)
@@ -44,8 +44,8 @@ rownames(table_data_P) <- c("no_GE", "has_GE")
 colnames(table_data_B) <- c("Other", "Breakthrough")
 rownames(table_data_B) <- c("no_GE", "has_GE")
 
-# colnames(table_data_A) <- c("Other", "Accelerated")
-# rownames(table_data_A) <- c("no_GE", "has_GE")
+colnames(table_data_A) <- c("Other", "Accelerated")
+rownames(table_data_A) <- c("no_GE", "has_GE")
 
 colnames(table_data_O) <- c("Other", "Orphan")
 rownames(table_data_O) <- c("no_GE", "has_GE")
@@ -68,13 +68,13 @@ rownames(table_data_Oligonucl) <- c("no_GE", "has_GE")
 # dimnames(table_data_A) <- list(has_GE = c(TRUE, FALSE), Accelerated = c(TRUE, FALSE))
 # dimnames(table_data_O) <- list(has_GE = c(TRUE, FALSE), Orphan = c(TRUE, FALSE))
 
-# fisher_result <- fisher.test(table_data)
+fisher_result <- fisher.test(table_data_A)
 
-# # # Create a vector of correction factors
-# correction_factor <- ifelse(table_data_A < 5, 1, 0)
+# Create a vector of correction factors
+correction_factor <- ifelse(table_data_A < 5, 1, 0)
 
-# # Apply Yates' correction to the contingency table_data_A
-# table_corrected_A <- table_data_A + correction_factor
+# Apply Yates' correction to the contingency table_data_A
+table_data_A <- table_data_A + correction_factor
 
 
 odds_ratio_df <- function(table_data) {
@@ -109,7 +109,7 @@ odds_ratio_df <- function(table_data) {
 odds_ratio_1 <- odds_ratio_df(table_data_P)
 odds_ratio_2 <- odds_ratio_df(table_data_B)
 odds_ratio_3 <- odds_ratio_df(table_data_O)
-# odds_ratio_4 <- odds_ratio_df(table_corrected_A)
+odds_ratio_4 <- odds_ratio_df(table_data_A)
 odds_ratio_5 <- odds_ratio_df(table_data_SmallMol)
 odds_ratio_6 <- odds_ratio_df(table_data_Ab)
 odds_ratio_7 <- odds_ratio_df(table_data_Protein)
@@ -117,7 +117,7 @@ odds_ratio_8 <- odds_ratio_df(table_data_Oligonucl)
 
 
 # Combine results into one data frame
-all_odds_ratios <- rbind(odds_ratio_1, odds_ratio_2, odds_ratio_3, odds_ratio_5, odds_ratio_6, odds_ratio_7, odds_ratio_8)
+all_odds_ratios <- rbind(odds_ratio_1, odds_ratio_2, odds_ratio_3, odds_ratio_4, odds_ratio_5, odds_ratio_6, odds_ratio_7, odds_ratio_8)
 
 # View results
 all_odds_ratios
@@ -158,6 +158,6 @@ ggplot(df, aes(x = estimate, y = table_data)) +
             hjust = 0, size = 6)
 
 
-ggsave("./output/OR_v1.png", 
+ggsave("./output/OR_v2.png", 
         width = 10,
         height = 8)
