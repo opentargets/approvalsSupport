@@ -1,0 +1,259 @@
+library("cowplot")
+library("ggsci")
+library(forcats)
+library(ggplot2)
+library("tidyverse")
+# install.packages("epitools")
+library(epitools)
+
+data_in <- read_csv("./data/nature_plot/2013-2022_approvals_v3.2_ft.csv")
+data  <- subset(data_in, targetIds != "NA" & has_GE != "NA")  %>% 
+        distinct(Brand_name, .keep_all = TRUE) 
+
+# All expedited approvals
+data$expedited <- !(grepl("^S$|^S, O$", data$Review_type) & !data$Fast_Track)
+
+data$P_onco <- grepl("P", data$Review_type) & grepl("Oncology", data$TA)
+data$B_onco <- grepl("B", data$Review_type) & grepl("Oncology", data$TA)
+data$O_onco <- grepl("O", data$Review_type) & grepl("Oncology", data$TA)
+data$S_onco <- grepl("S", data$Review_type) & grepl("Oncology", data$TA)
+data$A_onco <- grepl("A", data$Review_type) & grepl("Oncology", data$TA)
+
+data$F_onco <- data$Fast_Track & grepl("Oncology", data$TA)
+
+
+data$P_nononco <- grepl("P", data$Review_type) & !grepl("Oncology", data$TA)
+data$B_nononco <- grepl("B", data$Review_type) & !grepl("Oncology", data$TA)
+data$O_nononco <- grepl("O", data$Review_type) & !grepl("Oncology", data$TA)
+data$S_nononco <- grepl("S", data$Review_type) & !grepl("Oncology", data$TA)
+data$A_nononco <- grepl("A", data$Review_type) & !grepl("Oncology", data$TA)
+
+# Create boolean columns with Review status and modalities
+data$Priority <- grepl("P", data$Review_type)
+data$Breakthrough <- grepl("B", data$Review_type)
+data$Accelerated <- grepl("A", data$Review_type)
+data$Orphan <- grepl("O", data$Review_type)
+# data$SmallMol <- grepl("Small molecule", data$drugType)
+# data$Ab <- grepl("Antibody", data$drugType)
+# data$Protein <- grepl("Protein|Enzyme", data$drugType)
+# data$Oligonucl <- grepl("Oligonucleotide", data$drugType)
+data$Standard <- grepl("S", data$Review_type)
+
+# write.table(data, sep = ",", file = "./output/2013-2022_approvals_all_noS.csv", row.names = FALSE)
+
+
+# create a 2x2 contingency table with "has_GE" values as rows and the review status values as columns.
+table_data_P <- table(data$has_GE, data$Priority)
+table_data_P_onco  <- table(data$has_GE, data$P_onco)
+table_data_P_nononco  <- table(data$has_GE, data$P_nononco)
+
+table_data_B <- table(data$has_GE, data$Breakthrough)
+table_data_B_onco  <- table(data$has_GE, data$B_onco)
+table_data_B_nononco  <- table(data$has_GE, data$B_nononco)
+
+table_data_A <- table(data$has_GE, data$Accelerated) # Odds ration is not applicable
+table_data_A_onco <- table(data$has_GE, data$A_onco)
+table_data_A_nononco <- table(data$has_GE, data$A_nononco)
+
+table_data_O <- table(data$has_GE, data$Orphan)
+table_data_O_onco  <- table(data$has_GE, data$O_onco)
+table_data_O_nononco  <- table(data$has_GE, data$O_nononco)
+
+table_data_S <- table(data$has_GE, data$Standard)
+table_data_S_onco  <- table(data$has_GE, data$S_onco)
+table_data_S_nononco  <- table(data$has_GE, data$S_nononco)
+
+table_expedited <- table(data$has_GE, data$expedited)
+
+table_data_Ft <- table(data$has_GE, data$Fast_Track)
+
+table_data_F_onco <- table(data$has_GE, data$F_onco)
+
+# table_data_SmallMol <- table(data$has_GE, data$SmallMol)
+# table_data_Ab <- table(data$has_GE, data$Ab)
+# table_data_Protein <- table(data$has_GE, data$Protein)
+# table_data_Oligonucl <- table(data$has_GE, data$Oligonucl)
+
+# table_data_SmallMol
+# table_data_Ab
+# table_data_Protein
+# table_data_Oligonucl
+
+colnames(table_data_Ft) <- c("Other", "Fast_Track")
+rownames(table_data_Ft) <- c("no_GE", "has_GE")
+
+colnames(table_data_P) <- c("Other", "Priority")
+rownames(table_data_P) <- c("no_GE", "has_GE")
+
+colnames(table_data_P_onco) <- c("Other", "Priority (onco)")
+rownames(table_data_P_onco) <- c("no_GE", "has_GE")
+
+colnames(table_data_P_nononco) <- c("Other", "Priority (non-onco)")
+rownames(table_data_P_nononco) <- c("no_GE", "has_GE")
+
+colnames(table_data_B) <- c("Other", "Breakthrough")
+rownames(table_data_B) <- c("no_GE", "has_GE")
+
+colnames(table_data_B_onco) <- c("Other", "Breakthrough (onco)")
+rownames(table_data_B_onco) <- c("no_GE", "has_GE")
+
+colnames(table_data_B_nononco) <- c("Other", "Breakthrough (non-onco)")
+rownames(table_data_B_nononco) <- c("no_GE", "has_GE")
+
+# colnames(table_data_A) <- c("Other", "Accelerated")
+# rownames(table_data_A) <- c("no_GE", "has_GE")
+
+colnames(table_data_O) <- c("Other", "Orphan")
+rownames(table_data_O) <- c("no_GE", "has_GE")
+
+colnames(table_data_O_onco) <- c("Other", "Orphan (onco)")
+rownames(table_data_O_onco) <- c("no_GE", "has_GE")
+
+colnames(table_data_O_nononco) <- c("Other", "Orphan (non-onco)")
+rownames(table_data_O_nononco) <- c("no_GE", "has_GE")
+
+colnames(table_data_S) <- c("Other", "Standard")
+rownames(table_data_S) <- c("no_GE", "has_GE")
+
+colnames(table_data_A) <- c("Other", "Accelerated")
+rownames(table_data_A) <- c("no_GE", "has_GE")
+
+colnames(table_data_S_onco) <- c("Other", "Standard (onco)")
+rownames(table_data_S_onco) <- c("no_GE", "has_GE")
+
+colnames(table_data_S_nononco) <- c("Other", "Standard (non-onco)")
+rownames(table_data_S_nononco) <- c("no_GE", "has_GE")
+
+
+colnames(table_expedited) <- c("Other", "expedited")
+rownames(table_expedited) <- c("no_GE", "has_GE")
+
+# colnames(table_data_SmallMol) <- c("Other", "SmallMol")
+# rownames(table_data_SmallMol) <- c("no_GE", "has_GE")
+
+# colnames(table_data_Ab) <- c("Other", "Ab")
+# rownames(table_data_Ab) <- c("no_GE", "has_GE")
+
+# colnames(table_data_Protein) <- c("Other", "Protein")
+# rownames(table_data_Protein) <- c("no_GE", "has_GE")
+
+# colnames(table_data_Oligonucl) <- c("Other", "Oligonucl")
+# rownames(table_data_Oligonucl) <- c("no_GE", "has_GE")
+
+
+# dimnames(table_data_P) <- list(has_GE = c(TRUE, FALSE), Priority = c(TRUE, FALSE))
+# dimnames(table_data_B) <- list(has_GE = c(TRUE, FALSE), Breakthrough = c(TRUE, FALSE))
+# dimnames(table_data_A) <- list(has_GE = c(TRUE, FALSE), Accelerated = c(TRUE, FALSE))
+# dimnames(table_data_O) <- list(has_GE = c(TRUE, FALSE), Orphan = c(TRUE, FALSE))
+
+# fisher_result <- fisher.test(table_data_A)
+
+# # Create a vector of correction factors
+# correction_factor <- ifelse(table_data_A < 5, 1, 0)
+
+# # Apply Yates' correction to the contingency table_data_A
+# table_data_A <- table_data_A + correction_factor
+
+
+odds_ratio_df <- function(table_data) {
+  # Calculate odds ratio
+  odds_ratio_result <- oddsratio(table_data)
+  
+  # Extract estimate, lower, and upper values
+  odds_ratio_estimate <- odds_ratio_result$measure[2, 1]
+  odds_ratio_lower <- odds_ratio_result$measure[2, 2]
+  odds_ratio_upper <- odds_ratio_result$measure[2, 3]
+  
+  # Extract midp.exact, fisher.exact, and chi.square p-values
+  midp_p_value <- odds_ratio_result$p.value[2, 1]
+  fisher_p_value <- odds_ratio_result$p.value[2, 2]
+  chi_square_p_value <- odds_ratio_result$p.value[2, 3]
+  
+  # Create data frame with odds ratio results
+  odds_ratio_df <- data.frame(table_data = paste(rev(colnames(table_data)), collapse = "_vs_"),
+                               estimate = odds_ratio_estimate,
+                               lower = odds_ratio_lower,
+                               upper = odds_ratio_upper,
+                               midp_p_value = midp_p_value,
+                               fisher_p_value = fisher_p_value,
+                               chi_square_p_value = chi_square_p_value,
+                               stringsAsFactors = FALSE)
+  
+  # Return data frame
+  return(odds_ratio_df)
+}
+
+# Calculate odds ratio and extract values for each table
+odds_ratio_1 <- odds_ratio_df(table_data_P)
+odds_ratio_1_2 <- odds_ratio_df(table_data_P_onco)
+odds_ratio_1_3 <- odds_ratio_df(table_data_P_nononco)
+
+odds_ratio_2 <- odds_ratio_df(table_data_B)
+odds_ratio_2_2 <- odds_ratio_df(table_data_B_onco)
+odds_ratio_2_3 <- odds_ratio_df(table_data_B_nononco)
+
+odds_ratio_3 <- odds_ratio_df(table_data_O)
+odds_ratio_3_2 <- odds_ratio_df(table_data_O_onco)
+odds_ratio_3_3 <- odds_ratio_df(table_data_O_nononco)
+
+# odds_ratio_4 <- odds_ratio_df(table_data_A)
+odds_ratio_5 <- odds_ratio_df(table_data_S)
+odds_ratio_5_2 <- odds_ratio_df(table_data_S_onco)
+odds_ratio_5_3 <- odds_ratio_df(table_data_S_nononco)
+
+# odds_ratio_6 <- odds_ratio_df(table_data_SmallMol)
+# odds_ratio_7 <- odds_ratio_df(table_data_Ab)
+# odds_ratio_8 <- odds_ratio_df(table_data_Protein)
+# odds_ratio_9 <- odds_ratio_df(table_data_Oligonucl)
+
+odds_ratio_table_expedited <- odds_ratio_df(table_expedited)
+
+odds_ratio_fT <- odds_ratio_df(table_data_Ft)
+
+# Combine results into one data frame
+all_odds_ratios <- rbind(odds_ratio_1, odds_ratio_2,
+                        odds_ratio_3, odds_ratio_5,
+                        odds_ratio_table_expedited, odds_ratio_fT)
+
+# View results
+all_odds_ratios
+
+write.table(all_odds_ratios, sep = ",", file = "./output/OR_graphs/2013-2022_approvals_OR_v10.csv", row.names = FALSE)
+
+
+
+
+
+
+
+# all_odds_ratios <- read_csv("./output/2013-2022_approvals_v4.4_nonco.csv")
+
+df <- all_odds_ratios[order(all_odds_ratios$estimate), ]
+
+
+
+# Create a factor variable for table_data to use in the y-axis
+df$table_data <- factor(df$table_data, levels = df$table_data)
+
+ggplot(df, aes(x = estimate, y = table_data)) +
+  geom_point(size = 3) +
+  geom_errorbarh(aes(xmin = lower, xmax = upper), height = 0.2) +
+  geom_vline(xintercept = 1, linetype = "dashed") +
+  scale_x_log10(limits = c(0.25, 8)) +
+  scale_y_discrete(expand = c(0.1, 0)) +
+  labs(x = "Odds Ratio (log scale)", y = "", title = "2013-2022 approvals") +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.line = element_line(colour = "black"),
+        axis.text = element_text(size = 16, face = "bold"),
+        axis.title = element_text(size = 16),
+        plot.title = element_text(size = 16, face = "bold"),
+        plot.margin = unit(c(0.5, 1, 0.5, 0.5), "cm")) +
+  geom_text(aes(label = paste0("p = ", ifelse(midp_p_value < 0.001, format(signif(midp_p_value, 2), scientific = TRUE), round(midp_p_value, 3))), x = upper * 1.55),
+            hjust = 0, size = 6)
+
+
+ggsave("./output/OR_v10.png", 
+        width = 15,
+        height = 8)

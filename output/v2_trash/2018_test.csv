@@ -1,7 +1,0 @@
-"datasourceId","Drug_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year","Brand_name","Drug_name_original"
-"datasource_1","Drug_1_1","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2018,"Name_1","Drug_1"
-"datasource_1","Drug_1_2","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2018,"Name_1","Drug_1"
-"datasource_2","Drug_1_3","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2018,"Name_1","Drug_1"
-"datasource_2","Drug_1_4","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2018,"Name_1","Drug_1"
-"datasource_2","Drug_1_5","Other indication",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2018,"Name_1","Drug_1"
-"datasource_2","Drug_1_5","No human target",FALSE,NA,NA,0,"CGC (COSMIC)","Somatic",2018,"Name_1","Drug_1"

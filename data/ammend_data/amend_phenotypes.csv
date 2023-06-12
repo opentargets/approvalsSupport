@@ -56,6 +56,7 @@ MONDO_0005148,HP_0003076,type 2 diabetes mellitus -> Glycosuria,2014
 MONDO_0003406,EFO_0008328,sleep-wake disorder -> chronotype measurement,2014
 MONDO_0020511,EFO_1001938,precursor B-cell acute lymphoblastic leukemia -> B-cell non-Hodgkins lymphoma,2017
 MONDO_0004979,EFO_0004842,asthma -> eosinophil count (eosinophil asthma),2017
+EFO_0008590,MONDO_0004979,Status Asthmaticus -> asthma,2016
 MONDO_0005148,Orphanet_79161,type 2 diabetes mellitus -> Disorder of carbohydrate metabolism,201
 HP_0007359,HP_0001250,Focal-onset seizure -> Seizure (parent),2016
 Orphanet_33069,MONDO_0020072,Dravet syndrome  -> childhood-onset epilepsy syndrome,2018
