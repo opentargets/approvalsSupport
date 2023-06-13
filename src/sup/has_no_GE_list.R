@@ -5,8 +5,8 @@ library(ggplot2)
 library("tidyverse")
 
 options(dplyr.width = Inf)
-data <- read_csv("./output/2013-2022_approvals_v2.csv")
-local_approvals <- read_csv("./data/2013-2022/2013-2022_approvals_GE_v2_out.csv")
+data <- read_csv("./output/v3/2013-2022_approvals_GE_v3.2_out.csv")
+local_approvals <- read_csv("./data/2013-2022/v3/2013-2022_approvals_GE_v3.2_in.csv")
 
 
 data_humT_metadata <- data %>% filter(noTarget == FALSE) %>% # remove all non-human targets
@@ -31,7 +31,7 @@ approvals_GE <- local_approvals %>%
   ungroup()
 
 
-write.table(approvals_GE, sep = ",", file = "./output/2013-2022_approvals_v2_hasGE.csv", row.names = FALSE)
+write.table(approvals_GE, sep = ",", file = "./output/v3/2013-2022_approvals_GE_v3.3_out.csv", row.names = FALSE)
 
 
 
