@@ -21,7 +21,7 @@ local_approvals <- read_csv("./data/2013-2022/2013-2022_approvals_GE_v2_in.csv")
 
 # Add MoAs to final table
 # Extra MoAs required to fill the gaps
-new_moas <- read_csv("./data/ammend_data/amend_moas.csv")
+new_moas <- read_csv("./data/ammend_data/amend_moas_v2.csv")
 new_moas <- sdf_copy_to(sc, new_moas, overwrite = TRUE)
 
 gs_path <- "gs://open-targets-data-releases/"
@@ -52,5 +52,5 @@ local_approvals_MoAs <- local_approvals %>%
   left_join(MoAs, by = "Drug_name") 
 
 
-write.table(local_approvals_MoAs , sep = ",", file = "./data/2013-2022/2013-2022_approvals_GE_v2_out.csv", row.names = FALSE)
+write.table(local_approvals_MoAs , sep = ",", file = "./output/v3/2013-2022_approvals_GE_v3.2_out.csv", row.names = FALSE)
 
