@@ -1,0 +1,35 @@
+"datasourceId","Drug_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year","Brand_name","Drug_name_original","score_bool","interactionAssociation_bool","phenotypeAssociation_bool","Interactor","Related","Interactor_Related"
+"cancer_biomarkers","Trilaciclib","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"cancer_biomarkers","Trilaciclib","Oncology",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"cancer_gene_census","Trilaciclib","Oncology",FALSE,TRUE,TRUE,0.455948098208716,"CGC (COSMIC)","Somatic",2021,"Cosela","Trilaciclib",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+"cancer_gene_census","Trilaciclib","Oncology",FALSE,TRUE,TRUE,0.455948098208716,"CGC (COSMIC)","Somatic",2021,"Cosela","Trilaciclib",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+"clingen","Trilaciclib","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"clingen","Trilaciclib","Oncology",FALSE,NA,NA,0,"Clingen","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"crispr","Trilaciclib","Oncology",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"crispr","Trilaciclib","Oncology",FALSE,NA,NA,0,"Project Score","Functional genomics (cancer)",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"eva","Trilaciclib","Oncology",FALSE,TRUE,NA,0,"ClinVar","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"eva","Trilaciclib","Oncology",FALSE,TRUE,NA,0,"ClinVar","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"eva_somatic","Trilaciclib","Oncology",FALSE,TRUE,NA,0,"ClinVar (Somatic)","Somatic",2021,"Cosela","Trilaciclib",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"eva_somatic","Trilaciclib","Oncology",FALSE,TRUE,NA,0,"ClinVar (Somatic)","Somatic",2021,"Cosela","Trilaciclib",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"gene2phenotype","Trilaciclib","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"gene2phenotype","Trilaciclib","Oncology",FALSE,NA,NA,0,"gene2phenotype","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"gene_burden","Trilaciclib","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"gene_burden","Trilaciclib","Oncology",FALSE,NA,NA,0,"Gene burden","Common disease",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"genomics_england","Trilaciclib","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"genomics_england","Trilaciclib","Oncology",FALSE,NA,NA,0,"GEL PanelApp","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"impc","Trilaciclib","Oncology",FALSE,TRUE,NA,0,"Mouse model (IMPC)","Mouse model",2021,"Cosela","Trilaciclib",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"impc","Trilaciclib","Oncology",FALSE,TRUE,NA,0,"Mouse model (IMPC)","Mouse model",2021,"Cosela","Trilaciclib",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"intogen","Trilaciclib","Oncology",FALSE,TRUE,NA,0,"IntOgen","Somatic",2021,"Cosela","Trilaciclib",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"intogen","Trilaciclib","Oncology",FALSE,TRUE,NA,0,"IntOgen","Somatic",2021,"Cosela","Trilaciclib",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"orphanet","Trilaciclib","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"orphanet","Trilaciclib","Oncology",FALSE,NA,NA,0,"Orphanet","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"ot_genetics_portal","Trilaciclib","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"ot_genetics_portal","Trilaciclib","Oncology",FALSE,NA,NA,0,"OT Genetics Portal","Common disease",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"progeny","Trilaciclib","Oncology",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"progeny","Trilaciclib","Oncology",FALSE,NA,NA,0,"Progeny","Functional genomics (cancer)",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"slapenrich","Trilaciclib","Oncology",FALSE,TRUE,NA,0,"SlapEnrich","Functional genomics (cancer)",2021,"Cosela","Trilaciclib",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"slapenrich","Trilaciclib","Oncology",FALSE,TRUE,NA,0,"SlapEnrich","Functional genomics (cancer)",2021,"Cosela","Trilaciclib",TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"uniprot_literature","Trilaciclib","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"uniprot_literature","Trilaciclib","Oncology",FALSE,NA,NA,0,"Uniprot (gene-disease)","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"uniprot_variants","Trilaciclib","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"uniprot_variants","Trilaciclib","Oncology",FALSE,NA,NA,0,"Uniprot (variants)","Rare mendelian",2021,"Cosela","Trilaciclib",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE

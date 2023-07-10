@@ -2,14 +2,13 @@ library("tidyverse")
 library("ggvenn")
 library(ggplot2)
 
-data_in <- read_csv("./data/nature_plot/2013-2022_approvals_v3.2_ft.csv")
-df  <- subset(data_in, targetIds != "NA" & has_GE != "NA")  %>% 
-        distinct(Brand_name, .keep_all = TRUE) 
+data_in <- read_csv("./output/v3/2013-2022_approvals_GE_v3.4_out.csv")
+df  <- subset(data_in, has_GE != "NA")
 
 df$onco <- grepl("Oncology", df$TA)
-df$all_noS <- !(grepl("^S$|^S, O$", df$Review_type) & !df$Fast_Track)
+df$Expedited <- !(grepl("^S$|^S, O$", df$Review_type))
 
-write.table(df, sep = ",", file = "./output/2013-2022_approvals_v3_3.csv", row.names = FALSE)
+# write.table(df, sep = ",", file = "./output/v3/2013-2022_approvals_GE_v3.4_out.csv", row.names = FALSE)
 
 
 # P_count <- sum(df$Priority)
@@ -19,22 +18,22 @@ write.table(df, sep = ",", file = "./output/2013-2022_approvals_v3_3.csv", row.n
 # O_count <- sum(df$Orphan)
 # GE_count <- sum(df$has_GE)
 onco_count <- sum(df$onco)
-expedited_count <- sum(df$all_noS)
+expedited_count <- sum(df$Expedited)
 
 # # Expedited + oncology + GE
-# expedited_GE <- sum(df$all_noS & df$has_GE)
-# onco_GE <- sum(df$all_noS & df$has_GE)
-expedited_onco <- sum(df$all_noS & df$onco)
+# expedited_GE <- sum(df$Expedited & df$has_GE)
+# onco_GE <- sum(df$Expedited & df$has_GE)
+expedited_onco <- sum(df$Expedited & df$onco)
 
 # GE <- as.vector(df$has_GE)
-# expedited <- as.vector(df$all_noS)
+# expedited <- as.vector(df$Expedited)
 # onco <- as.vector(df$onco)
 
 
 # Expedited + oncology + GE
-data_venn_1 <- df[, c("onco", "all_noS", "has_GE")]
+data_venn_1 <- df[, c("onco", "Expedited", "has_GE")]
 ggplot(data_venn_1,
-       aes(A = onco, B = all_noS, C = has_GE)) + 
+       aes(A = onco, B = Expedited, C = has_GE)) + 
   theme_void() +
   geom_venn()
 
@@ -55,9 +54,9 @@ ggsave("./output/O_onc_GE_v1.png",
 
 
 # Orphan + Expedited + GE
-data_venn_3 <- df[, c("all_noS", "Orphan", "has_GE")]
+data_venn_3 <- df[, c("Expedited", "Orphan", "has_GE")]
 ggplot(data_venn_3,
-       aes(A = all_noS, B = Orphan, C = has_GE)) + 
+       aes(A = Expedited, B = Orphan, C = has_GE)) + 
   theme_void() +
   geom_venn()
 
@@ -81,15 +80,15 @@ ggsave("./output/Exp_types_v1.png",
 
 
 # Expedited + oncology 
-data_venn_1_2 <- df[, c("onco", "all_noS")]
+data_venn_1_2 <- df[, c("onco", "Expedited")]
 ggplot(data_venn_1_2,
-       aes(A = onco, B = all_noS)) + 
+       aes(A = onco, B = Expedited)) + 
   theme_void() +
   geom_venn()
 
-ggsave("./output/Exp_onc_v1.png", 
-        width = 3,
-        height = 3)
+ggsave("./output/v3/Exp_onc_venn_1.png", 
+        width = 5,
+        height = 5)
 
 
 # Fast_Track + Orphan 
