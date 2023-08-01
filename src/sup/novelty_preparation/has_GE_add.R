@@ -45,3 +45,20 @@ data_amend <- new_data %>%
       left_join(amend_phenotypes, by = "diseaseId")
 
 write.table(data_amend, sep = ",", file = "./output/v3/2013-2022_approvals_GE_v6.4_novelty.csv", row.names = FALSE)
+
+
+
+
+
+new_data_2 <- read_csv("./output/v3/2013-2022_approvals_GE_v6.6_novelty.csv")
+interactors <- read_csv("./output/v3/targetB_v2.csv") %>%
+              group_by(Brand_name) %>%
+              summarise(targetB = paste(targetB, collapse = ",")) %>%
+              ungroup() 
+
+
+data_interactors <- new_data_2 %>% 
+      left_join(interactors, by = "Brand_name")
+
+write.table(data_interactors, sep = ",", file = "./output/v3/2013-2022_approvals_GE_v6.7_novelty.csv", row.names = FALSE)
+

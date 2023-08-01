@@ -113,6 +113,7 @@ ggplot(aes(x=Year, y=fraction, fill=fct_relevel(type, custom_order))) +
 #         width = 5,
 #         height = 5)
 
+write.table(data_to_plot, sep = ",", file = "./output/v3/d2p_v3.2_out.csv", row.names = FALSE)
 
 ### PLOT 2 (OR)
 data_in <- read_csv("./output/v3/2013-2022_approvals_GE_v3.4_out.csv")
@@ -251,6 +252,6 @@ combined <- GE + OR +
         plot_layout(guides = "collect", widths = c(1.8, 1)) & 
         theme(legend.position = "bottom") 
 
-ggsave("./output/v3/GE_OR/GE_OR_v2.png", 
+ggsave("./output/v3/GE_OR/GE_OR_v2.2.png", 
         width = 8,
         height = 3.9)
