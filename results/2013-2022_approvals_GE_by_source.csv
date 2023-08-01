@@ -1,4 +1,4 @@
-"datasourceId","Drug_name","TA","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","Year","Brand_name","Drug_name_original"
+"datasourceId","drugName","therapeuticArea","noTarget","interactionAssociation","phenotypeAssociation","score","datasourceName","datasourceType","yearApproval","brandDrugName","originalDrugName"
 "cancer_biomarkers","Xenon Xe 129 hyperpolarized","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2022,"Xenoview","Xenon Xe 129 hyperpolarized"
 "cancer_biomarkers","VOXILAPREVIR","No human target",TRUE,NA,NA,NA,"Cancer Biomarkers (CGI)","Somatic",2017,"Vosevi","Sofosbuvir; velpatasvir; voxilaprevir"
 "cancer_biomarkers","VORAPAXAR","Other indication",FALSE,NA,NA,0,"Cancer Biomarkers (CGI)","Somatic",2014,"Zontivity","Vorapaxar"

@@ -9,7 +9,7 @@ library(ggpubr)
 font = "Helvetica"
 
 ## PLOT 1 (GE decade)
-data <- read_csv("./output/v3/approvalsPrecedence_curation.csv")
+data <- read_csv("./results/2013-2022_approvals_GE_prec_cur.csv")
 
 # Calculation of overall approval numbers per year
 data_all_count <- data %>%
@@ -112,5 +112,4 @@ ggsave("./output/v3/GE/GE_v5.png",
         height = 4.4,
         dpi = 600)
 
-# write.table(data_to_plot, sep = ",", file = "./output/v3/d2p_v3.2_out.csv", row.names = FALSE)
 
