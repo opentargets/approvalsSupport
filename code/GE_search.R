@@ -16,12 +16,17 @@ config$spark.hadoop.fs.gs.requester.pays.project.id <- "open-targets-eu-dev" # n
 sc <- spark_connect(master = "yarn", config = config)
 
 # Initial testset of 2013-2022 approvals, exploded by originalDrugName with corresponding ChEMBL IDs
-local_approvals <- read_csv("./data/2013-2022_approvals.csv")
+local_approvals <- read_csv("./data/2013-2022_approvals_input.csv")
 approvals <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
+
+# Split and explode multiple DrugId
+approvals <- approvals %>%
+        mutate(drugId = split(as.character(drugId), ",")) %>%
+        sdf_explode(drugId, keep_all = TRUE)
 
 # Split and explode multiple diseaseIds
 approvals <- approvals %>%
-    mutate(diseaseIds = split(as.character(diseaseIds), ";")) %>%
+    mutate(diseaseIds = split(as.character(diseaseIds), ",")) %>%
     sdf_explode(diseaseIds, keep_all = TRUE) 
 
 
@@ -72,16 +77,21 @@ moa <- spark_read_parquet(sc, moa_path, memory = FALSE) %>%
     sdf_bind_rows(new_moas)
 
 # Add available + MoAs ammended to approvals dataset
-MoAs <- approvals %>%
-  left_join(moa, by = c("drugId" = "chemblIds"), copy=TRUE) %>%
-  mutate(targetIds = replace_na(targetIds, "")) %>%
-  group_by(drugName) %>%
-  summarise(targetIds = paste(targetIds, collapse = "; ")) %>%
-  rowwise() %>%
-  mutate(targetIds = toString(unique(unlist(strsplit(targetIds, "; ")))))
-  
 approvals <- approvals %>%
-  left_join(MoAs, by = "drugName") 
+  left_join(moa, by = c("drugId" = "chemblIds"), copy = TRUE) %>%
+  group_by(drugName) %>%
+  summarise(targetIds = toString(unique(na.omit(targetIds))))
+
+# MoAs <- approvals %>%
+#   left_join(moa, by = c("drugId" = "chemblIds"), copy=TRUE) %>%
+#   mutate(targetIds = replace_na(targetIds, "")) %>%
+#   group_by(drugName) %>%
+#   summarise(targetIds = paste(targetIds, collapse = ",")) %>%
+#   rowwise() %>%
+#   mutate(targetIds = toString(unique(unlist(strsplit(targetIds, ",")))))
+  
+# approvals <- approvals %>%
+#   left_join(MoAs, by = "drugName") 
 
 # Platform associations indirect (by datasource)
 ass_indirectby_ds <- spark_read_parquet(sc, ass_indirectby_ds_path)
@@ -104,18 +114,28 @@ interactions <- spark_read_parquet(sc, interaction_path, memory = FALSE) %>%
 
 # Add data about molecular interactions to approvals dataset
 approvals <- approvals %>%
-    # rename(diseaseId = diseaseIds) %>%
     inner_join(moa, by = c("drugId" = "chemblIds")) %>%
     inner_join(interactions, by = c("targetIds" = "targetA")) %>%
-    inner_join(
-        ass_indirectby_ds,
-        by = c("diseaseIds" = "diseaseIds", "targetB" = "targetIds")
-    ) %>%
+    inner_join(ass_indirectby_ds, by = c("diseaseIds", "targetB" = "targetIds")) %>%
     select(datasourceId, drugName, targetB) %>%
     sdf_distinct() %>%
-    collect() %>%
     mutate(interactionAssociation = TRUE) %>%
     rename(targetB = interactorIds)
+
+
+# approvals <- approvals %>%
+#     # rename(diseaseId = diseaseIds) %>%
+#     inner_join(moa, by = c("drugId" = "chemblIds")) %>%
+#     inner_join(interactions, by = c("targetIds" = "targetA")) %>%
+#     inner_join(
+#         ass_indirectby_ds,
+#         by = c("diseaseIds" = "diseaseIds", "targetB" = "targetIds")
+#     ) %>%
+#     select(datasourceId, drugName, targetB) %>%
+#     sdf_distinct() %>%
+#     collect() %>%
+#     mutate(interactionAssociation = TRUE) %>%
+#     rename(targetB = interactorIds)
 
 # Additional phenotype curation
 ammend_phenotypes <- read_csv("./data/amendPhenotypes.csv")
