@@ -1,0 +1,429 @@
+brandDrugName,originalDrugName,drugName,drugId,sponsor,properties,therapeuticArea,indication,diseaseName,diseaseIds,diseaseClass,reviewType,yearApproval
+Adempas,Riociguat,RIOCIGUAT,CHEMBL2107834,Bayer,Soluble guanylyl cyclase stimulator,Other indication,Persistent or recurrent chronic thromboembolic pulmonary hypertension and pulmonary arterial hypertension,pulmonary arterial hypertension,EFO_0001361,Serious,"P,O",2013
+Anoro Ellipta,"Umeclidinium, vilanterol","UMECLIDINIUM,VILANTEROL","CHEMBL1187833,CHEMBL1198857",GSK,Anticholinergic and a LABA,Other indication,Chronic obstructive pulmonary disease,chronic obstructive pulmonary disease,EFO_0000341,Serious,S,2013
+Aptiom,Eslicarbazepine,ESLICARBAZEPINE,CHEMBL315985,Sunovion,"MOA unknown, but thought to involve voltage-gated sodium channels",Other indication,Partial-onset seizures,Seizure,HP_0001250,Not concordant,S,2013
+Breo Ellipta,"Fluticasone, vilanterol","FLUTICASONE,VILANTEROL","CHEMBL1473,CHEMBL1198857",GSK,Corticosteroid plus LABA,Other indication,Chronic obstructive pulmonary disease,chronic obstructive pulmonary disease,EFO_0000341,Serious,S,2013
+Brintellix,Vortioxetine,VORTIOXETINE,CHEMBL2104993,Takeda,Serotonin reuptake inhibitor,Other indication,Major depressive disorder,major depressive disorder,MONDO_0002009,Not serious,S,2013
+Dotarem,Gadoterate meglumine,GADOTERATEMEGLUMINE,CHEMBL2219415,Guerbet,Gadolinium-based contrast agent,No human target,Contrast agent to visualize disruption of the blood-brain barrier,NA,NA,NA,P,2013
+Duavee,"Bazedoxifene acetate, oestrogens","BAZEDOXIFENEACETATE,ESTROGENS,CONJUGATED","CHEMBL2106615,CHEMBL1201649",Pfizer,Conjugated oestrogens with an oestrogen receptor modulator,Other indication,Moderate to Serious vasomotor symptoms associated with menopause and prevention of postmenopausal osteoporosis,menopause; postmenopausal osteoporosis,"EFO_0003922,EFO_0003854",Not serious,S,2013
+Gazyva,Obinutuzumab,OBINUTUZUMAB,CHEMBL1743048,Genentech,Humanized CD20-specific monoclonal antibody,Oncology,Previously untreated chronic lymphocytic leukaemia,chronic lymphocytic leukemia,EFO_0000095,Serious,"P,O,B",2013
+Gilotrif,Afatinib,AFATINIB,CHEMBL1173655,Boehringer Ingelheim,"EGFR (ERBB1), HER2 (ERBB2), and HER4 (ERRB4) kinase inhibitor",Oncology,First-line treatment of patients with metastatic NSCLC whose tumours have EGFR exon 19 deletions or exon 21 (L858R) substitution mutations as detected by an FDA-approved test,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,F",2013
+Imbruvica,Ibrutinib,IBRUTINIB,CHEMBL1873475,Pharmacyclics,Bruton's tyrosine kinase inhibitor,Oncology,Mantle cell lymphoma,Mantle cell lymphoma,EFO_1001469,Serious,"P,O,B,F",2013
+Invokana,Canagliflozin,"CANAGLIFLOZIN,CANAGLIFLOZIN","CHEMBL4594217,CHEMBL2048484",Janssen,SGLT2 inhibitor,Other indication,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Not concordant,S,2013
+Kadcyla,Ado-trastuzumab emtansine,TRASTUZUMABEMTANSINE,CHEMBL1743082,Genentech,HER2-targeted antibody and microtubule inhibitor conjugate,Oncology,HER2-positive metastatic breast cancer,HER2 Positive Breast Carcinoma,EFO_1000294,Serious,"P,F",2013
+Kynamro,Mipomersen,MIPOMERSEN,CHEMBL2219536,Genzyme,Oligonucleotide inhibitor of apolipoprotein B100 synthesis,Other indication,Homozygous familial hypercholesterolaemia,homozygous familial hypercholesterolemia,MONDO_0018328,Serious,"S,O",2013
+Luzu,Luliconazole,LULICONAZOLE,CHEMBL2105689,Medicis,Azole antifungal,No human target,"Interdigital tinea pedis, tinea cruris and tinea corporis caused by Trichophyton rubrum and Epidermophyton floccosum",tinea,EFO_0007510,Not serious,S,2013
+Lymphoseek kit,Technetium TC 99m tilmanocept,TECHNETIUMTC99MTILMANOCEPT,CHEMBL2108726,Navidea,Radioactive diagnostic agent,Other indication,Lymphatic mapping in patients with breast cancer or melanoma,breast cancer; melanoma,"MONDO_0007254,EFO_0000756",Serious,S,2013
+Mekinist,Trametinib,TRAMETINIB,CHEMBL2103875,GSK,MEK1 and MEK2 kinase inhibitor,Oncology,Unresectable or metastatic melanoma with BRAF(V600E) mutation as detected by an FDA-approved test,metastatic melanoma,EFO_0002617,Serious,"S,O,F",2013
+Nesina,Alogliptin,ALOGLIPTIN,CHEMBL376359,Takeda,DPP4 inhibitor,Other indication,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Not concordant,S,2013
+Olysio,Simeprevir,SIMEPREVIR,CHEMBL501849,Janssen,HCV NS3/4A protease inhibitor,No human target,"Chronic HCV infection, as a component of a combination antiviral treatment regimen",hepatitis C virus infection,EFO_0003047,Serious,"P,F",2013
+Opsumit,Macitentan,MACITENTAN,CHEMBL2103873,Actelion,Endothelin receptor antagonist,Other indication,Pulmonary arterial hypertension,pulmonary arterial hypertension,EFO_0001361,Serious,"S,O",2013
+Osphena,Ospemifene,OSPEMIFENE,CHEMBL2105395,Shionogi,Oestrogen receptor modulator,Other indication,Moderate to Serious dyspareunia due to menopause,Dyspareunia,HP_0030016,Not serious,S,2013
+Pomalyst,Pomalidomide,POMALIDOMIDE,CHEMBL43452,Celgene,Immunomodulatory antineoplastic agent,Oncology,Multiple myeloma,multiple myeloma,EFO_0001378,Serious,"S,O,F",2013
+Sovaldi,Sofosbuvir,SOFOSBUVIR,CHEMBL1259059,Gilead,HCV nucleotide analogue NS5B polymerase inhibitor,No human target,"Chronic HCV infection, as a component of a combination antiviral treatment regimen",hepatitis C virus infection,EFO_0003047,Serious,"P,B,F",2013
+Tafinlar,Dabrafenib,DABRAFENIB,CHEMBL2028663,GSK,"Kinase inhibitor with activity against BRAFV600E, BRAFV600K, BRAFV600D, wild-type BRAF and other kinases",Oncology,Unresectable or metastatic melanoma with BRAF(V600E) mutation as detected by an FDA-approved test,metastatic melanoma,EFO_0002617,Serious,"S,O,F",2013
+Tecfidera,Dimethyl fumarate,DIMETHYLFUMARATE,CHEMBL2107333,Biogen Idec,MOA unknown; activates NRF2 pathway,Other indication,Relapsing forms of multiple sclerosis,relapsing-remitting multiple sclerosis,EFO_0003929,Serious,S,2013
+Tivicay,Dolutegravir,DOLUTEGRAVIR,CHEMBL1229211,ViiV,HIV1 integrase strand transfer inhibitor,No human target,"HIV1 infection in adults and children, in combination with other antiretroviral agents",HIV infection,EFO_0000764,Serious,"P,F",2013
+Vizamyl,Flutemetamol F-18,FLUTEMETAMOLF-18,CHEMBL2042122,GE Healthcare,Radioactive diagnostic agent,Other indication,PET imaging of the brain to estimate beta-amyloid neuritic plaque density in patients who are being evaluated for Alzheimer's disease,neuritic plaque measurement; Alzheimer disease,"EFO_0006798,MONDO_0004975",Serious,S,2013
+Xofigo,Radium RA 223 dichloride,RADIUMRA223DICHLORIDE,CHEMBL2107816,Bayer,Alpha particle-emitting radioactive therapeutic,No human target,Castration-resistant prostate cancer,prostate cancer,MONDO_0008315,Serious,"P,F",2013
+Akynzeo,"Netupitant, palonosetron","NETUPITANT,PALONOSETRON","CHEMBL206253,CHEMBL1189679",Helsinn,An NK1-receptor antagonist plus a 5-HT3-receptor antagonist,Other indication,Chemotherapy-related nausea,Chemotherapy-induced nausea and vomiting,EFO_0006911,Not serious,S,2014
+Beleodaq,Belinostat,BELINOSTAT,CHEMBL408513,Spectrum,Histone-deacetylase inhibitor,Other indication,Peripheral T-cell lymphoma,unspecified peripheral T-cell lymphoma,EFO_0000211,Serious,"P,O,A,F",2014
+Belsomra,Suvorexant,SUVOREXANT,CHEMBL1083659,Merck & Co.,Orexin-receptor antagonist,Other indication,Insomnia,insomnia,EFO_0004698,Not serious,S,2014
+Blincyto,Blinatumomab,BLINATUMOMAB,CHEMBL1742992,Amgen,CD19- and CD3-bispecific antibody,Oncology,B-ALL,precursor B-cell acute lymphoblastic leukemia,MONDO_0020511,Serious,"P,O,B,A",2014
+Cerdelga,Eliglustat,ELIGLUSTAT,CHEMBL2110588,Genzyme,Glucosylceramide-synthase inhibitor,Other indication,Gaucher's disease,Gaucher disease,MONDO_0018150,Serious,"P,O",2014
+Cyramza,Ramucirumab,RAMUCIRUMAB,CHEMBL1743062,Eli Lilly,VEGFR2 antagonist,Oncology,Gastric cancer,gastric cancer,MONDO_0001056,Serious,"P,O,F",2014
+Dalvance,Dalbavancin,DALBAVANCIN,CHEMBL3301669,Durata,Semisynthetic lipoglycopeptide,No human target,ABSSSI (Acute Bacterial Skin and Skin Structure Infections),staphylococcal skin infections,EFO_1001849,Not serious,"P,F",2014
+Entyvio,Vedolizumab,VEDOLIZUMAB,CHEMBL1743087,Takeda,Integrin-receptor antagonist,Other indication,Ulcerative colitis and Crohn's disease,ulcerative colitis; Crohn's disease,"EFO_0000729,EFO_0000384",Serious,"P,F",2014
+Esbriet,Pirfenidone,PIRFENIDONE,CHEMBL1256391,InterMune,MOA unknown,No human target,IPF (idiopathic pulmonary fibrosis),idiopathic pulmonary fibrosis,EFO_0000768,Serious,"P,O,B,F",2014
+Farxiga,Dapagliflozin,DAPAGLIFLOZIN,CHEMBL429910,AstraZeneca,SGLT2 inhibitor,Other indication,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Not concordant,"S,F",2014
+Harvoni,"Ledipasvir, sofosbuvir","LEDIPASVIR,SOFOSBUVIR","CHEMBL2374220,CHEMBL1259059",Gilead Sciences,An NS5A inhibitor plus an HCV nucleotide-analogue NS5B-polymerase inhibitor,No human target,Genotype 1 HCV,hepatitis C virus infection,EFO_0003047,Serious,"P,B,F",2014
+Hetlioz,Tasimelteon,TASIMELTEON,CHEMBL2103822,Vanda,Melatonin-receptor agonist,Other indication,Non-24-hour sleep-wake disorder,sleep-wake disorder,MONDO_0003406,Not serious,"P,O",2014
+Impavido,Miltefosine,MILTEFOSINE,CHEMBL125,Knight,MOA unknown,No human target,Leishmaniasis,Leishmaniasis,EFO_0005044,Not concordant,"P,O,F",2014
+Jardiance,Empagliflozin,EMPAGLIFLOZIN,CHEMBL2107830,Boehringer Ingelheim,SGLT2 inhibitor,Other indication,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Not concordant,"S,F",2014
+Jublia,Efinaconazole,EFINACONAZOLE,CHEMBL2103877,Dow,Azole antifungal,No human target,Onychomycosis of the toenails,paronychia,EFO_0007421,Not serious,S,2014
+Kerydin,Tavaborole,TAVABOROLE,CHEMBL443052,Anacor,Oxaborole antifungal,No human target,Onychomycosis of the toenails,paronychia,EFO_0007421,Not serious,S,2014
+Keytruda,Pembrolizumab,PEMBROLIZUMAB,CHEMBL3137343,Merck & Co.,PD1-specific antibody,Oncology,Metastatic melanoma *and others (2021 approval),metastatic melanoma,EFO_0002617,Serious,"P,O,B,A",2014
+Lumason,Sulfur hexafluoride lipid-type A microspheres,SULFURHEXAFLUORIDELIPID-TYPEAMICROSPHERES,NA,Bracco,Ultrasound contrast agent,No human target,Cardiovascular imaging,NA,NA,NA,S,2014
+Lynparza,Olaparib,OLAPARIB,CHEMBL521686,AstraZeneca,PARP inhibitor,Oncology,Advanced BRCA-mutated ovarian cancer,ovarian cancer,MONDO_0008170,Serious,"P,O,A,F",2014
+Movantik,Naloxegol,NALOXEGOL,CHEMBL2219418,AstraZeneca,Opioid-receptor antagonist,Other indication,Opioid-induced constipation,Constipation,HP_0002019,Not serious,S,2014
+Myalept,Metreleptin,METRELEPTIN,CHEMBL2107857,Amylin,Leptin analogue,Other indication,Leptin deficiency in patients with congenital or acquired generalized lipodystrophy,congenital generalized lipodystrophy,EFO_1000681,Serious,"P,O,F",2014
+Neuraceq,Florbetaben-F18,FLORBETABEN-F18,CHEMBL566752,Piramal Imaging,Radioactive diagnostic agent,Other indication,Imaging of the brain to estimate density of neuritic amyloid-beta plaques,neuritic plaque measurement; Alzheimer disease,"EFO_0006798,MONDO_0004975",Serious,S,2014
+Northera,Droxidopa,DROXIDOPA,CHEMBL2103827,Lundbeck,Synthetic amino-acid precursor of noradrenaline; MOA unknown,Other indication,Light-headedness in patients with neurogenic orthostatic hypotension,primary orthostatic hypotension,MONDO_0015914,Not serious,"P,O,A,F",2014
+Ofev,Nintedanib,NINTEDANIB,CHEMBL502835,Boehringer Ingelheim,"Kinase inhibitor against PDGFRs, FGFRs, VEGFRs and FLT3",Other indication,IPF (idiopathic pulmonary fibrosis),idiopathic pulmonary fibrosis,EFO_0000768,Serious,"P,O,B,F",2014
+Opdivo,Nivolumab,NIVOLUMAB,CHEMBL2108738,Bristol-Myers Squibb,PD1 inhibitor,Oncology,Unresectable or metastatic melanoma,metastatic melanoma,EFO_0002617,Serious,"P,O,B,A,F",2014
+Orbactiv,Oritavancin,ORITAVANCIN,CHEMBL1688530,The Medicines Company,Semi-synthetic lipoglycopeptide,No human target,ABSSSI (Acute Bacterial Skin and Skin Structure Infections),staphylococcal skin infections,EFO_1001849,Not serious,P,2014
+Otezla,Apremilast,APREMILAST,CHEMBL514800,Celgene,Phosphodiesterase 4 inhibitor,Other indication,Psoriatic arthritis and plaque psoriasis,psoriatic arthritis; psoriasis vulgaris,"EFO_0003778,EFO_1001494",Serious,S,2014
+Plegridy,Peginterferon beta-1A,PEGINTERFERONBETA-1A,CHEMBL2108677,Biogen Idec,Long-acting interferon-beta1A,Other indication,Relapsing multiple sclerosis,relapsing-remitting multiple sclerosis,EFO_0003929,Serious,S,2014
+Rapivab,Peramivir,"PERAMIVIR,PERAMIVIR","CHEMBL3989402,CHEMBL139367",BioCryst,Neuraminidase inhibitor,No human target,Influenza infection,influenza,EFO_0007328,Not serious,"S,F",2014
+Sivextro,Tedizolid,TEDIZOLID,CHEMBL1257051,Cubist,Oxazolidinone-class antibacterial,No human target,ABSSSI (Acute Bacterial Skin and Skin Structure Infections),staphylococcal skin infections,EFO_1001849,Not serious,P,2014
+Striverdi Respimat,Olodaterol,OLODATEROL,CHEMBL605846,Boehringer Ingelheim,Long-acting beta2-adrenoceptor agonist,Other indication,COPD,chronic obstructive pulmonary disease,EFO_0000341,Serious,S,2014
+Sylvant,Siltuximab,SILTUXIMAB,CHEMBL1743070,Janssen Biotech,IL-6-specific antibody,Other indication,Multicentric Castleman's disease,Castleman disease,MONDO_0015564,Serious,"P,O",2014
+Tanzeum,Albiglutide,ALBIGLUTIDE,CHEMBL2107841,GlaxoSmithKline,GLP1-receptor agonist,Other indication,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Not concordant,S,2014
+Trulicity,Dulaglutide,DULAGLUTIDE,CHEMBL2108027,Eli Lilly,GLP1-receptor agonist,Other indication,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Not concordant,S,2014
+Viekira Pak,"Ombitasvir, paritaprevir, dasabuvir, ritonavir","OMBITASVIR,PARITAPREVIR,DASABUVIR,RITONAVIR","CHEMBL3127326,CHEMBL3391662,CHEMBL3137312,CHEMBL163",AbbVie,An NS5A inhibitor plus an NS3A- and NS4A-protease inhibitor plus a non-nucleoside NS5B-palm-polymerase inhibitor plus a CYP3A inhibitor,Other indication,Chronic HCV genotype 1 infection,hepatitis C virus infection,EFO_0003047,Serious,"P,B,F",2014
+Vimizim,Elosulfase alfa,ELOSULFASEALFA,CHEMBL2108676,BioMarin,Hydrolytic lysosomal glycosaminoglycan-specific enzyme,Other indication,Mucopolysaccharidosis type IVA,mucopolysaccharidosis type 4A,MONDO_0009659,Serious,"P,O,F",2014
+Xtoro,Finafloxacin,FINAFLOXACIN,CHEMBL1908370,Alcon,Fluoroquinolone antimicrobial,No human target,Acute otitis externa (swimmer's ear),otitis externa,EFO_0009560,Not serious,P,2014
+Zerbaxa,"Ceftolozane, tazobactam","CEFTOLOZANE,TAZOBACTAM","CHEMBL2103872,CHEMBL404",Cubist,A cephalosporin antibacterial plus a beta-lactamase inhibitor,No human target,Complicated intra-abdominal infections and complicated urinary tract infections,infection,EFO_0000544,Serious,"P,F",2014
+Zontivity,Vorapaxar,VORAPAXAR,CHEMBL493982,Merck & Co.,Protease-activated receptor 1 antagonist,Other indication,Thrombotic cardiovascular events (after myocardial infarction or with peripheral arterial disease*),myocardial infarction; peripheral arterial disease,"EFO_0000612,EFO_0004265",Serious,"S,F",2014
+Zydelig,Idelalisib,IDELALISIB,CHEMBL2216870,Gilead Sciences,PI3K‚Äöp110-delta subunit inhibitor,Other indication,"CLL, B-cell non-Hodgkin lymphoma and SLL",chronic lymphocytic leukemia; B-cell non-Hodgkins lymphoma,"EFO_0000095,EFO_1001938",Serious,"P,O,B,A,F",2014
+Zykadia,Ceritinib,CERITINIB,CHEMBL2403108,Novartis,"Kinase inhibitor against ALK, IGF1R, insulin receptor and ROS1",Oncology,ALK-positive metastatic NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,B,A",2014
+Addyi,Flibanserin,FLIBANSERIN,CHEMBL231068,Sprout,Serotonin receptor modulator,Other indication,Hypoactive sexual desire disorder,sexual dysfunction,EFO_0004714,Not serious,S,2015
+Alecensa,Alectinib,ALECTINIB,CHEMBL1738797,Roche,ALK inhibitor,Oncology,NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,B,A",2015
+Aristada,Aripiprazole lauroxil,ARIPIPRAZOLELAUROXIL,CHEMBL2219425,Alkermes,Extended release atypical antipsychotic,Other indication,Schizophrenia,schizophrenia,MONDO_0005090,Not concordant,S,2015
+Avycaz,"Avibactam, ceftazidime","AVIBACTAM,CEFTAZIDIME","CHEMBL1689063,CHEMBL44354",Allergan,A beta-lactamase inhibitor and a cephalosporin,No human target,Complicated intra-abdominal infections and complicated urinary tract infections,infection,EFO_0000544,Serious,"P,F",2015
+Bridion,Sugammadex,SUGAMMADEX,CHEMBL2111107,Merck & Co.,A modified gamma cyclodextrin,No human target,Reversal of neuromuscular blockade during surgery,neuromuscular disease,EFO_1001902,Serious,P,2015
+Cholbam,Cholic acid,CHOLICACID,CHEMBL205596,Retrophin,A primary bile acid,No human target,Bile acid synthesis disorders and peroxisomal disorders,peroxisomal disease; Disorder of bile acid synthesis,"MONDO_0019053,Orphanet_79168",Serious,"P,O",2015
+Corlanor,Ivabradine,IVABRADINE,CHEMBL471737,Amgen,Hyperpolarization-activated cyclic nucleotide-gated channel blocker,Other indication,Chronic heart failure,Abnormality of the cardiovascular system,HP_0001626,Serious,"P,F",2015
+Cosentyx,Secukinumab,SECUKINUMAB,CHEMBL1743068,Novartis,IL-17A antagonist,Other indication,"Plaque psoriasis, *psoriatic arthritis, ankylosing spondylitis, along with other joint inflammatory disorders.",psoriasis vulgaris,EFO_1001494,Not serious,S,2015
+Cotellic,Cobimetinib,COBIMETINIB,CHEMBL2146883,Genentech,MEK inhibitor,Oncology,Melanoma with BRAFV600E/K mutations,melanoma,EFO_0000756,Serious,"P,O,F",2015
+Cresemba,Isavuconazonium,ISAVUCONAZONIUM,CHEMBL1183349,Astellas,Azole antifungal,No human target,Antifungal,aspergillosis; mucormycosis,"EFO_0007157,EFO_0007380",Serious,"P,O",2015
+Daklinza,Daclatasvir,DACLATASVIR,CHEMBL2023898,Bristol-Myers Squibb,NS5A inhibitor,No human target,HCV,hepatitis C virus infection,EFO_0003047,Serious,"P,F",2015
+Darzalex,Daratumumab,DARATUMUMAB,CHEMBL1743007,Johnson & Johnson,CD38-directed mAb,Oncology,Multiple myeloma,multiple myeloma,EFO_0001378,Serious,"P,O,B,A,F",2015
+Empliciti,Elotuzumab,ELOTUZUMAB,CHEMBL1743010,Bristol-Myers Squibb,SLAMF7-directed mAb,Oncology,Multiple myeloma,multiple myeloma,EFO_0001378,Serious,"P,O,B",2015
+Entresto,"Sacubitril, valsartan","SACUBITRIL,VALSARTAN","CHEMBL3137301,CHEMBL1069",Novartis,A neprilysin inhibitor plus an angiotensin II receptor blocker,Other indication,Chronic heart failure,congestive heart failure,EFO_0000373,Serious,"P,F",2015
+Farydak,Panobinostat,PANOBINOSTAT,CHEMBL483254,Novartis,Histone deacetylase inhibitor,Oncology,Multiple myeloma,multiple myeloma,EFO_0001378,Serious,"P,O,A",2015
+Genvoya,"Elvitegravir, cobicistat, emtricitabine, tenofovir","ELVITEGRAVIR,COBICISTAT,EMTRICITABINE,TENOFOVIR","CHEMBL204656,CHEMBL2095208,CHEMBL885,CHEMBL483",Gilead,An INSTI plus a CYP3A inhibitor plus two nucleoside analogue reverse transcriptase inhibitors,No human target,HIV,HIV infection,EFO_0000764,Serious,"S,F",2015
+Ibrance,Palbociclib,PALBOCICLIB,CHEMBL189963,Pfizer,CDK4 and CDK6 inhibitor,Oncology,"ER-positive, HER2-negative advanced breast cancer",HER2 negative breast carcinoma,EFO_0009780,Serious,"P,B,A",2015
+Kanuma,Sebelipase alfa,SEBELIPASEALFA,CHEMBL3039537,Alexion,Enzyme replacement therapy,Other indication,LAL deficiency,lysosomal acid lipase deficiency,MONDO_0010204,Serious,"P,O,B,F",2015
+Kengreal,Cangrelor,CANGRELOR,CHEMBL334966,Medicines Company,P2Y12 platelet inhibitor,Other indication,"Myocardial infarction, repeat coronary revascularization, and stent thrombosis",myocardial infarction,EFO_0000612,Serious,S,2015
+Kybella,Deoxycholic acid,DEOXYCHOLICACID,CHEMBL406393,Kythera,Cytolytic drug,No human target,Fat below the chin,body fat distribution,EFO_0004341,Not serious,S,2015
+Lenvima,Lenvatinib,LENVATINIB,CHEMBL1289601,Eisai,VEGFR inhibitor,Oncology,Thyroid cancer,thyroid cancer,MONDO_0002108,Serious,"P,O",2015
+Lonsurf,"Tipiracil, trifluridine","TIPIRACIL,TRIFLURIDINE","CHEMBL235668,CHEMBL1129",Taiho,Thymidine phosphorylase inhibitor plus a nucleoside metabolic inhibitor,Oncology,Colorectal cancer,colorectal cancer,EFO_0005842,Serious,"S,F",2015
+Natpara,Parathyroid hormone,PARATHYROIDHORMONE,CHEMBL2108078,NPS Pharma,Hormonal injection,Other indication,Hypocalcaemia in patients with hypoparathyroidism,hypoparathyroidism; Hypocalcemia,"EFO_0009451,HP_0002901",Not concordant,"S,O",2015
+Ninlaro,Ixazomib,IXAZOMIB,CHEMBL2141296,Takeda,Oral proteasome inhibitor,Oncology,Multiple myeloma,multiple myeloma,EFO_0001378,Serious,"P,O",2015
+Nucala,Mepolizumab,MEPOLIZUMAB,CHEMBL2108429,GlaxoSmithKline,IL-5 antagonist,Other indication,Serious asthma,Status Asthmaticus,EFO_0008590,Serious,"S,F",2015
+Odomzo,Sonidegib,SONIDEGIB,CHEMBL2105737,Novartis,Smoothened inhibitor,Oncology,Basal cell carcinoma,basal cell carcinoma,EFO_0004193,Not serious,S,2015
+Orkambi,"Ivacaftor, lumacaftor","IVACAFTOR,LUMACAFTOR","CHEMBL2010601,CHEMBL2103870",Vertex,CFTR potentiator plus CFTR corrector,Other indication,Cystic fibrosis in patients with homozygous DF508 CFTR mutation,cystic fibrosis,MONDO_0009061,Serious,"P,O,B,F",2015
+Portrazza,Necitumumab,NECITUMUMAB,CHEMBL1743047,Eli Lilly,EGFR antagonist,Oncology,NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"S,O,F",2015
+Praluent,Alirocumab,ALIROCUMAB,CHEMBL2109540,Sanofi,PCSK9 inhibitor,Other indication,LDL lowering,low density lipoprotein cholesterol measurement,EFO_0004611,Not serious,P,2015
+Praxbind,Idarucizumab,IDARUCIZUMAB,CHEMBL3544996,Boehringer Ingelheim,Dabigatran-binding mAb fragment,No human target,Reversal of anticoagulant effects of dabigatran,response to anticoagulant,GO_0061476,Not serious,"P,O,B,A",2015
+Repatha,Evolocumab,EVOLOCUMAB,CHEMBL2364655,Amgen,PCSK9 inhibitor,Other indication,LDL lowering,LDL cholesterol change measurement,EFO_0007804,Not serious,"S,O",2015
+Rexulti,Brexpiprazole,BREXPIPRAZOLE,CHEMBL2105760,Otsuka,Atypical antipsychotic,Other indication,MDD and schizophrenia,major depressive disorder; schizophrenia,"MONDO_0002009,MONDO_0005090",Serious,S,2015
+Savaysa,Edoxaban,EDOXABAN,CHEMBL1269025,Daiichi Sankyo,Factor Xa inhibitor,Other indication,"Risk of stroke and systemic embolism in NVAF, and deep vein thrombosis",atrial fibrillation; deep vein thrombosis,"EFO_0000275,EFO_0003907",Serious,S,2015
+Strensiq,Asfotase alfa,ASFOTASEALFA,CHEMBL2108311,Alexion,Alkaline phosphatase,Other indication,Hypophosphatasia,hypophosphatasia,MONDO_0018570,Serious,"P,O,B,F",2015
+Tagrisso,Osimertinib,OSIMERTINIB,CHEMBL3353410,AstraZeneca,EGFR inhibitor,Oncology,NSCLC with EGFRT790M mutations,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,B,A,F",2015
+Tresiba,Insulin degludec,INSULINDEGLUDEC,CHEMBL2107869,Novo Nordisk,Long-acting insulin,Other indication,Diabetes,diabetes mellitus,EFO_0000400,Not concordant,S,2015
+Unituxin,Dinutuximab,DINUTUXIMAB,CHEMBL3137342,United Therapeutics,GD2-binding mAb,NA,Neuroblastoma,neuroblastoma,EFO_0000621,Serious,"P,O",2015
+Uptravi,Selexipag,SELEXIPAG,CHEMBL238804,Actelion,Prostacyclin receptor agonist,Other indication,Pulmonary arterial hypertension,pulmonary arterial hypertension,EFO_0001361,Serious,"S,O",2015
+Varubi,Rolapitant,ROLAPITANT,CHEMBL3707331,Tesaro,Neurokinin 1 receptor antagonist,Other indication,Nausea and vomiting associated with chemotherapy,Chemotherapy-induced nausea and vomiting,EFO_0006911,Not serious,S,2015
+Veltassa,Patiromer sorbitex,PATIROMERSORBITEX,CHEMBL2107840,Relypsa,Potassium binder,No human target,Hyperkalaemia,Hyperkalemia,HP_0002153,Not concordant,S,2015
+Viberzi,Eluxadoline,ELUXADOLINE,CHEMBL2159122,Allergan,Mu-opioid receptor agonist,Other indication,Irritable bowel syndrome,irritable bowel syndrome,EFO_0000555,Not serious,"P,F",2015
+Vraylar,Cariprazine,CARIPRAZINE,CHEMBL2028019,Forest,Atypical antipsychotic,Other indication,Schizophrenia and bipolar 1 disorder,Schizophrenia; bipolar disorder,"MONDO_0005090,MONDO_0004985",Serious,S,2015
+Xuriden,Uridine,URIDINE,CHEMBL100259,Wellstat,Pyrimidine analogue,No human target,Hereditary orotic aciduria,Hereditary orotic aciduria,Orphanet_30,Serious,"P,O,B",2015
+Yondelis,Trabectedin,TRABECTEDIN,CHEMBL450449,Johnson & Johnson,Alkylating drug,NA,Liposarcoma or leiomyosarcoma,liposarcoma; leiomyosarcoma,"EFO_0000569,EFO_0000564",Serious,"P,O",2015
+Zurampic,Lesinurad,LESINURAD,CHEMBL2105720,AstraZeneca,URAT1 inhibitor,Other indication,Gout,gout,EFO_0004274,Not serious,S,2015
+Adlyxin,Lixisenatide,LIXISENATIDE,CHEMBL2108336,Sanofi,GLP1 receptor agonist,Other indication,Diabetes,diabetes mellitus,EFO_0000400,Not concordant,S,2016
+Anthim,Obiltoxaximab,OBILTOXAXIMAB,CHEMBL3544926,Elusys Therapeutics,mAb against anthrax toxin,No human target,Anthrax,anthrax infection,EFO_0000778,Serious,"S,O,F",2016
+Axumin,Fluciclovine F-18,FLUCICLOVINEF-18,CHEMBL3707267,Blue Earth,Radioactive diagnostic,Other indication,Suspected prostate cancer recurrence,prostate cancer,MONDO_0008315,Serious,P,2016
+Briviact,Brivaracetam,BRIVARACETAM,CHEMBL607400,UCB,"Anticonvulsant with unknown MOA, binds to SV2A",Other indication,Partial-onset seizures,Focal-onset seizure,HP_0007359,Not concordant,S,2016
+Cinqair,Reslizumab,RESLIZUMAB,CHEMBL2107884,Teva,IL-5 antagonist,Other indication,Serious asthma,Status Asthmaticus,EFO_0008590,Serious,S,2016
+Defitelio,Defibrotide sodium,DEFIBROTIDESODIUM,CHEMBL3707226,Gentium,Profibrinolytic,Other indication,Hepatic veno-occlusive disease,hepatic veno-occlusive disease,MONDO_0019514,Serious,"P,O,F",2016
+Epclusa,"Sofosbuvir, velpatasvir","SOFOSBUVIR,VELPATASVIR","CHEMBL1259059,CHEMBL3545062",Gilead Sciences,A nucleotide analogue NS5B polymerase inhibitor plus an HCV NS5A inhibitor,No human target,"genotype 1, 2, 3 or 4 chronic hepatitis C virus (HCV)",hepatitis C virus infection,EFO_0003047,Serious,"P,B,F",2016
+Eucrisa,Crisaborole,CRISABOROLE,CHEMBL484785,Pfizer/Anacor Pharmaceuticals,PDE4 inhibitor,Other indication,Atopic dermatitis,atopic eczema,EFO_0000274,Not serious,S,2016
+Exondys 51,Eteplirsen,ETEPLIRSEN,CHEMBL2108278,Sarepta Therapeutics,ASO designed to target dystrophin pre-mRNA,Other indication,Duchenne muscular dystrophy,Duchenne muscular dystrophy,MONDO_0010679,Serious,"P,O,A,F",2016
+Lartruvo,Olaratumab,OLARATUMAB,CHEMBL1743049,Eli Lilly,PDGFRalpha-blocking antibody,Oncology,Soft tissue sarcoma,soft tissue sarcoma,EFO_1001968,Serious,"P,O,B,A,F",2016
+Netspot,Gallium Ga-68 dotatate,GALLIUMGA-68DOTATATE,CHEMBL4297340,Advanced Accelerator Applications,Radioactive diagnostic,Other indication,Neuroendocrine tumours,neuroendocrine neoplasm,EFO_1001901,Serious,"P,O",2016
+Nuplazid,Pimavanserin,PIMAVANSERIN,CHEMBL2111101,Acadia Pharmaceuticals,Atypical antipsychotic,Other indication,Hallucinations and delusions associated with Parkinson disease psychosis,Parkinson disease; psychosis,"MONDO_0005180,EFO_0005407",Serious,"P,B",2016
+Ocaliva,Obeticholic acid,OBETICHOLICACID,CHEMBL566315,Intercept,FXR agonist,Other indication,Primary biliary cholangitis,primary biliary cirrhosis,EFO_1001486,Serious,"P,O,A,F",2016
+Rubraca,Rucaparib,RUCAPARIB,CHEMBL1173055,Clovis Oncology,PARP inhibitor,Oncology,BRCA-positive ovarian cancer,ovarian cancer,MONDO_0008170,Serious,"P,O,B,A",2016
+Spinraza,Nusinersen,NUSINERSEN,CHEMBL3301572,Biogen/Ionis Pharmaceuticals,ASO designed to target SMN2 pre-mRNA,Other indication,Spinal muscular atrophy,spinal muscular atrophy,EFO_0008525,Serious,"P,O,F",2016
+Taltz,Ixekizumab,IXEKIZUMAB,CHEMBL1743034,Eli Lilly,IL-17A antagonist,Other indication,Plaque psoriasis,psoriasis vulgaris,EFO_1001494,Not serious,S,2016
+Tecentriq,Atezolizumab,ATEZOLIZUMAB,CHEMBL3707227,Genentech,PDL1 inhibitor,Oncology,Urothelial carcinoma,urothelial carcinoma,EFO_0008528,Serious,"P,B,A",2016
+Venclexta,Venetoclax,VENETOCLAX,CHEMBL3137309,AbbVie,BCL-2 inhibitor,Oncology,Chronic lymphocytic leukaemia,chronic lymphocytic leukemia,EFO_0000095,Serious,"P,O,B,A",2016
+Xiidra,Lifitegrast,LIFITEGRAST,CHEMBL2048028,Shire Pharmaceuticals,LFA1 antagonist,Other indication,Dry eye disease,dry eye syndrome,EFO_1000906,Not serious,P,2016
+Zepatier,"Elbasvir, grazoprevir","ELBASVIR,GRAZOPREVIR","CHEMBL3039514,CHEMBL2063090",Merck & Co.,NS5A inhibitor plus NS3/4A protease inhibitor,No human target,HCV genotypes 1 and 4,hepatitis C virus infection,EFO_0003047,Serious,"P,B",2016
+Zinbryta,Daclizumab,DACLIZUMAB,CHEMBL1201605,Biogen,IL-2-targeted mAb,Other indication,Multiple sclerosis,multiple sclerosis,MONDO_0005301,Serious,S,2016
+Zinplava,Bezlotoxumab,BEZLOTOXUMAB,CHEMBL2108670,Merck & Co.,mAb against Clostridium difficile toxin,No human target,C. difficile recurrence,clostridium difficile infection,EFO_0009130,Serious,"P,F",2016
+Aliqopa,Copanlisib dihydrochloride,COPANLISIB,CHEMBL3218576,Bayer,PI3Kalpha/‚Äö√¢√†‚àö‚â†¬¨¬®‚Äö√Ñ¬¢ inhibitor,Oncology,Follicular lymphoma,follicular lymphoma,MONDO_0018906,Serious,"P,O,A,F",2017
+Alunbrig,Brigatinib,BRIGATINIB,CHEMBL3545311,Ariad Pharmaceuticals/Takeda,ALK inhibitor,Oncology,ALK-positive NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,B,A",2017
+Austedo,Deutetrabenazine,DUTETRABENAZINE,CHEMBL3137326,Teva,VMAT2 inhibitor,Other indication,Chorea associated with Huntington disease,chorea; Huntington disease,"EFO_0004152,MONDO_0007739",Serious,"S,O",2017
+Bavencio,Avelumab,AVELUMAB,CHEMBL3833373,Merck KGaA/Pfizer,PDL1-blocking antibody,Oncology,Merkel cell carcinoma,Merkel cell skin cancer,EFO_1001471,Serious,"P,O,B,A,F",2017
+Baxdela,Delafloxacin,DELAFLOXACIN,CHEMBL2105637,Melinta Therapeutics,Fluoroquinolone antibacterial,No human target,Acute bacterial skin and skin structure infections,staphylococcal skin infections,EFO_1001849,Not serious,"P,F",2017
+Benznidazole,Benznidazole,BENZNIDAZOLE,CHEMBL110,Chemo Research,Nitroimidazole antimicrobial,No human target,Chagas disease,Chagas disease,MONDO_0001444,Serious,"P,O,A",2017
+Besponsa,Inotuzumab ozogamicin,INOTUZUMABOZOGAMICIN,CHEMBL2108611,Pfizer,CD22-directed antibody‚Äö√Ñ√∂‚àö√ë‚àö‚àÇ‚Äö√†√∂‚àö√´‚Äö√†√∂¬¨¬Ædrug conjugate,Oncology,B cell precursor ALL,precursor B-cell acute lymphoblastic leukemia,MONDO_0020511,Serious,"P,O,B",2017
+Bevyxxa,Betrixaban,BETRIXABAN,CHEMBL512351,Portola Pharmaceuticals,FXa inhibitor,Other indication,Prophylaxis of venous thromboembolism,venous thromboembolism,EFO_0004286,Serious,"P,F",2017
+Brineura,Cerliponase alfa,CERLIPONASEALFA,CHEMBL3544921,BioMarin Pharmaceutical,Tripeptidyl peptidase,Other indication,Tripeptidyl peptidase 1 deficiency (neuronal ceroid lipofuscinosis type 2*),neuronal ceroid lipofuscinosis 2,MONDO_0008769,Serious,"P,O,B",2017
+Calquence,Acalabrutinib,ACALABRUTINIB,CHEMBL3707348,AstraZeneca/Acerta Pharma,BTK inhibitor,Oncology,Mantle cell lymphoma,Mantle cell lymphoma,EFO_1001469,Serious,"P,O,B,A",2017
+Dupixent,Dupilumab,DUPILUMAB,CHEMBL2108675,Regeneron/Sanofi,IL-4Ralpha antagonist,Other indication,Atopic dermatitis,atopic eczema,EFO_0000274,Not serious,"P,B",2017
+Emflaza,Deflazacort,DEFLAZACORT,CHEMBL1201891,PTC Therapeutics,Corticosteroid,Other indication,Duchenne muscular dystrophy,Duchenne muscular dystrophy,MONDO_0010679,Serious,"P,O,F",2017
+Fasenra,Benralizumab,BENRALIZUMAB,CHEMBL1742991,AstraZeneca,IL-5Ralpha-directed monoclonal antibody,Other indication,Serious asthma,Status Asthmaticus,EFO_0008590,Serious,S,2017
+Giapreza,Angiotensin II,ANGIOTENSINII,CHEMBL408403,La Jolla Pharmaceutical Company,Synthetic human angiotensin,Other indication,Blood pressure in adults with septic or other distributive shock,septic shock; blood pressure,"EFO_0006834,EFO_0004325",Serious,P,2017
+Hemlibra,Emicizumab,EMICIZUMAB,CHEMBL3833393,Roche/Genentech,Bispecific FIX and FX-directed antibody,Other indication,Haemophilia A,hemophilia A,MONDO_0010602,Serious,"P,O,B",2017
+Idhifa,Enasidenib mesylate,ENASIDENIBMESYLATE,CHEMBL3989931,Celgene/Agios,IDH2 inhibitor,Oncology,IDH2-mutated AML,acute myeloid leukemia,EFO_0000222,Serious,"P,O,F",2017
+Imfinzi,Durvalumab,DURVALUMAB,CHEMBL3301587,AstraZeneca,PDL1-blocking antibody,Oncology,Urothelial carcinoma,urothelial carcinoma,EFO_0008528,Serious,"P,B,A",2017
+Ingrezza,Valbenazine,VALBENAZINE,CHEMBL2364639,Neurocrine Biosciences,VMAT2 inhibitor,Other indication,Tardive dyskinesia,movement disorder,EFO_0004280,Not concordant,"P,B,F",2017
+Kevzara,Sarilumab,SARILUMAB,CHEMBL2108730,Sanofi/Regeneron,IL-6 receptor antagonist,Other indication,Rheumatoid arthritis,rheumatoid arthritis,EFO_0000685,Serious,S,2017
+Kisqali,Ribociclib,RIBOCICLIB,CHEMBL3545110,Novartis,CDK4/6 inhibitor,Oncology,"HR-positive, HER2-negative breast cancer",HER2 negative breast carcinoma,EFO_0009780,Serious,"P,B",2017
+Macrilen,Macimorelin,MACIMORELIN,CHEMBL278623,Aeterna Zentaris,Growth hormone secretagogue receptor agonist,Other indication,Diagnosis of adult growth hormone deficiency,short stature due to GHSR deficiency,MONDO_0014403,Not serious,"S,O",2017
+Mavyret,"Glecaprevir, pibrentasvir","GLECAPREVIR,PIBRENTASVIR","CHEMBL3545363,CHEMBL3545123",AbbVie,NS3/4A protease inhibitor plus a NS5A inhibitor,No human target,HCV,hepatitis C virus infection,EFO_0003047,Serious,"P,B,F",2017
+Mepsevii,Vestronidase alfa,VESTRONIDASEALFA,CHEMBL3707382,Ultragenyx,Recombinant human lysosomal ‚Äö√¢√†‚àö‚â†‚Äö√Ñ√∂‚àö¬¢¬¨√ü-glucuronidase,Other indication,Mucopolysaccharidosis VII,mucopolysaccharidosis type 7,MONDO_0009662,Serious,"P,O,F",2017
+Nerlynx,Neratinib,NERATINIB,CHEMBL180022,Puma Biotechnology,"EGFR, HER2 and HER4 irreversible kinase inhibitor",Oncology,HER2-overexpressed breast cancer,HER2 Positive Breast Carcinoma,EFO_1000294,Serious,S,2017
+Ocrevus,Ocrelizumab,OCRELIZUMAB,CHEMBL2108041,Roche/Genentech,CD20-directed cytolytic antibody,Other indication,Relapsing or primary progressive forms of multiple sclerosis,chronic progressive multiple sclerosis,EFO_0003840,Serious,"P,B,F",2017
+Ozempic,Semaglutide,SEMAGLUTIDE,CHEMBL2108724,Novo Nordisk,GLP1 receptor agonist,Other indication,Type 2 diabetes mellitus,type 2 diabetes mellitus,MONDO_0005148,Not concordant,S,2017
+Parsabiv,Etelcalcetide,VELCALCETIDE,CHEMBL3545184,Amgen/Kai Pharmaceuticals,Calcium-sensing receptor agonist,Other indication,Secondary hyperparathyroidism in patients with chronic kidney disease on haemodialysis,hyperparathyroidism,EFO_0008506,Not serious,S,2017
+Prevymis,Letermovir,LETERMOVIR,CHEMBL1241951,Merck & Co.,CMV DNA terminase complex inhibitor,No human target,Prophylaxis of CMV (cytomegalovirus),cytomegalovirus infection,EFO_0001062,Serious,"P,O,B,F",2017
+Radicava,Edaravone,EDARAVONE,CHEMBL290916,Mitsubishi Tanabe,Unknown (radical scavenger),No human target,ALS (amyotrophic lateral sclerosis),amyotrophic lateral sclerosis,MONDO_0004976,Serious,"S,O",2017
+Rhopressa,Netarsudil,NETARSUDIL,CHEMBL4594250,Aerie Pharmaceuticals,RHO kinase inhibitor,Other indication,Open-angle glaucoma or ocular hypertension,open-angle glaucoma; ocular hypertension,"EFO_0004190,EFO_1001069",Serious,P,2017
+Rydapt,Midostaurin,MIDOSTAURIN,CHEMBL608533,Novartis,FLT3 inhibitor,Oncology,FLT3-positive AML,"acute myeloid leukemia, FLT3 internal tandem duplication",MONDO_0100415,Serious,"P,O,B,F",2017
+Siliq,Brodalumab,BRODALUMAB,CHEMBL1742996,Valeant Pharmaceuticals,IL-17RA antagonist,Other indication,Plaque psoriasis,psoriasis vulgaris,EFO_1001494,Not serious,S,2017
+Solosec,Secnidazole,SECNIDAZOLE,CHEMBL498847,Lupin,Nitroimidazole antimicrobial,No human target,Bacterial vaginosis,bacterial vaginosis,EFO_0003932,Not serious,"P,F",2017
+Steglatro,Ertugliflozin,ERTUGLIFLOZIN,CHEMBL1770248,Merck & Co./Pfizer,SGLT2 inhibitor,Other indication,Type 2 diabetes mellitus,type 2 diabetes mellitus,MONDO_0005148,Not concordant,S,2017
+Symproic,Naldemedine,NALDEMEDINE,CHEMBL2105755,Shionogi,Opioid antagonist,Other indication,Opioid-induced constipation,Constipation,HP_0002019,Not serious,S,2017
+Tremfya,Guselkumab,GUSELKUMAB,CHEMBL2364648,Janssen/Johnson & Johnson,IL-23 blocker,Other indication,Plaque psoriasis,psoriasis vulgaris,EFO_1001494,Not serious,P,2017
+Trulance,Plecanatide,PLECANATIDE,CHEMBL2103867,Synergy Pharmaceuticals,Guanylate cyclase C agonist,Other indication,Chronic idiopathic constipation,Chronic constipation,HP_0012450,Not serious,S,2017
+Tymlos,Abaloparatide,ABALOPARATIDE,CHEMBL3301581,Radius Health,Parathyroid hormone-related protein,Other indication,Osteoporosis,osteoporosis,EFO_0003882,Not serious,S,2017
+Vabomere,"Meropenem, vaborbactam","MEROPENEM,VABORBACTAM","CHEMBL127,CHEMBL3317857",The Medicines Company/Rempex Pharmaceuticals,Carbapenem antimicrobial plus a ‚Äö√¢√†‚àö‚â†‚Äö√Ñ√∂‚àö¬¢¬¨√ü-lactamase inhibitor,No human target,Complicated urinary tract infections,urinary tract infection,EFO_0003103,Not serious,"P,F",2017
+Verzenio,Abemaciclib,ABEMACICLIB,CHEMBL3301610,Eli Lilly,CDK4/6 inhibitor,Oncology,"HR-positive, HER2-negative breast cancer",HER2 negative breast carcinoma,EFO_0009780,Serious,"P,B,F",2017
+Vosevi,"Sofosbuvir, velpatasvir, voxilaprevir","SOFOSBUVIR,VELPATASVIR,VOXILAPREVIR","CHEMBL1259059,CHEMBL3545062,CHEMBL3707372",Gilead Sciences,Nucleotide analogue NS5B polymerase inhibitor plus an NS5A inhibitor plus an NS3/4A protease inhibitor,No human target,HCV,hepatitis C virus infection,EFO_0003047,Serious,"P,B",2017
+Vyzulta,Latanoprostene bunod,LATANOPROSTENEBUNOD,CHEMBL2364612,Bausch and Lomb/Valeant Pharmaceuticals,Prostaglandin analogue,Other indication,Intraocular pressure,intraocular pressure measurement,EFO_0004695,Not serious,S,2017
+Xadago,Safinamide,SAFINAMIDE,CHEMBL396778,US WorldMeds,MAO-B inhibitor,Other indication,Parkinson disease,Parkinson disease,MONDO_0005180,Serious,S,2017
+Xepi,Ozenoxacin,OZENOXACIN,CHEMBL3990047,Ferrer Internacional,Quinolone antimicrobial,No human target,Impetigo due to Staphylococcus aureus or Streptococcus pyogenes,impetigo,EFO_1000714,Not serious,S,2017
+Xermelo,Telotristat etiprate,TELOTRISTATETIPRATE,CHEMBL3348963,Lexicon Pharmaceuticals,Tryptophan hydroxylase inhibitor,Other indication,Carcinoid syndrome diarrhoea,carcinoid syndrome; Diarrhea,"EFO_1000852,HP_0002014",Not serious,"P,O,F",2017
+Zejula,Niraparib,NIRAPARIB,CHEMBL1094636,Tesaro,PARP inhibitor,Oncology,"Epithelial ovarian, fallopian tube or primary peritoneal cancer",fallopian tube cancer; ovarian epithelial tumor; primary peritoneal carcinoma,"MONDO_0002158,MONDO_0002229,MONDO_0015686",Serious,"P,O,B,F",2017
+Aemcolo,Rifamycin,RIFAMYCIN,CHEMBL437765,Cosmo Technologies,Ansamycin antibacterial,No human target,Travellers diarrhoea,Diarrhea,HP_0002014,Not serious,"P,F",2018
+Aimovig,Erenumab,ERENUMAB,CHEMBL3833329,Amgen/Novartis,CGRP receptor antibody,Other indication,Migraine,migraine disorder,MONDO_0005277,Not serious,S,2018
+Ajovy,Fremanezumab,FREMANEZUMAB,CHEMBL4297756,Teva,CGRP antibody,Other indication,Migraine,migraine disorder,MONDO_0005277,Not serious,P,2018
+Akynzeo IV,"Palonosetron, fosnetupitant","PALONOSETRON,FOSNETUPITANT","CHEMBL1189679,CHEMBL3989917",Helsinn Group,5-HT3-receptor antagonist and NK1-receptor antagonist,Other indication,Chemotherapy-induced emesis,Chemotherapy-induced nausea and vomiting,EFO_0006911,Not serious,S,2018
+Annovera,"Segesterone acetate, ethinyl estradiol","SEGESTERONEACETATE,ETHINYLESTRADIOL","CHEMBL3707377,CHEMBL691",TherapeuticsMD,Progestin and estrogen combined hormonal contraceptive,Other indication,Female contraception,contraception,EFO_0009520,Not serious,S,2018
+Asparlas,Calaspargase pegol,CALASPARGASEPEGOL,CHEMBL2108728,Servier,Asparagine specific enzyme,Oncology,ALL,acute lymphoblastic leukemia,EFO_0000220,Serious,"S,O",2018
+Biktarvy,"Bictegravir, emtricitabine, tenofovir alafenamide","BICTEGRAVIR,EMTRICITABINE,TENOFOVIRALAFENAMIDE","CHEMBL3989866,CHEMBL885,CHEMBL2107825",Gilead Sciences,HIV-1 integrase inhibitor and HIV-1 nucleoside/nucleotide reverse transcriptase inhibitors,No human target,HIV,hiv infection,EFO_0000764,Serious,P,2018
+Braftovi,Encorafenib,ENCORAFENIB,CHEMBL3301612,Array BioPharma,BRAF inhibitor,Oncology,BRAF-mutated melanoma,melanoma,EFO_0000756,Serious,"S,O",2018
+Copiktra,Duvelisib,DUVELISIB,CHEMBL3039502,Verastem,PI3K inhibitor,Oncology,"CLL, FL and SLL",chronic lymphocytic leukemia; follicular lymphoma,"EFO_0000095,MONDO_0018906",Serious,"P,O,A,F",2018
+Crysvita,Burosumab,BUROSUMAB,CHEMBL3707326,Ultragenyx Pharmaceutical/Kyowa Hakko Kirin,FGF23 antibody,Other indication,X-linked hypophosphataemia,Hypophosphatemia,HP_0002148,Not serious,"P,O,B,F",2018
+Daurismo,Glasdegib,GLASDEGIB,CHEMBL2043437,Pfizer,Hedgehog pathway inhibitor,Oncology,AML,acute myeloid leukemia,EFO_0000222,Serious,"P,O",2018
+Diacomit,Stiripentol,STIRIPENTOL,CHEMBL1983350,Biocodex,GABA reuptake inhibitor,Other indication,Dravet syndrome,dravet syndrome,Orphanet_33069,Serious,"P,O",2018
+Doptelet,Avatrombopag,AVATROMBOPAG,CHEMBL2103883,Dova Pharmaceuticals,Thrombopoietin receptor agonist,Other indication,Thrombocytopenia,thrombocytopenia,HP_0001873,Not concordant,P,2018
+Elzonris,Tagraxofusp,TAGRAXOFUSP,CHEMBL4297573,Stemline Therapeutics,IL-3 and diphtheria toxin fusion protein,Oncology,Blastic plasmacytoid dendritic cell neoplasm,blastic plasmacytoid dendritic cell neoplasm,EFO_0010580,Serious,"P,O,B",2018
+Emgality,Galcanezumab,GALCANEZUMAB,CHEMBL3707328,Eli Lilly,CGRP antibody,Other indication,Migraine,migraine disorder,MONDO_0005277,Not serious,"S,F",2018
+Epidiolex,Cannabidiol,CANNABIDIOL,CHEMBL190461,GW Pharmaceuticals,Cannabinoid,Other indication,Dravet syndrome and Lennox-Gastaut syndrome,Dravet syndrome; Lennox-Gastaut syndrome,"Orphanet_33069,MONDO_0016532",Serious,"P,O,F",2018
+Erleada,Apalutamide,APALUTAMIDE,CHEMBL3183409,Johnson & Johnson,Androgen receptor inhibitor,Oncology,Prostate cancer,prostate cancer,MONDO_0008315,Serious,"P,F",2018
+Firdapse,Amifampridine,AMIFAMPRIDINE,CHEMBL354077,Catalyst Pharmaceuticals,Potassium channel blocker,Other indication,Lambert-Eaton myasthenic syndrome,Lambert-Eaton myasthenic syndrome,Orphanet_43393,Serious,"P,O",2018
+Galafold,Migalastat,MIGALASTAT,CHEMBL110458,Amicus Therapeutics,beta-galactosidase regulator,Other indication,Fabry disease,fabry disease,MONDO_0010526,Serious,"P,O,A,F",2018
+Gamifant,Emapalumab,EMAPALUMAB,CHEMBL3989977,Novimmune,Interferon-‚Äö√¢√†‚àö‚â†‚Äö√Ñ√∂‚àö¬¢‚Äö√Ñ¬¢-blocking antibody,Other indication,Primary haemophagocytic lymphohistiocytosis,genetic hemophagocytic lymphohistiocytosis,MONDO_0015541,Serious,"P,O,B",2018
+Ilumya,Tildrakizumab,TILDRAKIZUMAB,CHEMBL2108681,Sun Pharma,IL-23 antibody,Other indication,Plaque psoriasis,psoriasis vulgaris,EFO_1001494,Not serious,S,2018
+Krintafel,Tafenoquine,TAFENOQUINE,CHEMBL298470,Medicines for Malaria Venture/GlaxoSmithKline,8-Aminoquinoline antimalarial,No human target,Plasmodium vivax malaria,Plasmodium vivax malaria,EFO_0007445,Serious,"P,O,B,F",2018
+Libtayo,Cemiplimab,CEMIPLIMAB,CHEMBL4297723,Regeneron/Sanofi,PD1 antibody,Oncology,"CSCC, BCC(*), NSCLC(*)",cutaneous squamous cell carcinoma; basal cell carcinoma; non-small cell lung carcinoma,"EFO_1001927,EFO_0004193,EFO_0003060",Serious,"P,B",2018
+Lokelma,Sodium zirconium cyclosilicate,SODIUMZIRCONIUMCYCLOSILICATE,CHEMBL3301592,AstraZeneca,Potassium binder,No human target,Hyperkalaemia,hyperkalemia,HP_0002153,Not concordant,S,2018
+Lorbrena,Lorlatinib,LORLATINIB,CHEMBL3286830,Pfizer,ALK and ROS1 inhibitor,Oncology,ALK-positive NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,B,A",2018
+Lucemyra,Lofexidine,LOFEXIDINE,CHEMBL17860,US WorldMeds,beta2-adrenoceptor agonist,Other indication,Opioid withdrawal,opioid dependence,EFO_0005611,Not serious,"P,F",2018
+Lumoxiti,Moxetumomab pasudotox,MOXETUMOMABPASUDOTOX,CHEMBL1743043,AstraZeneca,CD22-directed antibody‚Äö√Ñ√∂‚àö√ë‚àö‚àÇ‚Äö√†√∂‚àö√´‚Äö√†√∂¬¨¬Ædrug conjugate,Oncology,Hairy cell leukaemia,hairy cell leukemia,EFO_1000956,Serious,"P,O,F",2018
+Lutathera,Lutetium Lu 177 dotatate,LUTETIUMLU177DOTATATE,CHEMBL3989924,Advanced Accelerator Applications/Novartis,Somatostatin receptor-targeted radiopharmaceutical,Oncology,GEP-NETs,digestive system neuroendocrine neoplasm,MONDO_0024503,Serious,"P,O,F",2018
+Mektovi,Binimetinib,BINIMETINIB,CHEMBL3187723,Array BioPharma,MEK inhibitor,Oncology,BRAF-mutated melanoma,melanoma,EFO_0000756,Serious,"S,O",2018
+Motegrity,Prucalopride,PRUCALOPRIDE,CHEMBL117287,Shire/Takeda,5-HT4-receptor agonist,Other indication,Chronic idiopathic constipation,constipation disorder,MONDO_0002203,Not serious,S,2018
+Moxidectin,Moxidectin,MOXIDECTIN,CHEMBL2104415,Medicines Development for Global Health,Antihelmintic GABA receptor and glutamate channel modulator,No human target,River blindness,ocular onchocerciasis,EFO_0007398,Not concordant,"P,O",2018
+Mulpleta,Lusutrombopag,LUSUTROMBOPAG,CHEMBL2107831,Shionogi,Thrombopoietin receptor agonist,Other indication,Thrombocytopenia,thrombocytopenia,HP_0001873,Not concordant,"P,F",2018
+Nuzyra,Omadacycline,OMADACYCLINE,CHEMBL1689772,Paratek Pharmaceuticals,Tetracycline antibiotic,No human target,CABP and ABSSSI,bacterial pneumonia; skin disease caused by bacterial infection,"EFO_1001272,MONDO_0024295",Serious,"P,F",2018
+Olumiant,Baricitinib,BARICITINIB,CHEMBL2105759,Incyte/Eli Lilly,JAK inhibitor,Other indication,Rheumatoid arthritis,rheumatoid arthritis,EFO_0000685,Serious,S,2018
+Omegaven,Fish oil triglycerides,FISHOILTRIGLYCERIDES,CHEMBL4297535,Fresenius,Mixture of fatty acids,No human target,Parenteral nutrition-associated cholestasis,cholestasis,MONDO_0001751,Serious,"P,O,F",2018
+Onpattro,Patisiran,PATISIRAN,CHEMBL3989987,Alnylam Pharmaceuticals,TTR-directed small interfering RNA,Other indication,Hereditary TTR-mediated amyloidosis,hereditary ATTR amyloidosis,MONDO_0017132,Serious,"P,O,B,F",2018
+Orilissa,Elagolix sodium,ELAGOLIXSODIUM,CHEMBL502182,AbbVie,GnRH receptor antagonist,Other indication,Pain associated with endometriosis,adenomyosis; pain,"MONDO_0010888,EFO_0003843",Not serious,P,2018
+Oxervate,Cenegermin,CENEGERMIN,CHEMBL4297852,Domp‚Äö√Ñ√∂‚àö‚Ä†‚àö‚àÇ¬¨¬®¬¨¬©,Recombinant NGF,Other indication,Neurotrophic keratitis,keratitis,EFO_0009449,Not serious,"P,O,B,F",2018
+Palynziq,Pegvaliase,PEGVALIASE,CHEMBL4297802,BioMarin Pharmaceutical,PAL replacement therapy,No human target,Phenylketonuria,phenylketonuria,MONDO_0009861,Serious,"P,O,F",2018
+Pifeltro,Doravirine,DORAVIRINE,CHEMBL2364608,Merck & Co.,NNRTI,No human target,HIV,hiv infection,EFO_0000764,Serious,S,2018
+Poteligeo,Mogamulizumab,MOGAMULIZUMAB,CHEMBL1743041,Kyowa Hakko Kirin,CCR4 antibody,Oncology,mycosis fungoides or Sezary syndrome,mycosis fungoides,EFO_1001051,Serious,"P,O,B",2018
+Revcovi,Elapegademase,ELAPEGADEMASE,CHEMBL3990026,Leadiant Biosciences,Recombinant adenosine deaminase,Other indication,ADA-SCID,"Serious combined immunodeficiency, autosomal recessive, t cell-negative, b cell-negative, nk cell-negative, due to adenosine deaminase deficiency",MONDO_0007064,Serious,"P,O,F",2018
+Seysara,Sarecycline,SARECYCLINE,CHEMBL2364632,Allergan,Tetracycline antibiotic,No human target,Serious acne vulgaris,acne,EFO_0003894,Not serious,S,2018
+Symdeko,"Tezacaftor, ivacaftor","TEZACAFTOR,IVACAFTOR","CHEMBL3544914,CHEMBL2010601",Vertex Pharmaceuticals,CFTR corrector and CFTR potentiator,Other indication,Cystic fibrosis,cystic fibrosis,MONDO_0009061,Serious,"P,O,B,F",2018
+Takhzyro,Lanadelumab,LANADELUMAB,CHEMBL3545189,Dyax/Shire,Kallikrein antibody,Other indication,Hereditary angioedema,hereditary angioedema,MONDO_0019623,Serious,"P,O,B,F",2018
+Talzenna,Talazoparib,TALAZOPARIB,CHEMBL3137320,Pfizer,PARP inhibitor,Oncology,BRCA-mutated HER2-negative breast cancer,HER2 negative breast carcinoma,EFO_0009780,Serious,P,2018
+Tavalisse,Fostamatinib,FOSTAMATINIB,CHEMBL2103830,Rigel Pharmaceuticals,SYK inhibitor,Other indication,Immune thrombocytopenic purpura,autoimmune thrombocytopenic purpura,EFO_0007160,Serious,"S,O",2018
+Tegsedi,Inotersen,INOTERSEN,CHEMBL4297770,Ionis Pharmaceuticals,TTR-directed antisense oligonucleotide,Other indication,Hereditary TTR-mediated amyloidosis,hereditary ATTR amyloidosis,MONDO_0017132,Serious,"P,O,F",2018
+Tibsovo,Ivosidenib,IVOSIDENIB,CHEMBL3989958,Agios Pharmaceuticals,IDH1 inhibitor,Oncology,"IDH1-mutated AML, Locally Advanced or Metastatic Cholangiocarcinoma (*)",acute myeloid leukemia; cholangiocarcinoma,"EFO_0000222,EFO_0005221",Serious,"P,O,F",2018
+TPOXX,Tecovirimat,TECOVIRIMAT,CHEMBL1257073,SIGA Technologies,Viral p37 protein inhibitor,No human target,Smallpox,smallpox,MONDO_0004651,Serious,"P,O,F",2018
+Trogarzo,Ibalizumab,IBALIZUMAB,CHEMBL1743029,TaiMed Biologics/Theratechnologies,CD4 antibody,Other indication,HIV,hiv infection,EFO_0000764,Serious,"P,O,B,F",2018
+Ultomiris,Ravulizumab,RAVULIZUMAB,CHEMBL3989986,Alexion,Complement inhibitor,Other indication,"Paroxysmal nocturnal haemoglobinuria, atypical hemolytic uremic syndrome (*), generalized myasthenia gravis AChR+ (*)","paroxysmal nocturnal hemoglobinuria, atypical hemolytic-uremic syndrome, Myasthenia gravis","MONDO_0100244,MONDO_0016244,EFO_0004991",Serious,"S,O",2018
+Vitrakvi,Larotrectinib,LAROTRECTINIB,CHEMBL3889654,Loxo Oncology/Bayer,"TRKA, TRKB and TRKC inhibitor",Oncology,NTRK-positive solid cancers,salivary gland cancer; soft tissue sarcoma; thyroid cancer,"MONDO_0004669,EFO_1001968,MONDO_0002108",Serious,"P,O,B,A",2018
+Vizimpro,Dacomitinib,DACOMITINIB,CHEMBL2105719,Pfizer,EGFR inhibitor,Oncology,EGFR-mutated NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O",2018
+Xerava,Eravacycline,ERAVACYCLINE,CHEMBL1951095,Tetraphase Pharmaceuticals,Tetracycline antibiotic,No human target,Complicated intra-abdominal infections,infectious disease,EFO_0005741,Serious,"P,F",2018
+Xofluza,Baloxavir marboxil,BALOXAVIRMARBOXIL,CHEMBL4297503,Shionogi/Roche,Polymerase acidic endonuclease inhibitor,No human target,Acute uncomplicated influenza,influenza,EFO_0007328,Not serious,P,2018
+Xospata,Gilteritinib,GILTERITINIB,CHEMBL3301622,Astellas,FLT3 inhibitor,Oncology,FLT3-positive AML,acute myeloid leukemia,EFO_0000222,Serious,"P,O,B,F",2018
+Yupelri,Revefenacin,REVEFENACIN,CHEMBL3833319,Theravance Biopharma/Mylan,Long-acting muscarinic receptor antagonist,Other indication,COPD,chronic obstructive pulmonary disease,EFO_0000341,Serious,S,2018
+Zemdri,Plazomicin,PLAZOMICIN,CHEMBL1650559,Achaogen,Aminoglycoside antibacterial,No human target,Urinary tract infections,urinary tract infection,EFO_0003103,Not serious,P,2018
+Accrufer,Ferric maltol,FERRICMALTOL,CHEMBL4298110,Shield Therapeutics,Iron replacement product,No human target,Iron deficiency anaemia,iron deficiency anemia,HP_0001891,Not serious,S,2019
+Adakveo,Crizanlizumab,CRIZANLIZUMAB,CHEMBL4297734,Novartis,P-selectin blocker,Other indication,Painful complications of SCD,sickle cell disease and related diseases,MONDO_0017146,Serious,"P,O,B",2019
+Aklief,Trifarotene,TRIFAROTENE,CHEMBL3707313,Galderma,Retinoic acid receptor agonist,Other indication,Acne vulgaris,acne,EFO_0003894,Not serious,S,2019
+Balversa,Erdafitinib,ERDAFITINIB,CHEMBL3545376,Janssen /J&J,FGFR inhibitor,Oncology,Bladder cancer,urinary bladder carcinoma,MONDO_0004986,Serious,"P,B,A",2019
+Beovu,Brolucizumab,BROLUCIZUMAB,CHEMBL3707357,Novartis,VEGF inhibitor,Other indication,Wet age-related macular degeneration,macular degeneration,EFO_0009606,Not concordant,S,2019
+Brukinsa,Zanubrutinib,ZANUBRUTINIB,CHEMBL3936761,BeiGene,BTK inhibitor,Oncology,Mantle cell lymphoma,mantle cell lymphoma,EFO_1001469,Serious,"P,O,B,A,F",2019
+Cablivi,Caplacizumab,CAPLACIZUMAB,CHEMBL2109624,Sanofi/Ablynx,vWF-directed nanobody,Other indication,ATTP,thrombotic thrombocytopenic purpura,MONDO_0018896,Serious,"P,O,F",2019
+Caplyta,Lumateperone,LUMATEPERONE,CHEMBL3306803,Intra-Cellular Therapies,Atypical antipsychotic,Other indication,Schizophrenia,schizophrenia,MONDO_0005090,Not concordant,"S,F",2019
+Dayvigo,Lemborexant,LEMBOREXANT,CHEMBL3545367,Eisai,Orexin receptor antagonist,Other indication,Insomnia,insomnia,EFO_0004698,Not serious,S,2019
+Egaten,Triclabendazole,TRICLABENDAZOLE,CHEMBL1086440,Novartis,Anthelmintic,No human target,Fascioliasis,fascioliasis,EFO_1001324,Not concordant,"P,O,F",2019
+Enhertu,Trastuzumab deruxtecan,TRASTUZUMABDERUXTECAN,CHEMBL4297844,Daiichi Sankyo/AstraZeneca,HER2-directed ADC,Oncology,HER2-positive breast cancer,HER2 Positive Breast Carcinoma,EFO_1000294,Serious,"P,B,A,F",2019
+Evenity,Romosozumab,ROMOSOZUMAB,CHEMBL2107874,Amgen,Sclerostin inhibitor,Other indication,Osteoporosis,osteoporosis,EFO_0003882,Not serious,S,2019
+ExEm Foam,Air polymer-type A,AIRPOLYMER-TYPEA,CHEMBL4594264,Giskit,Ultrasound contrast agent,No human target,Assess fallopian tube patency in women with known or suspected infertility,infertility,EFO_0000545,Not serious,S,2019
+Fetroja,Cefiderocol,CEFIDEROCOL,CHEMBL3989974,Shionogi,Cephalosporin antibacterial,No human target,Complicated urinary tract infections,urinary tract infection,EFO_0003103,Not serious,"P,F",2019
+Fluorodopa F-18,Fluorodopa F-18,FLUORODOPAF-18,CHEMBL3400972,Feinstein Institutes,Radioactive diagnostic,No human target,Diagnosis of parkinsonian syndromes,Parkinson disease,MONDO_0005180,Serious,S,2019
+Gallium dotatoc Ga-68,Gallium dotatoc Ga-68,GALLIUMDOTATOCGA-68,CHEMBL4297340,UIHC PET Imaging Center,Radioactive diagnostic,Other indication,Localization of somatostatin receptor-positive neuroendocrine tumours,neuroendocrine neoplasm,EFO_1001901,Serious,"S,O",2019
+Givlaari,Givosiran,GIVOSIRAN,CHEMBL4297760,Alnylam,ALAS1-directed siRNA,Other indication,Acute hepatic porphyria,acute hepatic porphyria,Orphanet_95157,Serious,"P,O,B",2019
+Ibsrela,Tenapanor,TENAPANOR,CHEMBL3304485,Ardelyx,NHE3 inhibitor,Other indication,IBS with constipation,irritable bowel syndrome,EFO_0000555,Not serious,S,2019
+Inrebic,Fedratinib,FEDRATINIB,CHEMBL1287853,Celgene/BMS,JAK2 and FLT3 inhibitor,Other indication,Myelofibrosis,myelofibrosis,MONDO_0044903,Serious,"P,O",2019
+Jeuveau,Prabotulinumtoxin A,PRABOTULINUMTOXINA,CHEMBL4297229,Evolus,Acetylcholine release inhibitor and a neuromuscular blocking agent,Other indication,Glabellar lines associated with corrugator and/or procerus muscle activity,Facial wrinkling,HP_0009762,Not serious,S,2019
+Mayzent,Siponimod,SIPONIMOD,CHEMBL2336071,Novartis,S1P receptor modulator,Other indication,Relapsing forms of multiple sclerosis,relapsing-remitting multiple sclerosis,EFO_0003929,Serious,S,2019
+Nourianz,Istradefylline,ISTRADEFYLLINE,CHEMBL431770,Kyowa Kirin,Adenosine receptor antagonist,Other indication,Parkinson disease episodes,Parkinson disease,MONDO_0005180,Serious,S,2019
+Nubeqa,Darolutamide,DAROLUTAMIDE,CHEMBL4297185,Bayer,Androgen receptor inhibitor,Oncology,Prostate cancer,prostate cancer,MONDO_0008315,Serious,"P,F",2019
+Oxbryta,Voxelotor,VOXELOTOR,CHEMBL4101807,Global Blood Therapeutics,Haemoglobin S polymerization inhibitor,Other indication,SCD (sickle cell disease),sickle cell anemia,MONDO_0011382,Serious,"P,O,B,A,F",2019
+Padcev,Enfortumab vedotin,ENFORTUMABVEDOTIN,CHEMBL3301589,Astellas,Nectin-4-directed ADC,Oncology,Urothelial cancers,urothelial neoplasm,MONDO_0024337,Serious,"P,B,A",2019
+Piqray,Alpelisib,ALPELISIB,CHEMBL2396661,Novartis,PI3K inhibitor,Oncology,Breast cancer,breast cancer,MONDO_0007254,Serious,P,2019
+Polivy,Polatuzumab vedotin,POLATUZUMABVEDOTIN,CHEMBL3301582,Roche,CD79b-directed ADC,Oncology,Diffuse large B-cell lymphoma,diffuse large b-cell lymphoma,EFO_0000403,Serious,"P,O,B,A",2019
+Pretomanid,Pretomanid,PRETOMANID,CHEMBL227875,Pfizer/Mylan,Antimycobacterial,No human target,Tuberculosis,tuberculosis,MONDO_0018076,Serious,"P,O,F",2019
+Reblozyl,Luspatercept,LUSPATERCEPT,CHEMBL3039545,Celgene/BMS,Erythroid maturation agent,Other indication,Anaemia in beta-thalassaemia,beta thalassemia; anemia,"MONDO_0019402,MONDO_0002280",Serious,"P,O,F",2019
+Recarbrio,"Cilastatin, imipenem, relebactam","CILASTATIN,IMIPENEM,RELEBACTAM","CHEMBL766,CHEMBL148,CHEMBL3301605",Merck & Co.,"A renal dehydropeptidase inhibitor, a penem antibacterial and a beta-lactamase inhibitor",No human target,Complicated urinary tract and complicated intra-abdominal infections,urinary tract infection,EFO_0003103,Not serious,"P,F",2019
+Reyvow,Lasmiditan,LASMIDITAN,CHEMBL3039520,Eli Lilly,Serotonin (5-HT) 1F receptor agonist,Other indication,Migraine with or without aura,migraine disorder,MONDO_0005277,Not serious,S,2019
+Rinvoq,Upadacitinib,UPADACITINIB,CHEMBL3622821,AbbVie,JAK inhibitor,Other indication,Rheumatoid arthritis,rheumatoid arthritis,EFO_0000685,Serious,S,2019
+Rozlytrek,Entrectinib,ENTRECTINIB,CHEMBL1983268,Roche,"TRKA, TRKB, TRKC, ROS1 and ALK inhibitor",Oncology,NTRK fusion-positive solid tumours and ROS1-positive NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,B,A",2019
+Scenesse,Afamelanotide,AFAMELANOTIDE,CHEMBL441738,Clinuvel,Melanocortin 1 receptor agonist,Other indication,Erythropoietic protoporphyria,erythropoietic protoporphyria,MONDO_0001676,Serious,"P,O,F",2019
+Skyrizi,Risankizumab,RISANKIZUMAB,CHEMBL3990029,AbbVie,IL-23 antagonist,Other indication,Plaque psoriasis,psoriasis vulgaris,EFO_1001494,Not serious,S,2019
+Sunosi,Solriamfetol,SOLRIAMFETOL,CHEMBL4297620,Jazz,Dopamine and noradrenaline reuptake inhibitor,No human target,Excessive sleepiness due to narcolepsy or obstructive sleep apnoea,hypersomnia; narcolepsy; obstructive sleep apnea,"EFO_0005246,MONDO_0021107,EFO_0003918",Serious,"S,O",2019
+Tissueblue,Brilliant Blue G,BRILLIANTBLUEG,CHEMBL4173394,Dutch Ophthalmic Research,Brilliant Blue G dye,No human target,Staining the internal limiting membrane,NA,NA,NA,"P,O",2019
+Trikafta,"Tezacaftor, elexacaftor, ivacaftor","TEZACAFTOR,ELEXACAFTOR,IVACAFTOR","CHEMBL3544914,CHEMBL4298128,CHEMBL2010601",Vertex,Two CFTR correctors and a CFTR potentiator,Other indication,Most common gene mutation that causes cystic fibrosis,cystic fibrosis,MONDO_0009061,Serious,"P,O,B,F",2019
+Turalio,Pexidartinib,PEXIDARTINIB,CHEMBL3813873,Daiichi Sankyo,"CSF1R, KIT and FLT3 inhibitor",Oncology,Tenosynovial giant cell tumour,Tenosynovial Giant Cell Tumor,EFO_1000562,Serious,"P,O,B",2019
+Ubrelvy,Ubrogepant,UBROGEPANT,CHEMBL2364638,Allergan,CGRP receptor antagonist,Other indication,Migraine with or without aura,migraine disorder,MONDO_0005277,Not serious,S,2019
+Vyleesi,Bremelanotide,BREMELANOTIDE,CHEMBL2070241,Amag,Melanocortin receptor agonist,Other indication,Hypoactive sexual desire disorder,sexual dysfunction,EFO_0004714,Not serious,S,2019
+Vyndaqel,Tafamidis,TAFAMIDIS,CHEMBL2103837,Pfizer/Foldrx,Transthyretin stabilizer,Other indication,Heart disease caused by ATTR-CM,cardiomyopathy,EFO_0000318,Serious,"P,O,B,F",2019
+Vyondys 53,Golodirsen,GOLODIRSEN,CHEMBL4297762,Sarepta,Exon 53 skipping antisense,Other indication,Duchenne muscular dystrophy,duchenne muscular dystrophy,MONDO_0010679,Serious,"P,O,A,F",2019
+Wakix,Pitolisant,PITOLISANT,CHEMBL462605,Harmony,H3-receptor antagonist/inverse agonist,Other indication,Excessive sleepiness due to narcolepsy,narcolepsy,MONDO_0021107,Serious,"P,O,F",2019
+Xcopri,Cenobamate,CENOBAMATE,CHEMBL3989949,SK Life Science,Unknown,Other indication,Partial onset seizures,seizure,HP_0001250,Not concordant,S,2019
+Xenleta,Lefamulin,LEFAMULIN,CHEMBL3291398,Nabriva,Pleuromutilin antibacterial,No human target,CABP,bacterial pneumonia,EFO_1001272,Serious,"P,F",2019
+Xpovio,Selinexor,SELINEXOR,CHEMBL3545185,Karyopharm Therapeutics,XPO1 inhibitor,Oncology,Multiple myeloma,multiple myeloma,EFO_0001378,Serious,"P,O,A,F",2019
+Zulresso,Brexanolone,BREXANOLONE,CHEMBL207538,Sage Therapeutics,GABAA-receptor-positive modulator,Other indication,Postpartum depression,postpartum depression,EFO_0007453,Not concordant,"P,B",2019
+Artesunate,Artesunate,ARTESUNATE,CHEMBL361497,Amivas,Artemisinin antimalarial,No human target,Serious malaria,malaria,EFO_0001068,Serious,"P,O,B,F",2020
+Ayvakit,Avapritinib,AVAPRITINIB,CHEMBL4204794,Blueprint Medicines,"PDGFRA, PDGFRA mutants and KIT kinase inhibitor",Oncology,GIST with PDGFRA exon 18 mutations,gastrointestinal stromal tumor,MONDO_0011719,Serious,"P,O,B,F",2020
+Barhemsys,Amisulpride,AMISULPRIDE,CHEMBL243712,Acacia,Dopamine receptors D2 & D3 antagonist,Other indication,Nausea and vomiting after surgery,Nausea and vomiting,HP_0002017,Not serious,S,2020
+Blenrep,Belantamab mafodotin,BELANTAMABMAFODOTIN,CHEMBL4298209,GlaxoSmithKline,"BCMA-directed ADC, with microtubule inhibitor",Oncology,Multiple myeloma,multiple myeloma,EFO_0001378,Serious,"P,O,B,A",2020
+Byfavo,Remimazolam,REMIMAZOLAM,CHEMBL4297526,Acacia,Benzodiazepine,Other indication,Procedural sedation,sedation,EFO_0009868,Not serious,S,2020
+Copper dotatate Cu-64,Copper dotatate Cu-64,COPPERDOTATATECU-64,CHEMBL4297339,Radiomedix,Radioactive diagnostic,Other indication,"Imaging, cancer",neuroendocrine neoplasm,EFO_1001901,Serious,"P,O,F",2020
+Danyelza,Naxitamab,NAXITAMAB,CHEMBL4297984,Y-mAbs Therapeutics,GD2-directed mAb,NA,High-risk neuroblastoma,neuroblastoma,EFO_0000621,Serious,"P,O,B,A",2020
+Dojolvi,Triheptanoin,TRIHEPTANOIN,CHEMBL4297585,Ultragenyx,Medium-chain triglyceride,No human target,LC-FAODs,inherited fatty acid metabolism disorder,MONDO_0037858,Serious,"S,O,F",2020
+Ebanga,Ansuvimab,ANSUVIMAB,CHEMBL4594388,Ridgeback,Ebola glycoprotein-directed mAb,No human target,Ebola virus,Ebola hemorrhagic fever,EFO_0007243,Serious,"P,O,B",2020
+Enspryng,Satralizumab,SATRALIZUMAB,CHEMBL3833307,Roche/Genentech,IL-6R-directed mAb,Other indication,NMOSD,neuromyelitis optica,EFO_0004256,Serious,"S,O,B,F",2020
+Evrysdi,Risdiplam,RISDIPLAM,CHEMBL4297528,Roche/Genentech,SMN2 splicing modifier,Other indication,Spinal muscular atrophy,spinal muscular atrophy,EFO_0008525,Serious,"P,O,F",2020
+Flortaucipir F-18,Flortaucipir F-18,FLORTAUCIPIRF-18,CHEMBL3545253,Eli Lilly,Radioactive diagnostic,Other indication,"Imaging, tau in Alzheimer disease",Alzheimer disease,MONDO_0004975,Serious,P,2020
+Fluoroestradiol F-18,Fluoroestradiol F-18,FLUOROESTRADIOLF-18,CHEMBL4594261,Zionexa,Radioactive diagnostic,Other indication,"Imaging, breast cancer",breast carcinoma,EFO_0000305,Serious,S,2020
+Gavreto,Pralsetinib,PRALSETINIB,CHEMBL4582651,Blueprint Medicines/Roche,RET kinase inhibitor,Oncology,RET fusion-positive NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,B,A",2020
+Gemtesa,Vibegron,VIBEGRON,CHEMBL2107826,Urovant Sciences,Beta-3 adrenergic receptor agonist,Other indication,Overactive bladder,overactive bladder,EFO_1000781,Not serious,S,2020
+Imcivree,Setmelanotide,SETMELANOTIDE,CHEMBL3301624,Rhythm,Melanocortin receptor 4 agonist,Other indication,Rare genetic diseases of obesity,Bardet-Biedl syndrome,MONDO_0015229,Serious,"P,O,B",2020
+Inmazeb,"Atoltivimab, odesivimab, maftivimab","ATOLTIVIMAB,ODESIVIMAB,MAFTIVIMAB","CHEMBL4298183,CHEMBL4298188,CHEMBL4298184",Regeneron,Cocktail of Ebola glycoprotein-directed mAbs,No human target,Ebola virus,Ebola hemorrhagic fever,EFO_0007243,Serious,"P,O,B",2020
+Inqovi,"Cedazuridine, decitabine","CEDAZURIDINE,DECITABINE","CHEMBL3237547,CHEMBL1201129",Otsuka,Cytidine deaminase inhibitor; nucleoside metabolic inhibitor,Other indication,Myelodysplastic syndromes,myelodysplastic syndrome,EFO_0000198,Serious,"P,O",2020
+Isturisa,Osilodrostat,OSILODROSTAT,CHEMBL3099695,Recordati Rare Diseases,Cortisol synthesis inhibitor,Other indication,Cushing disease,Cushing syndrome,EFO_0003099,Not concordant,"S,O",2020
+Klisyri,Tirbanibulin,TIRBANIBULIN,CHEMBL571546,Athenex,Microtubule inhibitor,Other indication,Actinic keratosis,actinic keratosis,EFO_0002496,Not serious,S,2020
+Koselugo,Selumetinib,SELUMETINIB,CHEMBL1614701,AstraZeneca,MEK1/2 kinase inhibitor,Other indication,Neurofibromatosis type 1,neurofibromatosis type 1,MONDO_0018975,Serious,"P,O,B",2020
+Lampit,Nifurtimox,NIFURTIMOX,CHEMBL290960,Bayer,Nitrofuran antiprotozoal,No human target,Chagas disease,chagas disease,MONDO_0001444,Serious,"P,O,A",2020
+Margenza,Margetuximab,MARGETUXIMAB,CHEMBL2364649,MacroGenics,HER2-directed mAb,Oncology,HER2-positive breast cancer,HER2 Positive Breast Carcinoma,EFO_1000294,Serious,"S,F",2020
+Monjuvi,Tafasitamab,TAFASITAMAB,CHEMBL4298047,MorphoSys,CD19-directed mAb,Oncology,DLBCL,diffuse large b-cell lymphoma,EFO_0000403,Serious,"P,O,B,A,F",2020
+Nexletol,Bempedoic acid,BEMPEDOICACID,CHEMBL3545313,Esperion Therapeutics,ACL inhibitor,Other indication,HeFH or atherosclerotic cardiovascular disease,atherosclerosis; familial hypercholesterolemia,"EFO_0003914,EFO_0004911",Serious,S,2020
+Nurtec ODT,Rimegepant,RIMEGEPANT,CHEMBL2178422,Biohaven,CGRP receptor antagonist,Other indication,Migraine,migraine disorder,MONDO_0005277,Not serious,S,2020
+Olinvyk,Oliceridine,OLICERIDINE,CHEMBL2443262,Trevena,Opioid receptor agonist,Other indication,Acute pain,pain,EFO_0003843,Not serious,"S,F",2020
+Ongentys,Opicapone,OPICAPONE,CHEMBL1089318,Neurocrine,COMT inhibitor,Other indication,Parkinson disease,parkinson disease,MONDO_0005180,Serious,S,2020
+Orgovyx,Relugolix,RELUGOLIX,CHEMBL1800159,Myovant Sciences,GnRH receptor antagonist,Oncology,Prostate cancer,prostate cancer,MONDO_0008315,Serious,P,2020
+Orladeyo,Berotralstatc,BEROTRALSTAT,CHEMBL4594271,BioCryst,Plasma kallikrein inhibitor,#N/A,Hereditary angioedema,hereditary angioedema,MONDO_0019623,Serious,"S,O,F",2020
+Oxlumo,Lumasiran,LUMASIRAN,CHEMBL4297779,Alnylam,HAO1-directed siRNA,Other indication,Hyperoxaluria type 1,primary hyperoxaluria type 1,MONDO_0009823,Serious,"P,O,B",2020
+Pemazyre,Pemigatinib,PEMIGATINIB,CHEMBL4297522,Incyte,FGFR1-3 kinase inhibitor,Oncology,Cholangiocarcinoma,cholangiocarcinoma,EFO_0005221,Serious,"P,O,B,A",2020
+Pizensy,Lactitol,LACTITOL,CHEMBL1661,Braintree Labs,Osmotic laxative,No human target,Chronic idiopathic constipation,Chronic constipation,HP_0012450,Not serious,S,2020
+PSMA-11 Ga-68,PSMA-11 Ga-68,PSMA-11GA-68,CHEMBL4297335,UCLA,Radioactive diagnostic,Other indication,"Imaging, prostate cancer",prostate carcinoma,EFO_0001663,Serious,S,2020
+Qinlock,Ripretinib,RIPRETINIB,CHEMBL4216467,Deciphera,KIT and PDGFRA kinase inhibitor,Oncology,GIST,gastrointestinal stromal tumor,MONDO_0011719,Serious,"P,O,B,F",2020
+Retevmo,Selpercatinib,SELPERCATINIB,CHEMBL4559134,Eli Lilly/Loxo Oncology,RET kinase inhibitor,Oncology,RET fusion-positive NSCLC and thyroid cancer,non-small cell lung carcinoma; thyroid cancer,"EFO_0003060,MONDO_0002108",Serious,"P,O,B,A",2020
+Rukobia,Fostemsavir,FOSTEMSAVIR,CHEMBL3301594,ViiV Healthcare,Attachment inhibitor,No human target,HIV,hiv infection,EFO_0000764,Serious,"P,B,F",2020
+Sarclisa,Isatuximab,ISATUXIMAB,CHEMBL3545131,Sanofi,CD38-directed mAb,Oncology,Multiple myeloma,multiple myeloma,EFO_0001378,Serious,"S,O",2020
+Sogroya,Somapacitan,SOMAPACITAN,CHEMBL3707290,Novo Nordisk,Growth hormone analogue,Other indication,Growth hormone deficiency,short stature due to partial GHR deficiency,MONDO_0011420,Not serious,S,2020
+Tabrecta,Capmatinib,CAPMATINIB,CHEMBL3188267,Novartis,MET kinase inhibitor,Oncology,NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,B,A",2020
+Tazverik,Tazemetostat,TAZEMETOSTAT,CHEMBL3414621,Epizyme,EZH2 inhibitor,Oncology,Epithelioid sarcoma,epithelioid sarcoma,MONDO_0017387,Serious,"P,O,A,F",2020
+Tepezza,Teprotumumab,TEPROTUMUMAB,CHEMBL1743079,Horizon Therapeutics,IGF1R-directed mAb,Other indication,Thyroid eye disease,Graves disease,EFO_0004237,Not concordant,"P,O,B,F",2020
+Trodelvy,Sacituzumab govitecan,SACITUZUMABGOVITECAN,CHEMBL3545262,Immunomedics/Gilead,"TROP2-directed ADC, with topoisomerase inhibitor",Oncology,Triple-negative breast cancer (and advanced or metastatic urothelial cancer (mUC)*),triple-negative breast cancer; urothelial carcinoma,"EFO_0005537,EFO_0008528",Serious,"P,B,A,F",2020
+Tukysa,Tucatinib,TUCATINIB,CHEMBL3989868,Seagen,HER2 kinase inhibitor,Oncology,HER2-positive breast cancer,HER2 Positive Breast Carcinoma,EFO_1000294,Serious,"P,O,B,F",2020
+Uplizna,Inebilizumab,INEBILIZUMAB,CHEMBL2109334,Viela Bio,CD19-directed mAb,Other indication,NMOSD,neuromyelitis optica,EFO_0004256,Serious,"S,O,B",2020
+Veklury,Remdesivir,REMDESIVIR,CHEMBL4065616,Gilead,Nucleotide analogue RNA polymerase inhibitor,No human target,COVID-19,covid-19,MONDO_0100096,Serious,"P,F",2020
+Viltepso,Viltolarsen,VILTOLARSEN,CHEMBL4298062,Nippon Shinyaku,Dystrophin splicing modifier,Other indication,Duchenne muscular dystrophy,duchenne muscular dystrophy,MONDO_0010679,Serious,"P,O,A,F",2020
+Vyepti,Eptinezumab,EPTINEZUMAB,CHEMBL3833320,Lundbeck,CGRP-directed mAb,Other indication,Migraine,migraine disorder,MONDO_0005277,Not serious,S,2020
+Winlevi,Clascoterone,CLASCOTERONE,CHEMBL3590187,Cassiopea SpA,Androgen receptor inhibitor,Other indication,Acne vulgaris,acne,EFO_0003894,Not serious,S,2020
+Xeglyze,Abametapir,ABAMETAPIR,CHEMBL2205807,Dr Reddy‚Äö√Ñ√∂‚àö√ë‚àö‚àÇ‚Äö√†√∂‚àö√´‚Äö√†√∂‚Äö√†√á‚Äö√Ñ√∂‚àö‚Ä†‚àö‚àÇ‚Äö√†√∂‚àö¬¥‚Äö√Ñ√∂‚àö‚Ä†‚àö‚àÇ¬¨¬®‚Äö√Ñ¬¢s,Metalloproteinase inhibitor,No human target,Head lice,lice infestation,MONDO_0003472,Not serious,S,2020
+Zeposia,Ozanimod,OZANIMOD,CHEMBL3707247,Celgene/Bristol Myers Squibb,S1P receptor modulator,Other indication,Multiple sclerosis,multiple sclerosis,MONDO_0005301,Serious,S,2020
+Zepzelca,Lurbinectedin,LURBINECTEDIN,CHEMBL4297516,Jazz,Alkylating drug,NA,Small-cell lung cancer,small cell lung carcinoma,EFO_0000702,Serious,"P,O,A",2020
+Zokinvy,Lonafarnib,LONAFARNIB,CHEMBL298734,Eiger,Farnesyltransferase inhibitor,Other indication,HGPS,hutchinson-gilford progeria syndrome,MONDO_0008310,Serious,"P,O,B",2020
+Adbry,Tralokinumab,Tralokinumab,CHEMBL1743081,LEO Pharma,IL-13-targeted mAb,Other indication,Atopic dermatitis,atopic eczema,EFO_0000274,Not serious,S,2021
+Aduhelm,Aducanumab,Aducanumab,CHEMBL3039540,Biogen/Eisai,Amyloid-beta-targeted mAb,Other indication,Alzheimers disease,Alzheimers disease,MONDO_0004975,Serious,"P,A,F",2021
+Amondys 45,Casimersen,Casimersen,CHEMBL4297566,Sarepta,Exon 45-skipping ASO,Other indication,DMD,Duchenne muscular dystrophy,MONDO_0010679,Serious,"P,O,A,F",2021
+Azstarys,"Dexmethylphenidate, serdexmethylphenidate","Dexmethylphenidate,serdexmethylphenidate","CHEMBL827,CHEMBL4301162",Commave Therapeutics,CNS stimulant,Other indication,ADHD,attention deficit hyperactivity disorder,EFO_0003888,Not serious,S,2021
+Besremi,Ropeginterferon alfa-2b,Ropeginterferonalfa-2b,CHEMBL4297819,Pharmaessentia,PEGylated interferon alpha-2b,Oncology,Polycythaemia vera,polycythemia vera,EFO_0002429,Serious,"S,O",2021
+Brexafemme,Ibrexafungerp,Ibrexafungerp,CHEMBL4297513,Scynexis,Triterpenoid antifungal,No human target,Vulvovaginal candidiasis,NA,NA,NA,"P,F",2021
+Bylvay,Odevixibat,Odevixibat,CHEMBL4297588,Albireo,IBAT inhibitor,Other indication,Pruritus in PFIC,familial intrahepatic cholestasis,MONDO_0017290,Serious,"P,O,F",2021
+Cabenuva Kit,"Cabotegravir, rilpivirine","Cabotegravir,rilpivirine","CHEMBL2403238,CHEMBL175691",ViiV,INSTI and an NNRTI,No human target,HIV-1 infection,NA,NA,NA,"P,F",2021
+Cosela,Trilaciclib,Trilaciclib,CHEMBL3894860,G1 Therapeutics,CDK4 and CDK6 kinase inhibitor,Oncology,Chemotherapy-induced myelosuppression,myelosuppression; small cell lung carcinoma,"EFO_0007053,EFO_0000702",Serious,"P,B",2021
+Cytalux,Pafolacianine,Pafolacianine,CHEMBL4297412,On Target Labs,Fluorescent FR imaging agent,Other indication,Ovarian cancer imaging,ovarian carcinoma,EFO_0001075,Serious,"P,O,F",2021
+Empaveli,Pegcetacoplan,Pegcetacoplan,CHEMBL4298211,Apellis,Complement protein C3 inhibitor,Other indication,PNH,paroxysmal nocturnal hemoglobinuria,MONDO_0100244,Serious,"P,O,F",2021
+Evkeeza,Evinacumab,Evinacumab,CHEMBL3545191,Regeneron,ANGPTL3-targeted mAb,Other indication,HoFH,homozygous familial hypercholesterolemia,MONDO_0018328,Serious,"P,O,B",2021
+Exkivity,Mobocertinib,Mobocertinib,CHEMBL4650319,Takeda,EGFR kinase inhibitor,Oncology,EGFR exon 20-mutated NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,B,A,F",2021
+Fexinidazole,Fexinidazole,Fexinidazole,CHEMBL1631694,Sanofi/DNDi,Nitroimidazole antimicrobial,No human target,Sleeping sickness,NA,NA,NA,"P,O",2021
+Fotivda,Tivozanib,Tivozanib,CHEMBL1289494,Aveo,VEGFR kinase inhibitor,Oncology,Renal cell carcinoma,renal cell carcinoma,EFO_0000681,Serious,S,2021
+Jemperli,Dostarlimab,Dostarlimab,CHEMBL4298124,GlaxoSmithKline,PD1-targeted mAb,Oncology,Endometrial cancer,endometrial cancer,MONDO_0011962,Serious,"P,B,A",2021
+Kerendia,Finerenone,Finerenone,CHEMBL2181927,Bayer,Non-steroidal MR antagonist,Other indication,CKD with type 2 diabetes,chronic kidney disease,EFO_0003884,Serious,"P,F",2021
+Korsuva,Difelikefalin,Difelikefalin,CHEMBL3989915,Cara Therapeutics,kappa-Opioid receptor agonist,Other indication,Pruritus associated with CKD,chronic kidney disease,EFO_0003884,Serious,"P,B",2021
+Leqvio,Inclisiran,Inclisiran,CHEMBL3990033,Novartis/Alnylam,PCSK9-targeted siRNA,Other indication,HeFH or ASCVD,coronary atherosclerosis,MONDO_0021661,Serious,S,2021
+Livmarli,Maralixibat,Maralixibat,CHEMBL363392,Mirum,IBAT inhibitor,Other indication,Pruritus in Alagille syndrome,Alagille syndrome,MONDO_0007318,Serious,"P,O,B",2021
+Livtencity,Maribavir,Maribavir,CHEMBL515408,Takeda,CMV pUL97 kinase inhibitor,No human target,Post-transplant CMV infection,NA,NA,NA,"P,O,B",2021
+Lumakras,Sotorasib,Sotorasib,CHEMBL4535757,Amgen,KRAS-G12C inhibitor,Oncology,KRASG12C-mutated NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,B,A,F",2021
+Lupkynis,Voclosporin,Voclosporin,CHEMBL2218919,Aurinia,Calcineurin inhibitor,Other indication,Lupus nephritis,lupus nephritis,EFO_0005761,Serious,"P,F",2021
+Lybalvi,"Olanzapine, samidorphan","samidorphan,Olanzapine","CHEMBL426084,CHEMBL715",Alkermes,Atypical antipsychotic and opioid antagonist,Other indication,Schizophrenia and bipolar I disorder,Schizophrenia; bipolar I disorder,"MONDO_0005090,EFO_0009963",Serious,S,2021
+Nextstellis,"Drospirenone, estetrol","Drospirenone,estetrol","CHEMBL1509,CHEMBL1230314",Mayne Pharma,Spironolactone and oestrogen analogues,Other indication,To prevent pregnancy,reproductive behaviour measurement,EFO_0007862,Not serious,S,2021
+Nexviazyme,Avalglucosidase alfa,Avalglucosidasealfa,CHEMBL4594320,Sanofi,Recombinant alpha-glucosidase,Other indication,Pompe disease,glycogen storage disease II,MONDO_0009290,Serious,"P,O,B,F",2021
+Nulibry,Fosdenopterin,Fosdenopterin,CHEMBL2338675,BridgeBio,cPMP,Other indication,MoCD type A,sulfite oxidase deficiency due to molybdenum cofactor deficiency,MONDO_0020480,Serious,"P,O,B",2021
+Pepaxto,Melphalan flufenamide,Melphalanflufenamide,CHEMBL4303060,Oncopeptides,Peptide-conjugated alkylating drug,NA,Multiple myeloma,multiple myeloma,EFO_0001378,Serious,"P,O,A",2021
+Ponvory,Ponesimod,Ponesimod,CHEMBL1096146,J&J,S1P receptor modulator,Other indication,Relapsing multiple sclerosis,multiple sclerosis,MONDO_0005301,Serious,S,2021
+Pylarify,Piflufolastat F-18,PiflufolastatF-18,CHEMBL4297334,Progenics,Radiolabelled PSMA imaging agent,Other indication,Prostate cancer imaging,prostate carcinoma,EFO_0001663,Serious,P,2021
+Qelbree,Viloxazine,Viloxazine,CHEMBL306700,Supernus,SNRI,Other indication,ADHD,attention deficit hyperactivity disorder,EFO_0003888,Not serious,S,2021
+Qulipta,Atogepant,Atogepant,CHEMBL3991065,AbbVie,CGRP receptor antagonist,Other indication,Episodic migraine,migraine disorder,MONDO_0005277,Not serious,S,2021
+Rezurock,Belumosudil,Belumosudil,CHEMBL2005186,Kadmon,ROCK2 kinase inhibitor,Other indication,Chronic GVHD,graft versus host disease,MONDO_0013730,Serious,"P,O,B",2021
+Rybrevant,Amivantamab,Amivantamab,CHEMBL4297774,J&J,EGFRxMETR bispecific antibody,Oncology,EGFR exon 20-mutated NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,B,A",2021
+Rylaze,Asparaginase erwinia chrysanthemi,Asparaginaseerwiniachrysanthemi,CHEMBL1863514,Jazz,Recombinant asparagine-specific enzyme,NA,"ALL and LBL, in patients allergic to E. coli-derived products",acute lymphoblastic leukemia; lymphoblastic lymphoma,"EFO_0000220,MONDO_0000873",Serious,"S,O,F",2021
+Saphnelo,Anifrolumab,Anifrolumab,CHEMBL2364653,AstraZeneca,IFNAR-targeted mAb,Other indication,SLE,systemic lupus erythematosus,MONDO_0007915,Serious,"S,F",2021
+Scemblix,Asciminib,Asciminib,CHEMBL4208229,Novartis,ABL/BCR-ABL1  kinase inhibitor,Oncology,Ph+ CML,Blast Phase Chronic Myelogenous Leukemia; BCR-ABL1 Positive,EFO_1000131,Serious,"P,O,B,A,F",2021
+Skytrofa,Lonapegsomatropin,Lonapegsomatropin,CHEMBL4298185,Ascendis Pharma,PEGylated human growth hormone,Other indication,Growth failure due to GHD,Growth delay,HP_0001510,Not serious,"S,O",2021
+Tavneos,Avacopan,Avacopan,CHEMBL3989871,ChemoCentryx,Complement 5a receptor antagonist,Other indication,ANCA-associated vasculitis,Anti-neutrophil cytoplasmic antibody-associated vasculitis,MONDO_0015492,Serious,"S,O",2021
+Tepmetko,Tepotinib,Tepotinib,CHEMBL3402762,EMD Serono,MET kinase inhibitor,Oncology,NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"P,O,A",2021
+Tezspire,Tezepelumab,Tezepelumab,CHEMBL3707229,Astrazeneca/Amgen,TSLP-targeted mAb,Other indication,Serious asthma,asthma,MONDO_0004979,Serious,P,2021
+Tivdak,Tisotumab vedotin,Tisotumabvedotin,CHEMBL4297841,Seagen/Genmab,Tissue-factor-directed ADC,Oncology,Cervical cancer,cervical cancer,MONDO_0002974,Serious,"P,A",2021
+Truseltiq,Infigratinib,Infigratinib,CHEMBL1852688,BridgeBio,FGFR2 kinase inhibitor,Oncology,FGFR2-mutated bile duct cancer,bile duct cancer,MONDO_0003059,Serious,"P,O,A,F",2021
+Ukoniq,Umbralisib,Umbralisib,CHEMBL3948730,TG Therapeutics,PI3Kdelta and CK1epsilon inhibitor,Oncology,"MZL, follicular lymphoma",MZL; follicular lymphoma,"EFO_1000630,MONDO_0018906",Serious,"P,O,B,A",2021
+Verquvo,Vericiguat,Vericiguat,CHEMBL4066936,Merck & Co./Bayer,sGC stimulator,Other indication,Chronic heart failure,coronary artery disease,EFO_0001645,Serious,"P,F",2021
+Voxzogo,Vosoritide,Vosoritide,CHEMBL3707276,Biomarin,CNP analogue,Other indication,Achondroplasia,achondroplasia,MONDO_0007037,Not serious,"P,O,A",2021
+Vyvgart,Efgartigimod alfa,Efgartigimodalfa,CHEMBL4297551,Argenx,FcRn-binding Fc fragment,Other indication,Myasthenia gravis,Myasthenia gravis,EFO_0004991,Serious,"S,O,F",2021
+Welireg,Belzutifan,Belzutifan,CHEMBL4585668,Merck & Co.,HIF-2alpha inhibitor,Oncology,von Hippel-Lindau disease,von Hippel-Lindau disease,MONDO_0008667,Serious,"P,O",2021
+Zegalogue,Dasiglucagon,Dasiglucagon,CHEMBL4297741,Zealand Pharma,Glucagon receptor agonist,Other indication,Serious hypoglycaemia,GCGR-related hyperglucagonemia,EFO_0001360,Serious,S,2021
+Zynlonta,Loncastuximab tesirine,Loncastuximabtesirine,CHEMBL4297778,ADC Therapeutics,CD19-targeted ADC,Oncology,B-cell lymphoma,B-cell non-Hodgkins lymphoma,EFO_1001938,Serious,"P,O,A",2021
+Amvuttra,Vutrisiran,Vutrisiran,CHEMBL4594511,Alnylam,TTR-targeted siRNA,Other indication,Polyneuropathy of hereditary TTR-mediated amyloidosis,familial amyloid neuropathy,EFO_0004129,Serious,"S,O,F",2022
+Briumvi,Ublituximab,Ublituximab,CHEMBL2108354,TG Therapeutics,CD20-targeted mAb,Other indication,Relapsing forms of multiple sclerosis,relapsing-remitting multiple sclerosis,EFO_0003929,Serious,S,2022
+Camzyos,Mavacamten,Mavacamten,CHEMBL4297517,Bristol Myers Squibb,Cardiac myosin inhibitor,Other indication,Classes of obstructive HCM (Hypertrophic Obstructive Cardiomyopathy),hypertrophic cardiomyopathy,EFO_0000538,Serious,"S,O,B",2022
+Cibinqo,Abrocitinib,Abrocitinib,CHEMBL3655081,Pfizer,JAK inhibitor,Other indication,Atopic dermatitis,atopic eczema,EFO_0000274,Not serious,"P,B",2022
+Daxxify,DaxibotulinumtoxinA,DaxibotulinumtoxinA,CHEMBL3707359,Revance,Botulinum toxin,Other indication,Glabellar lines,Facial wrinkling,HP_0009762,Not serious,S,2022
+Elahere,Mirvetuximab soravtansine,Mirvetuximabsoravtansine,CHEMBL3545132,ImmunoGen,FR_-targeted antibody-drug conjugate,Oncology,Ovarian cancer,ovarian carcinoma,EFO_0001075,Serious,"P,O,A,F",2022
+Elucirem,Gadopiclenol,Gadopiclenol,CHEMBL4297634,Guerbet,Gadolinium-based contrast agent,No human target,Lesions with abnormal vascularity,NA,NA,NA,P,2022
+Enjaymo,Sutimlimab,Sutimlimab,CHEMBL4297832,Bioverativ,C1s-targeted mAb,Other indication,RBC transfusion due to haemolysis in CAD (cold agglutinin disease),"Anemia, Hemolytic, Autoimmune",EFO_1001264,Serious,"P,O,B",2022
+Imjudo,Tremelimumab,Tremelimumab,CHEMBL2108658,AstraZeneca,CTLA4-targeted mAb,Oncology,Hepatocellular carcinoma,hepatocellular carcinoma,EFO_0000182,Serious,"S,O",2022
+Kimmtrak,Tebentafusp,Tebentafusp,CHEMBL4297990,Immunocore,gp100 peptide HLA _ CD3 bispecific T-cell engager,Oncology,Uveal melanoma,Uveal Melanoma,EFO_1000616,Serious,"P,O,B",2022
+Krazati,Adagrasib,Adagrasib,CHEMBL4594350,Mirati,KRAS-G12C inhibitor,Oncology,KRASG12C-mutated NSCLC,non-small cell lung carcinoma,EFO_0003060,Serious,"S,O,B,A,F",2022
+Lunsumio,Mosunetuzumab,Mosunetuzumab,CHEMBL4297788,Roche/Genentech,CD20 _ CD3 bispecific antibody,Oncology,Follicular lymphoma,follicular lymphoma,MONDO_0018906,Serious,"P,O,B,A",2022
+Lytgobi,Futibatinib,Futibatinib,CHEMBL3701238,Taiho Oncology,FGFR kinase inhibitor,Oncology,FGFR2-aberrant intrahepatic cholangiocarcinoma,intrahepatic cholangiocarcinoma,EFO_1001961,Serious,"P,O,B,A,F",2022
+Mounjaro,Tirzepatide,Tirzepatide,CHEMBL4297839,Eli Lilly,GIP receptor and GLP1 receptor agonist,Other indication,Type 2 diabetes,type 2 diabetes mellitus,MONDO_0005148,Not concordant,S,2022
+NexoBrid,Anacaulase,Anacaulase,NA,Mediwound,Proteolytic enzymes from pineapple plants,No human target,Eschar removal after thermal burns,NA,NA,NA,"S,O",2022
+Omlonti,Omidenepag isopropyl,Omidenepagisopropyl,CHEMBL4297666,Santen,Prostaglandin E2 receptor agonist,Other indication,Intraocular pressure in open-angle glaucoma or ocular hypertension,"ocular hypertension, open-angle glaucoma","EFO_1001069,EFO_0004190",Serious,S,2022
+Opdualag,"Relatlimab, nivolumab","Relatlimab,nivolumab","CHEMBL3990044,CHEMBL2108738",Bristol Myers Squibb,LAG3-targeted mAb plus PD1-targeted mAb,Oncology,Melanoma,melanoma,EFO_0000756,Serious,"P,O,F",2022
+Pluvicto,Lutetium Lu-177 vipivotide tetraxetan,LutetiumLu-177vipivotidetetraxetan,CHEMBL4594406,Novartis,PSMA-binding radioligand therapeutic agent,Oncology,PSMA-positive prostate cancer,prostate carcinoma,EFO_0001663,Serious,"P,B",2022
+Pyrukynd,Mitapivat,Mitapivat,CHEMBL4299940,Agios,Pyruvate kinase activator,Other indication,Haemolytic anaemia due to PK deficiency,hemolytic anemia,EFO_0005558,Serious,"P,O,F",2022
+Quviviq,Daridorexant,Daridorexant,CHEMBL4297590,Idorsia,Orexin receptor antagonist,Other indication,Insomnia,insomnia,EFO_0004698,Not serious,S,2022
+Relyvrio,"Sodium phenylbutyrate, taurursodiol","Sodiumphenylbutyrate,taurursodiol","CHEMBL1746,CHEMBL272427",Amylyx,Mechanism unknown,No human target,Amyotrophic lateral sclerosis,amyotrophic lateral sclerosis,MONDO_0004976,Serious,"P,O",2022
+Rezlidhia,Olutasidenib,Olutasidenib,CHEMBL4297610,Rigel/Forma,IDH1 inhibitor,Oncology,IDH1-mutated AML,acute myeloid leukemia,EFO_0000222,Serious,"S,O",2022
+Rolvedon,Eflapegrastim,Eflapegrastim,CHEMBL3833384,Spectrum,Leukocyte growth factor,Other indication,"Incidence of infection in non-myeloid malignancies, with myelosuppressive drugs",infection,EFO_0000544,Serious,S,2022
+Sotyktu,Deucravacitinib,Deucravacitinib,CHEMBL4435170,Bristol Myers Squibb,TYK2 inhibitor,Other indication,Plaque psoriasis,psoriasis vulgaris,EFO_1001494,Not serious,S,2022
+Spevigo,Spesolimab,Spesolimab,CHEMBL4297911,Boehringer Ingelheim,IL-36R-targeted mAb,Other indication,Generalized pustular psoriasis flares,"psoriasis 14, pustular",MONDO_0013626,Not concordant,"P,O,B",2022
+Sunlenca,Lenacapavir,Lenacapavir,CHEMBL4594438,Gilead,HIV-1 capsid inhibitor,No human target,HIV-1 infection,HIV-1 infection,EFO_0000180,NA,"P,B,F",2022
+Tecvayli,Teclistamab,Teclistamab,CHEMBL4594505,J&J,BCMA _ CD3 bispecific antibody,Oncology,Multiple myeloma,multiple myeloma,EFO_0001378,Serious,"P,O,B,A",2022
+Terlivaz,Terlipressin,Terlipressin,CHEMBL2135460,Mallinckrodt,Vasopressin receptor agonist,Other indication,Kidney function in hepatorenal syndrome,Hepatorenal syndrome,MONDO_0001382,Serious,"P,O,F",2022
+Tzield,Teplizumab,Teplizumab,CHEMBL1743078,Provention Bio,CD3-targeted antibody,Other indication,Delay onset of type 1 diabetes,type 1 diabetes mellitus,MONDO_0005147,Not concordant,"P,B",2022
+Vabysmo,Faricimab,Faricimab,CHEMBL4297750,Roche/Genentech,VEGF _ ANG2 bispecific antibody,Other indication,nAMD and DME,age-related macular degeneration,EFO_0001365,Not serious,S,2022
+Vivjoa,Oteseconazole,Oteseconazole,CHEMBL3311228,Mycovia,Azole antifungal,No human target,Vulvovaginal candidiasis,vulvovaginal candidiasis,EFO_0007543,NA,"P,F",2022
+Vonjo,Pacritinib,Pacritinib,CHEMBL2035187,CTI Biopharma,JAK2 inhibitor,Oncology,Myelofibrosis,myelofibrosis,MONDO_0044903,Serious,"P,O,A,F",2022
+Voquezna Triple Pak,"Vonoprazan, amoxicillin, clarithromycin","Vonoprazan,amoxicillin,clarithromycin","CHEMBL2079130,CHEMBL1082,CHEMBL1741",Phathom,Potassium-competitive acid blocker plus a penicillin class antibacterial plus a macrolide antimicrobial,Other indication,Helicobacter pylori infection,Helicobacter pylori infectious disease,EFO_1000961,Not serious,"P,F",2022
+Vtama,Tapinarof,Tapinarof,CHEMBL259571,Dermavant,Aryl hydrocarbon receptor agonist,Other indication,Plaque psoriasis,psoriasis vulgaris,EFO_1001494,Not serious,S,2022
+Xenoview,Xenon Xe 129 hyperpolarized,XenonXe129hyperpolarized,CHEMBL4594411,Polarean,Hyperpolarized contrast agent,No human target,MRI-evaluation of lung ventilation,NA,NA,NA,S,2022
+Xenpozyme,Olipudase alfa,Olipudasealfa,CHEMBL3707358,Sanofi/Genzyme,Acid sphingomyelinase ERT,Other indication,Acid sphingomyelinase deficiency,acid sphingomyelinase deficiency,MONDO_0100464,Serious,"P,O,B,F",2022
+Ztalmy,Ganaxolone,Ganaxolone,CHEMBL1568698,Marinus,GABAA receptor positive allosteric modulator,Other indication,Seizures associated with CDD,Epileptic encephalopathy,HP_0200134,Serious,"P,O",2022
