@@ -17,7 +17,7 @@ sc <- spark_connect(master = "yarn", config = config)
 
 library("dplyr")
 input_string <- "
-old_name,new_name
+inner_name,outer_name
 Year,yearApproval
 DrugId,drugId
 Brand_name,brandDrugName
@@ -43,44 +43,36 @@ Review_type,reviewType
 
 data <- read.table(text = input_string, header = TRUE, stringsAsFactors = FALSE, sep = ",")
 data_tibble <- as_tibble(data)
-rename_mapping <- setNames(data_tibble$new_name, data_tibble$old_name)
-
+inside_rename_mapping <- setNames(data_tibble$outer_name, data_tibble$inner_name)
+outside_rename_mapping <- setNames(data_tibble$inner_name, data_tibble$outer_name)
 
 
 # Approvals as reported in NRDD article
-local_approvals <- read_csv("./data/2013-2022/v3_full/2013-2022_approvals_GE_v3.3_in.csv")
+local_approvals <- read_csv("./data/2013-2022_approvals_input.csv")
 approvals_init <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
 
 approvals_init <- approvals_init %>% 
-    rename(!!!rename_mapping)
+    rename(any_of(c(!!!inside_rename_mapping)))
 
 
 
 # Split and explode multiple DrugId
 approvals <- approvals_init %>%
     mutate( OriginalDrugId = DrugId,
-            DrugId = split(as.character(DrugId), "; ")) %>%
+            DrugId = split(as.character(DrugId), ",")) %>%
     sdf_explode(DrugId, keep_all = TRUE) 
 
 # Split and explode multiple DiseaseId
 approvals <- approvals %>%
-    mutate(DiseaseId = split(as.character(DiseaseId), "; ")) %>%
-    sdf_explode(DiseaseId, keep_all = TRUE) 
-
-# approvals %>% 
-#     write.csv("Exploded.csv")
+    mutate(diseaseId = split(as.character(diseaseId), ",")) %>%
+    sdf_explode(diseaseId, keep_all = TRUE) 
 
 # Datasource metadata
-local_ds_metadata <- read_csv("./data/ammend_data/datasourceMetadata.csv")
+local_ds_metadata <- read_csv("./data/datasourceMetadata.csv")
 ds_names <- sdf_copy_to(sc, local_ds_metadata, overwrite = TRUE) %>% collect()
 
 # Read Platform data
 gs_path <- "gs://open-targets-data-releases/"
-all_evidence_path <- paste(
-    gs_path, data_release,
-    "/output/etl/parquet/evidence/",
-    sep = ""
-)
 moa_path <- paste(
     gs_path, data_release,
     "/output/etl/parquet/mechanismOfAction/",
@@ -109,7 +101,7 @@ disease2phenotype_path <- paste(
 
 # Mechanisms of action
 # Extra MoAs required to fill the gaps
-new_moas <- read_csv("./data/ammend_data/amend_moas.csv")
+new_moas <- read_csv("./data/amendMoas.csv")
 new_moas <- sdf_copy_to(sc, new_moas, overwrite = TRUE)
 
 # available MoAs + ammended
@@ -126,7 +118,6 @@ ass_indirectby_ds <- spark_read_parquet(sc, ass_indirectby_ds_path)
 
 # Joining associations information
 ass <- approvals %>%
-    rename(diseaseId = DiseaseId) %>%
     left_join(moa, by = c("DrugId" = "chemblIds")) %>%
     left_join(ass_indirectby_ds, by = c("diseaseId", "targetId")) %>%
     collect()
@@ -141,7 +132,6 @@ interactions <- spark_read_parquet(sc, interaction_path, memory = FALSE) %>%
     sdf_distinct()
 
 interactors_ass <- approvals %>%
-    rename(diseaseId = DiseaseId) %>%
     inner_join(moa, by = c("DrugId" = "chemblIds")) %>%
     inner_join(interactions, by = c("targetId" = "targetA")) %>%
     inner_join(
@@ -154,7 +144,7 @@ interactors_ass <- approvals %>%
     mutate(interactionAssociation = TRUE)
 
 # Additional phenotype curation
-ammend_phenotypes <- read_csv("./data/ammend_data/amend_phenotypes_v2.csv")
+ammend_phenotypes <- read_csv("./data/amendPhenotypes.csv")
 new_phenotypes <- sdf_copy_to(sc, ammend_phenotypes, overwrite = TRUE)
 
 # Platform disease to phenotype data
@@ -168,7 +158,6 @@ disease2phenotype <- spark_read_parquet(
 
 # Associations through indirect phenotypes
 phenotype_ass <- approvals %>%
-    rename(diseaseId = DiseaseId) %>%
     inner_join(moa, by = c("DrugId" = "chemblIds")) %>%
     inner_join(
         disease2phenotype %>%
@@ -270,4 +259,33 @@ data2plot <- ass %>%
         ) %>%
         left_join(approvals %>% select(Drug_name, Year, Brand_name,	Drug_name_original) %>% collect(), by = "Drug_name")
 
-write.table(data2plot, sep = ",", file = "./output/v3_full/2013-2022_approvals_GE_v3.3_out.csv", row.names = FALSE)
+ data2plot <- data2plot %>% 
+    rename(any_of(c(!!!outside_rename_mapping)))
+
+write.table(data2plot, sep = ",", file = "./results/2013-2022_approvals_GE_map.csv", row.names = FALSE)
+
+
+# Add data about targets (targetIds)
+approvals_moas <- approvals %>%
+    left_join(moa %>% select(chemblIds, targetId), by = c("DrugId" = "chemblIds")) %>%
+    rename(targetId_original = targetId)
+
+# Add data about interactors (interactorIds)
+approvals_inter <- approvals_moas %>%
+    # inner_join(moa, by = c("drugId" = "chemblIds")) %>%
+    left_join(interactions, by = c("targetId_original" = "targetA")) %>%
+    left_join(ass_indirectby_ds %>% select(diseaseId, targetId), by = c("diseaseId", "targetB" = "targetId")) %>%
+    rename(targetId_interactor = targetB)
+
+# Add data about related conditions (relatedIds)
+approvals_related <- approvals_inter %>%
+  left_join(new_phenotypes %>% select(diseaseIds, phenotype), by = c("diseaseId" = "diseaseIds")) %>%
+  rename(diseaseId_related = phenotype) %>%
+  rename(any_of(c(!!!outside_rename_mapping))) %>%
+  collect()
+
+ approvals_final <- approvals_related %>% 
+    group_by(brandDrugName) %>%
+    summarise(across(everything(), ~ paste(unique(.x), collapse = ",")), .groups = "drop")
+
+write.table(approvals_final, sep = ",", file = "./results/2013-2022_approvals_GE_amend.csv", row.names = FALSE)
