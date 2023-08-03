@@ -247,21 +247,21 @@ data2plot <- ass %>%
 
 write.table(data2plot, sep = ",", file = "./results/2013-2022_approvals_GE_by_source_test.csv", row.names = FALSE)
 
-# Prepare final approvals dataset
-approvals_final <- approvals_inter %>%
-  left_join(new_phenotypes, by = "diseaseIds") %>%
-  rename(relatedIds = phenotype) %>%
-  select(brandDrugName, originalDrugName, drugId, targetIds, interactorIds, sponsor, properties,
-         therapeuticArea, indication, diseaseName, diseaseIds, diseaseClass, relatedIds,
-         reviewType, yearApproval) %>%
-  group_by(brandDrugName, originalDrugName, drugId) %>%
-  summarise(
-    drugId = concat_ws(",", drugId),
-    targetIds = concat_ws(",", targetIds),
-    interactorIds = concat_ws(",", interactorIds),
-    diseaseIds = concat_ws(",", diseaseIds),
-    relatedIds = concat_ws(",", relatedIds)
-  )
+# # Prepare final approvals dataset
+# approvals_final <- approvals_inter %>%
+#   left_join(new_phenotypes, by = "diseaseIds") %>%
+#   rename(relatedIds = phenotype) %>%
+#   select(brandDrugName, originalDrugName, drugId, targetIds, interactorIds, sponsor, properties,
+#          therapeuticArea, indication, diseaseName, diseaseIds, diseaseClass, relatedIds,
+#          reviewType, yearApproval) %>%
+#   group_by(brandDrugName, originalDrugName, drugId) %>%
+#   summarise(
+#     drugId = concat_ws(",", drugId),
+#     targetIds = concat_ws(",", targetIds),
+#     interactorIds = concat_ws(",", interactorIds),
+#     diseaseIds = concat_ws(",", diseaseIds),
+#     relatedIds = concat_ws(",", relatedIds)
+#   )
 
 
 write.table(approvals_final, sep = ",", file = "./results/2013-2022_approvals_GE_test.csv", row.names = FALSE)
