@@ -9,7 +9,9 @@ library(ggpubr)
 font = "Helvetica"
 
 ## PLOT 1 (GE decade)
-data <- read_csv("./results/2013-2022_approvals_GE_prec_cur.csv")
+# data <- read_csv("./results/2013-2022_approvals_GE_prec_cur.csv")
+data <- read_csv("./results/2013-2022_approvals_GE_final.csv")
+
 
 # Calculation of overall approval numbers per year
 data_all_count <- data %>%
@@ -107,7 +109,7 @@ ggplot(aes(x=yearApproval, y=fraction, fill=fct_relevel(type, custom_order))) +
         # legend.direction = "vertical",
         text = element_text(family=font, size = 12, color = "#4D4D4D"))
 
-ggsave("./output/v3/GE/GE_v5.png", 
+ggsave("./results/test.png", 
         width = 6.5,
         height = 4.4,
         dpi = 600)

@@ -3,7 +3,41 @@ library("ggsci")
 library(forcats)
 
 
-data2plot <- read_csv("./output/v3/2013-2022_approvals_GE_v3.2_out.csv")
+data2plot <- read_csv("./results/to_delete(v3)/2013-2022_approvals_GE_map.csv")
+
+library("dplyr")
+input_string <- "
+inner_name,outer_name
+Year,yearApproval
+DrugId,drugId
+Brand_name,brandDrugName
+Drug_name_original,originalDrugName
+Drug_name,drugName
+targetId_original,targetIds
+targetId_interactor,interactorIds
+targetId_type,targetType
+diseaseId,diseaseIds
+diseaseId_related,relatedIds
+Indication,indication
+diseaseId_type,diseaseType
+Disease_class,diseaseClass
+has_GE,hasTargetDiseaseGE
+Interactor,hasInteractorDiseaseGE
+Related,hasTargetRelatedGE
+Interactor_Related,hasInteractorRelatedGE
+Sponsor,sponsor
+Properties,properties
+TA,therapeuticArea
+Review_type,reviewType
+"
+
+names_df <- read.table(text = input_string, header = TRUE, stringsAsFactors = FALSE, sep = ",")
+data_tibble <- as_tibble(names_df)
+inside_rename_mapping <- setNames(data_tibble$outer_name, data_tibble$inner_name)
+outside_rename_mapping <- setNames(data_tibble$inner_name, data_tibble$outer_name)
+
+data2plot <- data2plot %>% 
+    rename(any_of(c(!!!inside_rename_mapping)))
 
 
 # Defining a function for plotting with parameters and one output by Year
@@ -112,7 +146,7 @@ ass_plotting <- function(year, version, width = 8, height = 11) {
     print(paste0("filename is: ","./output/", year, "_approvals_", version, ".pdf"))
 
     ggsave(
-        paste0("./output/", year, "_approvals_", version, ".pdf"),
+        paste0("./results/", year, "_approvals_", version, ".pdf"),
         plot = output,
         width = width,
         height = height
@@ -123,5 +157,5 @@ unique_years <- unique(data2plot$Year)
 
 # Loop through unique years and apply function to relevant subset of data
 for (year in unique_years) {
-  ass_plotting(year, version = "v3") # apply function to subset
+  ass_plotting(year, version = "map") # apply function to subset
 }
