@@ -166,7 +166,7 @@ phenotype_ass <- approvals %>%
     ) %>%
     inner_join(
         ass_indirectby_ds,
-        by = c("phenotype" = "diseaseId", "targetId")
+        by = c("targetId", "phenotype" = "diseaseId") 
     ) %>%
     select(datasourceId, DrugId) %>%
     sdf_distinct() %>%
@@ -257,7 +257,7 @@ data2plot <- ass %>%
             datasourceName = factor(datasourceName, levels = ds_names$datasourceName),
             datasourceType = factor(datasourceType, levels = c("Somatic", "Functional genomics (cancer)", "Rare mendelian", "Common disease", "Mouse model"))
         ) %>%
-        left_join(approvals %>% select(DrugId, Year, Brand_name,	Drug_name_original) %>% collect(), by = "Drug_name")
+        left_join(approvals %>% select(DrugId, Year, Brand_name,	Drug_name_original) %>% collect(), by = "DrugId")
 
  data2plot <- data2plot %>% 
     rename(any_of(c(!!!outside_rename_mapping)))

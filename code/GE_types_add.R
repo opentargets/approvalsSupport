@@ -23,7 +23,7 @@ data_hasAnyGE <- data %>% filter(noTarget == FALSE) %>% # remove all non-human t
 
 approvals_hasAnyGE <- local_approvals %>%
   # if complex drug has non-human target and human target, has_GE = NA for all of them
-  left_join(data_hasAnyGE, by = "originalDrugName", "yearApproval") %>%
+  left_join(data_hasAnyGE, by = c("originalDrugName", "yearApproval")) %>%
   mutate(hasAnyGE = ifelse(is.na(targetIds), NA, hasAnyGE)) %>%
   group_by(originalDrugName) %>%
   mutate(hasAnyGE = ifelse(is.na(max(hasAnyGE)), NA, hasAnyGE)) %>%
@@ -40,13 +40,13 @@ data_GE_types <- data %>% filter(noTarget == FALSE) %>% # remove all non-human t
     summarise(
       hasInteractorDiseasesGE = any(interactionAssociation_bool & score_zero_bool) & !any(!score_zero_bool),
       hasTargetRelatedGE = any(phenotypeAssociation_bool & score_zero_bool) & !any(!score_zero_bool),
-      hasInteractorRelatvedGE = any(phenotypeAssociation_bool & interactionAssociation_bool & score_zero_bool) & !any(!score_zero_bool),
-      hasTargetDiseaseGE = any(!score_zero_bool) & !any(hasInteractorDiseasesGE) & !any(hasTargetRelatedGE) & !any(hasInteractorRelatvedGE)
+      hasInteractorRelatedGE = any(phenotypeAssociation_bool & interactionAssociation_bool & score_zero_bool) & !any(!score_zero_bool),
+      hasTargetDiseaseGE = any(!score_zero_bool) & !any(hasInteractorDiseasesGE) & !any(hasTargetRelatedGE) & !any(hasInteractorRelatedGE)
     ) %>%
     ungroup()
 
 approvals_GE_types <- approvals_hasAnyGE %>%
-  left_join(data_GE_types, by = "originalDrugName", "yearApproval")
+  left_join(data_GE_types, by = c("originalDrugName", "yearApproval"))
 
 
 write.table(approvals_GE_types, sep = ",", file = "./results/2013-2022_approvals_GE_final.csv", row.names = FALSE)

@@ -1,4 +1,4 @@
-﻿diseaseIds,phenotype,comment
+﻿diseaseId,phenotype,comment
 HP_0001510,EFO_0004339,growth delay -> height
 EFO_0000182,MONDO_0018531,hepatocellular carcinoma -> carcinoma of liver and intrahepatic biliary tract 
 MONDO_0001382,HP_0006554,Hepatorenal syndrome  -> Acute hepatic failure 
