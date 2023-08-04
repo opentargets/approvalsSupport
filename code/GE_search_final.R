@@ -262,7 +262,7 @@ data2plot <- ass %>%
  data2plot <- data2plot %>% 
     rename(any_of(c(!!!outside_rename_mapping)))
 
-write.table(data2plot, sep = ",", file = "./results/2013-2022_approvals_GE_map.csv", row.names = FALSE)
+write.table(data2plot, sep = ",", file = "./results/2013-2022_approvals_GE_by_source.csv", row.names = FALSE)
 
 
 # Add data about targets (targetIds)
@@ -288,4 +288,4 @@ approvals_related <- approvals_inter %>%
     group_by(brandDrugName) %>%
     summarise(across(everything(), ~ paste(unique(.x), collapse = ",")), .groups = "drop")
 
-write.table(approvals_final, sep = ",", file = "./results/2013-2022_approvals_GE_amend.csv", row.names = FALSE)
+write.table(approvals_final, sep = ",", file = "./results/2013-2022_approvals_GE_output.csv", row.names = FALSE)

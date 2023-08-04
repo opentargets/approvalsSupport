@@ -8,10 +8,7 @@ library(ggpubr)
 
 font = "Helvetica"
 
-## PLOT 1 (GE decade)
-# data <- read_csv("./results/2013-2022_approvals_GE_prec_cur.csv")
-data <- read_csv("./results/2013-2022_approvals_GE_final.csv")
-
+data <- read_csv("./results/2013-2022_approvals_GE_prec_cur.csv")
 
 # Calculation of overall approval numbers per year
 data_all_count <- data %>%
@@ -63,8 +60,6 @@ data_humT_fraction %>% left_join(data_humT_count, by = c("yearApproval", "type")
     mutate(yearApproval = as.factor(yearApproval), 
            type = as.factor(type)) 
 
-write.table(data_humT_metadata, sep = ",", file = "./output/v3/data2plot_v1.csv", row.names = FALSE)
-
 custom_order <- c("noH", "without_GE", "GE_noH_after", "GE_noH_before")
 
 data_to_plot <- data_humT_fraction %>% 
@@ -109,9 +104,7 @@ ggplot(aes(x=yearApproval, y=fraction, fill=fct_relevel(type, custom_order))) +
         # legend.direction = "vertical",
         text = element_text(family=font, size = 12, color = "#4D4D4D"))
 
-ggsave("./results/test.png", 
+ggsave("./results/GE-Year_plot.png", 
         width = 6.5,
         height = 4.4,
         dpi = 600)
-
-
