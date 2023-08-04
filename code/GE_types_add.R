@@ -5,8 +5,8 @@ library(ggplot2)
 library("tidyverse")
 
 
-data <- read_csv("./results/2013-2022_approvals_GE_map.csv")
-local_approvals <- read_csv("./results/2013-2022_approvals_GE_amend.csv")
+data <- read_csv("./results/2013-2022_approvals_GE_by_source.csv")
+local_approvals <- read_csv("./results/2013-2022_approvals_GE_output.csv")
 
 # Conditions for any GE support for approval (score>0, interactor or related disease has GE)
 data_hasAnyGE <- data %>% filter(noTarget == FALSE) %>% # remove all non-human targets
