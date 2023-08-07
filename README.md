@@ -17,21 +17,23 @@ This repository contains the pipeline for generation and analysis of genetic evi
 
 ### Processing Steps
 
-1. **code/GE_search.R**: 
+1. **code/GE_search.R**:
+   - Uses Google Cloud Cluster gs://open-targets-data-releases/ via Spark for processing.
    - Uses `data/2013-2022_approvals_in.csv` as the main input file and the above-mentioned lists.
    - Generates two output files:
      - **results/2013-2022_approvals_GE_src.csv**: Organizes evidence by data source of genetic evidence support and evidence type.
      - **results/2013-2022_approvals_GE_out.csv**: Extends the input file with additional columns for target IDs, interactor IDs, and related ontology terms.
 
-2. **code/GE_types_add.R**: 
+3. **code/GE_types_add.R**: 
    - Processes the output from `GE_search.R`.
    - Generates **results/2013-2022_approvals_GE.csv** with new columns indicating the type of genetic evidence found for each drug-disease pair.
 
-3. **code/GE_prior.py**:
+4. **code/GE_prior.py**:
+   - Uses Google Cloud Cluster gs://open-targets-data-releases/ via Spark for processing.
    - Uses `results/2013-2022_approvals_GE.csv` to find the date for genetic evidence support.
    - Outputs **results/2013-2022_approvals_preGE0.csv**.
 
-4. **Manual Curation**:
+6. **Manual Curation**:
    - Complex cases in the above file are manually curated to produce **results/2013-2022_approvals_preGE.csv**.
 
 ### Analysis
