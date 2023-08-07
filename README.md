@@ -2,6 +2,7 @@
 
 This repository contains the pipeline for generating and analyzing the genetic evidence support for FDA-approved drugs from 2013-2022, as taken from Mullard publications in Nature Reviews Drug Discovery.
 
+
 ![Copy of Copy of Copy of Drugs2genevidence (2)](https://github.com/opentargets/approvalsSupport/assets/122813791/a572437e-f4e8-4812-8899-293c9f63bdc7)
 
 ### Data Structure
