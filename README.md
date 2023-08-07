@@ -36,12 +36,13 @@ This repository contains the pipeline for generating and analyzing the genetic e
 
 ### Analysis
 
-1. **GE_Year_plot.R**: Generates a plot showing genetic evidence support for approved drugs by year.
+1. **GE_Year_plot.R**:
+   - Generates a plot showing genetic evidence support for approved drugs by year.
 
-2. **OR_plot.R**: 
+3. **OR_plot.R**: 
    - Computes and plots odds ratios (OR) for approvals with expedited review status and for those addressing serious conditions.
 
-3. **Venn_plot.ipynb**:
+4. **Venn_plot.ipynb**:
    - Produces an intersection diagram, showing the overlap between approvals with genetic evidence support, approvals with expedited review status, and approvals for serious conditions.
 
 ### How to Use
@@ -61,4 +62,4 @@ If you would like to contribute to this project or have any queries, please open
 
 ### Acknowledgments
 
-Thanks to Mullard publications for providing the initial dataset of FDA-approved drugs. Special thanks to contributors who helped with manual curation and data improvements.
+Thanks to Mullard publications for providing the initial dataset of FDA-approved drugs. Special thanks to contributors who helped with manual curation and data improvements. Additionally, we'd like to extend our gratitude to OpenAI for ChatGPT-4, which assisted in the disease classification process and the generation of these instructions.
