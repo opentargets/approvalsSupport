@@ -5,8 +5,8 @@ library(ggplot2)
 library("tidyverse")
 
 
-data <- read_csv("./results/2013-2022_approvals_GE_by_source.csv")
-local_approvals <- read_csv("./results/2013-2022_approvals_GE_output.csv")
+data <- read_csv("./results/2013-2022_approvals_GE_src.csv")
+local_approvals <- read_csv("./results/2013-2022_approvals_GE_out.csv")
 
 # Conditions for any GE support for approval (score>0, interactor or related disease has GE)
 data_hasAnyGE <- data %>% filter(noTarget == FALSE) %>% # remove all non-human targets
@@ -49,4 +49,4 @@ approvals_GE_types <- approvals_hasAnyGE %>%
   left_join(data_GE_types, by = c("originalDrugName", "yearApproval"))
 
 
-write.table(approvals_GE_types, sep = ",", file = "./results/2013-2022_approvals_GE_final.csv", row.names = FALSE)
+write.table(approvals_GE_types, sep = ",", file = "./results/2013-2022_approvals_GE.csv", row.names = FALSE)

@@ -8,7 +8,7 @@ library(ggpubr)
 
 font = "Helvetica"
 
-data_in <- read_csv("./results/2013-2022_approvals_GE_prec_cur.csv")
+data_in <- read_csv("./results/2013-2022_approvals_preGE.csv")
 
 data  <- subset(data_in, hasAnyGE != "NA")  
 

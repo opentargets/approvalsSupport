@@ -8,7 +8,7 @@ library(ggpubr)
 
 font = "Helvetica"
 
-data <- read_csv("./results/2013-2022_approvals_GE_prec_cur.csv")
+data <- read_csv("./results/2013-2022_approvals_preGE.csv")
 
 # Calculation of overall approval numbers per year
 data_all_count <- data %>%
