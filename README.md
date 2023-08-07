@@ -56,7 +56,7 @@ If you would like to contribute to this project or have any queries, please open
 
 ### License
 
-[MIT License](LICENSE) (or specify your preferred license)
+[MIT License](LICENSE) 
 
 ### Acknowledgments
 
