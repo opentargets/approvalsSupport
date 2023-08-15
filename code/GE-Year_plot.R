@@ -52,17 +52,14 @@ data_humT_count <- data_humT_metadata %>%
            GE_noH_before = c_priorDate) %>%
     gather("type", "count", without_GE, noH, GE_noH_after, GE_noH_before) 
 
+custom_order <- c("noH", "without_GE", "GE_noH_after", "GE_noH_before")
+reversed_order <- rev(custom_order)
 
 data_humT_fraction %>% left_join(data_humT_count, by = c("yearApproval", "type")) %>%
-    group_by(yearApproval) %>%
-    mutate(label_ypos = 100 - cumsum(fraction) + fraction / 2) %>%
-    ungroup() %>%
     mutate(yearApproval = as.factor(yearApproval), 
            type = as.factor(type)) 
 
-custom_order <- c("noH", "without_GE", "GE_noH_after", "GE_noH_before")
-
-data_to_plot <- data_humT_fraction %>% 
+data_to_plot_fraction <- data_humT_fraction %>% 
     mutate(type = fct_relevel(type, custom_order)) %>%
     arrange(type) %>%
     left_join(data_humT_count, by = c("yearApproval", "type")) %>%
@@ -72,12 +69,20 @@ data_to_plot <- data_humT_fraction %>%
     mutate(yearApproval = as.factor(yearApproval), 
            type = as.factor(type))
 
+data_to_plot_count <- data_humT_fraction %>% 
+    mutate(type = factor(type, levels = reversed_order)) %>%
+    arrange(type) %>%
+    left_join(data_humT_count, by = c("yearApproval", "type")) %>%
+    group_by(yearApproval) %>%
+    mutate(start_pos = lag(cumsum(count), default = 0),
+           end_pos = cumsum(count),
+           label_ypos = (start_pos + end_pos) / 2) %>%
+    ungroup() %>%
+    mutate(yearApproval = as.factor(yearApproval))
 
-# my_colors <- factor(c("#F39B7F99", "#8491B499", "#3C548899"))
 my_colors <- c("#4a83af", "#6caad9","#f2b7ae", "#dddddd")
 
-
-GE <- data_to_plot %>%
+GE_rate <- data_to_plot_fraction %>%
 ggplot(aes(x=yearApproval, y=fraction, fill=fct_relevel(type, custom_order))) +
   geom_bar(stat="identity", width = 0.7) +
   scale_y_continuous(limits = c(0,100.01), expand = c(0, 0), labels = scales::percent_format(scale = 1)) +
@@ -104,7 +109,40 @@ ggplot(aes(x=yearApproval, y=fraction, fill=fct_relevel(type, custom_order))) +
         # legend.direction = "vertical",
         text = element_text(family=font, size = 12, color = "#4D4D4D"))
 
-ggsave("./results/GE-Year_plot.png", 
+ggsave("./results/GE-Year_plot.png", GE_rate,
+        width = 6.5,
+        height = 4.4,
+        dpi = 600)
+
+
+GE_count <- data_to_plot_count %>%
+ggplot(aes(x=yearApproval, y=count, fill=fct_relevel(type, custom_order))) +
+  geom_bar(stat="identity", width = 0.7) +
+  scale_y_continuous(limits = c(0,60), expand = c(0, 0)) +
+  scale_fill_manual(values = my_colors,
+                    breaks = c("GE_noH_before", "GE_noH_after", "without_GE", "noH"),
+                    labels = c("Prior evidence", "No prior evidence", "No evidence", "Non-human target"),
+                    name = "Genetic evidence: ") +
+  geom_text(aes(x = yearApproval, y = label_ypos, label = ifelse(count>1, count, "")), size = 3.5, family=font, color = "#303030") +
+  theme_minimal() +
+  ylab("FDA approved drugs") +
+  theme(axis.text.x = element_text(vjust = -0.6),
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size = 10),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.line = element_line(size = 0.25, colour = "#737373"),
+        axis.ticks = element_line(size = 0.25, color="#737373"),
+        axis.ticks.length = unit(0.1, "cm"),
+        plot.background = element_rect(fill = "#ffffff", color = NA),
+        legend.position = "bottom",
+        legend.text = element_text(family=font, size = 10),
+        legend.title  = element_blank(),
+        # = element_text(size = 10.5, face = "bold"),
+        # legend.direction = "vertical",
+        text = element_text(family=font, size = 12, color = "#4D4D4D"))
+
+ggsave("./results/GE-Year_plot_count.png", 
         width = 6.5,
         height = 4.4,
         dpi = 600)
