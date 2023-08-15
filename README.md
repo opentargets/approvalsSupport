@@ -8,7 +8,7 @@ This repository contains the pipeline for generation and analysis of genetic evi
 
 ### Data Structure
 
-- **data/2013-2022_approvals_in.csv**: Input data with FDA-approved drugs. The file provides details on the drugs mapped to ChEMBL IDs, indications manually mapped to ontology terms (EFOs, MONDo, or ORDO), and the classification of diseases.
+- **data/2013-2022_approvals_in.csv**: Input data with FDA-approved drugs. The file provides details on the drugs mapped to ChEMBL IDs, indications manually mapped to ontology terms, and the classification of diseases.
 
 - **data/amendMoas**: A manually curated list of mechanisms of action absent in ChEMBL.
   
