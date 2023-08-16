@@ -2,8 +2,7 @@
 
 This repository contains the pipeline for generation and analysis of genetic evidence support for FDA-approved drugs from 2013-2022, as taken from Mullard publications in Nature Reviews Drug Discovery.
 
-![Copy of Copy of Copy of Drugs2genevidence (3)](https://github.com/opentargets/approvalsSupport/assets/122813791/809b0ba6-c689-43e4-8cf6-00b5292d9efd)
-
+![Copy of Copy of Copy of Drugs2genevidence (5)](https://github.com/opentargets/approvalsSupport/assets/122813791/efd3cf2c-e0f3-4287-ab6d-4675c6b8d3a1)
 
 
 ### Data Structure
@@ -41,6 +40,9 @@ This repository contains the pipeline for generation and analysis of genetic evi
 
 1. **GE_Year_plot.R**:
    - Generates a plot showing genetic evidence support for approved drugs by year.
+
+2. **GE_by_year_plot.R**:
+   - Generates a plot for each year showing genetic evidence support for approved drugs by datasource.
 
 3. **OR_plot.R**: 
    - Computes and plots odds ratios (OR) for approvals with expedited review status and for those addressing serious conditions.
