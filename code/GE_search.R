@@ -1,6 +1,7 @@
 library("tidyverse")
 library("sparklyr")
 library("sparklyr.nested")
+library("dplyr")
 
 
 data_release <- "23.02"
@@ -12,10 +13,10 @@ config <- spark_config()
 config$spark.hadoop.fs.gs.requester.pays.mode <- "AUTO" # nolint
 config$spark.hadoop.fs.gs.requester.pays.project.id <- "open-targets-eu-dev" # nolint
 
-# spark connect
+# Spark connect
 sc <- spark_connect(master = "yarn", config = config)
 
-library("dplyr")
+# Renaming to align with previous analysis (2021 approved drugs by D. Ochoa)
 input_string <- "
 inner_name,outer_name
 Year,yearApproval
@@ -53,8 +54,6 @@ approvals_init <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
 
 approvals_init <- approvals_init %>% 
     rename(any_of(c(!!!inside_rename_mapping)))
-
-
 
 # Split and explode multiple DrugId
 approvals <- approvals_init %>%
