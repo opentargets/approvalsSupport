@@ -90,7 +90,9 @@ ggplot(aes(x=yearApproval, y=fraction, fill=fct_relevel(type, custom_order))) +
                     breaks = c("GE_noH_before", "GE_noH_after", "without_GE", "noH"),
                     labels = c("Prior evidence", "No prior evidence", "No evidence", "Non-human target"),
                     name = "Genetic evidence: ") +
-  geom_text(aes(x = yearApproval, y = label_ypos, label = ifelse(count>1, count, "")), size = 3.5, family=font, color = "#303030") +
+  geom_text(aes(x = yearApproval, y = label_ypos, 
+              label = ifelse(count>1, paste(round(fraction, 0), "%(", count, ")", sep=""), "")), 
+          size = 2.4, family=font, color = "#303030") +
   theme_minimal() +
   ylab("FDA approved drugs") +
   theme(axis.text.x = element_text(vjust = -0.6),
