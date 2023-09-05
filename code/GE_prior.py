@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 __author__ = "Maria J. Falaguera"
-__date__ = "04 Aug 2023"
+__date__ = "05 Sep 2023"
 
 """
 GE_prior.py: Get dated GE for drug approvals.
@@ -21,7 +21,7 @@ ot_platform_version = "23.02"
 
 # Input approvals
 approvals_file = (
-    "gs://ot-team/cfalaguera/approvals/{}/2013-2022_approvals_GE_final.csv".format(
+    "gs://ot-team/cfalaguera/approvals/{}/2013-2022_approvals_GE.csv".format(
         ot_platform_version
     )
 )
@@ -36,7 +36,7 @@ evidenceIndirectDated_file = (
 
 # Output
 approvalsPrecedence_file = (
-    "gs://ot-team/cfalaguera/approvals/{}/2013-2022_approvals_GE_prec.csv".format(
+    "gs://ot-team/cfalaguera/approvals/{}/2013-2022_approvals_preGE0.csv.csv".format(
         ot_platform_version
     )
 )
