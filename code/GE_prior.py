@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-__author__ = "Maria J. Falaguera"
-__date__ = "05 Sep 2023"
+__author__ = "Maria J. Falaguera (mariaf@ebi.ac.uk)"
+__date__ = "12 Oct 2023"
 
 """
 GE_prior.py: Get dated GE for drug approvals.
@@ -9,19 +9,21 @@ GE_prior.py: Get dated GE for drug approvals.
 
 # sumbit job to gcloud machine
 """
-gcloud dataproc jobs submit pyspark GE_prior.py --cluster=cf-novelty --project=open-targets-eu-dev --region="europe-west1"
+gcloud dataproc jobs submit pyspark GE_prior.py --cluster=cf-timeseries --project=open-targets-eu-dev --region="europe-west1"
 """
 
 import numpy as np
 from pyspark.sql import functions as F
 from pyspark.sql import SparkSession
+from pyspark.sql import types as T
 
 # Paths
 ot_platform_version = "23.02"
 
 # Input approvals
 approvals_file = (
-    "gs://ot-team/cfalaguera/approvals/{}/2013-2022_approvals_GE.csv".format(
+    # "gs://ot-team/cfalaguera/approvals/{}/2013-2022_approvals_GE_final.csv".format(
+    "gs://ot-team/cfalaguera/approvals/{}/2013-2022_approvals_date_v1.csv".format(
         ot_platform_version
     )
 )
@@ -36,7 +38,7 @@ evidenceIndirectDated_file = (
 
 # Output
 approvalsPrecedence_file = (
-    "gs://ot-team/cfalaguera/approvals/{}/2013-2022_approvals_preGE0.csv.csv".format(
+    "gs://ot-team/cfalaguera/approvals/{}/2013-2022_approvals_GE_prec".format(
         ot_platform_version
     )
 )
@@ -48,7 +50,6 @@ spark = SparkSession.builder.getOrCreate()
 if 1:
     # approvals
     approvals = spark.read.option("header", "true").csv(approvals_file).persist()
-    approvals.show()
 
     # genetics
     genetics = (
@@ -71,11 +72,10 @@ if 1:
         .select(
             "targetId",
             "diseaseId",
-            # "datasourceId",
-            F.col("year").alias("yearGE"),
+            "pmid",
+            F.col("year").cast(T.IntegerType()).alias("year"),
         )
     ).persist()
-    genetics.show()
 
     # approvals + genetics
     results = (
@@ -104,8 +104,8 @@ if 1:
             genetics.select(
                 "targetId",
                 "diseaseId",
-                # F.col("datasourceId").alias("datasourceIdTargetDiseaseGE"),
-                F.col("yearGE").alias("yearTargetDiseaseGE"),
+                F.col("year").alias("yearTargetDiseaseGE"),
+                F.col("pmid").alias("pmidTargetDiseaseGE"),
             ),
             ["diseaseId", "targetId"],
             "left",
@@ -114,7 +114,8 @@ if 1:
             genetics.select(
                 F.col("targetId").alias("interactorId"),
                 "diseaseId",
-                F.col("yearGE").alias("yearInteractorDiseaseGE"),
+                F.col("year").alias("yearInteractorDiseaseGE"),
+                F.col("pmid").alias("pmidInteractorDiseaseGE"),
             ),
             ["diseaseId", "interactorId"],
             "left",
@@ -123,7 +124,8 @@ if 1:
             genetics.select(
                 "targetId",
                 F.col("diseaseId").alias("relatedId"),
-                F.col("yearGE").alias("yearTargetRelatedGE"),
+                F.col("year").alias("yearTargetRelatedGE"),
+                F.col("pmid").alias("pmidTargetRelatedGE"),
             ),
             ["targetId", "relatedId"],
             "left",
@@ -132,11 +134,13 @@ if 1:
             genetics.select(
                 F.col("targetId").alias("interactorId"),
                 F.col("diseaseId").alias("relatedId"),
-                F.col("yearGE").alias("yearInteractorRelatedGE"),
+                F.col("year").alias("yearInteractorRelatedGE"),
+                F.col("pmid").alias("pmidInteractorRelatedGE"),
             ),
             ["interactorId", "relatedId"],
             "left",
         )
+        .na.fill(float("+inf"))  # line required for min function to work later
         # get earliest GE year for every drug approval
         .groupBy(
             "yearApproval",
@@ -144,10 +148,61 @@ if 1:
         )
         .agg(
             # all combinations: disease vs target, related disease vs target, disease vs interacting target, related disease vs interacting target
-            F.min("yearTargetDiseaseGE").alias("yearTargetDiseaseGE"),
-            F.min("yearInteractorDiseaseGE").alias("yearInteractorDiseaseGE"),
-            F.min("yearTargetRelatedGE").alias("yearTargetRelatedGE"),
-            F.min("yearInteractorRelatedGE").alias("yearInteractorRelatedGE"),
+            F.min(F.struct("yearTargetDiseaseGE", "pmidTargetDiseaseGE")).alias(
+                "yearTargetDiseaseGE,pmidTargetDiseaseGE"
+            ),
+            F.min(F.struct("yearInteractorDiseaseGE", "pmidInteractorDiseaseGE")).alias(
+                "yearInteractorDiseaseGE,pmidInteractorDiseaseGE"
+            ),
+            F.min(F.struct("yearTargetRelatedGE", "pmidTargetRelatedGE")).alias(
+                "yearTargetRelatedGE,pmidTargetRelatedGE"
+            ),
+            F.min(F.struct("yearInteractorRelatedGE", "pmidInteractorRelatedGE")).alias(
+                "yearInteractorRelatedGE,pmidInteractorRelatedGE"
+            ),
+        )
+        .select(
+            "yearApproval",
+            "drugId",
+            # target-disease
+            F.col("yearTargetDiseaseGE,pmidTargetDiseaseGE.yearTargetDiseaseGE").alias(
+                "yearTargetDiseaseGE"
+            ),
+            F.col("yearTargetDiseaseGE,pmidTargetDiseaseGE.pmidTargetDiseaseGE").alias(
+                "pmidTargetDiseaseGE"
+            ),
+            # interactor-disease
+            F.col(
+                "yearInteractorDiseaseGE,pmidInteractorDiseaseGE.yearInteractorDiseaseGE"
+            ).alias("yearInteractorDiseaseGE"),
+            F.col(
+                "yearInteractorDiseaseGE,pmidInteractorDiseaseGE.pmidInteractorDiseaseGE"
+            ).alias("pmidInteractorDiseaseGE"),
+            # target-related
+            F.col("yearTargetRelatedGE,pmidTargetRelatedGE.yearTargetRelatedGE").alias(
+                "yearTargetRelatedGE"
+            ),
+            F.col("yearTargetRelatedGE,pmidTargetRelatedGE.pmidTargetRelatedGE").alias(
+                "pmidTargetRelatedGE"
+            ),
+            # interactor-related
+            F.col(
+                "yearInteractorRelatedGE,pmidInteractorRelatedGE.yearInteractorRelatedGE"
+            ).alias("yearInteractorRelatedGE"),
+            F.col(
+                "yearInteractorRelatedGE,pmidInteractorRelatedGE.pmidInteractorRelatedGE"
+            ).alias("pmidInteractorRelatedGE"),
+        )
+        # replace infinite value in year* columns with NULL
+        .replace(
+            2147483647,
+            None,
+            subset=[
+                "yearTargetDiseaseGE",
+                "yearTargetRelatedGE",
+                "yearInteractorDiseaseGE",
+                "yearInteractorRelatedGE",
+            ],
         )
         # join with approvals metadata
         .join(
@@ -163,6 +218,7 @@ if 1:
 
 # Count approvals with prior GE
 if 1:
+    print(approvalsPrecedence_file)
     approvals = spark.read.parquet(approvalsPrecedence_file)
 
     print("approvals:")
