@@ -68,3 +68,7 @@ If you would like to contribute to this project or have any queries, please open
 ### Acknowledgments
 
 Thanks to Mullard publications for providing the initial dataset of FDA-approved drugs. Special thanks to contributors who helped with manual curation and data improvements. Additionally, we'd like to extend our gratitude to OpenAI for ChatGPT-4, which assisted in the disease classification process and the generation of these instructions.
+
+### Publication release
+The code corresponding to [our publication](https://www.nature.com/articles/d41573-023-00158-x) is available in our first release. Please refer to [Genetic Evidence Support for FDA-Approved Drugs (2013-2022)](https://github.com/opentargets/approvalsSupport/releases/tag/approvalsSupport_v1.0) for the version of the code that was used.
+
