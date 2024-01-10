@@ -1,0 +1,59 @@
+,brandDrugName,originalDrugName,drugName,sponsor,properties,therapeuticArea,indication,diseaseClass,reviewType,yearApproval,drugId,diseaseIds,diseaseName
+0,Leqembi,Lecanemab,LECANEMAB,Eisai/Biogen,Amyloid-_-targeted mAb,,Alzheimer disease,,,2023,CHEMBL3833321,MONDO_0004975,Alzheimer disease
+1,Brenzavvy,Bexagliflozin,BEXAGLIFLOZIN,Theracosbio,SGLT2 inhibitor,,Glycaemic control in type 2 diabetes mellitus,,,2023,CHEMBL1808388,EFO_0004596,diabetes mellitus type 2 associated cataract
+2,Jaypirca,Pirtobrutinib,PIRTOBRUTINIB,Loxo/Eli Lilly,BTK inhibitor,,Mantle cell lymphoma,,,2023,CHEMBL4650485,EFO_1001469,Mantle cell lymphoma
+3,Orserdu,Elacestrant,ELACESTRANT,Stemline,ER antagonist,,"ER-positive, HER2-negative, ESR1-mutant breast cancer",,,2023,CHEMBL4297509,EFO_0009780,HER2 negative breast carcinoma
+4,Jesduvroq,Daprodustat,DAPRODUSTAT,GSK,HIF-PH inhibitor,,Anaemia caused by CKD for adults on dialysis,,,2023,CHEMBL3544988,EFO_0010690,renal dialysis
+5,Lamzede,Velmanase alfa,VELMANASE ALFA,Chiesi,Recombinant _-mannosidase,,Non-CNS manifestations of _-mannosidosis,,,2023,CHEMBL4298010,EFO_0004364,neurobehavioral manifestations
+6,Filspari,Sparsentan,SPARSENTAN,Travere,Endothelin and angiotensin II receptor antagonist,,Proteinuria in primary IgA nephropathy,,,2023,CHEMBL539423,EFO_0004194,IGA glomerulonephritis
+7,Skyclarys,Omaveloxolone,OMAVELOXOLONE,Reata/Biogen,"Mechanism unknown, NRF2 activator",,FriedrichÕs ataxia,,,2023,CHEMBL4303525,EFO_0009671,hereditary ataxia
+8,Zavzpret,Zavegepant,ZAVEGEPANT,Pfizer,CGRP receptor antagonist,,Migraine,,,2023,CHEMBL2397415,MONDO_0005277,migraine disorder
+9,Daybue,Trofinetide,TROFINETIDE,Acadia,Mechanism unknown,,Rett syndrome,,,2023,CHEMBL197084,MONDO_0010726,Rett syndrome
+10,Zynyz,Retifanlimab,RETIFANLIMAB,Incyte,PD1-targeted mAb,,Merkel cell carcinoma,,,2023,CHEMBL4298037,EFO_1001471,Merkel cell skin cancer
+11,Rezzayo,Rezafungin,REZAFUNGIN,Cidara,Echinocandin antifungal,,Candidemia and invasive candidiasis,,,2023,CHEMBL3989945,EFO_1001283,"Candidiasis, Invasive"
+12,Joenja,Leniolisib,LENIOLISIB,Pharming,PI3K_ inhibitor,,Activated PI3K_ syndrome,,,2023,CHEMBL3643413,EFO_0009108,fluorescence-activated cell sorting
+13,Qalsody,Tofersen,TOFERSEN,Biogen,SOD1-targeted ASO,,SOD1Êamyotrophic lateral sclerosis,,,2023,CHEMBL3833346,EFO_0001356,familial amyotrophic lateral sclerosis
+14,Elfabrio,Pegunigalsidase alfa,PEGUNIGALSIDASE ALFA,Chiesi,PEGylated recombinant _-galactosidase _,,Fabry disease,,,2023,CHEMBL4297801,MONDO_0010526,Fabry disease
+15,Veozah,Fezolinetant,FEZOLINETANT,Astellas,Neurokinin 3 receptor antagonist,,Hot flashes caused by menopause,,,2023,CHEMBL3608680,HP_0031217,Hot flashes
+16,Miebo,Perfluorohexyloctane,PERFLUOROHEXYLOCTANE,Bausch + Lomb,Semifluorinated alkane,,Dry eye disease,,,2023,,EFO_1000906,dry eye syndrome
+17,Epkinly,Epcoritamab,EPCORITAMAB,Genmab/AbbVie,CD20 _ CD3 T-cell engager,,DLBCL and high-grade B-cell lymphoma,,,2023,CHEMBL4650393,MONDO_0044889,high grade B-cell lymphoma
+18,Xacduro,"Sulbactam, durlobactam",SULBACTAM,Entasis,_-lactam antibacterial plus a _-lactamase inhibitor,,Hospital-acquired and ventilator-associated bacterial pneumonia caused by susceptible ABC,,,2023,CHEMBL403,EFO_1001865,ventilator-associated pneumonia
+19,Xacduro,"Sulbactam, durlobactam", DURLOBACTAM,Entasis,_-lactam antibacterial plus a _-lactamase inhibitor,,Hospital-acquired and ventilator-associated bacterial pneumonia caused by susceptible ABC,,,2023,,EFO_1001865,ventilator-associated pneumonia
+20,Paxlovid,"Nirmatrelvir, ritonavir",NIRMATRELVIR,Pfizer,SARS-CoV-2 main protease inhibitor plus a CYP3A inhibitor,,Mild-to-moderate COVID-19,,,2023,CHEMBL4802135,EFO_0803362,response to COVID-19 vaccine
+21,Paxlovid,"Nirmatrelvir, ritonavir", RITONAVIR,Pfizer,SARS-CoV-2 main protease inhibitor plus a CYP3A inhibitor,,Mild-to-moderate COVID-19,,,2023,,EFO_0803362,response to COVID-19 vaccine
+22,Posluma,Flotufolastat F18,FLOTUFOLASTAT F18,Blue Earth,Radioactive diagnostic agent,,PET imaging in prostate cancer,,,2023,,EFO_0005615,prostate cancer staging
+23,Inpefa,Sotagliflozin,SOTAGLIFLOZIN,Lexicon,SGLT1/2 inhibitor,,Heart failure,,,2023,CHEMBL3039507,EFO_0003144,heart failure
+24,Columvi,Glofitamab,GLOFITAMAB,Genentech,CD20 _ CD3 T-cell engager,,DLBLC or large B-cell lymphoma,,,2023,CHEMBL4298092,EFO_0000403,diffuse large B-cell lymphoma
+25,Litfulo,Ritlecitinib,RITLECITINIB,Pfizer,JAK3 inhibitor,,Alopecia areata,,,2023,,EFO_0004192,alopecia areata
+26,Rystiggo,Rozanolixizumab,ROZANOLIXIZUMAB,UCB,FcRn-targeted mAb,,AChR- or MuSK-antibody-positive gMG,,,2023,CHEMBL4297820,EFO_0008536,anti-centromere-antibody-positive systemic scleroderma
+27,Ngenla,Somatrogon,SOMATROGON,Pfizer,Human growth hormone analogue,,Growth hormone deficiency,,,2023,CHEMBL4297830,HP_0000824,Decreased response to growth hormone stimulation test
+28,Beyfortus,Nirsevimab,NIRSEVIMAB,AstraZeneca,RSV F protein-targeted mAb,,RSV lower respiratory tract disease,,,2023,CHEMBL4297575,EFO_0009433,lower respiratory tract disease
+29,Vanflyta,Quizartinib,QUIZARTINIB,Daiichi Sankyo,FLT3 kinase inhibitor,,AML,,,2023,CHEMBL576982,EFO_0022399,AML-193 cell
+30,Xdemvy,Lotilaner,LOTILANER,Tarsus,Ectoparasiticide,,Demodex blepharitis,,,2023,CHEMBL3707310,EFO_0009536,blepharitis
+31,Zurzuvae,Zuranolone,ZURANOLONE,Sage,GABAAÊreceptor PAM,,Postpartum depression,,,2023,CHEMBL4105630,EFO_0007453,postpartum depression
+32,Izervay,Avacincaptad pegol,AVACINCAPTAD PEGOL,Iveric/Astellas,C5-targeted aptamer,,Geographic atrophy secondary to AMD,,,2023,,EFO_0010080,geographic atrophy lesion growth
+33,Talvey,Talquetamab,TALQUETAMAB,Janssen,GPRC5D _ CD3 T-cell engager,,Multiple myeloma,,,2023,CHEMBL4594503,EFO_0001378,multiple myeloma
+34,Elrexfio,Elranatamab,ELRANATAMAB,Pfizer,BCMA _ CD3 T-cell engager,,Multiple myeloma,,,2023,CHEMBL4297809,EFO_0001378,multiple myeloma
+35,Sohonos,Palovarotene,PALOVAROTENE,Ipsen,Retinoic acid receptor agonist,,Fibrodysplasia ossificans progressiva,,,2023,CHEMBL2105648,MONDO_0007606,fibrodysplasia ossificans progressiva
+36,Veopoz,Pozelimab,POZELIMAB,Regeneron,C5-targeted mAb,,CHAPLE disease,,,2023,CHEMBL4298086,EFO_0000408,disease
+37,Aphexda,Motixafortide,MOTIXAFORTIDE,Biolinerx,CXCR4 inhibitor,,Hematopoietic stem cell mobilization for autologous transplantation in multiple myeloma,,,2023,CHEMBL5095030,EFO_0001378,multiple myeloma
+38,Ojjaara,Momelotinib,MOMELOTINIB,GSK,"JAK1/2, ALK2 inhibitor",,Myelofibrosis in adults with anaemia,,,2023,CHEMBL1078178,EFO_0002430,primary myelofibrosis
+39,Exxua,Gepirone,GEPIRONE,Fabre-Kramer,5HT1AÊreceptor agonist,,Major depressive disorder,,,2023,CHEMBL284092,MONDO_0002009,major depressive disorder
+40,Pombiliti,Cipaglucosidase alfa,CIPAGLUCOSIDASE ALFA,Amicus,Recombinant _-glucosidase,,Pompe disease,,,2023,CHEMBL4594329,EFO_0000408,disease
+41,Rivfloza,Nedosiran,NEDOSIRAN,Novo Nordisk,LDHA-targeted siRNA,,Primary hyperoxaluria type 1,,,2023,,MONDO_0009823,primary hyperoxaluria type 1
+42,Velsipity,Etrasimod,ETRASIMOD,Pfizer,S1P receptor modulator,,Ulcerative colitis,,,2023,CHEMBL3358920,EFO_0000729,ulcerative colitis
+43,Zilbrysq,Zilucoplan,ZILUCOPLAN,UCB,Complement C5 inhibitor,,AChR-antibody positive gMG,,,2023,CHEMBL4298207,EFO_0008536,anti-centromere-antibody-positive systemic scleroderma
+44,Bimzelx,Bimekizumab,BIMEKIZUMAB,UCB,IL-17A/F-targeted mAb,,Plaque psoriasis,,,2023,CHEMBL4297700,EFO_1001494,psoriasis vulgaris
+45,Agamree,Vamorolone,VAMOROLONE,Santhera,Corticosteroid,,Duchenne muscular dystrophy,,,2023,CHEMBL3707311,MONDO_0010679,Duchenne muscular dystrophy
+46,Omvoh,Mirikizumab,MIRIKIZUMAB,Eli Lilly,IL-23-targeted mAb,,Ulcerative colitis,,,2023,CHEMBL3990014,EFO_0000729,ulcerative colitis
+47,Loqtorzi,Toripalimab,TORIPALIMAB,Coherus,PD1-targeted mAb,,Nasopharyngeal carcinoma,,,2023,CHEMBL4297843,EFO_1000058,nasopharyngeal squamous cell carcinoma
+48,Fruzaqla,Fruquintinib,FRUQUINTINIB,Takeda,VEGFR1/2/3 kinase inhibitor,,Colorectal cancer,,,2023,CHEMBL4303214,MONDO_0005575,colorectal cancer
+49,Defencath,"Taurolidine, heparin",TAUROLIDINE,Cormedix,Thiadiazinane antimicrobial plus an anticoagulant,,Incidence of catheter-related bloodstream infections,,,2023,CHEMBL2105420,EFO_1001406,Prosthesis-Related Infections
+50,Defencath,"Taurolidine, heparin", HEPARIN,Cormedix,Thiadiazinane antimicrobial plus an anticoagulant,,Incidence of catheter-related bloodstream infections,,,2023,,EFO_1001406,Prosthesis-Related Infections
+51,Augtyro,Repotrectinib,REPOTRECTINIB,Bristol Myers Squibb,ROS1 and TRK kinase inhibitor,,ROS1-positive NSCLC,,,2023,CHEMBL4298138,EFO_0009097,positive domain measurement
+52,Ryzneuta,Efbemalenograstim alfa,EFBEMALENOGRASTIM ALFA,Evive,Recombinant leukocyte growth factor,,Neutropenia,,,2023,,MONDO_0001475,neutropenia
+53,Truqap,Capivasertib,CAPIVASERTIB,AstraZeneca,AKT kinase inhibitor,,Breast cancer,,,2023,CHEMBL2325741,MONDO_0007254,breast cancer
+54,Ogsiveo,Nirogacestat,NIROGACESTAT,Springworks,_-secretase inhibitor,,Desmoid tumours,,,2023,CHEMBL1770916,EFO_0009907,Desmoid-type fibromatosis
+55,Fabhalta,Iptacopan,IPTACOPAN,Novartis,Complement factor B inhibitor,,Paroxysmal nocturnal haemoglobinuria,,,2023,CHEMBL4594448,EFO_1001381,Nocturnal Paroxysmal Dystonia
+56,Filsuvez,Birch triterpenes,BIRCH TRITERPENES,Chiesi,Mechanism unknown,,Epidermolysis bullosa,,,2023,,EFO_1000690,epidermolysis bullosa
+57,Wainua,Eplontersen,EPLONTERSEN,Ionis/AstraZeneca,TTR-targeted ASO,,hATTR with polyneuropathy,,,2023,CHEMBL4594334,EFO_0009562,polyneuropathy
