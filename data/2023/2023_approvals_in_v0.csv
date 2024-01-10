@@ -1,56 +1,1 @@
-brandDrugName,originalDrugName,drugName,drugId,sponsor,properties,therapeuticArea,indication,diseaseName,diseaseIds,diseaseClass,reviewType,yearApproval
-Leqembi,Lecanemab,,,Eisai/Biogen,Amyloid-_-targeted mAb,,Alzheimer disease,,,,,2023
-Brenzavvy,Bexagliflozin,,,Theracosbio,SGLT2 inhibitor,,Glycaemic control in type 2 diabetes mellitus,,,,,2023
-Jaypirca,Pirtobrutinib,,,Loxo/Eli Lilly,BTK inhibitor,,Mantle cell lymphoma,,,,,2023
-Orserdu,Elacestrant,,,Stemline,ER antagonist,,"ER-positive, HER2-negative, ESR1-mutant breast cancer",,,,,2023
-Jesduvroq,Daprodustat,,,GSK,HIF-PH inhibitor,,Anaemia caused by CKD for adults on dialysis,,,,,2023
-Lamzede,Velmanase alfa,,,Chiesi,Recombinant _-mannosidase,,Non-CNS manifestations of _-mannosidosis,,,,,2023
-Filspari,Sparsentan,,,Travere,Endothelin and angiotensin II receptor antagonist,,Proteinuria in primary IgA nephropathy,,,,,2023
-Skyclarys,Omaveloxolone,,,Reata/Biogen,"Mechanism unknown, NRF2 activator",,Friedrich’s ataxia,,,,,2023
-Zavzpret,Zavegepant,,,Pfizer,CGRP receptor antagonist,,Migraine,,,,,2023
-Daybue,Trofinetide,,,Acadia,Mechanism unknown,,Rett syndrome,,,,,2023
-Zynyz,Retifanlimab,,,Incyte,PD1-targeted mAb,,Merkel cell carcinoma,,,,,2023
-Rezzayo,Rezafungin,,,Cidara,Echinocandin antifungal,,Candidemia and invasive candidiasis,,,,,2023
-Joenja,Leniolisib,,,Pharming,PI3K_ inhibitor,,Activated PI3K_ syndrome,,,,,2023
-Qalsody,Tofersen,,,Biogen,SOD1-targeted ASO,,SOD1 amyotrophic lateral sclerosis,,,,,2023
-Elfabrio,Pegunigalsidase alfa,,,Chiesi,PEGylated recombinant _-galactosidase _,,Fabry disease,,,,,2023
-Veozah,Fezolinetant,,,Astellas,Neurokinin 3 receptor antagonist,,Hot flashes caused by menopause,,,,,2023
-Miebo,Perfluorohexyloctane,,,Bausch + Lomb,Semifluorinated alkane,,Dry eye disease,,,,,2023
-Epkinly,Epcoritamab,,,Genmab/AbbVie,CD20 _ CD3 T-cell engager,,DLBCL and high-grade B-cell lymphoma,,,,,2023
-Xacduro,"Sulbactam, durlobactam",,,Entasis,_-lactam antibacterial plus a _-lactamase inhibitor,,Hospital-acquired and ventilator-associated bacterial pneumonia caused by susceptible ABC,,,,,2023
-Paxlovid,"Nirmatrelvir, ritonavir",,,Pfizer,SARS-CoV-2 main protease inhibitor plus a CYP3A inhibitor,,Mild-to-moderate COVID-19,,,,,2023
-Posluma,Flotufolastat F18,,,Blue Earth,Radioactive diagnostic agent,,PET imaging in prostate cancer,,,,,2023
-Inpefa,Sotagliflozin,,,Lexicon,SGLT1/2 inhibitor,,Heart failure,,,,,2023
-Columvi,Glofitamab,,,Genentech,CD20 _ CD3 T-cell engager,,DLBLC or large B-cell lymphoma,,,,,2023
-Litfulo,Ritlecitinib,,,Pfizer,JAK3 inhibitor,,Alopecia areata,,,,,2023
-Rystiggo,Rozanolixizumab,,,UCB,FcRn-targeted mAb,,AChR- or MuSK-antibody-positive gMG,,,,,2023
-Ngenla,Somatrogon,,,Pfizer,Human growth hormone analogue,,Growth hormone deficiency,,,,,2023
-Beyfortus,Nirsevimab,,,AstraZeneca,RSV F protein-targeted mAb,,RSV lower respiratory tract disease,,,,,2023
-Vanflyta,Quizartinib,,,Daiichi Sankyo,FLT3 kinase inhibitor,,AML,,,,,2023
-Xdemvy,Lotilaner,,,Tarsus,Ectoparasiticide,,Demodex blepharitis,,,,,2023
-Zurzuvae,Zuranolone,,,Sage,GABAA receptor PAM,,Postpartum depression,,,,,2023
-Izervay,Avacincaptad pegol,,,Iveric/Astellas,C5-targeted aptamer,,Geographic atrophy secondary to AMD,,,,,2023
-Talvey,Talquetamab,,,Janssen,GPRC5D _ CD3 T-cell engager,,Multiple myeloma,,,,,2023
-Elrexfio,Elranatamab,,,Pfizer,BCMA _ CD3 T-cell engager,,Multiple myeloma,,,,,2023
-Sohonos,Palovarotene,,,Ipsen,Retinoic acid receptor agonist,,Fibrodysplasia ossificans progressiva,,,,,2023
-Veopoz,Pozelimab,,,Regeneron,C5-targeted mAb,,CHAPLE disease,,,,,2023
-Aphexda,Motixafortide,,,Biolinerx,CXCR4 inhibitor,,Hematopoietic stem cell mobilization for autologous transplantation in multiple myeloma,,,,,2023
-Ojjaara,Momelotinib,,,GSK,"JAK1/2, ALK2 inhibitor",,Myelofibrosis in adults with anaemia,,,,,2023
-Exxua,Gepirone,,,Fabre-Kramer,5HT1A receptor agonist,,Major depressive disorder,,,,,2023
-Pombiliti,Cipaglucosidase alfa,,,Amicus,Recombinant _-glucosidase,,Pompe disease,,,,,2023
-Rivfloza,Nedosiran,,,Novo Nordisk,LDHA-targeted siRNA,,Primary hyperoxaluria type 1,,,,,2023
-Velsipity,Etrasimod,,,Pfizer,S1P receptor modulator,,Ulcerative colitis,,,,,2023
-Zilbrysq,Zilucoplan,,,UCB,Complement C5 inhibitor,,AChR-antibody positive gMG,,,,,2023
-Bimzelx,Bimekizumab,,,UCB,IL-17A/F-targeted mAb,,Plaque psoriasis,,,,,2023
-Agamree,Vamorolone,,,Santhera,Corticosteroid,,Duchenne muscular dystrophy,,,,,2023
-Omvoh,Mirikizumab,,,Eli Lilly,IL-23-targeted mAb,,Ulcerative colitis,,,,,2023
-Loqtorzi,Toripalimab,,,Coherus,PD1-targeted mAb,,Nasopharyngeal carcinoma,,,,,2023
-Fruzaqla,Fruquintinib,,,Takeda,VEGFR1/2/3 kinase inhibitor,,Colorectal cancer,,,,,2023
-Defencath,"Taurolidine, heparin",,,Cormedix,Thiadiazinane antimicrobial plus an anticoagulant,,Incidence of catheter-related bloodstream infections,,,,,2023
-Augtyro,Repotrectinib,,,Bristol Myers Squibb,ROS1 and TRK kinase inhibitor,,ROS1-positive NSCLC,,,,,2023
-Ryzneuta,Efbemalenograstim alfa,,,Evive,Recombinant leukocyte growth factor,,Neutropenia,,,,,2023
-Truqap,Capivasertib,,,AstraZeneca,AKT kinase inhibitor,,Breast cancer,,,,,2023
-Ogsiveo,Nirogacestat,,,Springworks,_-secretase inhibitor,,Desmoid tumours,,,,,2023
-Fabhalta,Iptacopan,,,Novartis,Complement factor B inhibitor,,Paroxysmal nocturnal haemoglobinuria,,,,,2023
-Filsuvez,Birch triterpenes,,,Chiesi,Mechanism unknown,,Epidermolysis bullosa,,,,,2023
-Wainua,Eplontersen,,,Ionis/AstraZeneca,TTR-targeted ASO,,hATTR with polyneuropathy,,,,,2023
+brandDrugName,originalDrugName,drugName,drugId,sponsor,properties,therapeuticArea,indication,diseaseName,diseaseIds,diseaseClass,reviewType,yearApprovalLeqembi,Lecanemab,,,Eisai/Biogen,Amyloid-_-targeted mAb,,Alzheimer disease,,,,,2023Brenzavvy,Bexagliflozin,,,Theracosbio,SGLT2 inhibitor,,Glycaemic control in type 2 diabetes mellitus,,,,,2023Jaypirca,Pirtobrutinib,,,Loxo/Eli Lilly,BTK inhibitor,,Mantle cell lymphoma,,,,,2023Orserdu,Elacestrant,,,Stemline,ER antagonist,,"ER-positive, HER2-negative, ESR1-mutant breast cancer",,,,,2023Jesduvroq,Daprodustat,,,GSK,HIF-PH inhibitor,,Anaemia caused by CKD for adults on dialysis,,,,,2023Lamzede,Velmanase alfa,,,Chiesi,Recombinant _-mannosidase,,Non-CNS manifestations of _-mannosidosis,,,,,2023Filspari,Sparsentan,,,Travere,Endothelin and angiotensin II receptor antagonist,,Proteinuria in primary IgA nephropathy,,,,,2023Skyclarys,Omaveloxolone,,,Reata/Biogen,"Mechanism unknown, NRF2 activator",,Friedrich’s ataxia,,,,,2023Zavzpret,Zavegepant,,,Pfizer,CGRP receptor antagonist,,Migraine,,,,,2023Daybue,Trofinetide,,,Acadia,Mechanism unknown,,Rett syndrome,,,,,2023Zynyz,Retifanlimab,,,Incyte,PD1-targeted mAb,,Merkel cell carcinoma,,,,,2023Rezzayo,Rezafungin,,,Cidara,Echinocandin antifungal,,Candidemia and invasive candidiasis,,,,,2023Joenja,Leniolisib,,,Pharming,PI3K_ inhibitor,,Activated PI3K_ syndrome,,,,,2023Qalsody,Tofersen,,,Biogen,SOD1-targeted ASO,,SOD1 amyotrophic lateral sclerosis,,,,,2023Elfabrio,Pegunigalsidase alfa,,,Chiesi,PEGylated recombinant _-galactosidase _,,Fabry disease,,,,,2023Veozah,Fezolinetant,,,Astellas,Neurokinin 3 receptor antagonist,,Hot flashes caused by menopause,,,,,2023Miebo,Perfluorohexyloctane,,,Bausch + Lomb,Semifluorinated alkane,,Dry eye disease,,,,,2023Epkinly,Epcoritamab,,,Genmab/AbbVie,CD20 _ CD3 T-cell engager,,DLBCL and high-grade B-cell lymphoma,,,,,2023Xacduro,"Sulbactam, durlobactam",,,Entasis,_-lactam antibacterial plus a _-lactamase inhibitor,,Hospital-acquired and ventilator-associated bacterial pneumonia caused by susceptible ABC,,,,,2023Paxlovid,"Nirmatrelvir, ritonavir",,,Pfizer,SARS-CoV-2 main protease inhibitor plus a CYP3A inhibitor,,Mild-to-moderate COVID-19,,,,,2023Posluma,Flotufolastat F18,,,Blue Earth,Radioactive diagnostic agent,,PET imaging in prostate cancer,,,,,2023Inpefa,Sotagliflozin,,,Lexicon,SGLT1/2 inhibitor,,Heart failure,,,,,2023Columvi,Glofitamab,,,Genentech,CD20 _ CD3 T-cell engager,,DLBLC or large B-cell lymphoma,,,,,2023Litfulo,Ritlecitinib,,,Pfizer,JAK3 inhibitor,,Alopecia areata,,,,,2023Rystiggo,Rozanolixizumab,,,UCB,FcRn-targeted mAb,,AChR- or MuSK-antibody-positive gMG,,,,,2023Ngenla,Somatrogon,,,Pfizer,Human growth hormone analogue,,Growth hormone deficiency,,,,,2023Beyfortus,Nirsevimab,,,AstraZeneca,RSV F protein-targeted mAb,,RSV lower respiratory tract disease,,,,,2023Vanflyta,Quizartinib,,,Daiichi Sankyo,FLT3 kinase inhibitor,,AML,,,,,2023Xdemvy,Lotilaner,,,Tarsus,Ectoparasiticide,,Demodex blepharitis,,,,,2023Zurzuvae,Zuranolone,,,Sage,GABAA receptor PAM,,Postpartum depression,,,,,2023Izervay,Avacincaptad pegol,,,Iveric/Astellas,C5-targeted aptamer,,Geographic atrophy secondary to AMD,,,,,2023Talvey,Talquetamab,,,Janssen,GPRC5D _ CD3 T-cell engager,,Multiple myeloma,,,,,2023Elrexfio,Elranatamab,,,Pfizer,BCMA _ CD3 T-cell engager,,Multiple myeloma,,,,,2023Sohonos,Palovarotene,,,Ipsen,Retinoic acid receptor agonist,,Fibrodysplasia ossificans progressiva,,,,,2023Veopoz,Pozelimab,,,Regeneron,C5-targeted mAb,,CHAPLE disease,,,,,2023Aphexda,Motixafortide,,,Biolinerx,CXCR4 inhibitor,,Hematopoietic stem cell mobilization for autologous transplantation in multiple myeloma,,,,,2023Ojjaara,Momelotinib,,,GSK,"JAK1/2, ALK2 inhibitor",,Myelofibrosis in adults with anaemia,,,,,2023Exxua,Gepirone,,,Fabre-Kramer,5HT1A receptor agonist,,Major depressive disorder,,,,,2023Pombiliti,Cipaglucosidase alfa,,,Amicus,Recombinant _-glucosidase,,Pompe disease,,,,,2023Rivfloza,Nedosiran,,,Novo Nordisk,LDHA-targeted siRNA,,Primary hyperoxaluria type 1,,,,,2023Velsipity,Etrasimod,,,Pfizer,S1P receptor modulator,,Ulcerative colitis,,,,,2023Zilbrysq,Zilucoplan,,,UCB,Complement C5 inhibitor,,AChR-antibody positive gMG,,,,,2023Bimzelx,Bimekizumab,,,UCB,IL-17A/F-targeted mAb,,Plaque psoriasis,,,,,2023Agamree,Vamorolone,,,Santhera,Corticosteroid,,Duchenne muscular dystrophy,,,,,2023Omvoh,Mirikizumab,,,Eli Lilly,IL-23-targeted mAb,,Ulcerative colitis,,,,,2023Loqtorzi,Toripalimab,,,Coherus,PD1-targeted mAb,,Nasopharyngeal carcinoma,,,,,2023Fruzaqla,Fruquintinib,,,Takeda,VEGFR1/2/3 kinase inhibitor,,Colorectal cancer,,,,,2023Defencath,"Taurolidine, heparin",,,Cormedix,Thiadiazinane antimicrobial plus an anticoagulant,,Incidence of catheter-related bloodstream infections,,,,,2023Augtyro,Repotrectinib,,,Bristol Myers Squibb,ROS1 and TRK kinase inhibitor,,ROS1-positive NSCLC,,,,,2023Ryzneuta,Efbemalenograstim alfa,,,Evive,Recombinant leukocyte growth factor,,Neutropenia,,,,,2023Truqap,Capivasertib,,,AstraZeneca,AKT kinase inhibitor,,Breast cancer,,,,,2023Ogsiveo,Nirogacestat,,,Springworks,_-secretase inhibitor,,Desmoid tumours,,,,,2023Fabhalta,Iptacopan,,,Novartis,Complement factor B inhibitor,,Paroxysmal nocturnal haemoglobinuria,,,,,2023Filsuvez,Birch triterpenes,,,Chiesi,Mechanism unknown,,Epidermolysis bullosa,,,,,2023Wainua,Eplontersen,,,Ionis/AstraZeneca,TTR-targeted ASO,,hATTR with polyneuropathy,,,,,2023
