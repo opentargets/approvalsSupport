@@ -49,7 +49,7 @@ outside_rename_mapping <- setNames(data_tibble$inner_name, data_tibble$outer_nam
 
 
 # Approvals as reported in NRDD article
-local_approvals <- read_csv("./data/2013-2022_approvals_in.csv")
+local_approvals <- read_csv("./data/2023/2023_approvals_in_v02.csv")
 approvals_init <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
 
 approvals_init <- approvals_init %>% 
@@ -261,7 +261,7 @@ data2plot <- ass %>%
  data2plot <- data2plot %>% 
     rename(any_of(c(!!!outside_rename_mapping)))
 
-write.table(data2plot, sep = ",", file = "./results/2013-2022_approvals_GE_src.csv", row.names = FALSE)
+write.table(data2plot, sep = ",", file = "./results/2023/2023_approvals_GE_src_v02.csv", row.names = FALSE)
 
 
 # Add data about targets (targetIds)
@@ -278,7 +278,7 @@ approvals_inter <- approvals_moas %>%
 
 # Add data about related conditions (relatedIds)
 approvals_related <- approvals_inter %>%
-  left_join(new_phenotypes %>% select(diseaseIds, phenotype), by = c("diseaseId" = "diseaseIds")) %>%
+  left_join(new_phenotypes %>% select(diseaseId, phenotype), by = c("diseaseId" = "diseaseId")) %>%
   rename(diseaseId_related = phenotype) %>%
   rename(any_of(c(!!!outside_rename_mapping))) %>%
   collect()
@@ -287,4 +287,4 @@ approvals_related <- approvals_inter %>%
     group_by(brandDrugName) %>%
     summarise(across(everything(), ~ paste(unique(.x), collapse = ",")), .groups = "drop")
 
-write.table(approvals_final, sep = ",", file = "./results/2013-2022_approvals_GE_out.csv", row.names = FALSE)
+write.table(approvals_final, sep = ",", file = "./results/2023/2023_approvals_GE_out_v02.csv", row.names = FALSE)
