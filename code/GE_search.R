@@ -4,7 +4,7 @@ library("sparklyr.nested")
 library("dplyr")
 
 
-data_release <- "23.02"
+data_release <- "24.03"
 
 # Spark config
 config <- spark_config()
@@ -49,7 +49,7 @@ outside_rename_mapping <- setNames(data_tibble$inner_name, data_tibble$outer_nam
 
 
 # Approvals as reported in NRDD article
-local_approvals <- read_csv("./data/2023/2023_approvals_in_v02.csv")
+local_approvals <- read_csv("./data/2023/2023_approvals_in_v03_2.csv")
 approvals_init <- sdf_copy_to(sc, local_approvals, overwrite = TRUE)
 
 approvals_init <- approvals_init %>% 
@@ -261,7 +261,7 @@ data2plot <- ass %>%
  data2plot <- data2plot %>% 
     rename(any_of(c(!!!outside_rename_mapping)))
 
-write.table(data2plot, sep = ",", file = "./results/2023/2023_approvals_GE_src_v02.csv", row.names = FALSE)
+write.table(data2plot, sep = ",", file = "./results/2023/2023_approvals_GE_src_v03_2_24.03.csv", row.names = FALSE)
 
 
 # Add data about targets (targetIds)
@@ -287,4 +287,4 @@ approvals_related <- approvals_inter %>%
     group_by(brandDrugName) %>%
     summarise(across(everything(), ~ paste(unique(.x), collapse = ",")), .groups = "drop")
 
-write.table(approvals_final, sep = ",", file = "./results/2023/2023_approvals_GE_out_v02.csv", row.names = FALSE)
+write.table(approvals_final, sep = ",", file = "./results/2023/2023_approvals_GE_out_v03_2_24.03.csv", row.names = FALSE)
